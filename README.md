@@ -4,7 +4,7 @@ This is a formatter for creating styled, flow-able text from a CSV data file. Fl
 ## Getting Started
 ```
 irb -r ./flower.rb
-Flower.new()
+Flower.new
 ```
 
 For development, reload the file each time you make changes to it:
