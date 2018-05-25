@@ -37,6 +37,8 @@ class Flower
   end
 
   def display_for_debug
+    puts '🌻'
     pp @output
+    puts '🌻'
   end
 end
