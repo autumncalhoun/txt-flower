@@ -1,0 +1,39 @@
+suppliers:
+  header: |+
+    <ASCII-MAC>
+    <Version:11.4><FeatureSet:InDesign-Roman><ColorTable:=<SB Blue:COLOR:CMYK:Process:1,0,0,0.3><Black:COLOR:CMYK:Process:0,0,0,1>>
+    <DefineParaStyle:PlainListing=<Nextstyle:PlainListing><cTypeface:47 Light Condensed><cSize:7.000000><cAutoPairKern:Optical><pLeftIndent:17.280000><pFirstLineIndent:-8.640000><cLeading:9.000000><cFont:Univers>>
+    <DefineParaStyle:Plain name=<BasedOn:PlainListing><Nextstyle:Plain name><cColor:SB Blue><cTypeface:Bold><cSize:7.500000><cHorizontalScale:0.930000><cCase:All Caps><pLeftIndent:0.000000><pFirstLineIndent:0.000000><cLeading:8.000000><pSpaceBefore:9.720000><pSpaceAfter:0.500000><cFont:Circular Std>>
+    <DefineParaStyle:Plain listing=<Nextstyle:Plain listing><cTypeface:Book><cSize:7.000000><cAutoPairKern:Optical><pLeftIndent:17.280000><pFirstLineIndent:-8.640000><cLeading:8.500000><cFont:Adobe Caslon Pro>>
+    <DefineParaStyle:www=<BasedOn:Plain listing><Nextstyle:www><cColor:SB Blue><cTypeface:Medium><cHorizontalScale:0.950000><pLeftIndent:0.000000><pFirstLineIndent:0.000000><cLeading:7.000000><pSpaceAfter:0.500000><cFont:Circular Std><pKeepWithNext:1><cColorTint:80.000000>>
+    <DefineParaStyle:branch office=<BasedOn:Plain listing><Nextstyle:branch office><cSize:6.500000><cBaselineShift:-2.000000><cCase:All Caps><pLeftIndent:0.000000><pFirstLineIndent:0.000000><cLeading:8.000000><pSpaceBefore:2.160000><cFont:Circular Std>>
+    <DefineParaStyle:Plain name branch=<BasedOn:Plain name><Nextstyle:Plain name branch><cTypeface:Medium><cCase:Normal><pLeftIndent:8.640000><pSpaceBefore:4.320000>>
+    <DefineParaStyle:See our ad\/info action=<BasedOn:Plain listing><Nextstyle:See our ad\/info action><cColor:SB Blue><cTypeface:Regular><cHorizontalScale:0.900000><cTracking:3><pLeftIndent:4.320000><pFirstLineIndent:0.000000><cLeading:8.500000><pSpaceAfter:4.500000><cColorTint:80.000000><pRuleBelowColor:SB Blue><pRuleBelowStroke:0.500000><pRuleBelowOffset:4.500000><pRuleBelowOn:1>>
+    <DefineParaStyle:Co Name w line=<BasedOn:Plain name><Nextstyle:Co Name w line><pSpaceBefore:13.500000><pRuleAboveOffset:9.000000><pRuleAboveOn:1>>
+  styles:
+    company_name: <ParaStyle:Plain name>
+    body: <ParaStyle:Plain listing>
+    web: <ParaStyle:www>
+    branches: <ParaStyle:branch office>
+    branch_name: <ParaStyle:Plain name branch>
+  csv_headers:
+    companies:
+      id: CompanyID
+      name: Company_Name
+      type: Company_Type
+      address: Address
+      address2: Address2
+      city: City
+      state: State
+      postal_code: Postal_Code
+      country: Country
+      phone: Phone
+      tollfree: TollFree_Phone
+      url: URL
+    branches:
+      company_id: ParentCompanyID
+      name: BranchCompanyName
+      city: BranchCity
+      state: BranchState
+      country: BranchCountry
+      phone: BranchPhone
