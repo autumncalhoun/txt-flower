@@ -10,6 +10,8 @@
 /test/version_tmp/
 /tmp/
 /tagged_text/
+/design_retail/*.csv
+/design_retail/*.txt
 
 # Used by dotenv library to load environment variables.
 # .env
