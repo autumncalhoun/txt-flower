@@ -7,8 +7,12 @@ module CommonFormatHelpers
     "\n"
   end
 
+  def tab_space
+    "\t"
+  end
+
   def format_phone(number, country)
-    pn_string = number.to_s
+    pn_string = number.dup.to_s
     return pn_string if pn_string.blank?
     return pn_string if vanity_number(pn_string)
 

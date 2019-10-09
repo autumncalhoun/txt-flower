@@ -6,7 +6,6 @@ require 'YAML'
 
 require_relative '../common_format_helpers'
 
-# Impressions
 module Impressions
   # Output file: SuppliersTT.txt
   # CSV column headers (Companies.csv): CompanyID, Company_Name, Company_Type, Adress, Address2, City, State, Postal_Code, Country, Phone, TollFree_Phone, URL
@@ -29,7 +28,7 @@ module Impressions
       output.close
     end
 
-    private_methods
+    private
 
     def company_list
       companies = @company_rows.map do |row|
@@ -55,7 +54,7 @@ module Impressions
     end
 
     def col_name(property)
-      @template['suppliers']['csv_headers']['companies'][property]
+      @template['csv_headers']['companies'][property]
     end
   end
 
@@ -160,12 +159,14 @@ module Impressions
       header + filter_branches.join(line_break)
     end
 
+    private
+
     def filter_branches
-      id_header = @template['suppliers']['csv_headers']['branches']['company_id']
-      branch_name = @template['suppliers']['csv_headers']['branches']['name']
-      branch_city = @template['suppliers']['csv_headers']['branches']['city']
-      branch_state = @template['suppliers']['csv_headers']['branches']['state']
-      branch_country = @template['suppliers']['csv_headers']['branches']['country']
+      id_header = @template['csv_headers']['branches']['company_id']
+      branch_name = @template['csv_headers']['branches']['name']
+      branch_city = @template['csv_headers']['branches']['city']
+      branch_state = @template['csv_headers']['branches']['state']
+      branch_country = @template['csv_headers']['branches']['country']
 
       @branch_rows.each_with_object([]) do |row, filtered|
         next unless row[id_header] == @company_id
