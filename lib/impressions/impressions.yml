@@ -1,0 +1,66 @@
+csv_headers:
+  companies:
+    id: CompanyID
+    name: Company_Name
+    type: Company_Type
+    address: Address
+    address2: Address2
+    city: City
+    state: State
+    postal_code: Postal_Code
+    country: Country
+    phone: Phone
+    tollfree: TollFree_Phone
+    url: URL
+  branches:
+    company_id: ParentCompanyID
+    name: BranchCompanyName
+    city: BranchCity
+    state: BranchState
+    country: BranchCountry
+    phone: BranchPhone
+  company_category:
+    company_name: CompanyName
+    category: Category
+    product: Product
+    subproduct: Subproduct
+    base_product: CategoryName
+    id: CompanyID
+suppliers:
+  header: |+
+    <ASCII-MAC>
+    <Version:11.4><FeatureSet:InDesign-Roman><ColorTable:=<SB Blue:COLOR:CMYK:Process:1,0,0,0.3><Black:COLOR:CMYK:Process:0,0,0,1>>
+    <DefineParaStyle:PlainListing=<Nextstyle:PlainListing><cTypeface:47 Light Condensed><cSize:7.000000><cAutoPairKern:Optical><pLeftIndent:17.280000><pFirstLineIndent:-8.640000><cLeading:9.000000><cFont:Univers>>
+    <DefineParaStyle:Plain name=<BasedOn:PlainListing><Nextstyle:Plain name><cColor:SB Blue><cTypeface:Bold><cSize:7.500000><cHorizontalScale:0.930000><cCase:All Caps><pLeftIndent:0.000000><pFirstLineIndent:0.000000><cLeading:8.000000><pSpaceBefore:9.720000><pSpaceAfter:0.500000><cFont:Circular Std>>
+    <DefineParaStyle:Plain listing=<Nextstyle:Plain listing><cTypeface:Book><cSize:7.000000><cAutoPairKern:Optical><pLeftIndent:17.280000><pFirstLineIndent:-8.640000><cLeading:8.500000><cFont:Adobe Caslon Pro>>
+    <DefineParaStyle:www=<BasedOn:Plain listing><Nextstyle:www><cColor:SB Blue><cTypeface:Medium><cHorizontalScale:0.950000><pLeftIndent:0.000000><pFirstLineIndent:0.000000><cLeading:7.000000><pSpaceAfter:0.500000><cFont:Circular Std><pKeepWithNext:1><cColorTint:80.000000>>
+    <DefineParaStyle:branch office=<BasedOn:Plain listing><Nextstyle:branch office><cSize:6.500000><cBaselineShift:-2.000000><cCase:All Caps><pLeftIndent:0.000000><pFirstLineIndent:0.000000><cLeading:8.000000><pSpaceBefore:2.160000><cFont:Circular Std>>
+    <DefineParaStyle:Plain name branch=<BasedOn:Plain name><Nextstyle:Plain name branch><cTypeface:Medium><cCase:Normal><pLeftIndent:8.640000><pSpaceBefore:4.320000>>
+    <DefineParaStyle:See our ad\/info action=<BasedOn:Plain listing><Nextstyle:See our ad\/info action><cColor:SB Blue><cTypeface:Regular><cHorizontalScale:0.900000><cTracking:3><pLeftIndent:4.320000><pFirstLineIndent:0.000000><cLeading:8.500000><pSpaceAfter:4.500000><cColorTint:80.000000><pRuleBelowColor:SB Blue><pRuleBelowStroke:0.500000><pRuleBelowOffset:4.500000><pRuleBelowOn:1>>
+    <DefineParaStyle:Co Name w line=<BasedOn:Plain name><Nextstyle:Co Name w line><pSpaceBefore:13.500000><pRuleAboveOffset:9.000000><pRuleAboveOn:1>>
+  styles:
+    company_name: <ParaStyle:Plain name>
+    body: <ParaStyle:Plain listing>
+    web: <ParaStyle:www>
+    branches: <ParaStyle:branch office>
+    branch_name: <ParaStyle:Plain name branch>
+cross_reference:
+  header: |+
+    <ASCII-MAC>
+    <Version:11.4><FeatureSet:InDesign-Roman><ColorTable:=<Black:COLOR:CMYK:Process:0,0,0,1><Nielsen Gray:COLOR:CMYK:Process:0.48,0.35,0.3,0.16>>
+    <DefineParaStyle:Product=<cTypeface:Bold><cSize:10.000000><cHorizontalScale:0.950000><cTracking:30><cBaselineShift:7.000000><cCase:All Caps><pHyphenationLadderLimit:0><cLeading:11.000000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceBefore:22.500000><cFont:Circular Std><pKeepParaTogether:1><pKeepWithNext:1><pKeepLines:1><pRuleAboveColor:Black><pRuleAboveStroke:20.000000><pRuleAboveTint:100.000000><pRuleAboveOffset:1.620000><pRuleBelowColor:Black><pRuleBelowStroke:3.000000><pRuleBelowOffset:-4.500000><pRuleBelowOn:1><pRuleAboveStrokeType:ThinThin><pRuleAboveGapColor:Apparel Blanks><pRuleAboveGapTint:100.000000><pTextAlignment:Center><pRuleAboveKeepInFrame:1>>
+    <DefineParaStyle:Company=<cSize:7.000000><pHyphenationLadderLimit:0><pLeftIndent:7.199999><pFirstLineIndent:-7.200000><cLeading:9.000000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pTabRuler:89,Left,.,0,;108,Left,.,0,;163.0500030517578,Right,.,0,;><cFont:Adobe Caslon Pro>>
+    <DefineParaStyle:SubProduct=<cTypeface:Bold><cSize:8.000000><cHorizontalScale:0.930000><cCase:All Caps><pHyphenationLadderLimit:0><cLeading:8.199999><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceBefore:8.640000><pSpaceAfter:0.504000><pTabRuler:89,Left,.,0,;108,Left,.,0,;163.0500030517578,Right,.,0,;><cFont:Circular Std>>
+  styles:
+    company: <ParaStyle:Company>
+    product: <ParaStyle:Product>
+    subproduct: <ParaStyle:SubProduct>
+alphabetical_index:
+  header: |+
+    <ASCII-MAC>
+    <Version:11.4><FeatureSet:InDesign-Roman><ColorTable:=<Black:COLOR:CMYK:Process:0,0,0,1><Paper:COLOR:CMYK:Process:0,0,0,0><C=0 M=48 Y=70 K=0:COLOR:CMYK:Process:0,0.48,0.7,0>>
+    <DefineParaStyle:Product alpha=<Nextstyle:Product alpha><cSize:7.500000><pHyphenationLadderLimit:0><pLeftIndent:9.000000><pFirstLineIndent:-9.000000><cLeading:8.500000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceBefore:3.024000><pTabRuler:160,Right,.,0,.;><cFont:Adobe Caslon Pro>>
+    <DefineParaStyle:ABCs=<Nextstyle:ABCs><cColor:Paper><cTypeface:Black><cHorizontalScale:0.930000><cLigatures:0><cCase:All Caps><pHyphenationLadderLimit:0><pLeftIndent:5.399999><cLeading:20.000000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceAfter:2.880000><pTabRuler:72,Left,.,0,;><cFont:Circular Std><pRuleAboveColor:C=0 M=48 Y=70 K=0><pRuleAboveStroke:15.000000><pRuleAboveTint:100.000000><pRuleAboveOffset:-3.060000><pRuleAboveOn:1><pRuleAboveStrokeType:ThickThick><pRuleAboveGapColor:C=0 M=48 Y=70 K=0><pRuleAboveGapTint:100.000000><pTextAlignment:Center>>
+  styles:
+    abcs: <ParaStyle:ABCs>
+    product: <ParaStyle:Product alpha>

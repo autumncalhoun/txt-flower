@@ -12,6 +12,8 @@
 /tagged_text/
 /design_retail/*.csv
 /design_retail/*.txt
+/impressions/*.csv
+/impressions/*.txt
 
 # Used by dotenv library to load environment variables.
 # .env
