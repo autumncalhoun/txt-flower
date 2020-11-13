@@ -1,11 +1,24 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (6.0.2.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.2)
+    concurrent-ruby (1.1.7)
     diff-lcs (1.3)
+    diffy (3.4.0)
     docile (1.1.5)
+    i18n (1.8.5)
+      concurrent-ruby (~> 1.0)
     json (2.3.1)
+    minitest (5.14.2)
     pastel (0.8.0)
       tty-color (~> 0.5)
+    phone (1.2.3)
+    phony (2.18.13)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)
@@ -24,6 +37,7 @@ GEM
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.0)
+    thread_safe (0.3.6)
     tty-color (0.5.2)
     tty-cursor (0.7.1)
     tty-prompt (0.22.0)
@@ -34,12 +48,19 @@ GEM
       tty-screen (~> 0.8)
       wisper (~> 2.0)
     tty-screen (0.8.1)
+    tzinfo (1.2.7)
+      thread_safe (~> 0.1)
     wisper (2.0.1)
+    zeitwerk (2.3.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
+  diffy
+  phone
+  phony
   rspec
   simplecov
   tty-prompt

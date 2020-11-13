@@ -3,6 +3,7 @@ require 'active_support'
 require 'active_support/core_ext'
 require 'pp'
 require 'YAML'
+require 'fileutils'
 
 require_relative '../common_format_helpers'
 
@@ -13,16 +14,21 @@ module Impressions
   class Suppliers
     include ::CommonFormatHelpers
 
-    def initialize(company_csv = './lib/impressions/Companies.csv', branch_csv = './lib/impressions/Branches.csv')
+    def initialize(company_csv: './lib/impressions/Companies.csv', branch_csv: './lib/impressions/Branches.csv', output_destination:)
       @company_rows = CSV.read(company_csv, headers: true)
       @branch_rows = CSV.read(branch_csv, headers: true)
       @template = YAML.safe_load(File.open('./lib/impressions/impressions.yml'))
       @header_style = @template['suppliers']['header']
+      @destination = "#{output_destination}/SuppliersTT.txt"
       generate_text
     end
 
     def generate_text
-      output = File.open('./lib/impressions/SuppliersTT.txt', 'w')
+      dirname = File.dirname(@destination)
+      unless File.directory?(dirname)
+        FileUtils.mkdir_p(dirname)
+      end
+      output = File.open(@destination, 'w')
       output << @header_style
       output << company_list
       output.close
@@ -133,7 +139,7 @@ module Impressions
 
       address = style + @city
       address << (', ' + @state) if @state && @state != 'NULL' && @state != 'N/A'
-      address << (', ' + @country) if @country != 'United States'
+      address << ", #{@country}" unless @country == 'United States'
       address << (' ' + @postal) if @postal
       address
     end
@@ -183,9 +189,10 @@ module Impressions
 
     def branch_address(city, state, country)
       body_style = @template['suppliers']['styles']['body']
-      string = body_style + city
+      string = ''
+      string = body_style + city if city
       string << ', ' + state if state
-      string << ' ' + country if country != 'United States'
+      string << ", #{country}" unless country == 'United States'
       string
     end
   end
