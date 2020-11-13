@@ -1,6 +1,14 @@
+csv_files:
+  - Companies
+  - Branches
+  - Company_Category
+tagged_text_files:
+  - AlphabeticalIndexTT
+  - CategoryIndexTT
+  - CrossReferenceTT
+  - SuppliersTT
 csv_headers:
   companies:
-    id: CompanyID
     name: Company_Name
     type: Company_Type
     address: Address
@@ -21,11 +29,9 @@ csv_headers:
     phone: BranchPhone
   company_category:
     company_name: CompanyName
-    category: Category
+    category: CategoryName
     product: Product
     subproduct: Subproduct
-    base_product: CategoryName
-    id: CompanyID
 suppliers:
   header: |+
     <ASCII-MAC>
