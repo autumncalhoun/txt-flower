@@ -19,6 +19,8 @@ module Impressions
       @branch_rows = CSV.read(branch_csv, headers: true)
       @template = YAML.safe_load(File.open('./lib/impressions/impressions.yml'))
       @header_style = @template['suppliers']['header']
+      @line_break = "\n"
+      @output = ""
       @destination = "#{output_destination}/SuppliersTT.txt"
       generate_text
     end
@@ -30,170 +32,109 @@ module Impressions
       end
       output = File.open(@destination, 'w')
       output << @header_style
-      output << company_list
+      supplier_loop
+      output << @output
       output.close
     end
 
     private
+    # OLD STUFF
+    def format_phone(number, country)
+      pn_string = number ? number.to_s : ''
+      unless pn_string.blank?
+        if ( country == 'United States' || country == 'Canada' )
+          if (pn_string.initial != '1')
+            pn_string = pn_string.prepend("+1")
+          end
 
-    def company_list
-      companies = @company_rows.map do |row|
-        company = Company.new(
-          name: row.field(col_name('name')),
-          url: row.field(col_name('url')),
-          address: row.field(col_name('address')),
-          address2: row.field(col_name('address2')),
-          city: row.field(col_name('city')),
-          state: row.field(col_name('state')),
-          country: row.field(col_name('country')),
-          postal_code: row.field(col_name('postal_code')),
-          phone: row.field(col_name('phone')),
-          tollfree: row.field(col_name('tollfree'))
-        ).to_s
-        branches = Branches.new(
-          company_id: row.field(col_name('id')),
-          branch_rows: @branch_rows
-        ).to_s
-        company + branches
+          if ( Phoner::Phone.valid? pn_string )
+            pn = Phoner::Phone.parse(pn_string, :country_code => '1')
+            pn_formatted = pn.format("(%a) %f-%l %x")
+            return pn_formatted.strip
+          else
+            return pn_string
+          end
+        else
+          if Phony.plausible?(pn_string)
+            pn = Phony.normalize(pn_string)
+            pn_formatted = Phony.format(pn)
+            return pn_formatted
+          else
+            return pn_string
+          end
+        end
       end
-      companies.join(line_break)
+      return pn_string
     end
 
-    def col_name(property)
-      @template['csv_headers']['companies'][property]
-    end
-  end
+    def address(item)
+      street = item[3] ? (@template['suppliers']['styles']['body'] + item[3].strip + @line_break) : ''
+      street2 = item[4] ? (@template['suppliers']['styles']['body'] + item[4].strip + @line_break) : ''
+      city = item[5] || ''
+      state = item[6] || ''
+      zip = item[7] || ''
+      co = item[8] || ''
 
-  # <ParaStyle:Plain name>A-B Emblem
-  # <ParaStyle:www>abemblem.com
-  # <ParaStyle:Plain listing>P.O. Box 695, Ste 115
-  # <ParaStyle:Plain listing>Weaverville, NC 28787-0695
-  # <ParaStyle:Plain listing>(800) 438-4285 | (800) 438-4285
-  class Company
-    attr_accessor :name, :template
-    include ::CommonFormatHelpers
+      combined_street = (street + street2)
 
-    def initialize(name:, url:, address:, address2:, city:, state:, country:, postal_code:, phone:, tollfree:)
-      @name = name
-      @url = url
-      @address = address
-      @address2 = address2
-      @city = city
-      @state = state
-      @country = country
-      @postal = postal_code
-      @phone = phone
-      @tollfree = tollfree
-      @template = YAML.safe_load(File.open('./lib/impressions/impressions.yml'))
-    end
-
-    def to_s
-      [
-        formatted_name,
-        formatted_url,
-        formatted_address,
-        formatted_phone
-      ].compact.join(line_break)
-    end
-
-    private
-
-    def formatted_name
-      style = @template['suppliers']['styles']['company_name']
-      style + name
-    end
-
-    def formatted_url
-      return unless @url
-      style = @template['suppliers']['styles']['web']
-      url_formatted = @url.sub(/^https?\:\/\//, '').sub(/^www./, '')
-      style + url_formatted
-    end
-
-    def formatted_address
-      street_address + line_break + city_state_country
-    end
-
-    # tollfree first
-    def formatted_phone
-      return unless @phone || @tollfree
-      style = @template['suppliers']['styles']['body']
-
-      tollfree = format_phone(@tollfree, @country)
-
-      phone_string = style + tollfree
-      phone_string << ' | ' unless tollfree.blank?
-      phone_string << format_phone(@phone, @country)
-      phone_string
-    end
-
-    def street_address
-      style = @template['suppliers']['styles']['body']
-      address = style + @address
-      address << ', ' + @address2 if @address2
-      address
-    end
-
-    def city_state_country
-      style = @template['suppliers']['styles']['body']
-
-      address = style + @city
-      address << (', ' + @state) if @state && @state != 'NULL' && @state != 'N/A'
-      address << ", #{@country}" unless @country == 'United States'
-      address << (' ' + @postal) if @postal
-      address
-    end
-  end
-
-  # <ParaStyle:branch office>BRANCHES
-  # <ParaStyle:Plain name branch>Abel warehouse
-  # <ParaStyle:Plain listing>Memphis, TN
-  class Branches
-    include ::CommonFormatHelpers
-
-    def initialize(company_id:, branch_rows:)
-      @company_id = company_id
-      @branch_rows = branch_rows
-      @template = YAML.safe_load(File.open('./lib/impressions/impressions.yml'))
-    end
-
-    def to_s
-      style = @template['suppliers']['styles']['branches']
-      branches = filter_branches
-      return '' if branches.empty?
-      header = line_break + style + 'BRANCHES' + line_break
-      header + filter_branches.join(line_break)
-    end
-
-    private
-
-    def filter_branches
-      id_header = @template['csv_headers']['branches']['company_id']
-      branch_name = @template['csv_headers']['branches']['name']
-      branch_city = @template['csv_headers']['branches']['city']
-      branch_state = @template['csv_headers']['branches']['state']
-      branch_country = @template['csv_headers']['branches']['country']
-
-      @branch_rows.each_with_object([]) do |row, filtered|
-        next unless row[id_header] == @company_id
-        address = branch_address(row[branch_city], row[branch_state], row[branch_country])
-        branch_string = branch_name(row[branch_name]) + line_break + address
-        filtered << branch_string
+      if co == "United States"
+        return combined_street + @template['suppliers']['styles']['body'] + city + ', ' + state + ' ' + zip + @line_break
+      elsif co == "Canada"
+        return combined_street + @template['suppliers']['styles']['body'] + city + ', ' + state + ' ' + zip + ' ' + co + @line_break
+      else
+        return combined_street + @template['suppliers']['styles']['body'] + city + ' ' + co + ' ' + zip + @line_break
       end
     end
 
-    def branch_name(name)
-      name_style = @template['suppliers']['styles']['branch_name']
-      name_style + name
+    def city_state_zip(item)
+      city = item[2] || ''
+      state = item[3] || ''
+      co = item[4] || ''
+      if co == 'United States'
+        return city + ', ' + state
+      elsif co == 'Canada'
+        return city + ', ' + state + ' ' + co
+      else
+        return city + ', ' + co
+      end
     end
 
-    def branch_address(city, state, country)
-      body_style = @template['suppliers']['styles']['body']
-      string = ''
-      string = body_style + city if city
-      string << ', ' + state if state
-      string << ", #{country}" unless country == 'United States'
-      string
+    def phone(item)
+      primary = item[10] ? format_phone(item[10], item[8]) : ''
+      tollfree_num = item[11] ? format_phone(item[11], item[8]) : ''
+      spacer = (!primary.blank? && !tollfree_num.blank?) ? ' | ': ''
+      return @template['suppliers']['styles']['body'] + tollfree_num + spacer + primary + @line_break
+    end
+
+    def supplier_loop
+      @company_rows.each do |c|
+        #name
+        @output << @template['suppliers']['styles']['company_name'] + c[1] + @line_break
+        #website
+        website = c[9] ? c[9] : ''
+        website_formatted = website.sub(/^https?\:\/\//, '').sub(/^www./,'')
+        unless website.blank?
+          @output << @template['suppliers']['styles']['web'] + website_formatted + @line_break
+        end
+        #address
+        @output << address(c)
+
+        # Phone 1 800 | alt number
+        @output << phone(c)
+
+        #branches
+        matching_branches = @branch_rows.select {|b| b[0] == c[0]}
+        matching_branches.each_with_index do |branch, index|
+          #branch header
+          if index == 0
+            @output << @template['suppliers']['styles']['branches']  + 'BRANCHES' + @line_break
+          end
+          #branch name
+          @output << @template['suppliers']['styles']['branch_name'] + branch[1] + @line_break
+          #branch location
+          @output << @template['suppliers']['styles']['body'] + city_state_zip(branch) + @line_break
+        end
+      end
     end
   end
 end
