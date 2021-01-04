@@ -1,6 +1,6 @@
-require 'csv'
-require 'pp'
-require 'fileutils'
+# require 'csv'
+# require 'pp'
+# require 'fileutils'
 
 # Create tagged text for flowing in InDesign documents
 class Flower
