@@ -2,6 +2,7 @@
 require 'tty-prompt'
 require 'YAML'
 require 'csv'
+require_relative './suppliers.rb'
 
 def prompt_start(flower_company)
   prompt = TTY::Prompt.new
@@ -30,10 +31,12 @@ def prompt_csv_dir
 end
 
 def validate_csvs(location, template)
+  valid = []
   csv_files = template['csv_files']
   csv_files.each do |file_name|
-    validate_csv("#{location}/#{file_name}.csv", file_name, template)
+    valid.push(validate_csv("#{location}/#{file_name}.csv", file_name, template))
   end
+  exit if valid.include?(false)
 end
 
 def validate_csv(location, filename, template)
@@ -41,23 +44,43 @@ def validate_csv(location, filename, template)
   template_headers = template['csv_headers'][filename.downcase].map{ |header| header[1] }
   headers = CSV.read(location, headers: true).headers
   template_headers.each do |header|
-    raise "CSV doesn't have the correct headers - #{header} in #{location}" unless headers.include? header
+    raise "Incorrect header: #{header} in #{location}" unless headers.include? header
   end
 rescue => e
-  prompt.error("*** ERROR ***: #{e}")
+  prompt.error("❌ #{e}")
+  false
 else
-  prompt.ok("#{location} exists and has the right headers!")
+  prompt.ok("✅ #{location}")
+  true
 end
 
 def prompt_text_files(template)
   prompt = TTY::Prompt.new
   choices = template['tagged_text_files']
-  prompt.multi_select("Which files do you want to generate?", choices)
+  prompt.multi_select('Which files do you want to generate?', choices, min: 1)
 end
 
-def generate(text_files)
+def prompt_output_dir
   prompt = TTY::Prompt.new
-  prompt.say("Generating...#{text_files.join(', ')}")
+  current_year = Date.today.year
+  prompt.ask('Where should the tagged text files go?',
+             default: "~/src/tagged_text/impressions/#{current_year}/test",
+             convert: :filepath)
+end
+
+def generate(csv_dir, output_dir, text_files)
+  prompt = TTY::Prompt.new
+  text_files.each do |file|
+
+    if file == 'SuppliersTT'
+      Impressions::Suppliers.new(
+        company_csv: "#{csv_dir}/Companies.csv",
+        branch_csv: "#{csv_dir}/Branches.csv",
+        output_destination: output_dir
+      )
+    end
+    prompt.ok("Generated #{file} in #{output_dir}")
+  end
 end
 
 template = YAML.safe_load(File.open('./lib/impressions/impressions.yml'))
@@ -71,4 +94,6 @@ validate_csvs(csv_dir, template)
 
 text_files = prompt_text_files(template)
 
-generate(text_files)
+output_dir = prompt_output_dir
+
+generate(csv_dir, output_dir, text_files)
