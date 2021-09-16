@@ -1,0 +1,5 @@
+<ASCII-MAC>
+<Version:11.4><FeatureSet:InDesign-Roman><ColorTable:=<Black:COLOR:CMYK:Process:0,0,0,1><Paper:COLOR:CMYK:Process:0,0,0,0><C=0 M=48 Y=70 K=0:COLOR:CMYK:Process:0,0.48,0.7,0>>
+<DefineParaStyle:Product alpha=<Nextstyle:Product alpha><cSize:7.500000><pHyphenationLadderLimit:0><pLeftIndent:9.000000><pFirstLineIndent:-9.000000><cLeading:8.500000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceBefore:3.024000><pTabRuler:160,Right,.,0,.;><cFont:Adobe Caslon Pro>>
+<DefineParaStyle:ABCs=<Nextstyle:ABCs><cColor:Paper><cTypeface:Black><cHorizontalScale:0.930000><cLigatures:0><cCase:All Caps><pHyphenationLadderLimit:0><pLeftIndent:5.399999><cLeading:20.000000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceAfter:2.880000><pTabRuler:72,Left,.,0,;><cFont:Circular Std><pRuleAboveColor:C=0 M=48 Y=70 K=0><pRuleAboveStroke:15.000000><pRuleAboveTint:100.000000><pRuleAboveOffset:-3.060000><pRuleAboveOn:1><pRuleAboveStrokeType:ThickThick><pRuleAboveGapColor:C=0 M=48 Y=70 K=0><pRuleAboveGapTint:100.000000><pTextAlignment:Center>>
+["American-Made Apparel"]
