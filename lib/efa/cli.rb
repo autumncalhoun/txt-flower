@@ -2,7 +2,7 @@
 require 'tty-prompt'
 require 'YAML'
 require 'csv'
-# require_relative './suppliers.rb'
+require_relative './companies_generator.rb'
 
 def prompt_start(flower_company)
   prompt = TTY::Prompt.new
@@ -72,14 +72,12 @@ def generate(csv_dir, output_dir, text_files)
   prompt = TTY::Prompt.new
   text_files.each do |file|
 
-    # file_meta.generator.to_sym
-    # if file_meta.name == 'CompaniesTT'
-      # Impressions::Suppliers.new(
-      #   company_csv: "#{csv_dir}/Companies.csv",
-      #   branch_csv: "#{csv_dir}/Branches.csv",
-      #   output_destination: output_dir
-      # )
-    # end
+    if file == 'CompaniesTT'
+      EFA::CompaniesGenerator.new(
+        csv_location: "#{csv_dir}/Companies.csv",
+        output_dir: output_dir
+      ).generate_text
+    end
     prompt.ok("Generated #{file} in #{output_dir}")
   end
 end
