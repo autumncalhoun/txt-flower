@@ -6,6 +6,7 @@ require "pp"
 require "Phony"
 require "Phone"
 require "YAML"
+require 'fileutils'
 
 class String
   def initial
@@ -48,7 +49,8 @@ module EFA
 
     def generate_text
       companies_loop
-      file = File.open(File.join(Dir.pwd, output_dir, "CompaniesTT.txt"),"w")
+      FileUtils.mkdir_p output_dir
+      file = File.open(File.join(output_dir, "CompaniesTT.txt"),"w")
       file << @header
       file << @output
       file.close
