@@ -1,5 +1,6 @@
 *.gem
 *.rbc
+**/.DS_Store
 /.config
 /coverage/
 /InstalledFiles
@@ -7,6 +8,7 @@
 /spec/reports/
 /spec/examples.txt
 /test/tmp/
+/spec/tmp/
 /test/version_tmp/
 /tmp/
 /tagged_text/

@@ -1,0 +1,65 @@
+csv_files:
+  - Companies
+  - Company_Category
+tagged_text_files:
+  -
+    name: CompaniesTT
+    generator: Companies
+    tags:
+      header: |+
+        <ASCII-MAC>
+      styles:
+        company_name: <ParaStyle:New\_BG-CoName>
+        body: <ParaStyle:New\_BG-Body Text>
+  -
+    name: ProdCatIndexTT
+    generator:
+    tags:
+      header: |+
+        <ASCII-MAC>
+      styles:
+        category: <ParaStyle:PL-Head1-4>
+        product: <ParaStyle:PL\_Body\_Index-4>
+  -
+    name: ProdCatListTT
+    generator:
+    tags:
+      header: |+
+        <ASCII-MAC>
+      styles:
+        head: <ParaStyle:PL-Head1-2>
+        head2: <ParaStyle:PL-Head2-2>
+        company: <ParaStyle:PL-Body Text-2>
+csv_headers:
+  companies:
+    name: Company_Name
+    city: City
+    state: State
+    phone: Phone
+    tollfree: Toll_Free_Phone
+    email: Email
+    url: URL
+  company_category:
+    company_name: CompanyName
+    category: CategoryName
+    parent_category: CategoryPath
+tags_by_file:
+  companies:
+    header: |+
+      <ASCII-MAC>
+    styles:
+      company_name: <ParaStyle:New\_BG-CoName>
+      body: <ParaStyle:New\_BG-Body Text>
+  prod_cat_index:
+    header: |+
+      <ASCII-MAC>
+    styles:
+      category: <ParaStyle:PL-Head1-4>
+      product: <ParaStyle:PL\_Body\_Index-4>
+  prod_cat_list:
+    header: |+
+      <ASCII-MAC>
+    styles:
+      head: <ParaStyle:PL-Head1-2>
+      head2: <ParaStyle:PL-Head2-2>
+      company: <ParaStyle:PL-Body Text-2>
