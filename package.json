@@ -1,0 +1,12 @@
+{
+  "name": "txt-flower",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:autumncalhoun/txt-flower.git",
+  "author": "Autumn Wright <autumn@autumncalhoun.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^2.0.0",
+    "prettier": "^2.4.1"
+  }
+}

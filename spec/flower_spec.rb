@@ -2,9 +2,7 @@ require 'flower'
 
 describe Flower do
   describe '#initialize' do
-    before(:each) do
-      @sample = Flower.new
-    end
+    before(:each) { @sample = Flower.new }
 
     it 'sets the line break' do
       expect(@sample.instance_variable_get(:@line_break)).to eq "\n"

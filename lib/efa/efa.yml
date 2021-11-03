@@ -2,8 +2,7 @@ csv_files:
   - Companies
   - Company_Category
 tagged_text_files:
-  -
-    name: CompaniesTT
+  - name: CompaniesTT
     generator: Companies
     tags:
       header: |+
@@ -11,8 +10,7 @@ tagged_text_files:
       styles:
         company_name: <ParaStyle:New\_BG-CoName>
         body: <ParaStyle:New\_BG-Body Text>
-  -
-    name: ProdCatIndexTT
+  - name: ProdCatIndexTT
     generator:
     tags:
       header: |+
@@ -20,8 +18,7 @@ tagged_text_files:
       styles:
         category: <ParaStyle:PL-Head1-4>
         product: <ParaStyle:PL\_Body\_Index-4>
-  -
-    name: ProdCatListTT
+  - name: ProdCatListTT
     generator:
     tags:
       header: |+

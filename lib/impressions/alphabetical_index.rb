@@ -28,10 +28,12 @@ module Impressions
     private
 
     def alphabet_list
-      @category_rows.sort_by{ |row| [row[cat_col_name('base_product')].downcase]}
+      @category_rows.sort_by do |row|
+        [row[cat_col_name('base_product')].downcase]
+      end
       letters = ('A'..'Z').to_a
 
-      alphabet = Hash[letters.map {|x| [x, []] }]
+      alphabet = Hash[letters.map { |x| [x, []] }]
       numerics = []
 
       @category_rows.each do |row|
@@ -41,7 +43,7 @@ module Impressions
         return alphabet[first_letter].push(name)
       end
 
-      pp "SOME CRAZY THING"
+      pp 'SOME CRAZY THING'
       alphabet
     end
 
@@ -57,6 +59,10 @@ class String
   end
 
   def number?
-    true if Float(self) rescue false
+    begin
+      true if Float(self)
+    rescue StandardError
+      false
+    end
   end
 end

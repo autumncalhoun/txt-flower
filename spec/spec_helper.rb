@@ -4,6 +4,4 @@ require 'active_support'
 require 'active_support/core_ext'
 require 'YAML'
 
-SimpleCov.start do
-  add_filter '/spec/'
-end
+SimpleCov.start { add_filter '/spec/' }

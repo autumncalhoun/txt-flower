@@ -13,10 +13,14 @@ require 'YAML'
 class DesignRetail
   attr_accessor :template, :company_rows, :category_rows
 
-  def initialize(company_csv = './lib/design_retail/Companies.csv', category_csv = './lib/design_retail/CompanyCategory.csv')
+  def initialize(
+    company_csv = './lib/design_retail/Companies.csv',
+    category_csv = './lib/design_retail/CompanyCategory.csv'
+  )
     @company_rows = CSV.read(company_csv, headers: true)
     @category_rows = CSV.read(category_csv, headers: true)
-    @template = YAML.safe_load(File.open('./lib/design_retail/buyers_guide.yml'))
+    @template =
+      YAML.safe_load(File.open('./lib/design_retail/buyers_guide.yml'))
     @header_style = @template['header']
     generate_text
   end
@@ -35,23 +39,26 @@ class DesignRetail
   end
 
   def company_list
-    companies = @company_rows.map do |row|
-      company = Company.new(
-        name: row.field(col_name('name')),
-        city: row.field(col_name('city')),
-        state: row.field(col_name('state')),
-        country: row.field(col_name('country')),
-        phone: row.field(col_name('phone')),
-        tollfree: row.field(col_name('tollfree')),
-        email: row.field(col_name('email')),
-        url: row.field(col_name('url'))
-      ).to_s
-      categories = ProductCategories.new(
-        company_id: row.field(col_name('id')),
-        category_rows: @category_rows
-      ).to_s
-      company + line_break + categories
-    end
+    companies =
+      @company_rows.map do |row|
+        company =
+          Company.new(
+            name: row.field(col_name('name')),
+            city: row.field(col_name('city')),
+            state: row.field(col_name('state')),
+            country: row.field(col_name('country')),
+            phone: row.field(col_name('phone')),
+            tollfree: row.field(col_name('tollfree')),
+            email: row.field(col_name('email')),
+            url: row.field(col_name('url'))
+          ).to_s
+        categories =
+          ProductCategories.new(
+            company_id: row.field(col_name('id')),
+            category_rows: @category_rows
+          ).to_s
+        company + line_break + categories
+      end
     companies.join(line_break)
   end
 
@@ -66,9 +73,26 @@ end
 # <ParaStyle:BG-Body Text>info@1000led.com
 # <ParaStyle:BG-Body Text>1000led.com
 class Company
-  attr_accessor :name, :city, :state, :country, :phone, :tollfree, :email, :url, :template
+  attr_accessor :name,
+                :city,
+                :state,
+                :country,
+                :phone,
+                :tollfree,
+                :email,
+                :url,
+                :template
 
-  def initialize(name:, city:, state:, country:, phone:, tollfree:, email:, url:)
+  def initialize(
+    name:,
+    city:,
+    state:,
+    country:,
+    phone:,
+    tollfree:,
+    email:,
+    url:
+  )
     @name = name
     @city = city
     @state = state
@@ -77,7 +101,8 @@ class Company
     @tollfree = tollfree
     @email = email
     @url = url
-    @template = YAML.safe_load(File.open('./lib/design_retail/buyers_guide.yml'))
+    @template =
+      YAML.safe_load(File.open('./lib/design_retail/buyers_guide.yml'))
   end
 
   def to_s
@@ -125,7 +150,7 @@ class Company
   def formatted_url
     return unless @url
     style = @template['styles']['body']
-    url_formatted = @url.sub(/^https?\:\/\//, '').sub(/^www./, '')
+    url_formatted = @url.sub(%r{^https?\:\/\/}, '').sub(/^www./, '')
     style + url_formatted
   end
 
@@ -156,7 +181,7 @@ class Company
   end
 
   def vanity_number(number)
-    return number.count("a-zA-Z") > 0
+    return number.count('a-zA-Z') > 0
   end
 end
 
@@ -166,12 +191,14 @@ class ProductCategories
   def initialize(company_id:, category_rows:)
     @company_id = company_id
     @category_rows = category_rows
-    @template = YAML.safe_load(File.open('./lib/design_retail/buyers_guide.yml'))
+    @template =
+      YAML.safe_load(File.open('./lib/design_retail/buyers_guide.yml'))
   end
 
   def to_s
     style = @template['styles']['product_category']
-    style + 'PRODUCT CATEGORIES: ' + filter_categories_and_select_names.join(', ')
+    style + 'PRODUCT CATEGORIES: ' +
+      filter_categories_and_select_names.join(', ')
   end
 
   def filter_categories_and_select_names
