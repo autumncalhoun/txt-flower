@@ -1,8 +1,20 @@
 csv_files:
-  - Companies
-  - Company_Category
+  Companies:
+    csv_headers:
+      name: Company_Name
+      city: City
+      state: State
+      phone: Phone
+      tollfree: Toll_Free_Phone
+      email: Email
+      url: URL
+  Company_Category:
+    csv_headers:
+      company_name: CompanyName
+      category: CategoryName
+      parent_category: CategoryPath
 tagged_text_files:
-  - name: CompaniesTT
+  CompaniesTT:
     generator: Companies
     tags:
       header: |+
@@ -16,10 +28,17 @@ tagged_text_files:
         <dps:New\_SeeOurAd=<BasedOn:NormalParagraphStyle><Nextstyle:New\_SeeOurAd><ct:Bold><cs:9.000000><cl:11.000000><ptr:3\,Right\,.\,0\,\;><cf:Bebas Neue Pro>>
         <dps:PhotoCredit=<Nextstyle:PhotoCredit><ct:Regular ><cs:6.000000><ctk:10><ccase:All Caps><phll:0><palp:1.000000><cl:6.000000><cf:Bebas Neue Pro><pmaws:2.000000><pmiws:0.500000><pmaxl:0.250000><pkfnl:1><pknl:1><prac:Black><prat:100.000000><prbc:Black><prbt:100.000000><pswa:Left><pragc:None><prbgc:None><pdcdetail:><cugc:None><cstrikegc:None><pshadc:EFA\_Dark Brown><pshadt:-1.000000><pwa:Left><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4><ruotpg:0><cres:0>>
         <dps:BG-Co Description=<BasedOn:BG-Body Text><Nextstyle:BG-Co Description><ct:Book><cs:9.000000><cl:10.000000><psb:4.500000><cf:Acta><cotfcalt:0>>
-      styles:
-        company_name: <pstyle:BG-CoNameNoLine>
-        body: <pstyle:BG-Body Text>
-  - name: ProdCatIndexTT
+      company_name: <pstyle:BG-CoNameNoLine>
+      body: <pstyle:BG-Body Text>
+    csv_headers:
+      name: Company_Name
+      city: City
+      state: State
+      phone: Phone
+      tollfree: Toll_Free_Phone
+      email: Email
+      url: URL
+  ProdCatIndexTT:
     generator:
     tags:
       header: |+
@@ -27,7 +46,7 @@ tagged_text_files:
       styles:
         category: <ParaStyle:PL-Head1-4>
         product: <ParaStyle:PL\_Body\_Index-4>
-  - name: ProdCatListTT
+  ProdCatListTT:
     generator:
     tags:
       header: |+
@@ -36,16 +55,3 @@ tagged_text_files:
         head: <ParaStyle:PL-Head1-2>
         head2: <ParaStyle:PL-Head2-2>
         company: <ParaStyle:PL-Body Text-2>
-csv_headers:
-  companies:
-    name: Company_Name
-    city: City
-    state: State
-    phone: Phone
-    tollfree: Toll_Free_Phone
-    email: Email
-    url: URL
-  company_category:
-    company_name: CompanyName
-    category: CategoryName
-    parent_category: CategoryPath
