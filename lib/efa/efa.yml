@@ -43,11 +43,10 @@ tagged_text_files:
     tags:
       header: |+
         <ASCII-MAC>
-        <Version:12><FeatureSet:InDesign-Roman><ColorTable:=<Paper:COLOR:CMYK:Process:0,0,0,0><EFA\_Light Blue:COLOR:CMYK:Process:0.6071999669075012,0.23349998891353607,0.21480000019073486,0><Black:COLOR:CMYK:Process:0,0,0,1>>
-        <DefineKinsokuStyle:Word\_Kinsoku=>
-        <DefineParaStyle:PL-Head1-2=<Nextstyle:PL-Head1-2><cColor:Paper><cTypeface:77 Bold Condensed><cSize:11.000000><cTracking:100><cCase:All Caps><pLeftIndent:2.000000><cLeading:13.000000><pSpaceBefore:13.500000><pSpaceAfter:4.500000><cFont:Helvetica Neue LT Std><pDesiredWordSpace:0.850000><pMaxWordSpace:1.000000><pDesiredLetterspace:-0.050000><pMinLetterspace:-0.050000><pRuleAboveColor:EFA\_Light Blue><pRuleAboveStroke:15.000000><pRuleAboveTint:100.000000><pRuleAboveOffset:-2.880000><pRuleAboveOn:1><pRuleAboveGapColor:None><pRuleBelowGapColor:None><pDropCapDetail:LeftGlyphEdge><cUnderlineGapColor:None><cStrikeThroughGapColor:None><pShadingColor:Pro Black><pWarichuAlignment:Left><bnColor:None><numFont:\<TextFont\>><rUseOTProGlyph:1><cRubyEdgeSpace:1>>
-        <DefineParaStyle:PL-Body Text-2=<Nextstyle:PL-Body Text-2><cTypeface:57 Condensed><cSize:11.000000><cAutoPairKern:Optical><cTracking:20><cLeading:13.000000><pHyphenation:0><cFont:Helvetica Neue LT Std><pDesiredWordSpace:0.950000><pMaxWordSpace:1.000000><pMinWordSpace:0.500000><pDesiredLetterspace:-0.100000><pMinLetterspace:-0.150000><pRuleAboveGapColor:None><pRuleBelowGapColor:None><pDropCapDetail:LeftGlyphEdge><cUnderlineGapColor:None><cStrikeThroughGapColor:None><pShadingColor:Pro Black><pWarichuAlignment:Left><bnColor:None><numFont:\<TextFont\>><rUseOTProGlyph:1><cRubyEdgeSpace:1>>
-        <DefineParaStyle:PL-Head2-2=<BasedOn:PL-Body Text-2><Nextstyle:PL-Head2-2><cTypeface:77 Bold Condensed><pLeftIndent:2.000000><pSpaceBefore:6.480000><pSpaceAfter:2.160000><cFont:Helvetica Neue LT Std><pRuleAboveColor:EFA\_Light Blue><pRuleAboveStroke:15.000000><pRuleAboveTint:15.000000><pRuleAboveOffset:-3.600000><pRuleAboveOn:1>>
-      head: <ParaStyle:PL-Head1-2>
-      head2: <ParaStyle:PL-Head2-2>
-      company: <ParaStyle:PL-Body Text-2>
+        <vsn:17><fset:InDesign-Roman><ctable:=<Paper:COLOR:CMYK:Process:0,0,0,0><Burnt Orange:COLOR:CMYK:Process:0.06949999928474426,0.8711999654769897,1,0.00969999935477972><Black:COLOR:CMYK:Process:0,0,0,1>>
+        <dps:PL-Head1=<Nextstyle:PL-Head1><cc:Paper><ct:Black><cs:11.000000><ctk:70><ccase:All Caps><pli:2.000000><cl:13.000000><psb:10.799999><psa:1.440000><cf:Lato><pdws:0.850000><pmaws:1.000000><pdl:-0.050000><pminl:-0.050000><prac:Burnt Orange><pras:16.000000><prat:100.000000><prao:-3.600000><praon:1><pshadc:Pro Black><pshadt:-1.000000><pgapc:None><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4>>
+        <dps:PL-Body Text=<Nextstyle:PL-Body Text><ct:Middle><cs:11.000000><capk:Optical><ctk:20><pli:9.000000><pfli:-9.000000><cl:13.000000><ph:0><cf:Bebas Neue Pro><pdws:0.950000><pmaws:1.000000><pmiws:0.500000><pdl:-0.100000><pminl:-0.150000><pshadc:Pro Black><pshadt:-1.000000><pgapc:None><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4>>
+        <dps:PL-Head2=<BasedOn:PL-Body Text><Nextstyle:PL-Head2><ct:Bold><cs:12.000000><psb:9.000000><psa:3.600000><prac:Burnt Orange><pras:15.000000><prat:20.000000><prao:-3.600000><praon:1>>
+      head: <pstyle:PL-Head1>
+      head2: <pstyle:PL-Head2>
+      company: <pstyle:PL-Body Text>
