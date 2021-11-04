@@ -16,7 +16,7 @@
 /design_retail/*.txt
 /impressions/*.csv
 /impressions/*.txt
-
+/node_modules/
 # Used by dotenv library to load environment variables.
 # .env
 

@@ -13,7 +13,10 @@ module Impressions
   class Suppliers
     include ::CommonFormatHelpers
 
-    def initialize(company_csv = './lib/impressions/Companies.csv', branch_csv = './lib/impressions/Branches.csv')
+    def initialize(
+      company_csv = './lib/impressions/Companies.csv',
+      branch_csv = './lib/impressions/Branches.csv'
+    )
       @company_rows = CSV.read(company_csv, headers: true)
       @branch_rows = CSV.read(branch_csv, headers: true)
       @template = YAML.safe_load(File.open('./lib/impressions/impressions.yml'))
@@ -31,25 +34,28 @@ module Impressions
     private
 
     def company_list
-      companies = @company_rows.map do |row|
-        company = Company.new(
-          name: row.field(col_name('name')),
-          url: row.field(col_name('url')),
-          address: row.field(col_name('address')),
-          address2: row.field(col_name('address2')),
-          city: row.field(col_name('city')),
-          state: row.field(col_name('state')),
-          country: row.field(col_name('country')),
-          postal_code: row.field(col_name('postal_code')),
-          phone: row.field(col_name('phone')),
-          tollfree: row.field(col_name('tollfree'))
-        ).to_s
-        branches = Branches.new(
-          company_id: row.field(col_name('id')),
-          branch_rows: @branch_rows
-        ).to_s
-        company + branches
-      end
+      companies =
+        @company_rows.map do |row|
+          company =
+            Company.new(
+              name: row.field(col_name('name')),
+              url: row.field(col_name('url')),
+              address: row.field(col_name('address')),
+              address2: row.field(col_name('address2')),
+              city: row.field(col_name('city')),
+              state: row.field(col_name('state')),
+              country: row.field(col_name('country')),
+              postal_code: row.field(col_name('postal_code')),
+              phone: row.field(col_name('phone')),
+              tollfree: row.field(col_name('tollfree'))
+            ).to_s
+          branches =
+            Branches.new(
+              company_id: row.field(col_name('id')),
+              branch_rows: @branch_rows
+            ).to_s
+          company + branches
+        end
       companies.join(line_break)
     end
 
@@ -67,7 +73,18 @@ module Impressions
     attr_accessor :name, :template
     include ::CommonFormatHelpers
 
-    def initialize(name:, url:, address:, address2:, city:, state:, country:, postal_code:, phone:, tollfree:)
+    def initialize(
+      name:,
+      url:,
+      address:,
+      address2:,
+      city:,
+      state:,
+      country:,
+      postal_code:,
+      phone:,
+      tollfree:
+    )
       @name = name
       @url = url
       @address = address
@@ -100,7 +117,7 @@ module Impressions
     def formatted_url
       return unless @url
       style = @template['suppliers']['styles']['web']
-      url_formatted = @url.sub(/^https?\:\/\//, '').sub(/^www./, '')
+      url_formatted = @url.sub(%r{^https?\:\/\/}, '').sub(/^www./, '')
       style + url_formatted
     end
 
@@ -132,7 +149,9 @@ module Impressions
       style = @template['suppliers']['styles']['body']
 
       address = style + @city
-      address << (', ' + @state) if @state && @state != 'NULL' && @state != 'N/A'
+      if @state && @state != 'NULL' && @state != 'N/A'
+        address << (', ' + @state)
+      end
       address << (', ' + @country) if @country != 'United States'
       address << (' ' + @postal) if @postal
       address
@@ -170,7 +189,12 @@ module Impressions
 
       @branch_rows.each_with_object([]) do |row, filtered|
         next unless row[id_header] == @company_id
-        address = branch_address(row[branch_city], row[branch_state], row[branch_country])
+        address =
+          branch_address(
+            row[branch_city],
+            row[branch_state],
+            row[branch_country]
+          )
         branch_string = branch_name(row[branch_name]) + line_break + address
         filtered << branch_string
       end

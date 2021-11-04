@@ -12,7 +12,10 @@ module Impressions
   class CrossReference
     include ::CommonFormatHelpers
 
-    def initialize(company_csv = './lib/impressions/Companies.csv', category_csv = './lib/impressions/CompanyCategory.csv')
+    def initialize(
+      company_csv = './lib/impressions/Companies.csv',
+      category_csv = './lib/impressions/CompanyCategory.csv'
+    )
       @company_rows = CSV.read(company_csv, headers: true)
       @category_rows = CSV.read(category_csv, headers: true)
       @template = YAML.safe_load(File.open('./lib/impressions/impressions.yml'))
@@ -21,7 +24,8 @@ module Impressions
     end
 
     def generate_text
-      puts '🌻 PREPROCESS CSV: Text To Columns on the CategoryPath column!'.yellow
+      puts '🌻 PREPROCESS CSV: Text To Columns on the CategoryPath column!'
+             .yellow
       output = File.open('./lib/impressions/CrossReferenceTT.txt', 'w')
       output << @header_style
       output << list_by_category
@@ -58,18 +62,21 @@ module Impressions
           current_subprod = subproduct
         end
 
-        company = @company_rows.find do |co|
-          co.field(col_name('id')) == row.field(cat_col_name('id'))
-        end
+        company =
+          @company_rows.find do |co|
+            co.field(col_name('id')) == row.field(cat_col_name('id'))
+          end
 
         if company
-          items.push(Company.new(
-            name: company.field(col_name('name')),
-            state: company.field(col_name('state')),
-            phone: company.field(col_name('phone')),
-            tollfree: company.field(col_name('tollfree')),
-            country: company.field(col_name('country'))
-          ).to_s)
+          items.push(
+            Company.new(
+              name: company.field(col_name('name')),
+              state: company.field(col_name('state')),
+              phone: company.field(col_name('phone')),
+              tollfree: company.field(col_name('tollfree')),
+              country: company.field(col_name('country'))
+            ).to_s
+          )
         end
       end
 
@@ -112,11 +119,7 @@ module Impressions
     end
 
     def to_s
-      [
-        formatted_name,
-        @state,
-        formatted_phone
-      ].compact.join(tab_space)
+      [formatted_name, @state, formatted_phone].compact.join(tab_space)
     end
 
     private

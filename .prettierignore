@@ -1,0 +1,7 @@
+# Ignore artifacts:
+coverage
+sample_data
+
+# Ignore all csv and txt files
+*.csv
+*.txt

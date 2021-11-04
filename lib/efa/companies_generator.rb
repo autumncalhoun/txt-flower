@@ -1,61 +1,49 @@
 require 'pry'
-require "csv"
+require 'csv'
 require 'active_support'
 require 'active_support/core_ext'
-require "pp"
-require "Phony"
-require "Phone"
-require "YAML"
+require 'pp'
+require 'Phony'
+require 'Phone'
+require 'YAML'
+require 'fileutils'
 
 class String
   def initial
-    self[0,1]
+    self[0, 1]
   end
   def initial2
-    self[0,2]
+    self[0, 2]
   end
 end
 
 module EFA
   class CompaniesGenerator
-    attr_accessor :csv_location, :output_dir, :template, :tags, :company_rows, :output
+    attr_accessor :output_dir, :tags, :csv_headers, :company_rows, :output, :line_break
 
     def initialize(csv_location:, output_dir:)
-      @csv_location = csv_location
       @output_dir = output_dir
-      @template = YAML.safe_load(File.open('./lib/efa/efa.yml'))
-      @tags = @template['tagged_text_files'].select! do |file_meta|
-        file_meta['tags'] if file_meta['generator'] == 'Companies'
-      end
-      @company_rows = CSV.read(@csv_location, headers: true)
-      @output = ""
-      @data = CSV.read(@csv_location, headers: true)
-      @styles = {
-        co_name: '<ParaStyle:New\_BG-CoName>',
-        body: '<ParaStyle:New\_BG-Body Text>'
-      }
+      template = YAML.safe_load(File.open('./lib/efa/efa.yml')).deep_symbolize_keys
+      @tags = set_tags_from_yml(template)
+      @csv_headers = set_headers_from_yml(template)
+      @company_rows = CSV.read(csv_location, headers: true)
+      @output = ''
       @line_break = "\n"
-      @header = '<ASCII-MAC>
-<Version:12><FeatureSet:InDesign-Roman><ColorTable:=<Black:COLOR:CMYK:Process:0,0,0,1><Pro Black:COLOR:CMYK:Process:0.6,0.4,0.4,1>>
-<DefineKinsokuStyle:Word\_Kinsoku=>
-<DefineCharStyle:Book ital=<Nextstyle:Book ital><KeyboardShortcut:Cmd\+Num 2><cTypeface:Book Italic>>
-<DefineParaStyle:New\_BG-CoName=<Nextstyle:New\_BG-CoName><KeyboardShortcut:Shift\+Num 1><cTypeface:77 Bold Condensed><cSize:14.000000><cTracking:10><cLeading:13.000000><pHyphenation:0><pSpaceBefore:10.799999><cFont:Helvetica Neue LT Std><pDesiredWordSpace:0.850000><pMaxWordSpace:1.000000><pDesiredLetterspace:-0.050000><pMinLetterspace:-0.050000><cColorTint:100.000000><pRuleAboveColor:Black><pRuleAboveStroke:0.500000><pRuleAboveTint:75.000000><pRuleAboveOffset:15.840000><pRuleAboveOn:1><pRuleAboveGapColor:None><pRuleBelowGapColor:None><pDropCapDetail:LeftGlyphEdge><cUnderlineGapColor:None><cStrikeThroughGapColor:None><pShadingColor:Pro Black><pWarichuAlignment:Left><bnColor:None><numFont:\<TextFont\>><rUseOTProGlyph:1><cRubyEdgeSpace:1>>
-<DefineParaStyle:New\_BG-CoNameNoLine=<BasedOn:New\_BG-CoName><Nextstyle:New\_BG-CoNameNoLine><KeyboardShortcut:Shift\+Num 2><cTypeface:77 Bold Condensed><cSize:14.000000><cFont:Helvetica Neue LT Std><pRuleAboveOn:0>>
-<DefineParaStyle:New\_BG-Body Text=<Nextstyle:New\_BG-Body Text><cTypeface:67 Medium Condensed><cSize:11.000000><cAutoPairKern:Optical><cTracking:-5><cLeading:13.000000><pHyphenation:0><cFont:Helvetica Neue LT Std><pDesiredWordSpace:0.950000><pMaxWordSpace:1.000000><pMinWordSpace:0.500000><pDesiredLetterspace:-0.100000><pMinLetterspace:-0.150000><pRuleAboveGapColor:None><pRuleBelowGapColor:None><pDropCapDetail:LeftGlyphEdge><cUnderlineGapColor:None><cStrikeThroughGapColor:None><pShadingColor:Pro Black><pWarichuAlignment:Left><bnColor:None><numFont:\<TextFont\>><rUseOTProGlyph:1><cRubyEdgeSpace:1>>
-<DefineParaStyle:NormalParagraphStyle=<Nextstyle:NormalParagraphStyle><cFont:Times><pRuleAboveGapColor:None><pRuleBelowGapColor:None><cUnderlineGapColor:None><cStrikeThroughGapColor:None><pWarichuAlignment:Left><bnColor:None><numFont:\<TextFont\>><rUseOTProGlyph:1><cRubyEdgeSpace:1>>
-<DefineParaStyle:New\_SeeOurAd=<BasedOn:NormalParagraphStyle><Nextstyle:New\_SeeOurAd><cTypeface:77 Bold Condensed><cSize:6.500000><cLeading:9.000000><pTabRuler:3\,Right\,.\,0\,\;><cFont:Helvetica Neue LT Std>>' + "\n"
     end
 
     def generate_text
       companies_loop
-      file = File.open(File.join(Dir.pwd, output_dir, "CompaniesTT.txt"),"w")
-      file << @header
-      file << @output
-      file.close
+      write_output_to_file
     end
 
-    def col_name(property)
-      template['csv_headers']['companies'][property]
+    private
+
+    def write_output_to_file
+      FileUtils.mkdir_p output_dir unless Dir.exist? output_dir
+      file = File.open(File.join(output_dir, 'CompaniesTT.txt'), 'w')
+      file << tags[:header]
+      file << @output
+      file.close
     end
 
     def format_phone(number, country)
@@ -63,14 +51,12 @@ module EFA
       return pn_string if pn_string.blank?
       return pn_string if vanity_number(pn_string)
 
-      if ( country == 'United States' || country == 'Canada' || country.to_s.length < 1 )
-        if (pn_string.initial != '1')
-          pn_string = pn_string.prepend("+1")
-        end
+      if (country == 'United States' || country == 'Canada' || country.to_s.length < 1)
+        pn_string = pn_string.prepend('+1') if (pn_string.initial != '1')
 
-        if ( Phoner::Phone.valid? pn_string )
-          pn = Phoner::Phone.parse(pn_string, :country_code => '1')
-          pn_formatted = pn.format("(%a) %f-%l %x")
+        if (Phoner::Phone.valid? pn_string)
+          pn = Phoner::Phone.parse(pn_string, country_code: '1')
+          pn_formatted = pn.format('(%a) %f-%l %x')
           return pn_formatted.strip
         else
           return pn_string
@@ -90,56 +76,80 @@ module EFA
       number.count('a-zA-Z') > 0
     end
 
-    #OPTIONS FOR HEADERS {street: '', street2: '', city: '', state: '', zip: '', co: ''}
-    def address(item, headers)
+    def address(item)
+      city = item[city_field] || ''
+      state = item[state_field] || ''
 
-      street = item[headers[:street]] ? @styles[:body] + item[headers[:street]] + @line_break : ''
-      street2 = item[headers[:street2]] ? @styles[:body] + item[headers[:street2]] + @line_break : ''
-      city = item[headers[:city]] || ''
-      state = item[headers[:state]] || ''
-      zip = item[headers[:zip]] || ''
-      co = item[headers[:co]] || ''
-
-
-      return @styles[:body] + city + ', ' + state + @line_break
-
+      return tags[:body] + city + ', ' + state + line_break
     end
 
     # {primary: '', tollfree: '', co: ''}
     def phone(item, headers)
-      primary = item[headers[:primary]] ? format_phone(item[headers[:primary]], item[headers[:co]]) : ''
-      tollfree_num = item[headers[:tollfree]] ? format_phone(item[headers[:tollfree]], item[headers[:co]]) : ''
-      spacer = (!primary.blank? && !tollfree_num.blank?) ? ', ': ''
-      return @styles[:body] + tollfree_num + spacer + primary + @line_break
+      primary = item[headers[:primary]] ? format_phone(item[headers[:primary]], nil) : ''
+      tollfree_num = item[headers[:tollfree]] ? format_phone(item[headers[:tollfree]], nil) : ''
+      spacer = (!primary.blank? && !tollfree_num.blank?) ? ', ' : ''
+      return tags[:body] + tollfree_num + spacer + primary + line_break
     end
 
     def companies_loop
-      companies = @data
-      companies.each do |c|
+      company_rows.each do |c|
         #name
-        output << @styles[:co_name] + c['Company_Name'] + @line_break
+        output << tags[:company_name] + c[name_field] + line_break
 
         #address
-        if c['City']
-          output << address(c, {:street=>'Address', :street2=>'Address2', :city=>'City', :state=>'State', :zip=>'Postal_Code', :co=>'Country'})
-        end
+        output << address(c) if c[city_field]
 
         # Phone 1 800 | alt number
-        if c['Phone'] || c['Toll_Free_Phone']
-          output << phone(c, {:primary=>'Phone', :tollfree=>'Toll_Free_Phone', :co=>'Country'})
-        end
+        output << phone(c, { primary: phone_field, tollfree: tollfree_field }) if c[phone_field] || c[tollfree_field]
 
         # email
-        email = c['Email'] ? @styles[:body] + c['Email'] + @line_break : ''
-        output << email
+        output << tags[:body] + c[email_field] + line_break if c[email_field]
 
-        #website
-        website = c['URL'] ? c['URL'] : ''
-        website_formatted = website.sub(/^https?\:\/\//, '')
-        unless website.blank?
-          output << @styles[:body] + website_formatted + @line_break
-        end
+        # website
+        website = c[url_field] || ''
+        website_formatted = website.sub(%r{^https?\:\/\/}, '').sub(/www./, '')
+        output << tags[:body] + website_formatted + line_break unless website.blank?
       end
+    end
+
+    def url_field
+      csv_headers[:url]
+    end
+
+    def city_field
+      csv_headers[:city]
+    end
+
+    def state_field
+      csv_headers[:state]
+    end
+
+    def name_field
+      csv_headers[:name]
+    end
+
+    def phone_field
+      csv_headers[:phone]
+    end
+
+    def tollfree_field
+      csv_headers[:tollfree]
+    end
+
+    def email_field
+      csv_headers[:email]
+    end
+
+    def set_headers_from_yml(template)
+      template[:csv_files][:Companies][:csv_headers]
+    end
+
+    def set_tags_from_yml(template)
+      find_defs(template)[:tags]
+    end
+
+    def find_defs(template)
+      template[:tagged_text_files][:CompaniesTT]
     end
   end
 end

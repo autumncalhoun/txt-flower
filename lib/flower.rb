@@ -7,7 +7,11 @@ class Flower
   attr_accessor :file_name
   attr_accessor :type
 
-  def initialize(file_name = '', debug = false, csv_path = './sample_data/company-sample.csv')
+  def initialize(
+    file_name = '',
+    debug = false,
+    csv_path = './sample_data/company-sample.csv'
+  )
     @debug = debug
     @line_break = "\n"
     tagged_text_type(file_name)
@@ -45,7 +49,7 @@ class Flower
   def create_dir
     year = Time.now.year
     directory_name = "tagged_text/#{self.class.name}/#{year}"
-    FileUtils::mkdir_p directory_name unless Dir.exist?(directory_name)
+    FileUtils.mkdir_p directory_name unless Dir.exist?(directory_name)
     directory_name
   end
 
@@ -55,7 +59,7 @@ class Flower
 
   def write_text
     directory_name = create_dir
-    output = File.open("#{directory_name}/#{file_name}",'w')
+    output = File.open("#{directory_name}/#{file_name}", 'w')
     output << @output
     output.close
   end

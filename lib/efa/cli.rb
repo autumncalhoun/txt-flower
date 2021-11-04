@@ -7,16 +7,18 @@ require_relative './companies_generator.rb'
 def prompt_start(flower_company)
   prompt = TTY::Prompt.new
   print "Starting tagged text wizard for #{flower_company}..."
-  prompt.keypress("Press any key to continue, starts automatically in :countdown ...", timeout: 30)
+  prompt.keypress('Press any key to continue, starts automatically in :countdown ...', timeout: 30)
   system 'clear'
 end
 
 def print_csv_requirements(flower_company, template)
   prompt = TTY::Prompt.new
-  csv_files = template['csv_files']
-  text_files = template['tagged_text_files']
+  csv_files = template['csv_files'].keys
+  text_files = template['tagged_text_files'].keys
 
-  prompt.say("#{flower_company} requires (#{csv_files.count}) CSV files and generates (#{text_files.count}) tagged text files.\n\n")
+  prompt.say(
+    "#{flower_company} requires (#{csv_files.count}) CSV files and generates (#{text_files.count}) tagged text files.\n\n",
+  )
   prompt.say('Required CSV files:')
   csv_files.each { |file_name| prompt.say("- #{file_name}.csv", color: :cyan) }
   print "\n"
@@ -25,27 +27,25 @@ end
 def prompt_csv_dir(flower_company)
   prompt = TTY::Prompt.new
   current_year = Date.today.year
-  prompt.ask('Where are the source CSV files?',
-             default: "~/src/tagged_text/#{flower_company.downcase}/#{current_year}",
-             convert: :filepath)
+  prompt.ask(
+    'Where are the source CSV files?',
+    default: "~/src/tagged_text/#{flower_company.downcase}/#{current_year}",
+    convert: :filepath,
+  )
 end
 
 def validate_csvs(location, template)
   valid = []
-  csv_files = template['csv_files']
-  csv_files.each do |file_name|
-    valid.push(validate_csv("#{location}/#{file_name}.csv", file_name, template))
-  end
+  csv_files = template['csv_files'].keys
+  csv_files.each { |file_name| valid.push(validate_csv("#{location}/#{file_name}.csv", file_name, template)) }
   exit if valid.include?(false)
 end
 
 def validate_csv(location, filename, template)
   prompt = TTY::Prompt.new
-  template_headers = template['csv_headers'][filename.downcase].map{ |header| header[1] }
+  template_headers = template['csv_files'][filename]['csv_headers'].map { |header| header[1] }
   headers = CSV.read(location, headers: true).headers
-  template_headers.each do |header|
-    raise "Incorrect header: #{header} in #{location}" unless headers.include? header
-  end
+  template_headers.each { |header| raise "Incorrect header: #{header} in #{location}" unless headers.include? header }
 rescue => e
   prompt.error("❌ #{e}")
   false
@@ -56,27 +56,25 @@ end
 
 def prompt_text_files(template)
   prompt = TTY::Prompt.new
-  choices = template['tagged_text_files'].map{|file_meta| file_meta['name']  }
+  choices = template['tagged_text_files'].keys
   prompt.multi_select('Which files do you want to generate?', choices, min: 1)
 end
 
 def prompt_output_dir(flower_company)
   prompt = TTY::Prompt.new
   current_year = Date.today.year
-  prompt.ask('Where should the tagged text files go?',
-             default: "~/src/tagged_text/#{flower_company.downcase}/#{current_year}/test",
-             convert: :filepath)
+  prompt.ask(
+    'Where should the tagged text files go?',
+    default: "~/src/tagged_text/#{flower_company.downcase}/#{current_year}/test",
+    convert: :filepath,
+  )
 end
 
 def generate(csv_dir, output_dir, text_files)
   prompt = TTY::Prompt.new
   text_files.each do |file|
-
     if file == 'CompaniesTT'
-      EFA::CompaniesGenerator.new(
-        csv_location: "#{csv_dir}/Companies.csv",
-        output_dir: output_dir
-      ).generate_text
+      EFA::CompaniesGenerator.new(csv_location: "#{csv_dir}/Companies.csv", output_dir: output_dir).generate_text
     end
     prompt.ok("Generated #{file} in #{output_dir}")
   end
