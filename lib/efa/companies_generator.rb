@@ -42,7 +42,7 @@ module EFA
       FileUtils.mkdir_p output_dir unless Dir.exist? output_dir
       file = File.open(File.join(output_dir, 'CompaniesTT.txt'), 'w')
       file << tags[:header]
-      file << @output
+      file << output
       file.close
     end
 

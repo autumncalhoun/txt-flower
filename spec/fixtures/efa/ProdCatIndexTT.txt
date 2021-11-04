@@ -1,0 +1,149 @@
+<ASCII-MAC>
+<vsn:17><fset:InDesign-Roman><ctable:=<Paper:COLOR:CMYK:Process:0,0,0,0><Maize:COLOR:CMYK:Process:0.03799999877810478,0.22280000150203705,0.7511000037193298,0><Black:COLOR:CMYK:Process:0,0,0,1>>
+<dps:PL-Head1=<Nextstyle:PL-Head1><cc:Paper><ct:Black><cs:11.000000><ctk:70><ccase:All Caps><pli:2.000000><cl:13.000000><psb:10.799999><psa:1.440000><cf:Lato><pdws:0.850000><pmaws:1.000000><pdl:-0.050000><pminl:-0.050000><prac:Burnt Orange><pras:16.000000><prat:100.000000><prao:-3.600000><praon:1><pshadc:Pro Black><pshadt:-1.000000><pgapc:None><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4>>
+<dps:Services-Head1=<BasedOn:PL-Head1><Nextstyle:Services-Head1><psb:13.500000><prac:Maize>>
+<dps:PL-Body Text=<Nextstyle:PL-Body Text><ct:Middle><cs:11.000000><capk:Optical><ctk:20><pli:9.000000><pfli:-9.000000><cl:13.000000><ph:0><cf:Bebas Neue Pro><pdws:0.950000><pmaws:1.000000><pmiws:0.500000><pdl:-0.100000><pminl:-0.150000><pshadc:Pro Black><pshadt:-1.000000><pgapc:None><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4>>
+<dps:Services-Head1-2 lines=<BasedOn:Services-Head1><Nextstyle:Services-Head1-2 lines><ctk:90><pras:28.000000><prao:-15.840000><pragc:None><prbgc:None><pdcdetail:><cugc:None><cstrikegc:None><pwa:Left><ruotpg:0><cres:0>>
+<pstyle:Services-Head1>Architects/Designers
+<pstyle:PL-Body Text>Architects	
+<pstyle:PL-Body Text>Environmental Graphic Design	
+<pstyle:PL-Body Text>Foodservice Planning/Design	
+<pstyle:PL-Body Text>Interior Architecture	
+<pstyle:PL-Body Text>Interior Designers	
+<pstyle:PL-Body Text>Landscape Architects	
+<pstyle:PL-Body Text>Project Management	
+<pstyle:Services-Head1>Construction/Engineering
+<pstyle:PL-Body Text>Construction Managers	
+<pstyle:PL-Body Text>Design-Build	
+<pstyle:PL-Body Text>Engineering Firms/Services	
+<pstyle:PL-Body Text>Mechanical/Electrical Engineers	
+<pstyle:Services-Head1>Consultants
+<pstyle:PL-Body Text>Art Consultants	
+<pstyle:PL-Body Text>Consultants	
+<pstyle:PL-Body Text>Facility Consulting	
+<pstyle:PL-Body Text>Furniture, Fixture, and Equipment (FF&E) Procurement	
+<pstyle:PL-Body Text>Installation, Interior Furnishings & Equipment	
+<pstyle:PL-Body Text>Relocation Services	
+<pstyle:PL-Body Text>Technology Consulting/Planning/Design	
+<pstyle:PL-Body Text>Warehousing and Transportation	
+<pstyle:PL-Body Text>Wayfinding & Signage Consultants	
+<pstyle:Services-Head1>Appliances
+<pstyle:PL-Body Text>Kitchen Appliances	
+<pstyle:Services-Head1>Art/Accessories
+<pstyle:PL-Body Text>Art	
+<pstyle:PL-Body Text>Decorative Glass	
+<pstyle:PL-Body Text>Decorative Graphics	
+<pstyle:PL-Body Text>Donor Recognition Design	
+<pstyle:PL-Body Text>Memory Boxes	
+<pstyle:PL-Body Text>Mirrors	
+<pstyle:PL-Body Text>Photography	
+<pstyle:PL-Body Text>Planters	
+<pstyle:PL-Body Text>Wall Décor	
+<pstyle:Services-Head1>Bath/Restroom
+<pstyle:PL-Body Text>ADA-Compliance Products	
+<pstyle:PL-Body Text>Bathing Systems	
+<pstyle:PL-Body Text>Bathroom Safety Products	
+<pstyle:PL-Body Text>Plumbing Fixtures	
+<pstyle:PL-Body Text>Restroom Accessories	
+<pstyle:PL-Body Text>Shower Seats	
+<pstyle:PL-Body Text>Shower Systems and Equipment	
+<pstyle:PL-Body Text>Shower Equipment & Supplies	
+<pstyle:PL-Body Text>Shower Systems and Equipment	
+<pstyle:PL-Body Text>Sinks	
+<pstyle:Services-Head1>Building Products
+<pstyle:PL-Body Text>Architectural Millwork	
+<pstyle:PL-Body Text>Ceiling/Wall Systems	
+<pstyle:PL-Body Text>Door Hardware and Controls	
+<pstyle:PL-Body Text>Doors	
+<pstyle:PL-Body Text>Landscape Products	
+<pstyle:PL-Body Text>Locks	
+<pstyle:PL-Body Text>Wall Panel Systems	
+<pstyle:PL-Body Text>Windows	
+<pstyle:Services-Head1>Fabric/Textiles/Upholstery
+<pstyle:PL-Body Text>Curtain Tracks/Room Dividers	
+<pstyle:PL-Body Text>Fabrics	
+<pstyle:PL-Body Text>Fabrics, Antimicrobial	
+<pstyle:PL-Body Text>Fabrics, Green/Sustainable	
+<pstyle:PL-Body Text>Fabrics, Performance	
+<pstyle:PL-Body Text>Fabrics, Vinyl	
+<pstyle:Services-Head1>Flooring
+<pstyle:PL-Body Text>Carpet	
+<pstyle:PL-Body Text>Carpet Tile	
+<pstyle:PL-Body Text>Floor Coating, Slip-Resistant	
+<pstyle:PL-Body Text>Flooring	
+<pstyle:PL-Body Text>Flooring, Green/Sustainable	
+<pstyle:PL-Body Text>Flooring, Infection Control	
+<pstyle:PL-Body Text>Flooring, Resilient	
+<pstyle:PL-Body Text>Flooring Underlayment	
+<pstyle:Services-Head1>Furniture
+<pstyle:PL-Body Text>Beds, Electric	
+<pstyle:PL-Body Text>Cabinets and Casegoods	
+<pstyle:PL-Body Text>Dining Area Furniture	
+<pstyle:PL-Body Text>Indoor Furniture	
+<pstyle:PL-Body Text>Indoor-Outdoor Furniture	
+<pstyle:PL-Body Text>Lift Chairs	
+<pstyle:PL-Body Text>Outdoor Furniture	
+<pstyle:PL-Body Text>Recliners and Sleepers	
+<pstyle:PL-Body Text>Rockers	
+<pstyle:PL-Body Text>Seating, Bariatric	
+<pstyle:PL-Body Text>Seating, Public Areas	
+<pstyle:PL-Body Text>Seating, Resident Room	
+<pstyle:PL-Body Text>Seating, Staff	
+<pstyle:PL-Body Text>Storage Products	
+<pstyle:PL-Body Text>Tables	
+<pstyle:PL-Body Text>Workspaces and Desks	
+<pstyle:Services-Head1>Headwalls/Wall Mounts
+<pstyle:PL-Body Text>Headwall Systems	
+<pstyle:PL-Body Text>Medical Rail Systems	
+<pstyle:PL-Body Text>Mounts, Television	
+<pstyle:Services-Head1>Housekeeping/Maintenance
+<pstyle:PL-Body Text>Infection Control	
+<pstyle:Services-Head1>Lighting
+<pstyle:PL-Body Text>Decorative Lighting	
+<pstyle:PL-Body Text>Lamps	
+<pstyle:PL-Body Text>LED Lighting	
+<pstyle:PL-Body Text>Lighting Fixtures/Supplies	
+<pstyle:Services-Head1>Medical Equipment/Supplies
+<pstyle:PL-Body Text>Lifts	
+<pstyle:PL-Body Text>Lifts, Ceiling	
+<pstyle:PL-Body Text>Medical Equipment	
+<pstyle:Services-Head1>Physical Therapy/Rehab
+<pstyle:PL-Body Text>Physical Therapy Equipment	
+<pstyle:PL-Body Text>Therapy Pools	
+<pstyle:Services-Head1>Safety
+<pstyle:PL-Body Text>Fall Prevention/Protection	
+<pstyle:PL-Body Text>Grab Bars	
+<pstyle:PL-Body Text>Handrails	
+<pstyle:Services-Head1>Signage/Wayfinding
+<pstyle:PL-Body Text>Signage	
+<pstyle:PL-Body Text>Wayfinding	
+<pstyle:Services-Head1>Spa/Salon
+<pstyle:PL-Body Text>Salon Sinks	
+<pstyle:PL-Body Text>Tubs, Walk-In	
+<pstyle:Services-Head1>Surfaces
+<pstyle:PL-Body Text>Antimicrobial Products	
+<pstyle:PL-Body Text>Countertop Surfacing	
+<pstyle:PL-Body Text>Tile	
+<pstyle:PL-Body Text>Solid Surfacing Material	
+<pstyle:PL-Body Text>Surfaces	
+<pstyle:PL-Body Text>Surfaces, Green/Sustainable	
+<pstyle:PL-Body Text>Wall/Corner Protection	
+<pstyle:PL-Body Text>Wallcoverings	
+<pstyle:Services-Head1>Technology and Communications-Residents/Visitors
+<pstyle:PL-Body Text>Assistive Technology	
+<pstyle:PL-Body Text>Nurse Call Systems	
+<pstyle:PL-Body Text>Television Programming	
+<pstyle:PL-Body Text>Televisions/DVD Players	
+<pstyle:Services-Head1>Technology and Communications-Staff/Facilities
+<pstyle:PL-Body Text>Access Control Systems	
+<pstyle:PL-Body Text>Communications Equipment, Wireless	
+<pstyle:PL-Body Text>Emergency Response Systems	
+<pstyle:PL-Body Text>Security Systems & Products	
+<pstyle:PL-Body Text>Software	
+<pstyle:PL-Body Text>Workstations, Computer	
+<pstyle:PL-Body Text>Workstations, Wall-Mounted	
+<pstyle:Services-Head1>Training/Education
+<pstyle:PL-Body Text>Education	
+<pstyle:Services-Head1>Window Treatments
+<pstyle:PL-Body Text>Curtains/Drapes	
+<pstyle:PL-Body Text>Window Coverings	
