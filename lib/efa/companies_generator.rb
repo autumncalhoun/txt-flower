@@ -107,7 +107,7 @@ module EFA
 
         # website
         website = c[url_field] || ''
-        website_formatted = website.sub(%r{^https?\:\/\/}, '')
+        website_formatted = website.sub(%r{^https?\:\/\/}, '').sub(/www./, '')
         output << tags[:body] + website_formatted + line_break unless website.blank?
       end
     end

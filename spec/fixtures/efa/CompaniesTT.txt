@@ -12,104 +12,104 @@
 <pstyle:BG-Body Text>Alameda, VA
 <pstyle:BG-Body Text>(555) 333-1000
 <pstyle:BG-Body Text>keavy@1908furniture.com
-<pstyle:BG-Body Text>www.1908furniture.com
+<pstyle:BG-Body Text>1908furniture.com
 <pstyle:BG-CoNameNoLine>88/10 McLaura Cliffords Inc.
 <pstyle:BG-Body Text>Medford, MI
 <pstyle:BG-Body Text>(800) 555-5934, (616) 555-9382
 <pstyle:BG-Body Text>timothy@8810mclaura.com
-<pstyle:BG-Body Text>www.88/10mclaura.com
+<pstyle:BG-Body Text>88/10mclaura.com
 <pstyle:BG-CoNameNoLine>Advertising Schmadvertising
 <pstyle:BG-Body Text>Revere, SC
 <pstyle:BG-Body Text>(800) 555-5934
-<pstyle:BG-Body Text>www.advertisingschmadvertising.com
+<pstyle:BG-Body Text>advertisingschmadvertising.com
 <pstyle:BG-CoNameNoLine>Lord of the Advertise
 <pstyle:BG-Body Text>(866) 555-5934
 <pstyle:BG-Body Text>info@LordOfTheAdvertise.com
-<pstyle:BG-Body Text>www.LordOfTheAdvertise.com
+<pstyle:BG-Body Text>LordOfTheAdvertise.com
 <pstyle:BG-CoNameNoLine>Beyond the Sale Inc.
 <pstyle:BG-Body Text>Sheffield, MN
 <pstyle:BG-Body Text>(800) 555-5934
-<pstyle:BG-Body Text>www.beyondthesale.com
+<pstyle:BG-Body Text>beyondthesale.com
 <pstyle:BG-CoNameNoLine>Ad Egg Inc.
 <pstyle:BG-Body Text>Savannah, CA
 <pstyle:BG-Body Text>(555) 333-1000
-<pstyle:BG-Body Text>www.adegginc.com
+<pstyle:BG-Body Text>adegginc.com
 <pstyle:BG-CoNameNoLine>Revenues My French Inc.
 <pstyle:BG-Body Text>Coney Island, WI
 <pstyle:BG-Body Text>(555) 333-1000
-<pstyle:BG-Body Text>www.revenues-my-french.com
+<pstyle:BG-Body Text>revenues-my-french.com
 <pstyle:BG-CoNameNoLine>Cash on the Retail
 <pstyle:BG-Body Text>Saint Joseph, NJ
 <pstyle:BG-Body Text>(555) 333-1000
-<pstyle:BG-Body Text>www.cashontheretail.com
+<pstyle:BG-Body Text>cashontheretail.com
 <pstyle:BG-CoNameNoLine>Barking Ad
 <pstyle:BG-Body Text>Plains, MA
 <pstyle:BG-Body Text>(800) 555-5934
-<pstyle:BG-Body Text>www.barkingad.com
+<pstyle:BG-Body Text>barkingad.com
 <pstyle:BG-CoNameNoLine>Break the Revenues & More
 <pstyle:BG-Body Text>Lahaina, WI
 <pstyle:BG-Body Text>(555) 333-1000
-<pstyle:BG-Body Text>www.breaktherevenuesandmore.com
+<pstyle:BG-Body Text>breaktherevenuesandmore.com
 <pstyle:BG-CoNameNoLine>ENNOVATE - Flooring
 <pstyle:BG-Body Text>Rutherford, QC, Canada
 <pstyle:BG-Body Text>(800) 437-8743, (819) 555-0909
 <pstyle:BG-Body Text>flooring@american-ennovate.com
-<pstyle:BG-Body Text>www.ennovate.com/flooring
+<pstyle:BG-Body Text>ennovate.com/flooring
 <pstyle:BG-CoNameNoLine>Innovation X Corp.
 <pstyle:BG-Body Text>Bartow, ON, Canada
 <pstyle:BG-Body Text>(555) 333-1000
-<pstyle:BG-Body Text>www.innovationxcorp.com
+<pstyle:BG-Body Text>innovationxcorp.com
 <pstyle:BG-CoNameNoLine>There's No Such Thing as Ad Publicity
 <pstyle:BG-Body Text>North Haven, MO
 <pstyle:BG-Body Text>(800) 555-5934
-<pstyle:BG-Body Text>www.theresnosuchthingasadpublicity.com
+<pstyle:BG-Body Text>theresnosuchthingasadpublicity.com
 <pstyle:BG-CoNameNoLine>ALELLO Systems
 <pstyle:BG-Body Text>Nyack, GA
 <pstyle:BG-Body Text>877555ALEL
-<pstyle:BG-Body Text>www.alello.com
+<pstyle:BG-Body Text>alello.com
 <pstyle:BG-CoNameNoLine>Space Shuttle Corp.
 <pstyle:BG-Body Text>Harwich, WI
 <pstyle:BG-Body Text>(555) 333-1000
 <pstyle:BG-Body Text>sales@spaceshuttlecorp.com 
-<pstyle:BG-Body Text>www.spaceshuttlecorp.com
+<pstyle:BG-Body Text>spaceshuttlecorp.com
 <pstyle:BG-CoNameNoLine>Engineering-Schmengineering
 <pstyle:BG-Body Text>New Braunfels, NY
 <pstyle:BG-Body Text>(800) 555-5934, (845) 555-9999
 <pstyle:BG-Body Text>inquire@eng-schmeng.com
-<pstyle:BG-Body Text>www.eng-schmeng.com
+<pstyle:BG-Body Text>eng-schmeng.com
 <pstyle:BG-CoNameNoLine>HUMBLE Corp
 <pstyle:BG-Body Text>Neillsville, WI
 <pstyle:BG-Body Text>(555) 333-1000
-<pstyle:BG-Body Text>www.humblecorp.net
+<pstyle:BG-Body Text>humblecorp.net
 <pstyle:BG-CoNameNoLine>Jolie, Randall And Clifford, Associates
 <pstyle:BG-Body Text>Corona, MO
 <pstyle:BG-Body Text>(555) 333-1000
-<pstyle:BG-Body Text>www.jol-ran-cliff.com
+<pstyle:BG-Body Text>jol-ran-cliff.com
 <pstyle:BG-CoNameNoLine>McTommy Gobbles Inc.
 <pstyle:BG-Body Text>Herkimer, WI
 <pstyle:BG-Body Text>(555) 333-1000
 <pstyle:BG-Body Text>info@mctommygobbles.com
-<pstyle:BG-Body Text>www.mctommygobbles.com
+<pstyle:BG-Body Text>mctommygobbles.com
 <pstyle:BG-CoNameNoLine>Humble, Platt And Gobble, Associates
 <pstyle:BG-Body Text>Franklin, VA
 <pstyle:BG-Body Text>(555) 333-1000
 <pstyle:BG-Body Text>marketing@hpaga.com
-<pstyle:BG-Body Text>www.hpaga.com
+<pstyle:BG-Body Text>hpaga.com
 <pstyle:BG-CoNameNoLine>Builders International
 <pstyle:BG-Body Text>Northbrook, IL
 <pstyle:BG-Body Text>(800) 555-5934
 <pstyle:BG-Body Text>builders@builders-int.com
-<pstyle:BG-Body Text>www.builders-int.com
+<pstyle:BG-Body Text>builders-int.com
 <pstyle:BG-CoNameNoLine>Decorate Unpleasantness
 <pstyle:BG-Body Text>Milledgeville, AZ
 <pstyle:BG-Body Text>(555) 333-1000
 <pstyle:BG-Body Text>info@decorateupleasantness.com
-<pstyle:BG-Body Text>www.decorateupleasantness.com
+<pstyle:BG-Body Text>decorateupleasantness.com
 <pstyle:BG-CoNameNoLine>Fifth Decorate
 <pstyle:BG-Body Text>Canyon, AR
 <pstyle:BG-Body Text>(800) 555-5934
-<pstyle:BG-Body Text>www.fifthdecorate.com
+<pstyle:BG-Body Text>fifthdecorate.com
 <pstyle:BG-CoNameNoLine>Sight For Sore Advise
 <pstyle:BG-Body Text>Gretna, IN
 <pstyle:BG-Body Text>(555) 333-1000
-<pstyle:BG-Body Text>www.sightforsoreadvise.com
+<pstyle:BG-Body Text>sightforsoreadvise.com
