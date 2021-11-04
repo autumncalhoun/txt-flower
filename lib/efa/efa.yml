@@ -8,14 +8,18 @@ csv_files:
       tollfree: Toll_Free_Phone
       email: Email
       url: URL
-  Company_Category:
+  Company_Category_Products:
+    csv_headers:
+      company_name: CompanyName
+      category: CategoryName
+      parent_category: CategoryPath
+  Company_Category_Services:
     csv_headers:
       company_name: CompanyName
       category: CategoryName
       parent_category: CategoryPath
 tagged_text_files:
   CompaniesTT:
-    generator: Companies
     tags:
       header: |+
         <ASCII-MAC>
@@ -28,10 +32,9 @@ tagged_text_files:
         <dps:New\_SeeOurAd=<BasedOn:NormalParagraphStyle><Nextstyle:New\_SeeOurAd><ct:Bold><cs:9.000000><cl:11.000000><ptr:3\,Right\,.\,0\,\;><cf:Bebas Neue Pro>>
         <dps:PhotoCredit=<Nextstyle:PhotoCredit><ct:Regular ><cs:6.000000><ctk:10><ccase:All Caps><phll:0><palp:1.000000><cl:6.000000><cf:Bebas Neue Pro><pmaws:2.000000><pmiws:0.500000><pmaxl:0.250000><pkfnl:1><pknl:1><prac:Black><prat:100.000000><prbc:Black><prbt:100.000000><pswa:Left><pragc:None><prbgc:None><pdcdetail:><cugc:None><cstrikegc:None><pshadc:EFA\_Dark Brown><pshadt:-1.000000><pwa:Left><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4><ruotpg:0><cres:0>>
         <dps:BG-Co Description=<BasedOn:BG-Body Text><Nextstyle:BG-Co Description><ct:Book><cs:9.000000><cl:10.000000><psb:4.500000><cf:Acta><cotfcalt:0>>
-      company_name: <pstyle:BG-CoNameNoLine>
+      company_name: <pstyle:BG-CoName>
       body: <pstyle:BG-Body Text>
-  ProdCatIndexTT:
-    generator:
+  ProdCatIndexTT_Services:
     tags:
       header: |+
         <ASCII-MAC>
@@ -42,8 +45,29 @@ tagged_text_files:
         <dps:Services-Head1-2 lines=<BasedOn:Services-Head1><Nextstyle:Services-Head1-2 lines><ctk:90><pras:28.000000><prao:-15.840000><pragc:None><prbgc:None><pdcdetail:><cugc:None><cstrikegc:None><pwa:Left><ruotpg:0><cres:0>>
       category: <pstyle:Services-Head1>
       product: <pstyle:PL-Body Text>
-  ProdCatListTT:
-    generator:
+  ProdCatIndexTT_Products:
+    tags:
+      header: |+
+        <ASCII-MAC>
+        <vsn:17><fset:InDesign-Roman><ctable:=<Paper:COLOR:CMYK:Process:0,0,0,0><Maize:COLOR:CMYK:Process:0.03799999877810478,0.22280000150203705,0.7511000037193298,0><Black:COLOR:CMYK:Process:0,0,0,1>>
+        <dps:PL-Head1=<Nextstyle:PL-Head1><cc:Paper><ct:Black><cs:11.000000><ctk:70><ccase:All Caps><pli:2.000000><cl:13.000000><psb:10.799999><psa:1.440000><cf:Lato><pdws:0.850000><pmaws:1.000000><pdl:-0.050000><pminl:-0.050000><prac:Burnt Orange><pras:16.000000><prat:100.000000><prao:-3.600000><praon:1><pshadc:Pro Black><pshadt:-1.000000><pgapc:None><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4>>
+        <dps:Services-Head1=<BasedOn:PL-Head1><Nextstyle:Services-Head1><psb:13.500000><prac:Maize>>
+        <dps:PL-Body Text=<Nextstyle:PL-Body Text><ct:Middle><cs:11.000000><capk:Optical><ctk:20><pli:9.000000><pfli:-9.000000><cl:13.000000><ph:0><cf:Bebas Neue Pro><pdws:0.950000><pmaws:1.000000><pmiws:0.500000><pdl:-0.100000><pminl:-0.150000><pshadc:Pro Black><pshadt:-1.000000><pgapc:None><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4>>
+        <dps:Services-Head1-2 lines=<BasedOn:Services-Head1><Nextstyle:Services-Head1-2 lines><ctk:90><pras:28.000000><prao:-15.840000><pragc:None><prbgc:None><pdcdetail:><cugc:None><cstrikegc:None><pwa:Left><ruotpg:0><cres:0>>
+      category: <pstyle:PL-Head1>
+      product: <pstyle:PL-Body Text>
+  ProdCatListTT_Services:
+    tags:
+      header: |+
+        <ASCII-MAC>
+        <vsn:17><fset:InDesign-Roman><ctable:=<Paper:COLOR:CMYK:Process:0,0,0,0><Burnt Orange:COLOR:CMYK:Process:0.06949999928474426,0.8711999654769897,1,0.00969999935477972><Black:COLOR:CMYK:Process:0,0,0,1>>
+        <dps:PL-Head1=<Nextstyle:PL-Head1><cc:Paper><ct:Black><cs:11.000000><ctk:70><ccase:All Caps><pli:2.000000><cl:13.000000><psb:10.799999><psa:1.440000><cf:Lato><pdws:0.850000><pmaws:1.000000><pdl:-0.050000><pminl:-0.050000><prac:Burnt Orange><pras:16.000000><prat:100.000000><prao:-3.600000><praon:1><pshadc:Pro Black><pshadt:-1.000000><pgapc:None><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4>>
+        <dps:PL-Body Text=<Nextstyle:PL-Body Text><ct:Middle><cs:11.000000><capk:Optical><ctk:20><pli:9.000000><pfli:-9.000000><cl:13.000000><ph:0><cf:Bebas Neue Pro><pdws:0.950000><pmaws:1.000000><pmiws:0.500000><pdl:-0.100000><pminl:-0.150000><pshadc:Pro Black><pshadt:-1.000000><pgapc:None><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4>>
+        <dps:PL-Head2=<BasedOn:PL-Body Text><Nextstyle:PL-Head2><ct:Bold><cs:12.000000><psb:9.000000><psa:3.600000><prac:Burnt Orange><pras:15.000000><prat:20.000000><prao:-3.600000><praon:1>>
+      head: <pstyle:Services-Head1>
+      head2: <pstyle:Services-Head2>
+      company: <pstyle:PL-Body Text>
+  ProdCatListTT_Products:
     tags:
       header: |+
         <ASCII-MAC>

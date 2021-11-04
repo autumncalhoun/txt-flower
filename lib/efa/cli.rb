@@ -76,19 +76,50 @@ def generate(csv_dir, output_dir, text_files)
   prompt = TTY::Prompt.new
   text_files.each do |file|
     # TODO: make this dynamic based on yml entry for generator?
-    if file == 'CompaniesTT'
-      EFA::CompaniesGenerator.new(csv_location: "#{csv_dir}/Companies.csv", output_dir: output_dir).generate_text
+
+    case file
+    when 'CompaniesTT'
+      csv = 'Companies'
+      EFA::CompaniesGenerator.new(
+        csv_location: csv_dir,
+        csv_file_name: csv,
+        output_location: output_dir,
+        tagged_text_file_name: file,
+      ).generate_text
+    when 'ProdCatListTT_Services'
+      csv = 'Company_Category_Services'
+      EFA::ProductCategoryListGenerator.new(
+        csv_location: csv_dir,
+        csv_file_name: csv,
+        output_location: output_dir,
+        tagged_text_file_name: file,
+      ).generate_text
+    when 'ProdCatListTT_Products'
+      csv = 'Company_Category_Products'
+      EFA::ProductCategoryListGenerator.new(
+        csv_location: csv_dir,
+        csv_file_name: csv,
+        output_location: output_dir,
+        tagged_text_file_name: file,
+      ).generate_text
+    when 'ProdCatIndexTT_Services'
+      csv = 'Company_Category_Services'
+      EFA::ProductCategoryIndexGenerator.new(
+        csv_location: csv_dir,
+        csv_file_name: csv,
+        output_location: output_dir,
+        tagged_text_file_name: file,
+      ).generate_text
+    when 'ProdCatIndexTT_Products'
+      csv = 'Company_Category_Products'
+      EFA::ProductCategoryIndexGenerator.new(
+        csv_location: csv_dir,
+        csv_file_name: csv,
+        output_location: output_dir,
+        tagged_text_file_name: file,
+      ).generate_text
     end
 
-    if file == 'ProdCatListTT'
-      EFA::ProductCategoryListGenerator.new(csv_location: "#{csv_dir}/Company_Category.csv", output_dir: output_dir)
-        .generate_text
-    end
-
-    if file == 'ProdCatIndexTT'
-      EFA::ProductCategoryIndexGenerator.new(csv_location: "#{csv_dir}/Company_Category.csv", output_dir: output_dir)
-        .generate_text
-    end
     prompt.ok("Generated #{file} in #{output_dir}")
   end
 end
