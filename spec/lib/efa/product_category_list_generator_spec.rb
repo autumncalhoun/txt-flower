@@ -1,13 +1,13 @@
 require 'fileutils'
-require './lib/efa/companies_generator'
+require './lib/efa/product_category_list_generator.rb'
 
-describe EFA::CompaniesGenerator do
+describe EFA::ProductCategoryListGenerator do
   describe '#generate_output' do
-    let(:file_name) { 'CompaniesTT.txt' }
+    let(:file_name) { 'ProdCatListTT.txt' }
     let(:company) { 'efa' }
     let(:generator) do
-      EFA::CompaniesGenerator.new(
-        csv_location: "spec/fixtures/#{company}/Companies.csv",
+      EFA::ProductCategoryListGenerator.new(
+        csv_location: "spec/fixtures/#{company}/Company_Category.csv",
         output_dir: "spec/tmp/#{company}",
       )
     end
