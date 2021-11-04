@@ -1,114 +1,115 @@
 <ASCII-MAC>
-<Version:12><FeatureSet:InDesign-Roman><ColorTable:=<Black:COLOR:CMYK:Process:0,0,0,1><Pro Black:COLOR:CMYK:Process:0.6,0.4,0.4,1>>
-<DefineKinsokuStyle:Word\_Kinsoku=>
-<DefineCharStyle:Book ital=<Nextstyle:Book ital><KeyboardShortcut:Cmd\+Num 2><cTypeface:Book Italic>>
-<DefineParaStyle:New\_BG-CoName=<Nextstyle:New\_BG-CoName><KeyboardShortcut:Shift\+Num 1><cTypeface:77 Bold Condensed><cSize:14.000000><cTracking:10><cLeading:13.000000><pHyphenation:0><pSpaceBefore:10.799999><cFont:Helvetica Neue LT Std><pDesiredWordSpace:0.850000><pMaxWordSpace:1.000000><pDesiredLetterspace:-0.050000><pMinLetterspace:-0.050000><cColorTint:100.000000><pRuleAboveColor:Black><pRuleAboveStroke:0.500000><pRuleAboveTint:75.000000><pRuleAboveOffset:15.840000><pRuleAboveOn:1><pRuleAboveGapColor:None><pRuleBelowGapColor:None><pDropCapDetail:LeftGlyphEdge><cUnderlineGapColor:None><cStrikeThroughGapColor:None><pShadingColor:Pro Black><pWarichuAlignment:Left><bnColor:None><numFont:\<TextFont\>><rUseOTProGlyph:1><cRubyEdgeSpace:1>>
-<DefineParaStyle:New\_BG-CoNameNoLine=<BasedOn:New\_BG-CoName><Nextstyle:New\_BG-CoNameNoLine><KeyboardShortcut:Shift\+Num 2><cTypeface:77 Bold Condensed><cSize:14.000000><cFont:Helvetica Neue LT Std><pRuleAboveOn:0>>
-<DefineParaStyle:New\_BG-Body Text=<Nextstyle:New\_BG-Body Text><cTypeface:67 Medium Condensed><cSize:11.000000><cAutoPairKern:Optical><cTracking:-5><cLeading:13.000000><pHyphenation:0><cFont:Helvetica Neue LT Std><pDesiredWordSpace:0.950000><pMaxWordSpace:1.000000><pMinWordSpace:0.500000><pDesiredLetterspace:-0.100000><pMinLetterspace:-0.150000><pRuleAboveGapColor:None><pRuleBelowGapColor:None><pDropCapDetail:LeftGlyphEdge><cUnderlineGapColor:None><cStrikeThroughGapColor:None><pShadingColor:Pro Black><pWarichuAlignment:Left><bnColor:None><numFont:\<TextFont\>><rUseOTProGlyph:1><cRubyEdgeSpace:1>>
-<DefineParaStyle:NormalParagraphStyle=<Nextstyle:NormalParagraphStyle><cFont:Times><pRuleAboveGapColor:None><pRuleBelowGapColor:None><cUnderlineGapColor:None><cStrikeThroughGapColor:None><pWarichuAlignment:Left><bnColor:None><numFont:\<TextFont\>><rUseOTProGlyph:1><cRubyEdgeSpace:1>>
-<DefineParaStyle:New\_SeeOurAd=<BasedOn:NormalParagraphStyle><Nextstyle:New\_SeeOurAd><cTypeface:77 Bold Condensed><cSize:6.500000><cLeading:9.000000><pTabRuler:3\,Right\,.\,0\,\;><cFont:Helvetica Neue LT Std>>
-<ParaStyle:New\_BG-CoName>1908 Furniture Co.
-<ParaStyle:New\_BG-Body Text>Alameda, VA
-<ParaStyle:New\_BG-Body Text>(555) 333-1000
-<ParaStyle:New\_BG-Body Text>keavy@1908furniture.com
-<ParaStyle:New\_BG-Body Text>www.1908furniture.com
-<ParaStyle:New\_BG-CoName>88/10 McLaura Cliffords Inc.
-<ParaStyle:New\_BG-Body Text>Medford, MI
-<ParaStyle:New\_BG-Body Text>(800) 555-5934, (616) 555-9382
-<ParaStyle:New\_BG-Body Text>timothy@8810mclaura.com
-<ParaStyle:New\_BG-Body Text>www.88/10mclaura.com
-<ParaStyle:New\_BG-CoName>Advertising Schmadvertising
-<ParaStyle:New\_BG-Body Text>Revere, SC
-<ParaStyle:New\_BG-Body Text>(800) 555-5934
-<ParaStyle:New\_BG-Body Text>www.advertisingschmadvertising.com
-<ParaStyle:New\_BG-CoName>Lord of the Advertise
-<ParaStyle:New\_BG-Body Text>(866) 555-5934
-<ParaStyle:New\_BG-Body Text>info@LordOfTheAdvertise.com
-<ParaStyle:New\_BG-Body Text>www.LordOfTheAdvertise.com
-<ParaStyle:New\_BG-CoName>Beyond the Sale Inc.
-<ParaStyle:New\_BG-Body Text>Sheffield, MN
-<ParaStyle:New\_BG-Body Text>(800) 555-5934
-<ParaStyle:New\_BG-Body Text>www.beyondthesale.com
-<ParaStyle:New\_BG-CoName>Ad Egg Inc.
-<ParaStyle:New\_BG-Body Text>Savannah, CA
-<ParaStyle:New\_BG-Body Text>(555) 333-1000
-<ParaStyle:New\_BG-Body Text>www.adegginc.com
-<ParaStyle:New\_BG-CoName>Revenues My French Inc.
-<ParaStyle:New\_BG-Body Text>Coney Island, WI
-<ParaStyle:New\_BG-Body Text>(555) 333-1000
-<ParaStyle:New\_BG-Body Text>www.revenues-my-french.com
-<ParaStyle:New\_BG-CoName>Cash on the Retail
-<ParaStyle:New\_BG-Body Text>Saint Joseph, NJ
-<ParaStyle:New\_BG-Body Text>(555) 333-1000
-<ParaStyle:New\_BG-Body Text>www.cashontheretail.com
-<ParaStyle:New\_BG-CoName>Barking Ad
-<ParaStyle:New\_BG-Body Text>Plains, MA
-<ParaStyle:New\_BG-Body Text>(800) 555-5934
-<ParaStyle:New\_BG-Body Text>www.barkingad.com
-<ParaStyle:New\_BG-CoName>Break the Revenues & More
-<ParaStyle:New\_BG-Body Text>Lahaina, WI
-<ParaStyle:New\_BG-Body Text>(555) 333-1000
-<ParaStyle:New\_BG-Body Text>www.breaktherevenuesandmore.com
-<ParaStyle:New\_BG-CoName>ENNOVATE - Flooring
-<ParaStyle:New\_BG-Body Text>Rutherford, QC, Canada
-<ParaStyle:New\_BG-Body Text>(800) 437-8743, (819) 555-0909
-<ParaStyle:New\_BG-Body Text>flooring@american-ennovate.com
-<ParaStyle:New\_BG-Body Text>www.ennovate.com/flooring
-<ParaStyle:New\_BG-CoName>Innovation X Corp.
-<ParaStyle:New\_BG-Body Text>Bartow, ON, Canada
-<ParaStyle:New\_BG-Body Text>(555) 333-1000
-<ParaStyle:New\_BG-Body Text>www.innovationxcorp.com
-<ParaStyle:New\_BG-CoName>There's No Such Thing as Ad Publicity
-<ParaStyle:New\_BG-Body Text>North Haven, MO
-<ParaStyle:New\_BG-Body Text>(800) 555-5934
-<ParaStyle:New\_BG-Body Text>www.theresnosuchthingasadpublicity.com
-<ParaStyle:New\_BG-CoName>ALELLO Systems
-<ParaStyle:New\_BG-Body Text>Nyack, GA
-<ParaStyle:New\_BG-Body Text>877555ALEL
-<ParaStyle:New\_BG-Body Text>www.alello.com
-<ParaStyle:New\_BG-CoName>Space Shuttle Corp.
-<ParaStyle:New\_BG-Body Text>Harwich, WI
-<ParaStyle:New\_BG-Body Text>(555) 333-1000
-<ParaStyle:New\_BG-Body Text>sales@spaceshuttlecorp.com 
-<ParaStyle:New\_BG-Body Text>www.spaceshuttlecorp.com
-<ParaStyle:New\_BG-CoName>Engineering-Schmengineering
-<ParaStyle:New\_BG-Body Text>New Braunfels, NY
-<ParaStyle:New\_BG-Body Text>(800) 555-5934, (845) 555-9999
-<ParaStyle:New\_BG-Body Text>inquire@eng-schmeng.com
-<ParaStyle:New\_BG-Body Text>www.eng-schmeng.com
-<ParaStyle:New\_BG-CoName>HUMBLE Corp
-<ParaStyle:New\_BG-Body Text>Neillsville, WI
-<ParaStyle:New\_BG-Body Text>(555) 333-1000
-<ParaStyle:New\_BG-Body Text>www.humblecorp.net
-<ParaStyle:New\_BG-CoName>Jolie, Randall And Clifford, Associates
-<ParaStyle:New\_BG-Body Text>Corona, MO
-<ParaStyle:New\_BG-Body Text>(555) 333-1000
-<ParaStyle:New\_BG-Body Text>www.jol-ran-cliff.com
-<ParaStyle:New\_BG-CoName>McTommy Gobbles Inc.
-<ParaStyle:New\_BG-Body Text>Herkimer, WI
-<ParaStyle:New\_BG-Body Text>(555) 333-1000
-<ParaStyle:New\_BG-Body Text>info@mctommygobbles.com
-<ParaStyle:New\_BG-Body Text>www.mctommygobbles.com
-<ParaStyle:New\_BG-CoName>Humble, Platt And Gobble, Associates
-<ParaStyle:New\_BG-Body Text>Franklin, VA
-<ParaStyle:New\_BG-Body Text>(555) 333-1000
-<ParaStyle:New\_BG-Body Text>marketing@hpaga.com
-<ParaStyle:New\_BG-Body Text>www.hpaga.com
-<ParaStyle:New\_BG-CoName>Builders International
-<ParaStyle:New\_BG-Body Text>Northbrook, IL
-<ParaStyle:New\_BG-Body Text>(800) 555-5934
-<ParaStyle:New\_BG-Body Text>builders@builders-int.com
-<ParaStyle:New\_BG-Body Text>www.builders-int.com
-<ParaStyle:New\_BG-CoName>Decorate Unpleasantness
-<ParaStyle:New\_BG-Body Text>Milledgeville, AZ
-<ParaStyle:New\_BG-Body Text>(555) 333-1000
-<ParaStyle:New\_BG-Body Text>info@decorateupleasantness.com
-<ParaStyle:New\_BG-Body Text>www.decorateupleasantness.com
-<ParaStyle:New\_BG-CoName>Fifth Decorate
-<ParaStyle:New\_BG-Body Text>Canyon, AR
-<ParaStyle:New\_BG-Body Text>(800) 555-5934
-<ParaStyle:New\_BG-Body Text>www.fifthdecorate.com
-<ParaStyle:New\_BG-CoName>Sight For Sore Advise
-<ParaStyle:New\_BG-Body Text>Gretna, IN
-<ParaStyle:New\_BG-Body Text>(555) 333-1000
-<ParaStyle:New\_BG-Body Text>www.sightforsoreadvise.com
+<vsn:17><fset:InDesign-Roman><ctable:=<Black:COLOR:CMYK:Process:0,0,0,1><Word\_R32\_G29\_B30:COLOR:RGB:Process:0.12549019607843137,0.11372549019607843,0.11764705882352941>>
+<dks:kHardKinsokuName=<bft:\!,\),\,,.,\:,\;,\?,\],\},<0x00A2>,<0x2014>,<0x2019>,<0x201D>,<0x2030>,<0x2103>,<0x2109>,<0x3001>,<0x3002>,<0x3005>,<0x3009>,<0x300B>,<0x300D>,<0x300F>,<0x3011>,<0x3015>,<0x301F>,<0x3041>,<0x3043>,<0x3045>,<0x3047>,<0x3049>,<0x3063>,<0x3083>,<0x3085>,<0x3087>,<0x308E>,<0x309B>,<0x309C>,<0x309D>,<0x309E>,<0x30A1>,<0x30A3>,<0x30A5>,<0x30A7>,<0x30A9>,<0x30C3>,<0x30E3>,<0x30E5>,<0x30E7>,<0x30EE>,<0x30F5>,<0x30F6>,<0x30FB>,<0x30FC>,<0x30FD>,<0x30FE>,<0xFF01>,<0xFF05>,<0xFF09>,<0xFF0C>,<0xFF0E>,<0xFF1A>,<0xFF1B>,<0xFF1F>,<0xFF3D>,<0xFF5D>><aft:\(,\[,\{,<0x00A3>,<0x00A7>,<0x2018>,<0x201C>,<0x3008>,<0x300A>,<0x300C>,<0x300E>,<0x3010>,<0x3012>,<0x3014>,<0x301D>,<0xFF03>,<0xFF04>,<0xFF08>,<0xFF20>,<0xFF3B>,<0xFF5B>,<0xFFE5>><htb:<0x3001>,<0x3002>,<0xFF0C>,<0xFF0E>><nspt:<0x2014>,<0x2025>,<0x2026>>>
+<dps:BG-CoName=<Nextstyle:BG-CoName><ct:Bold><cs:14.000000><ctk:10><cl:13.000000><ph:0><psb:10.799999><cf:Bebas Neue Pro><pdws:0.850000><pmaws:1.000000><pdl:-0.050000><pminl:-0.050000><cct:100.000000><prac:Black><pras:0.500000><prat:75.000000><prao:15.840000><praon:1><pshadc:Pro Black><pshadt:-1.000000><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4>>
+<dps:BG-CoNameNoLine=<BasedOn:BG-CoName><Nextstyle:BG-CoNameNoLine><KeyboardShortcut:Shift\+Num 2><praon:0>>
+<dps:BG-Body Text=<Nextstyle:BG-Body Text><ct:Regular ><cs:11.000000><capk:Optical><cl:13.000000><ph:0><cf:Bebas Neue Pro><pdws:0.950000><pmaws:1.000000><pmiws:0.500000><pdl:-0.100000><pminl:-0.150000><pshadc:Pro Black><pshadt:-1.000000><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4>>
+<dps:NormalParagraphStyle=<Nextstyle:NormalParagraphStyle><pdws:0.850000><pmaws:1.000000><pdl:-0.050000><pminl:-0.050000><pshadc:Pro Black><pshadt:-1.000000><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4>>
+<dps:New\_SeeOurAd=<BasedOn:NormalParagraphStyle><Nextstyle:New\_SeeOurAd><ct:Bold><cs:9.000000><cl:11.000000><ptr:3\,Right\,.\,0\,\;><cf:Bebas Neue Pro>>
+<dps:PhotoCredit=<Nextstyle:PhotoCredit><ct:Regular ><cs:6.000000><ctk:10><ccase:All Caps><phll:0><palp:1.000000><cl:6.000000><cf:Bebas Neue Pro><pmaws:2.000000><pmiws:0.500000><pmaxl:0.250000><pkfnl:1><pknl:1><prac:Black><prat:100.000000><prbc:Black><prbt:100.000000><pswa:Left><pragc:None><prbgc:None><pdcdetail:><cugc:None><cstrikegc:None><pshadc:EFA\_Dark Brown><pshadt:-1.000000><pwa:Left><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4><ruotpg:0><cres:0>>
+<dps:BG-Co Description=<BasedOn:BG-Body Text><Nextstyle:BG-Co Description><ct:Book><cs:9.000000><cl:10.000000><psb:4.500000><cf:Acta><cotfcalt:0>>
+<pstyle:BG-CoNameNoLine>1908 Furniture Co.
+<pstyle:BG-Body Text>Alameda, VA
+<pstyle:BG-Body Text>(555) 333-1000
+<pstyle:BG-Body Text>keavy@1908furniture.com
+<pstyle:BG-Body Text>www.1908furniture.com
+<pstyle:BG-CoNameNoLine>88/10 McLaura Cliffords Inc.
+<pstyle:BG-Body Text>Medford, MI
+<pstyle:BG-Body Text>(800) 555-5934, (616) 555-9382
+<pstyle:BG-Body Text>timothy@8810mclaura.com
+<pstyle:BG-Body Text>www.88/10mclaura.com
+<pstyle:BG-CoNameNoLine>Advertising Schmadvertising
+<pstyle:BG-Body Text>Revere, SC
+<pstyle:BG-Body Text>(800) 555-5934
+<pstyle:BG-Body Text>www.advertisingschmadvertising.com
+<pstyle:BG-CoNameNoLine>Lord of the Advertise
+<pstyle:BG-Body Text>(866) 555-5934
+<pstyle:BG-Body Text>info@LordOfTheAdvertise.com
+<pstyle:BG-Body Text>www.LordOfTheAdvertise.com
+<pstyle:BG-CoNameNoLine>Beyond the Sale Inc.
+<pstyle:BG-Body Text>Sheffield, MN
+<pstyle:BG-Body Text>(800) 555-5934
+<pstyle:BG-Body Text>www.beyondthesale.com
+<pstyle:BG-CoNameNoLine>Ad Egg Inc.
+<pstyle:BG-Body Text>Savannah, CA
+<pstyle:BG-Body Text>(555) 333-1000
+<pstyle:BG-Body Text>www.adegginc.com
+<pstyle:BG-CoNameNoLine>Revenues My French Inc.
+<pstyle:BG-Body Text>Coney Island, WI
+<pstyle:BG-Body Text>(555) 333-1000
+<pstyle:BG-Body Text>www.revenues-my-french.com
+<pstyle:BG-CoNameNoLine>Cash on the Retail
+<pstyle:BG-Body Text>Saint Joseph, NJ
+<pstyle:BG-Body Text>(555) 333-1000
+<pstyle:BG-Body Text>www.cashontheretail.com
+<pstyle:BG-CoNameNoLine>Barking Ad
+<pstyle:BG-Body Text>Plains, MA
+<pstyle:BG-Body Text>(800) 555-5934
+<pstyle:BG-Body Text>www.barkingad.com
+<pstyle:BG-CoNameNoLine>Break the Revenues & More
+<pstyle:BG-Body Text>Lahaina, WI
+<pstyle:BG-Body Text>(555) 333-1000
+<pstyle:BG-Body Text>www.breaktherevenuesandmore.com
+<pstyle:BG-CoNameNoLine>ENNOVATE - Flooring
+<pstyle:BG-Body Text>Rutherford, QC, Canada
+<pstyle:BG-Body Text>(800) 437-8743, (819) 555-0909
+<pstyle:BG-Body Text>flooring@american-ennovate.com
+<pstyle:BG-Body Text>www.ennovate.com/flooring
+<pstyle:BG-CoNameNoLine>Innovation X Corp.
+<pstyle:BG-Body Text>Bartow, ON, Canada
+<pstyle:BG-Body Text>(555) 333-1000
+<pstyle:BG-Body Text>www.innovationxcorp.com
+<pstyle:BG-CoNameNoLine>There's No Such Thing as Ad Publicity
+<pstyle:BG-Body Text>North Haven, MO
+<pstyle:BG-Body Text>(800) 555-5934
+<pstyle:BG-Body Text>www.theresnosuchthingasadpublicity.com
+<pstyle:BG-CoNameNoLine>ALELLO Systems
+<pstyle:BG-Body Text>Nyack, GA
+<pstyle:BG-Body Text>877555ALEL
+<pstyle:BG-Body Text>www.alello.com
+<pstyle:BG-CoNameNoLine>Space Shuttle Corp.
+<pstyle:BG-Body Text>Harwich, WI
+<pstyle:BG-Body Text>(555) 333-1000
+<pstyle:BG-Body Text>sales@spaceshuttlecorp.com 
+<pstyle:BG-Body Text>www.spaceshuttlecorp.com
+<pstyle:BG-CoNameNoLine>Engineering-Schmengineering
+<pstyle:BG-Body Text>New Braunfels, NY
+<pstyle:BG-Body Text>(800) 555-5934, (845) 555-9999
+<pstyle:BG-Body Text>inquire@eng-schmeng.com
+<pstyle:BG-Body Text>www.eng-schmeng.com
+<pstyle:BG-CoNameNoLine>HUMBLE Corp
+<pstyle:BG-Body Text>Neillsville, WI
+<pstyle:BG-Body Text>(555) 333-1000
+<pstyle:BG-Body Text>www.humblecorp.net
+<pstyle:BG-CoNameNoLine>Jolie, Randall And Clifford, Associates
+<pstyle:BG-Body Text>Corona, MO
+<pstyle:BG-Body Text>(555) 333-1000
+<pstyle:BG-Body Text>www.jol-ran-cliff.com
+<pstyle:BG-CoNameNoLine>McTommy Gobbles Inc.
+<pstyle:BG-Body Text>Herkimer, WI
+<pstyle:BG-Body Text>(555) 333-1000
+<pstyle:BG-Body Text>info@mctommygobbles.com
+<pstyle:BG-Body Text>www.mctommygobbles.com
+<pstyle:BG-CoNameNoLine>Humble, Platt And Gobble, Associates
+<pstyle:BG-Body Text>Franklin, VA
+<pstyle:BG-Body Text>(555) 333-1000
+<pstyle:BG-Body Text>marketing@hpaga.com
+<pstyle:BG-Body Text>www.hpaga.com
+<pstyle:BG-CoNameNoLine>Builders International
+<pstyle:BG-Body Text>Northbrook, IL
+<pstyle:BG-Body Text>(800) 555-5934
+<pstyle:BG-Body Text>builders@builders-int.com
+<pstyle:BG-Body Text>www.builders-int.com
+<pstyle:BG-CoNameNoLine>Decorate Unpleasantness
+<pstyle:BG-Body Text>Milledgeville, AZ
+<pstyle:BG-Body Text>(555) 333-1000
+<pstyle:BG-Body Text>info@decorateupleasantness.com
+<pstyle:BG-Body Text>www.decorateupleasantness.com
+<pstyle:BG-CoNameNoLine>Fifth Decorate
+<pstyle:BG-Body Text>Canyon, AR
+<pstyle:BG-Body Text>(800) 555-5934
+<pstyle:BG-Body Text>www.fifthdecorate.com
+<pstyle:BG-CoNameNoLine>Sight For Sore Advise
+<pstyle:BG-Body Text>Gretna, IN
+<pstyle:BG-Body Text>(555) 333-1000
+<pstyle:BG-Body Text>www.sightforsoreadvise.com

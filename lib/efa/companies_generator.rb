@@ -19,12 +19,7 @@ end
 
 module EFA
   class CompaniesGenerator
-    attr_accessor :csv_location,
-                  :output_dir,
-                  :template,
-                  :tags,
-                  :company_rows,
-                  :output
+    attr_accessor :csv_location, :output_dir, :template, :tags, :company_rows, :output
 
     def initialize(csv_location:, output_dir:)
       @csv_location = csv_location
@@ -37,27 +32,26 @@ module EFA
       @company_rows = CSV.read(@csv_location, headers: true)
       @output = ''
       @data = CSV.read(@csv_location, headers: true)
-      @styles = {
-        co_name: '<ParaStyle:New\_BG-CoName>',
-        body: '<ParaStyle:New\_BG-Body Text>'
-      }
+      @styles = { co_name: '<pstyle:BG-CoNameNoLine>', body: '<pstyle:BG-Body Text>' }
       @line_break = "\n"
       @header =
         '<ASCII-MAC>
-<Version:12><FeatureSet:InDesign-Roman><ColorTable:=<Black:COLOR:CMYK:Process:0,0,0,1><Pro Black:COLOR:CMYK:Process:0.6,0.4,0.4,1>>
-<DefineKinsokuStyle:Word\_Kinsoku=>
-<DefineCharStyle:Book ital=<Nextstyle:Book ital><KeyboardShortcut:Cmd\+Num 2><cTypeface:Book Italic>>
-<DefineParaStyle:New\_BG-CoName=<Nextstyle:New\_BG-CoName><KeyboardShortcut:Shift\+Num 1><cTypeface:77 Bold Condensed><cSize:14.000000><cTracking:10><cLeading:13.000000><pHyphenation:0><pSpaceBefore:10.799999><cFont:Helvetica Neue LT Std><pDesiredWordSpace:0.850000><pMaxWordSpace:1.000000><pDesiredLetterspace:-0.050000><pMinLetterspace:-0.050000><cColorTint:100.000000><pRuleAboveColor:Black><pRuleAboveStroke:0.500000><pRuleAboveTint:75.000000><pRuleAboveOffset:15.840000><pRuleAboveOn:1><pRuleAboveGapColor:None><pRuleBelowGapColor:None><pDropCapDetail:LeftGlyphEdge><cUnderlineGapColor:None><cStrikeThroughGapColor:None><pShadingColor:Pro Black><pWarichuAlignment:Left><bnColor:None><numFont:\<TextFont\>><rUseOTProGlyph:1><cRubyEdgeSpace:1>>
-<DefineParaStyle:New\_BG-CoNameNoLine=<BasedOn:New\_BG-CoName><Nextstyle:New\_BG-CoNameNoLine><KeyboardShortcut:Shift\+Num 2><cTypeface:77 Bold Condensed><cSize:14.000000><cFont:Helvetica Neue LT Std><pRuleAboveOn:0>>
-<DefineParaStyle:New\_BG-Body Text=<Nextstyle:New\_BG-Body Text><cTypeface:67 Medium Condensed><cSize:11.000000><cAutoPairKern:Optical><cTracking:-5><cLeading:13.000000><pHyphenation:0><cFont:Helvetica Neue LT Std><pDesiredWordSpace:0.950000><pMaxWordSpace:1.000000><pMinWordSpace:0.500000><pDesiredLetterspace:-0.100000><pMinLetterspace:-0.150000><pRuleAboveGapColor:None><pRuleBelowGapColor:None><pDropCapDetail:LeftGlyphEdge><cUnderlineGapColor:None><cStrikeThroughGapColor:None><pShadingColor:Pro Black><pWarichuAlignment:Left><bnColor:None><numFont:\<TextFont\>><rUseOTProGlyph:1><cRubyEdgeSpace:1>>
-<DefineParaStyle:NormalParagraphStyle=<Nextstyle:NormalParagraphStyle><cFont:Times><pRuleAboveGapColor:None><pRuleBelowGapColor:None><cUnderlineGapColor:None><cStrikeThroughGapColor:None><pWarichuAlignment:Left><bnColor:None><numFont:\<TextFont\>><rUseOTProGlyph:1><cRubyEdgeSpace:1>>
-<DefineParaStyle:New\_SeeOurAd=<BasedOn:NormalParagraphStyle><Nextstyle:New\_SeeOurAd><cTypeface:77 Bold Condensed><cSize:6.500000><cLeading:9.000000><pTabRuler:3\,Right\,.\,0\,\;><cFont:Helvetica Neue LT Std>>' +
+<vsn:17><fset:InDesign-Roman><ctable:=<Black:COLOR:CMYK:Process:0,0,0,1><Word\_R32\_G29\_B30:COLOR:RGB:Process:0.12549019607843137,0.11372549019607843,0.11764705882352941>>
+<dks:kHardKinsokuName=<bft:\!,\),\,,.,\:,\;,\?,\],\},<0x00A2>,<0x2014>,<0x2019>,<0x201D>,<0x2030>,<0x2103>,<0x2109>,<0x3001>,<0x3002>,<0x3005>,<0x3009>,<0x300B>,<0x300D>,<0x300F>,<0x3011>,<0x3015>,<0x301F>,<0x3041>,<0x3043>,<0x3045>,<0x3047>,<0x3049>,<0x3063>,<0x3083>,<0x3085>,<0x3087>,<0x308E>,<0x309B>,<0x309C>,<0x309D>,<0x309E>,<0x30A1>,<0x30A3>,<0x30A5>,<0x30A7>,<0x30A9>,<0x30C3>,<0x30E3>,<0x30E5>,<0x30E7>,<0x30EE>,<0x30F5>,<0x30F6>,<0x30FB>,<0x30FC>,<0x30FD>,<0x30FE>,<0xFF01>,<0xFF05>,<0xFF09>,<0xFF0C>,<0xFF0E>,<0xFF1A>,<0xFF1B>,<0xFF1F>,<0xFF3D>,<0xFF5D>><aft:\(,\[,\{,<0x00A3>,<0x00A7>,<0x2018>,<0x201C>,<0x3008>,<0x300A>,<0x300C>,<0x300E>,<0x3010>,<0x3012>,<0x3014>,<0x301D>,<0xFF03>,<0xFF04>,<0xFF08>,<0xFF20>,<0xFF3B>,<0xFF5B>,<0xFFE5>><htb:<0x3001>,<0x3002>,<0xFF0C>,<0xFF0E>><nspt:<0x2014>,<0x2025>,<0x2026>>>
+<dps:BG-CoName=<Nextstyle:BG-CoName><ct:Bold><cs:14.000000><ctk:10><cl:13.000000><ph:0><psb:10.799999><cf:Bebas Neue Pro><pdws:0.850000><pmaws:1.000000><pdl:-0.050000><pminl:-0.050000><cct:100.000000><prac:Black><pras:0.500000><prat:75.000000><prao:15.840000><praon:1><pshadc:Pro Black><pshadt:-1.000000><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4>>
+<dps:BG-CoNameNoLine=<BasedOn:BG-CoName><Nextstyle:BG-CoNameNoLine><KeyboardShortcut:Shift\+Num 2><praon:0>>
+<dps:BG-Body Text=<Nextstyle:BG-Body Text><ct:Regular ><cs:11.000000><capk:Optical><cl:13.000000><ph:0><cf:Bebas Neue Pro><pdws:0.950000><pmaws:1.000000><pmiws:0.500000><pdl:-0.100000><pminl:-0.150000><pshadc:Pro Black><pshadt:-1.000000><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4>>
+<dps:NormalParagraphStyle=<Nextstyle:NormalParagraphStyle><pdws:0.850000><pmaws:1.000000><pdl:-0.050000><pminl:-0.050000><pshadc:Pro Black><pshadt:-1.000000><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4>>
+<dps:New\_SeeOurAd=<BasedOn:NormalParagraphStyle><Nextstyle:New\_SeeOurAd><ct:Bold><cs:9.000000><cl:11.000000><ptr:3\,Right\,.\,0\,\;><cf:Bebas Neue Pro>>
+<dps:PhotoCredit=<Nextstyle:PhotoCredit><ct:Regular ><cs:6.000000><ctk:10><ccase:All Caps><phll:0><palp:1.000000><cl:6.000000><cf:Bebas Neue Pro><pmaws:2.000000><pmiws:0.500000><pmaxl:0.250000><pkfnl:1><pknl:1><prac:Black><prat:100.000000><prbc:Black><prbt:100.000000><pswa:Left><pragc:None><prbgc:None><pdcdetail:><cugc:None><cstrikegc:None><pshadc:EFA\_Dark Brown><pshadt:-1.000000><pwa:Left><pideosp:0><pbcorradTL:1.000000><pbcorradTR:1.000000><pbcorradBL:1.000000><pbcorradBR:1.000000><pscorradTL:1.000000><pscorradTR:1.000000><pscorradBL:1.000000><pscorradBR:1.000000><cdvpos:4><ruotpg:0><cres:0>>
+<dps:BG-Co Description=<BasedOn:BG-Body Text><Nextstyle:BG-Co Description><ct:Book><cs:9.000000><cl:10.000000><psb:4.500000><cf:Acta><cotfcalt:0>>' +
           "\n"
     end
 
     def generate_text
       companies_loop
-      FileUtils.mkdir_p output_dir
+
+      FileUtils.mkdir_p output_dir unless Dir.exist? output_dir
       file = File.open(File.join(output_dir, 'CompaniesTT.txt'), 'w')
       file << @header
       file << @output
@@ -73,10 +67,7 @@ module EFA
       return pn_string if pn_string.blank?
       return pn_string if vanity_number(pn_string)
 
-      if (
-           country == 'United States' || country == 'Canada' ||
-             country.to_s.length < 1
-         )
+      if (country == 'United States' || country == 'Canada' || country.to_s.length < 1)
         pn_string = pn_string.prepend('+1') if (pn_string.initial != '1')
 
         if (Phoner::Phone.valid? pn_string)
@@ -103,18 +94,8 @@ module EFA
 
     #OPTIONS FOR HEADERS {street: '', street2: '', city: '', state: '', zip: '', co: ''}
     def address(item, headers)
-      street =
-        if item[headers[:street]]
-          @styles[:body] + item[headers[:street]] + @line_break
-        else
-          ''
-        end
-      street2 =
-        if item[headers[:street2]]
-          @styles[:body] + item[headers[:street2]] + @line_break
-        else
-          ''
-        end
+      street = item[headers[:street]] ? @styles[:body] + item[headers[:street]] + @line_break : ''
+      street2 = item[headers[:street2]] ? @styles[:body] + item[headers[:street2]] + @line_break : ''
       city = item[headers[:city]] || ''
       state = item[headers[:state]] || ''
       zip = item[headers[:zip]] || ''
@@ -125,18 +106,8 @@ module EFA
 
     # {primary: '', tollfree: '', co: ''}
     def phone(item, headers)
-      primary =
-        if item[headers[:primary]]
-          format_phone(item[headers[:primary]], item[headers[:co]])
-        else
-          ''
-        end
-      tollfree_num =
-        if item[headers[:tollfree]]
-          format_phone(item[headers[:tollfree]], item[headers[:co]])
-        else
-          ''
-        end
+      primary = item[headers[:primary]] ? format_phone(item[headers[:primary]], item[headers[:co]]) : ''
+      tollfree_num = item[headers[:tollfree]] ? format_phone(item[headers[:tollfree]], item[headers[:co]]) : ''
       spacer = (!primary.blank? && !tollfree_num.blank?) ? ', ' : ''
       return @styles[:body] + tollfree_num + spacer + primary + @line_break
     end
@@ -158,18 +129,14 @@ module EFA
                 city: 'City',
                 state: 'State',
                 zip: 'Postal_Code',
-                co: 'Country'
-              }
+                co: 'Country',
+              },
             )
         end
 
         # Phone 1 800 | alt number
         if c['Phone'] || c['Toll_Free_Phone']
-          output <<
-            phone(
-              c,
-              { primary: 'Phone', tollfree: 'Toll_Free_Phone', co: 'Country' }
-            )
+          output << phone(c, { primary: 'Phone', tollfree: 'Toll_Free_Phone', co: 'Country' })
         end
 
         # email
@@ -179,9 +146,7 @@ module EFA
         #website
         website = c['URL'] ? c['URL'] : ''
         website_formatted = website.sub(%r{^https?\:\/\/}, '')
-        unless website.blank?
-          output << @styles[:body] + website_formatted + @line_break
-        end
+        output << @styles[:body] + website_formatted + @line_break unless website.blank?
       end
     end
   end
