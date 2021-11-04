@@ -4,6 +4,7 @@ require 'YAML'
 require 'csv'
 require_relative './companies_generator.rb'
 require_relative './product_category_list_generator.rb'
+require_relative './product_category_index_generator.rb'
 
 def prompt_start(flower_company)
   prompt = TTY::Prompt.new
@@ -74,12 +75,18 @@ end
 def generate(csv_dir, output_dir, text_files)
   prompt = TTY::Prompt.new
   text_files.each do |file|
+    # TODO: make this dynamic based on yml entry for generator?
     if file == 'CompaniesTT'
       EFA::CompaniesGenerator.new(csv_location: "#{csv_dir}/Companies.csv", output_dir: output_dir).generate_text
     end
 
     if file == 'ProdCatListTT'
       EFA::ProductCategoryListGenerator.new(csv_location: "#{csv_dir}/Company_Category.csv", output_dir: output_dir)
+        .generate_text
+    end
+
+    if file == 'ProdCatIndexTT'
+      EFA::ProductCategoryIndexGenerator.new(csv_location: "#{csv_dir}/Company_Category.csv", output_dir: output_dir)
         .generate_text
     end
     prompt.ok("Generated #{file} in #{output_dir}")

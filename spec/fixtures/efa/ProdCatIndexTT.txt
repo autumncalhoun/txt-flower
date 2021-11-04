@@ -1,0 +1,148 @@
+<ASCII-MAC>
+<Version:12><FeatureSet:InDesign-Roman><ColorTable:=<Paper:COLOR:CMYK:Process:0,0,0,0><EFA_Light Blue:COLOR:CMYK:Process:0.6071999669075012,0.23349998891353607,0.21480000019073486,0><Black:COLOR:CMYK:Process:0,0,0,1>>
+<DefineKinsokuStyle:Word_Kinsoku=>
+<DefineParaStyle:PL-Head1-4=<Nextstyle:PL-Head1-4><cColor:Paper><cTypeface:77 Bold Condensed><cSize:11.000000><cTracking:100><cCase:All Caps><pLeftIndent:2.000000><cLeading:13.000000><pSpaceBefore:13.500000><pSpaceAfter:4.500000><cFont:Helvetica Neue LT Std><pDesiredWordSpace:0.850000><pMaxWordSpace:1.000000><pDesiredLetterspace:-0.050000><pMinLetterspace:-0.050000><pRuleAboveColor:EFA_Light Blue><pRuleAboveStroke:15.000000><pRuleAboveTint:100.000000><pRuleAboveOffset:-2.880000><pRuleAboveOn:1><pRuleAboveGapColor:None><pRuleBelowGapColor:None><pDropCapDetail:LeftGlyphEdge><cUnderlineGapColor:None><cStrikeThroughGapColor:None><pShadingColor:Pro Black><pWarichuAlignment:Left><bnColor:None><numFont:<TextFont>><rUseOTProGlyph:1><cRubyEdgeSpace:1>>
+<DefineParaStyle:PL_Body_Index-4=<Nextstyle:PL_Body_Index-4><cTypeface:57 Condensed><cSize:11.000000><cAutoPairKern:Optical><cTracking:20><cLeading:13.000000><pHyphenation:0><pTabRuler:154,Right,.,0,.;><cFont:Helvetica Neue LT Std><pDesiredWordSpace:0.950000><pMaxWordSpace:1.000000><pMinWordSpace:0.500000><pDesiredLetterspace:-0.100000><pMinLetterspace:-0.150000><pRuleAboveGapColor:None><pRuleBelowGapColor:None><pDropCapDetail:LeftGlyphEdge><cUnderlineGapColor:None><cStrikeThroughGapColor:None><pShadingColor:Pro Black><pWarichuAlignment:Left><bnColor:None><numFont:<TextFont>><rUseOTProGlyph:1><cRubyEdgeSpace:1>>
+<ParaStyle:PL-Head1-4>Architects/Designers
+<ParaStyle:PL_Body_Index-4>Architects	
+<ParaStyle:PL_Body_Index-4>Environmental Graphic Design	
+<ParaStyle:PL_Body_Index-4>Foodservice Planning/Design	
+<ParaStyle:PL_Body_Index-4>Interior Architecture	
+<ParaStyle:PL_Body_Index-4>Interior Designers	
+<ParaStyle:PL_Body_Index-4>Landscape Architects	
+<ParaStyle:PL_Body_Index-4>Project Management	
+<ParaStyle:PL-Head1-4>Construction/Engineering
+<ParaStyle:PL_Body_Index-4>Construction Managers	
+<ParaStyle:PL_Body_Index-4>Design-Build	
+<ParaStyle:PL_Body_Index-4>Engineering Firms/Services	
+<ParaStyle:PL_Body_Index-4>Mechanical/Electrical Engineers	
+<ParaStyle:PL-Head1-4>Consultants
+<ParaStyle:PL_Body_Index-4>Art Consultants	
+<ParaStyle:PL_Body_Index-4>Consultants	
+<ParaStyle:PL_Body_Index-4>Facility Consulting	
+<ParaStyle:PL_Body_Index-4>Furniture, Fixture, and Equipment (FF&E) Procurement	
+<ParaStyle:PL_Body_Index-4>Installation, Interior Furnishings & Equipment	
+<ParaStyle:PL_Body_Index-4>Relocation Services	
+<ParaStyle:PL_Body_Index-4>Technology Consulting/Planning/Design	
+<ParaStyle:PL_Body_Index-4>Warehousing and Transportation	
+<ParaStyle:PL_Body_Index-4>Wayfinding & Signage Consultants	
+<ParaStyle:PL-Head1-4>Appliances
+<ParaStyle:PL_Body_Index-4>Kitchen Appliances	
+<ParaStyle:PL-Head1-4>Art/Accessories
+<ParaStyle:PL_Body_Index-4>Art	
+<ParaStyle:PL_Body_Index-4>Decorative Glass	
+<ParaStyle:PL_Body_Index-4>Decorative Graphics	
+<ParaStyle:PL_Body_Index-4>Donor Recognition Design	
+<ParaStyle:PL_Body_Index-4>Memory Boxes	
+<ParaStyle:PL_Body_Index-4>Mirrors	
+<ParaStyle:PL_Body_Index-4>Photography	
+<ParaStyle:PL_Body_Index-4>Planters	
+<ParaStyle:PL_Body_Index-4>Wall Décor	
+<ParaStyle:PL-Head1-4>Bath/Restroom
+<ParaStyle:PL_Body_Index-4>ADA-Compliance Products	
+<ParaStyle:PL_Body_Index-4>Bathing Systems	
+<ParaStyle:PL_Body_Index-4>Bathroom Safety Products	
+<ParaStyle:PL_Body_Index-4>Plumbing Fixtures	
+<ParaStyle:PL_Body_Index-4>Restroom Accessories	
+<ParaStyle:PL_Body_Index-4>Shower Seats	
+<ParaStyle:PL_Body_Index-4>Shower Systems and Equipment	
+<ParaStyle:PL_Body_Index-4>Shower Equipment & Supplies	
+<ParaStyle:PL_Body_Index-4>Shower Systems and Equipment	
+<ParaStyle:PL_Body_Index-4>Sinks	
+<ParaStyle:PL-Head1-4>Building Products
+<ParaStyle:PL_Body_Index-4>Architectural Millwork	
+<ParaStyle:PL_Body_Index-4>Ceiling/Wall Systems	
+<ParaStyle:PL_Body_Index-4>Door Hardware and Controls	
+<ParaStyle:PL_Body_Index-4>Doors	
+<ParaStyle:PL_Body_Index-4>Landscape Products	
+<ParaStyle:PL_Body_Index-4>Locks	
+<ParaStyle:PL_Body_Index-4>Wall Panel Systems	
+<ParaStyle:PL_Body_Index-4>Windows	
+<ParaStyle:PL-Head1-4>Fabric/Textiles/Upholstery
+<ParaStyle:PL_Body_Index-4>Curtain Tracks/Room Dividers	
+<ParaStyle:PL_Body_Index-4>Fabrics	
+<ParaStyle:PL_Body_Index-4>Fabrics, Antimicrobial	
+<ParaStyle:PL_Body_Index-4>Fabrics, Green/Sustainable	
+<ParaStyle:PL_Body_Index-4>Fabrics, Performance	
+<ParaStyle:PL_Body_Index-4>Fabrics, Vinyl	
+<ParaStyle:PL-Head1-4>Flooring
+<ParaStyle:PL_Body_Index-4>Carpet	
+<ParaStyle:PL_Body_Index-4>Carpet Tile	
+<ParaStyle:PL_Body_Index-4>Floor Coating, Slip-Resistant	
+<ParaStyle:PL_Body_Index-4>Flooring	
+<ParaStyle:PL_Body_Index-4>Flooring, Green/Sustainable	
+<ParaStyle:PL_Body_Index-4>Flooring, Infection Control	
+<ParaStyle:PL_Body_Index-4>Flooring, Resilient	
+<ParaStyle:PL_Body_Index-4>Flooring Underlayment	
+<ParaStyle:PL-Head1-4>Furniture
+<ParaStyle:PL_Body_Index-4>Beds, Electric	
+<ParaStyle:PL_Body_Index-4>Cabinets and Casegoods	
+<ParaStyle:PL_Body_Index-4>Dining Area Furniture	
+<ParaStyle:PL_Body_Index-4>Indoor Furniture	
+<ParaStyle:PL_Body_Index-4>Indoor-Outdoor Furniture	
+<ParaStyle:PL_Body_Index-4>Lift Chairs	
+<ParaStyle:PL_Body_Index-4>Outdoor Furniture	
+<ParaStyle:PL_Body_Index-4>Recliners and Sleepers	
+<ParaStyle:PL_Body_Index-4>Rockers	
+<ParaStyle:PL_Body_Index-4>Seating, Bariatric	
+<ParaStyle:PL_Body_Index-4>Seating, Public Areas	
+<ParaStyle:PL_Body_Index-4>Seating, Resident Room	
+<ParaStyle:PL_Body_Index-4>Seating, Staff	
+<ParaStyle:PL_Body_Index-4>Storage Products	
+<ParaStyle:PL_Body_Index-4>Tables	
+<ParaStyle:PL_Body_Index-4>Workspaces and Desks	
+<ParaStyle:PL-Head1-4>Headwalls/Wall Mounts
+<ParaStyle:PL_Body_Index-4>Headwall Systems	
+<ParaStyle:PL_Body_Index-4>Medical Rail Systems	
+<ParaStyle:PL_Body_Index-4>Mounts, Television	
+<ParaStyle:PL-Head1-4>Housekeeping/Maintenance
+<ParaStyle:PL_Body_Index-4>Infection Control	
+<ParaStyle:PL-Head1-4>Lighting
+<ParaStyle:PL_Body_Index-4>Decorative Lighting	
+<ParaStyle:PL_Body_Index-4>Lamps	
+<ParaStyle:PL_Body_Index-4>LED Lighting	
+<ParaStyle:PL_Body_Index-4>Lighting Fixtures/Supplies	
+<ParaStyle:PL-Head1-4>Medical Equipment/Supplies
+<ParaStyle:PL_Body_Index-4>Lifts	
+<ParaStyle:PL_Body_Index-4>Lifts, Ceiling	
+<ParaStyle:PL_Body_Index-4>Medical Equipment	
+<ParaStyle:PL-Head1-4>Physical Therapy/Rehab
+<ParaStyle:PL_Body_Index-4>Physical Therapy Equipment	
+<ParaStyle:PL_Body_Index-4>Therapy Pools	
+<ParaStyle:PL-Head1-4>Safety
+<ParaStyle:PL_Body_Index-4>Fall Prevention/Protection	
+<ParaStyle:PL_Body_Index-4>Grab Bars	
+<ParaStyle:PL_Body_Index-4>Handrails	
+<ParaStyle:PL-Head1-4>Signage/Wayfinding
+<ParaStyle:PL_Body_Index-4>Signage	
+<ParaStyle:PL_Body_Index-4>Wayfinding	
+<ParaStyle:PL-Head1-4>Spa/Salon
+<ParaStyle:PL_Body_Index-4>Salon Sinks	
+<ParaStyle:PL_Body_Index-4>Tubs, Walk-In	
+<ParaStyle:PL-Head1-4>Surfaces
+<ParaStyle:PL_Body_Index-4>Antimicrobial Products	
+<ParaStyle:PL_Body_Index-4>Countertop Surfacing	
+<ParaStyle:PL_Body_Index-4>Tile	
+<ParaStyle:PL_Body_Index-4>Solid Surfacing Material	
+<ParaStyle:PL_Body_Index-4>Surfaces	
+<ParaStyle:PL_Body_Index-4>Surfaces, Green/Sustainable	
+<ParaStyle:PL_Body_Index-4>Wall/Corner Protection	
+<ParaStyle:PL_Body_Index-4>Wallcoverings	
+<ParaStyle:PL-Head1-4>Technology and Communications-Residents/Visitors
+<ParaStyle:PL_Body_Index-4>Assistive Technology	
+<ParaStyle:PL_Body_Index-4>Nurse Call Systems	
+<ParaStyle:PL_Body_Index-4>Television Programming	
+<ParaStyle:PL_Body_Index-4>Televisions/DVD Players	
+<ParaStyle:PL-Head1-4>Technology and Communications-Staff/Facilities
+<ParaStyle:PL_Body_Index-4>Access Control Systems	
+<ParaStyle:PL_Body_Index-4>Communications Equipment, Wireless	
+<ParaStyle:PL_Body_Index-4>Emergency Response Systems	
+<ParaStyle:PL_Body_Index-4>Security Systems & Products	
+<ParaStyle:PL_Body_Index-4>Software	
+<ParaStyle:PL_Body_Index-4>Workstations, Computer	
+<ParaStyle:PL_Body_Index-4>Workstations, Wall-Mounted	
+<ParaStyle:PL-Head1-4>Training/Education
+<ParaStyle:PL_Body_Index-4>Education	
+<ParaStyle:PL-Head1-4>Window Treatments
+<ParaStyle:PL_Body_Index-4>Curtains/Drapes	
+<ParaStyle:PL_Body_Index-4>Window Coverings	

@@ -6,7 +6,7 @@ describe EFA::ProductCategoryListGenerator do
     let(:file_name) { 'ProdCatListTT.txt' }
     let(:company) { 'efa' }
     let(:generator) do
-      EFA::ProductCategoryListGenerator.new(
+      described_class.new(
         csv_location: "spec/fixtures/#{company}/Company_Category.csv",
         output_dir: "spec/tmp/#{company}",
       )
