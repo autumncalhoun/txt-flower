@@ -3,6 +3,7 @@ require 'tty-prompt'
 require 'YAML'
 require 'csv'
 require_relative './suppliers_generator.rb'
+require_relative './alphabetical_index_generator.rb'
 
 def prompt_start(flower_company)
   prompt = TTY::Prompt.new
@@ -77,13 +78,8 @@ def generate(csv_dir, output_dir, text_files)
 
     case file
     when 'AlphabeticalIndexTT'
-      # csv = 'Companies'
-      # EFA::CompaniesGenerator.new(
-      #   csv_location: csv_dir,
-      #   csv_file_name: csv,
-      #   output_location: output_dir,
-      #   tagged_text_file_name: file,
-      # ).generate_text
+      Impressions::AlphabeticalIndexGenerator.new(csv: "#{csv_dir}/Company_Category.csv", output_location: output_dir)
+        .generate_text
     when 'CategoryIndexTT'
       # csv = 'Company_Category_Services'
       # EFA::ProductCategoryListGenerator.new(
@@ -106,13 +102,6 @@ def generate(csv_dir, output_dir, text_files)
         branches_csv: "#{csv_dir}/Branches.csv",
         output_location: output_dir,
       ).generate_text
-      # csv = 'Company_Category_Services'
-      # EFA::ProductCategoryIndexGenerator.new(
-      #   csv_location: csv_dir,
-      #   csv_file_name: csv,
-      #   output_location: output_dir,
-      #   tagged_text_file_name: file,
-      # ).generate_text
     end
 
     prompt.ok("Generated #{file} in #{output_dir}")
