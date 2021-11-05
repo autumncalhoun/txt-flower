@@ -9,6 +9,7 @@ tagged_text_files:
   - SuppliersTT
 csv_headers:
   companies:
+    id: Id
     name: Company_Name
     type: Company_Type
     address: Address
@@ -28,6 +29,7 @@ csv_headers:
     country: BranchCountry
     phone: BranchPhone
   company_category:
+    id: Id
     company_name: CompanyName
     category: CategoryName
     product: Product
