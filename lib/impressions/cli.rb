@@ -4,6 +4,8 @@ require 'YAML'
 require 'csv'
 require_relative './suppliers_generator.rb'
 require_relative './alphabetical_index_generator.rb'
+require_relative './cross_reference_generator.rb'
+require_relative './category_index_generator.rb'
 
 def prompt_start(flower_company)
   prompt = TTY::Prompt.new
@@ -81,24 +83,17 @@ def generate(csv_dir, output_dir, text_files)
       Impressions::AlphabeticalIndexGenerator.new(csv: "#{csv_dir}/Company_Category.csv", output_location: output_dir)
         .generate_text
     when 'CategoryIndexTT'
-      # csv = 'Company_Category_Services'
-      # EFA::ProductCategoryListGenerator.new(
-      #   csv_location: csv_dir,
-      #   csv_file_name: csv,
-      #   output_location: output_dir,
-      #   tagged_text_file_name: file,
-      # ).generate_text
+      Impressions::CategoryIndexGenerator.new(csv: "#{csv_dir}/Company_Category.csv", output_location: output_dir)
+        .generate_text
     when 'CrossReferenceTT'
-      # csv = 'Company_Category_Products'
-      # EFA::ProductCategoryListGenerator.new(
-      #   csv_location: csv_dir,
-      #   csv_file_name: csv,
-      #   output_location: output_dir,
-      #   tagged_text_file_name: file,
-      # ).generate_text
+      Impressions::CrossReferenceGenerator.new(
+        companies_csv: "#{csv_dir}/Companies.csv",
+        company_category_csv: "#{csv_dir}/Company_Category.csv",
+        output_location: output_dir,
+      ).generate_text
     when 'SuppliersTT'
       Impressions::SuppliersGenerator.new(
-        company_csv: "#{csv_dir}/Companies.csv",
+        companies_csv: "#{csv_dir}/Companies.csv",
         branches_csv: "#{csv_dir}/Branches.csv",
         output_location: output_dir,
       ).generate_text

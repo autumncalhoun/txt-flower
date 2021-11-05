@@ -24,7 +24,7 @@ module Impressions
   class SuppliersGenerator
     attr_accessor :output, :line_break, :tags, :output_location, :header
 
-    def initialize(company_csv:, branches_csv:, output_location:)
+    def initialize(companies_csv:, branches_csv:, output_location:)
       @output_location = output_location
 
       template = YAML.safe_load(File.open('./lib/impressions/impressions.yml')).deep_symbolize_keys
