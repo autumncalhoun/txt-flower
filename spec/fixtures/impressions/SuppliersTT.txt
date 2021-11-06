@@ -1,0 +1,749 @@
+<ASCII-MAC>
+<Version:11.4><FeatureSet:InDesign-Roman><ColorTable:=<SB Blue:COLOR:CMYK:Process:1,0,0,0.3><Black:COLOR:CMYK:Process:0,0,0,1>>
+<DefineParaStyle:PlainListing=<Nextstyle:PlainListing><cTypeface:47 Light Condensed><cSize:7.000000><cAutoPairKern:Optical><pLeftIndent:17.280000><pFirstLineIndent:-8.640000><cLeading:9.000000><cFont:Univers>>
+<DefineParaStyle:Plain name=<BasedOn:PlainListing><Nextstyle:Plain name><cColor:SB Blue><cTypeface:Bold><cSize:7.500000><cHorizontalScale:0.930000><cCase:All Caps><pLeftIndent:0.000000><pFirstLineIndent:0.000000><cLeading:8.000000><pSpaceBefore:9.720000><pSpaceAfter:0.500000><cFont:Circular Std>>
+<DefineParaStyle:Plain listing=<Nextstyle:Plain listing><cTypeface:Book><cSize:7.000000><cAutoPairKern:Optical><pLeftIndent:17.280000><pFirstLineIndent:-8.640000><cLeading:8.500000><cFont:Adobe Caslon Pro>>
+<DefineParaStyle:www=<BasedOn:Plain listing><Nextstyle:www><cColor:SB Blue><cTypeface:Medium><cHorizontalScale:0.950000><pLeftIndent:0.000000><pFirstLineIndent:0.000000><cLeading:7.000000><pSpaceAfter:0.500000><cFont:Circular Std><pKeepWithNext:1><cColorTint:80.000000>>
+<DefineParaStyle:branch office=<BasedOn:Plain listing><Nextstyle:branch office><cSize:6.500000><cBaselineShift:-2.000000><cCase:All Caps><pLeftIndent:0.000000><pFirstLineIndent:0.000000><cLeading:8.000000><pSpaceBefore:2.160000><cFont:Circular Std>>
+<DefineParaStyle:Plain name branch=<BasedOn:Plain name><Nextstyle:Plain name branch><cTypeface:Medium><cCase:Normal><pLeftIndent:8.640000><pSpaceBefore:4.320000>>
+<DefineParaStyle:See our ad\/info action=<BasedOn:Plain listing><Nextstyle:See our ad\/info action><cColor:SB Blue><cTypeface:Regular><cHorizontalScale:0.900000><cTracking:3><pLeftIndent:4.320000><pFirstLineIndent:0.000000><cLeading:8.500000><pSpaceAfter:4.500000><cColorTint:80.000000><pRuleBelowColor:SB Blue><pRuleBelowStroke:0.500000><pRuleBelowOffset:4.500000><pRuleBelowOn:1>>
+<DefineParaStyle:Co Name w line=<BasedOn:Plain name><Nextstyle:Co Name w line><pSpaceBefore:13.500000><pRuleAboveOffset:9.000000><pRuleAboveOn:1>>
+<ParaStyle:Plain name>Motorola Solutions
+<ParaStyle:www>example.com/arch
+<ParaStyle:Plain listing>613 S. Heather St.
+<ParaStyle:Plain listing>Ste. 115
+<ParaStyle:Plain listing>Park Layne, OH 60523
+<ParaStyle:Plain listing>(630) 925-7957
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>McKesson
+<ParaStyle:Plain listing>Carrollton, CA
+<ParaStyle:Plain name branch>Wayfair
+<ParaStyle:Plain listing>Leitchfield, OR
+<ParaStyle:Plain name branch>PPG Industries
+<ParaStyle:Plain listing>Midway, IN
+<ParaStyle:Plain name>Vistra Energy
+<ParaStyle:www>example.com/bells/art.php?badge=book
+<ParaStyle:Plain listing>131 Westminster Ave.
+<ParaStyle:Plain listing>Ste. 3
+<ParaStyle:Plain listing>Monsey, NY 58078
+<ParaStyle:Plain listing>(701) 293-0077
+<ParaStyle:Plain name>NGL Energy Partners
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>736 Lafayette Street
+<ParaStyle:Plain listing>Delphos, OH 64503-2667
+<ParaStyle:Plain listing>(800) 530-5909
+<ParaStyle:Plain name>Nike
+<ParaStyle:www>example.com/bomb.htm#boundary
+<ParaStyle:Plain listing>264 East High Ridge St.
+<ParaStyle:Plain listing>New Lexington, OH 77362
+<ParaStyle:Plain listing>(281) 259-6818
+<ParaStyle:Plain name>Kohl's
+<ParaStyle:www>example.net/
+<ParaStyle:Plain listing>324 W. Peninsula Drive
+<ParaStyle:Plain listing>Brenham, TX 83642
+<ParaStyle:Plain listing>(208) 963-5900 | (855) 894-7800
+<ParaStyle:Plain name>AES
+<ParaStyle:www>example.com/beef
+<ParaStyle:Plain listing>9825 Jockey Hollow Drive
+<ParaStyle:Plain listing>Claryville, KY 28054 - 7302
+<ParaStyle:Plain listing>(704) 842-1946
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Oracle
+<ParaStyle:Plain listing>Medford, GA
+<ParaStyle:Plain name>Western & Southern Financial Group
+<ParaStyle:www>box.example.com/
+<ParaStyle:Plain listing>549 North Glenlake Avenue
+<ParaStyle:Plain listing>Ipswich, SD 30214
+<ParaStyle:Plain listing>(770) 461-7656
+<ParaStyle:Plain name>Citigroup
+<ParaStyle:www>example.org/
+<ParaStyle:Plain listing>48 College Street
+<ParaStyle:Plain listing>Wildomar, CA 43026
+<ParaStyle:Plain listing>(888) 777-1916
+<ParaStyle:Plain name>Fiserv
+<ParaStyle:www>example.org/bone/argument.html
+<ParaStyle:Plain listing>910 Old Inverness Road
+<ParaStyle:Plain listing>Saugerties, NY 3249
+<ParaStyle:Plain listing>(800) 225-3001 | (800) 225-3001
+<ParaStyle:Plain name>EOG Resources
+<ParaStyle:www>example.com/bubble
+<ParaStyle:Plain listing>80 Southampton Circle
+<ParaStyle:Plain listing>Ste. 1
+<ParaStyle:Plain listing>Dawson Springs, KY 44090
+<ParaStyle:Plain listing>(800) 869-9601 | (440) 647-3400
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>SunTrust Banks
+<ParaStyle:Plain listing>Zolfo Springs, FL
+<ParaStyle:Plain name branch>Huntsman
+<ParaStyle:Plain listing>East Norwich, TX
+<ParaStyle:Plain name branch>USAA
+<ParaStyle:Plain listing>Shelter Island Heights, WA
+<ParaStyle:Plain name branch>Blackstone Group
+<ParaStyle:Plain listing>Keyport, PA
+<ParaStyle:Plain name>Chesapeake Energy
+<ParaStyle:www>example.net/
+<ParaStyle:Plain listing>90 Lantern Street
+<ParaStyle:Plain listing>Unit 4A
+<ParaStyle:Plain listing>Big Lake, TX 97526
+<ParaStyle:Plain listing>(800) 443-9553 | (541) 582-3720
+<ParaStyle:Plain name>Valero Energy
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>529 Valley View Rd.
+<ParaStyle:Plain listing>Bldg. 1, 2nd Fl.
+<ParaStyle:Plain listing>Dickson, TN 7055
+<ParaStyle:Plain listing>(845) 425-2245
+<ParaStyle:Plain name>Aflac
+<ParaStyle:www>example.com/border.php?birth=addition&brake=back
+<ParaStyle:Plain listing>53 S. Pennsylvania Drive
+<ParaStyle:Plain listing>Lacey, WA 8753
+<ParaStyle:Plain listing>(732) 534-6222
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Nationwide
+<ParaStyle:Plain listing>Lake Worth, AZ
+<ParaStyle:Plain name>Toll Brothers
+<ParaStyle:www>example.org/
+<ParaStyle:Plain listing>7860 Locust Lane
+<ParaStyle:Plain listing>Donalsonville, GA 32503
+<ParaStyle:Plain listing>18004414393 | (850) 469-8872
+<ParaStyle:Plain name>LKQ
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>9365 Tailwater Road
+<ParaStyle:Plain listing>Ste. 12B
+<ParaStyle:Plain listing>Hillsboro, MO 15012
+<ParaStyle:Plain listing>(800) 225-9634 | (888) 788-7133
+<ParaStyle:Plain name>WEC Energy Group
+<ParaStyle:www>example.org/#berry
+<ParaStyle:Plain listing>272 North Pineknoll St.
+<ParaStyle:Plain listing>Swanzey, NH 90063
+<ParaStyle:Plain listing>(323) 391-1105
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Stanley Black & Decker
+<ParaStyle:Plain listing>Alum Creek, TX
+<ParaStyle:Plain name branch>Travelers
+<ParaStyle:Plain listing>Wallace, OK
+<ParaStyle:Plain name branch>Bristol-Myers Squibb
+<ParaStyle:Plain listing>Villisca, LA
+<ParaStyle:Plain name branch>Amgen
+<ParaStyle:Plain listing>East Norwich, TX
+<ParaStyle:Plain name>Activision Blizzard
+<ParaStyle:www>example.com/brass
+<ParaStyle:Plain listing>31 Fremont St.
+<ParaStyle:Plain listing>Chinchilla, PA 8837
+<ParaStyle:Plain listing>(800) 878-1235 | (732) 225-3990
+<ParaStyle:Plain name>Textron
+<ParaStyle:www>example.com/?apparel=bells
+<ParaStyle:Plain listing>7015 Rock Maple St.
+<ParaStyle:Plain listing>Monroe, MI 98226
+<ParaStyle:Plain listing>(360) 752-3310
+<ParaStyle:Plain name>Microsoft
+<ParaStyle:www>example.com/#believe
+<ParaStyle:Plain listing>87 Lyme Street
+<ParaStyle:Plain listing>Reminderville, OH 68512
+<ParaStyle:Plain listing>(877) 446-7163 | (402) 437-0054
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>United Continental Holdings
+<ParaStyle:Plain listing>Bay Hill, United Kingdom
+<ParaStyle:Plain name branch>AGCO
+<ParaStyle:Plain listing>Los Banos, OH
+<ParaStyle:Plain name>Dean Foods
+<ParaStyle:www>blow.example.com/?book=bag
+<ParaStyle:Plain listing>8347 Lilac Drive
+<ParaStyle:Plain listing>Coram, NY 29033-1805
+<ParaStyle:Plain listing>(800) 763-7763 | (803) 791-7763
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>AIG
+<ParaStyle:Plain listing>Cambridge, OH
+<ParaStyle:Plain name branch>Citigroup
+<ParaStyle:Plain listing>Bay Hill, NJ
+<ParaStyle:Plain name branch>Citigroup
+<ParaStyle:Plain listing>Keyport, CO
+<ParaStyle:Plain name>Tenneco
+<ParaStyle:www>example.com/board/blade
+<ParaStyle:Plain listing>9 SW. Dogwood St.
+<ParaStyle:Plain listing>Montrose, PA 22031-3403
+<ParaStyle:Plain listing>(888) 385-3588 | (703) 385-1335
+<ParaStyle:Plain name>Principal Financial
+<ParaStyle:www>example.org/
+<ParaStyle:Plain listing>494 N. Delaware St.
+<ParaStyle:Plain listing>Ste. 110
+<ParaStyle:Plain listing>Boaz, WV 92612
+<ParaStyle:Plain listing>(949) 340-6665
+<ParaStyle:Plain name>News Corp.
+<ParaStyle:www>believe.example.net/bone.php?birth=back#apparel
+<ParaStyle:Plain listing>372 East Clinton Court
+<ParaStyle:Plain listing>Ventanilla
+<ParaStyle:Plain listing>Connelly Springs Peru Callao 06
+<ParaStyle:Plain listing>+51 1 613 4242
+<ParaStyle:Plain name>Fortive
+<ParaStyle:www>apparel.example.edu/belief?bottle=act&ball=argument
+<ParaStyle:Plain listing>3 Belmont Lane
+<ParaStyle:Plain listing>Salem, WV 94085
+<ParaStyle:Plain listing>(408) 744-6710
+<ParaStyle:Plain name>Ally Financial
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>9670 Clinton Street
+<ParaStyle:Plain listing>McCamey, TX 90248
+<ParaStyle:Plain listing>(310) 327-0011
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Oneok
+<ParaStyle:Plain listing>Port Allen, CA
+<ParaStyle:Plain name branch>Applied Materials
+<ParaStyle:Plain listing>Haubstadt, Mexico
+<ParaStyle:Plain name branch>Kroger
+<ParaStyle:Plain listing>Orange Lake, United Kingdom
+<ParaStyle:Plain name>Mastercard
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>8655 Broad Ave.
+<ParaStyle:Plain listing>Ste. A227
+<ParaStyle:Plain listing>Centerville, IN 91910
+<ParaStyle:Plain listing>(800) 777-4510 | (619) 591-1084
+<ParaStyle:Plain name>Phillips 66
+<ParaStyle:www>approval.example.org/
+<ParaStyle:Plain listing>230 Harvard Street
+<ParaStyle:Plain listing>2220 Anthony Road
+<ParaStyle:Plain listing>Turpin Hills, OH 27216-2720
+<ParaStyle:Plain listing>(800) 334-1101 | (336) 226-0237
+<ParaStyle:Plain name>Broadcom
+<ParaStyle:www>example.com/#bait
+<ParaStyle:Plain listing>8654 Kent Street
+<ParaStyle:Plain listing>Hooks, TX 40505
+<ParaStyle:Plain listing>(866) 673-7645
+<ParaStyle:Plain name>Bed Bath & Beyond
+<ParaStyle:www>example.com/animal.htm
+<ParaStyle:Plain listing>8953 Squaw Creek Dr.01
+<ParaStyle:Plain listing>Ste. 200A
+<ParaStyle:Plain listing>The Dalles, OR 75001
+<ParaStyle:Plain listing>(214) 631-3000
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Goodyear Tire & Rubber
+<ParaStyle:Plain listing>Los Banos, ON Canada
+<ParaStyle:Plain name branch>Erie Insurance Group
+<ParaStyle:Plain listing>Haubstadt, MB Canada
+<ParaStyle:Plain name branch>IBM
+<ParaStyle:Plain listing>Haubstadt, United Kingdom
+<ParaStyle:Plain name>Anadarko Petroleum
+<ParaStyle:www>achiever.example.edu/board?behavior=boat
+<ParaStyle:Plain listing>480 Sunnyslope Dr.
+<ParaStyle:Plain listing>Laurinburg, NC 02893-7526
+<ParaStyle:Plain listing>(877) 757-7978 | (877) 757-7978
+<ParaStyle:Plain name>USAA
+<ParaStyle:www>example.com/army
+<ParaStyle:Plain listing>8640A Wentworth St.
+<ParaStyle:Plain listing>Ste. 1
+<ParaStyle:Plain listing>Westfield, NY 45103
+<ParaStyle:Plain listing>(800) 314-1622 | (513) 407-5399
+<ParaStyle:Plain name>Icahn Enterprises
+<ParaStyle:www>example.com/branch.aspx
+<ParaStyle:Plain listing>804 S. Prairie St.
+<ParaStyle:Plain listing>Bloomfield, NM 34203
+<ParaStyle:Plain listing>(941) 755-1696
+<ParaStyle:Plain name>J.B. Hunt Transport Services
+<ParaStyle:www>example.net/?alarm=account
+<ParaStyle:Plain listing>111 Harrison Court
+<ParaStyle:Plain listing>Ste. 2
+<ParaStyle:Plain listing>Destin, FL 55121
+<ParaStyle:Plain listing>(888) 717-4466 | (651) 686-5027
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Honeywell International
+<ParaStyle:Plain listing>Orange Lake, TN Canada
+<ParaStyle:Plain name>Walt Disney
+<ParaStyle:www>example.net/
+<ParaStyle:Plain listing>46 South Halifax Drive
+<ParaStyle:Plain listing>Enid, OK 90011
+<ParaStyle:Plain listing>(213) 905-3205
+<ParaStyle:Plain name>ADP
+<ParaStyle:www>example.org/badge
+<ParaStyle:Plain listing>759 Lookout Lane
+<ParaStyle:Plain listing>South Haven, MI 97477
+<ParaStyle:Plain listing>(800) 545-8686 | (541) 687-1818
+<ParaStyle:Plain name>Xcel Energy
+<ParaStyle:www>example.com/baby
+<ParaStyle:Plain listing>5 Chapel Lane
+<ParaStyle:Plain listing>Ste. 200
+<ParaStyle:Plain listing>Mystic Island, NJ 30093
+<ParaStyle:Plain listing>(770) 817-9410
+<ParaStyle:Plain name>INTL FCStone
+<ParaStyle:www>example.com/?apparatus=belief
+<ParaStyle:Plain listing>33 Cross St.
+<ParaStyle:Plain listing>Lamar, AR 92627
+<ParaStyle:Plain listing>18776460999
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Kraft Heinz
+<ParaStyle:Plain listing>Glenwood Springs, IA
+<ParaStyle:Plain name branch>United States Steel
+<ParaStyle:Plain listing>Midway, CA
+<ParaStyle:Plain name branch>Sempra Energy
+<ParaStyle:Plain listing>Glenwood Springs, Hong Kong
+<ParaStyle:Plain name>Allstate
+<ParaStyle:www>example.com/?approval=bone
+<ParaStyle:Plain listing>1 SE. Shady Court
+<ParaStyle:Plain listing>Factoryville, PA 33178
+<ParaStyle:Plain listing>(305) 418-4421
+<ParaStyle:Plain name>Southern
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>79 Clinton Dr.
+<ParaStyle:Plain listing>4F
+<ParaStyle:Plain listing>Tigard Japan 105-0004
+<ParaStyle:Plain listing>+81-3-5537-1585
+<ParaStyle:Plain name>HD Supply Holdings
+<ParaStyle:www>acoustics.example.net/
+<ParaStyle:Plain listing>7670 John St.
+<ParaStyle:Plain listing>Milaca, MN 55340
+<ParaStyle:Plain listing>(952) 912-2500
+<ParaStyle:Plain name>Arconic
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>37 Lancaster Ave.
+<ParaStyle:Plain listing>798 Market St.
+<ParaStyle:Plain listing>Lawrence, KS 37321-0338
+<ParaStyle:Plain listing>(800) 251-7286 | (423) 775-8344
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Harley-Davidson
+<ParaStyle:Plain listing>Carrollton, NV
+<ParaStyle:Plain name>Freeport-McMoRan
+<ParaStyle:www>example.net/ball.htm#baseball
+<ParaStyle:Plain listing>286 Shore Drive
+<ParaStyle:Plain listing>Tri-Lakes, IN 77093
+<ParaStyle:Plain listing>(713) 699-9896
+<ParaStyle:Plain name>Olin
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>710 South Mayflower Court
+<ParaStyle:Plain listing>Willcox, AZ 92618
+<ParaStyle:Plain listing>(800) 542-2307 | (949) 727-2100
+<ParaStyle:Plain name>Steel Dynamics
+<ParaStyle:www>example.com/acoustics.php
+<ParaStyle:Plain listing>8927 Nicolls Drive
+<ParaStyle:Plain listing>Center, ND 92805
+<ParaStyle:Plain listing>(800) 272-4381 | (714) 935-9130
+<ParaStyle:Plain name>Apple
+<ParaStyle:www>example.org/?addition=brick
+<ParaStyle:Plain listing>827 Spring Court
+<ParaStyle:Plain listing>Bangs, TX 98682
+<ParaStyle:Plain listing>(877) 674-8669
+<ParaStyle:Plain name>A-Mark Precious Metals
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>245 South Spring Ave.
+<ParaStyle:Plain listing>Holiday Shores, IL 33971
+<ParaStyle:Plain listing>(239) 785-8999
+<ParaStyle:Plain name>DISH Network
+<ParaStyle:www>example.com/arch/addition.php
+<ParaStyle:Plain listing>7969 Philmont St.
+<ParaStyle:Plain listing>Kensington, MD 60062
+<ParaStyle:Plain listing>(847) 714-0404
+<ParaStyle:Plain name>Avis Budget Group
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>1 Maple Ave.
+<ParaStyle:Plain listing>Luverne, MN 11779
+<ParaStyle:Plain listing>(800) 645-5195 | (631) 585-9446
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>EnLink Midstream
+<ParaStyle:Plain listing>Leitchfield, TX
+<ParaStyle:Plain name branch>Veritiv
+<ParaStyle:Plain listing>Medford, IL
+<ParaStyle:Plain name branch>PBF Energy
+<ParaStyle:Plain listing>Zolfo Springs, GA
+<ParaStyle:Plain name>Yum China Holdings
+<ParaStyle:www>example.net/?bridge=acoustics
+<ParaStyle:Plain listing>8880 Stillwater St.
+<ParaStyle:Plain listing>Patterson, CA 11788
+<ParaStyle:Plain listing>(866) 769-2517 | (866) 769-2517
+<ParaStyle:Plain name>American Airlines Group
+<ParaStyle:www>blood.example.edu/badge/bear.php
+<ParaStyle:Plain listing>285 Atlantic Street
+<ParaStyle:Plain listing>Bldg. 3A
+<ParaStyle:Plain listing>Springfield, OH 7026
+<ParaStyle:Plain listing>(973) 767-0880
+<ParaStyle:Plain name>Air Products & Chemicals
+<ParaStyle:www>example.com/blow/aftermath
+<ParaStyle:Plain listing>634 Old Cemetery Court
+<ParaStyle:Plain listing>Matamoras, PA 44663
+<ParaStyle:Plain listing>(877) 299-2914
+<ParaStyle:Plain name>DaVita
+<ParaStyle:www>agreement.example.com/
+<ParaStyle:Plain listing>8831 San Carlos Dr.
+<ParaStyle:Plain listing>Hobbs, NM R3H 0H7 Canada
+<ParaStyle:Plain listing>(204) 942-0091
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Intercontinental Exchange
+<ParaStyle:Plain listing>Lake Worth, TN
+<ParaStyle:Plain name branch>Coca-Cola
+<ParaStyle:Plain listing>East Norwich, IN
+<ParaStyle:Plain name branch>Entergy
+<ParaStyle:Plain listing>Wallace, NC
+<ParaStyle:Plain name>Williams
+<ParaStyle:www>example.com/#book
+<ParaStyle:Plain listing>754 Cardinal Ave.
+<ParaStyle:Plain listing>Wray, CO 79077-0767
+<ParaStyle:Plain listing>(806) 256-2033
+<ParaStyle:Plain name>Genworth Financial
+<ParaStyle:www>addition.example.com/
+<ParaStyle:Plain listing>12 Sussex Dr.
+<ParaStyle:Plain listing>Danville, KY 19114
+<ParaStyle:Plain listing>(800) 523-8888 | (800) 523-8888
+<ParaStyle:Plain name>Mohawk Industries
+<ParaStyle:www>box.example.com/bead
+<ParaStyle:Plain listing>81 E. Golden Star St.
+<ParaStyle:Plain listing>Silver Lake, FL 92677
+<ParaStyle:Plain listing>(949) 495-7917
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Genuine Parts
+<ParaStyle:Plain listing>Shelter Island Heights, NC
+<ParaStyle:Plain name>eBay
+<ParaStyle:www>example.com/bed/arch?balance=amusement&boundary=bait
+<ParaStyle:Plain listing>14 Columbia St.
+<ParaStyle:Plain listing>Hidden Hills, CA 14217
+<ParaStyle:Plain listing>(800) 800-9983 | (716) 876-9105
+<ParaStyle:Plain name>Unum Group
+<ParaStyle:www>example.com/brick/brother.html
+<ParaStyle:Plain listing>9013 Chapel Street
+<ParaStyle:Plain listing>Lonsdale, MN 4765-909
+<ParaStyle:Plain listing>+1351252980500
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Principal Financial
+<ParaStyle:Plain listing>Orange Lake, FL
+<ParaStyle:Plain name branch>Tenneco
+<ParaStyle:Plain listing>Shelter Island Heights, NV
+<ParaStyle:Plain name branch>General Electric
+<ParaStyle:Plain listing>Zolfo Springs, OH
+<ParaStyle:Plain name>Estee Lauder
+<ParaStyle:www>example.com/#army
+<ParaStyle:Plain listing>9497 W. Military Drive
+<ParaStyle:Plain listing>3rd Fl.
+<ParaStyle:Plain listing>Navarre, FL 60440
+<ParaStyle:Plain listing>(800) 523-2155 | (800) 523-2155
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>BJ's Wholesale Club
+<ParaStyle:Plain listing>Orange Lake, FL
+<ParaStyle:Plain name branch>National Oilwell Varco
+<ParaStyle:Plain listing>Bay Hill, NY
+<ParaStyle:Plain name branch>Tenneco
+<ParaStyle:Plain listing>Glenwood Springs, China
+<ParaStyle:Plain name branch>Hewlett Packard Enterprise
+<ParaStyle:Plain listing>Midway, Poland
+<ParaStyle:Plain name>CSX
+<ParaStyle:www>example.com/?air=berry
+<ParaStyle:Plain listing>9339 Church Dr.
+<ParaStyle:Plain listing>Ste. 130
+<ParaStyle:Plain listing>Eagle Lake, MN 98029
+<ParaStyle:Plain listing>(800) 426-6399 | (206) 727-3200
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Kellogg
+<ParaStyle:Plain listing>Keyport, FL
+<ParaStyle:Plain name>Fifth Third Bancorp
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>773 West Arlington Ave.
+<ParaStyle:Plain listing>Lilburn, GA 77586
+<ParaStyle:Plain listing>(877) 727-7410 | (281) 326-5362
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Post Holdings
+<ParaStyle:Plain listing>Alum Creek, TX
+<ParaStyle:Plain name branch>Expeditors Intl. of Washington
+<ParaStyle:Plain listing>New Providence, MN
+<ParaStyle:Plain name branch>American Electric Power
+<ParaStyle:Plain listing>Cambridge, FL
+<ParaStyle:Plain name branch>Molson Coors Brewing
+<ParaStyle:Plain listing>Port Allen, WA
+<ParaStyle:Plain name branch>Sysco
+<ParaStyle:Plain listing>Villisca, NV
+<ParaStyle:Plain name>Publix Super Markets
+<ParaStyle:www>air.example.com/approval/bubble
+<ParaStyle:Plain listing>7763 Clark Dr.
+<ParaStyle:Plain listing>Inverness, IL 98107
+<ParaStyle:Plain listing>(206) 632-2866
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Quest Diagnostics
+<ParaStyle:Plain listing>Los Banos, Mexico
+<ParaStyle:Plain name>Peabody Energy
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>29 Sunset Lane
+<ParaStyle:Plain listing>Beltsville, MD 92154
+<ParaStyle:Plain listing>(866) 783-6489 | (619) 662-9715
+<ParaStyle:Plain name>Arthur J. Gallagher
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>9013 W. 53rd Ave.
+<ParaStyle:Plain listing>Floral Park, NY 29466
+<ParaStyle:Plain listing>(866) 290-3812 | (843) 884-1575
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Liberty Media
+<ParaStyle:Plain listing>Los Banos, GA
+<ParaStyle:Plain name branch>Rite Aid
+<ParaStyle:Plain listing>Haubstadt, IN
+<ParaStyle:Plain name branch>Mastercard
+<ParaStyle:Plain listing>Orange Lake, TX
+<ParaStyle:Plain name>Caterpillar
+<ParaStyle:www>example.net/birds/animal?boy=border
+<ParaStyle:Plain listing>965 South Summerhouse Court
+<ParaStyle:Plain listing>Mission, OR 78701
+<ParaStyle:Plain listing>(512) 807-8222
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Centene
+<ParaStyle:Plain listing>Bay Hill, CA
+<ParaStyle:Plain name>United States Steel
+<ParaStyle:www>advertisement.example.com/amount.aspx#blow
+<ParaStyle:Plain listing>302 Sunset Ave.
+<ParaStyle:Plain listing>D'Iberville, MS 60008
+<ParaStyle:Plain listing>(800) 372-7737 | (847) 870-7400
+<ParaStyle:Plain name>Qurate Retail
+<ParaStyle:www>board.example.com/act.php
+<ParaStyle:Plain listing>77 Wellington St.
+<ParaStyle:Plain listing>Ensley, FL 92649
+<ParaStyle:Plain listing>18774000111 | (714) 891-4185
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Alaska Air Group
+<ParaStyle:Plain listing>Carrollton, KY
+<ParaStyle:Plain name branch>Realogy Holdings
+<ParaStyle:Plain listing>Port Allen, CA
+<ParaStyle:Plain name branch>Charter Communications
+<ParaStyle:Plain listing>Wallace, TX
+<ParaStyle:Plain name>Zimmer Biomet Holdings
+<ParaStyle:www>example.com/bedroom/boundary
+<ParaStyle:Plain listing>53 Spruce Dr.
+<ParaStyle:Plain listing>Mount Sterling, IL 22031-3489
+<ParaStyle:Plain listing>(888) 385-3588 | (703) 385-1335
+<ParaStyle:Plain name>Danaher
+<ParaStyle:www>example.net/
+<ParaStyle:Plain listing>9443 West White Ave.
+<ParaStyle:Plain listing>Meridian, CO 55406
+<ParaStyle:Plain listing>(800) 221-4079 | (612) 729-7365
+<ParaStyle:Plain name>Northern Trust
+<ParaStyle:www>example.net/beginner
+<ParaStyle:Plain listing>99 Rocky River Street
+<ParaStyle:Plain listing>Shortsville, NY 60008
+<ParaStyle:Plain listing>(847) 870-7400
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Dollar Tree
+<ParaStyle:Plain listing>Alum Creek, MA
+<ParaStyle:Plain name branch>American Tower
+<ParaStyle:Plain listing>New Providence, FL
+<ParaStyle:Plain name branch>Western Digital
+<ParaStyle:Plain listing>Cambridge, TX
+<ParaStyle:Plain name>Jones Lang LaSalle
+<ParaStyle:www>example.org/adjustment.php?amusement=base&amount=breath
+<ParaStyle:Plain listing>96 Fairfield Avenue
+<ParaStyle:Plain listing>Clinton, UT 90250
+<ParaStyle:Plain listing>(424) 675-3300
+<ParaStyle:Plain name>Sempra Energy
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>8620 E. Brown St.
+<ParaStyle:Plain listing>Harbor Beach, MI 37214
+<ParaStyle:Plain listing>(615) 565-5000
+<ParaStyle:Plain name>Baxter International
+<ParaStyle:www>example.com/bird
+<ParaStyle:Plain listing>834 Beach St.
+<ParaStyle:Plain listing>Roanoke, VA 46628
+<ParaStyle:Plain listing>
+<ParaStyle:Plain name>Union Pacific
+<ParaStyle:www>example.com/#apparel
+<ParaStyle:Plain listing>242 South Crescent St.
+<ParaStyle:Plain listing>Bldg. A
+<ParaStyle:Plain listing>Upper Falls, WV 30092
+<ParaStyle:Plain listing>(770) 667-7717
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Comcast
+<ParaStyle:Plain listing>Leitchfield, OH
+<ParaStyle:Plain name branch>Newell Brands
+<ParaStyle:Plain listing>Medford, LA
+<ParaStyle:Plain name branch>L Brands
+<ParaStyle:Plain listing>Lake Worth, GA
+<ParaStyle:Plain name branch>HCA Healthcare
+<ParaStyle:Plain listing>East Norwich, IL
+<ParaStyle:Plain name branch>Alliance Data Systems
+<ParaStyle:Plain listing>Shelter Island Heights, WI
+<ParaStyle:Plain name branch>Dover
+<ParaStyle:Plain listing>Villisca, MA
+<ParaStyle:Plain name branch>Boston Scientific
+<ParaStyle:Plain listing>Bay Hill, CO
+<ParaStyle:Plain name branch>Whirlpool
+<ParaStyle:Plain listing>Glenwood Springs, TX
+<ParaStyle:Plain name branch>Arconic
+<ParaStyle:Plain listing>Midway, Mexico
+<ParaStyle:Plain name>Assurant
+<ParaStyle:www>example.edu/boy
+<ParaStyle:Plain listing>9213 Indian Spring Road
+<ParaStyle:Plain listing>Milford Mill, MD 85023
+<ParaStyle:Plain listing>18886371737 | (602) 439-0600
+<ParaStyle:Plain name>Biogen
+<ParaStyle:www>example.net/babies/belief?acoustics=anger#book
+<ParaStyle:Plain listing>8487 Hartford Avenue
+<ParaStyle:Plain listing>Strawberry Point, IA 91733
+<ParaStyle:Plain listing>(626) 575-2488
+<ParaStyle:Plain name>Best Buy
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>9309 South River St.
+<ParaStyle:Plain listing>Lacombe, LA 75098
+<ParaStyle:Plain listing>(972) 461-0700
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>INTL FCStone
+<ParaStyle:Plain listing>Medford, CA
+<ParaStyle:Plain name branch>Motorola Solutions
+<ParaStyle:Plain listing>Zolfo Springs, IL
+<ParaStyle:Plain name branch>Lithia Motors
+<ParaStyle:Plain listing>Lake Worth, ON Canada
+<ParaStyle:Plain name>XPO Logistics
+<ParaStyle:www>example.com/?base=battle
+<ParaStyle:Plain listing>187 Sheffield Street
+<ParaStyle:Plain listing>Baxley, GA 30083
+<ParaStyle:Plain listing>(800) 544-9096 | (404) 634-3000
+<ParaStyle:Plain name>Asbury Automotive Group
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>2 Longbranch St.
+<ParaStyle:Plain listing>Levittown, NY 15102
+<ParaStyle:Plain listing>(844) 426-4657
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>CarMax
+<ParaStyle:Plain listing>Glenwood Springs, GA
+<ParaStyle:Plain name branch>Darden Restaurants
+<ParaStyle:Plain listing>Midway, CA
+<ParaStyle:Plain name branch>Foot Locker
+<ParaStyle:Plain listing>New Providence, OH
+<ParaStyle:Plain name branch>Quest Diagnostics
+<ParaStyle:Plain listing>Port Allen, MA
+<ParaStyle:Plain name branch>Nvidia
+<ParaStyle:Plain listing>Wallace, United Kingdom
+<ParaStyle:Plain name>Whirlpool
+<ParaStyle:www>example.com/?approval=blade&belief=badge
+<ParaStyle:Plain listing>8692 Front Ave.
+<ParaStyle:Plain listing>Ste. 575
+<ParaStyle:Plain listing>Muniz, TX 92656
+<ParaStyle:Plain listing>18887185051 | (949) 600-8868
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>TIAA
+<ParaStyle:Plain listing>Leitchfield, KY
+<ParaStyle:Plain name>Interpublic Group
+<ParaStyle:www>addition.example.com/bird/birth.php
+<ParaStyle:Plain listing>7815 Van Dyke Dr.
+<ParaStyle:Plain listing>Dayton, KY 7719
+<ParaStyle:Plain listing>(732) 282-1448 | (732) 282-1448
+<ParaStyle:Plain name>KeyCorp
+<ParaStyle:www>example.com/arithmetic.aspx
+<ParaStyle:Plain listing>742 Arcadia St.
+<ParaStyle:Plain listing>New Fairview, TX 97230-7416
+<ParaStyle:Plain listing>(800) 234-4890 | (503) 661-8693
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>NRG Energy
+<ParaStyle:Plain listing>Villisca, United Kingdom
+<ParaStyle:Plain name branch>Synchrony Financial
+<ParaStyle:Plain listing>Los Banos, China
+<ParaStyle:Plain name>Jabil
+<ParaStyle:www>example.com/#bag
+<ParaStyle:Plain listing>15 Riverview Ave.
+<ParaStyle:Plain listing>Bel-Nor, MO 98274
+<ParaStyle:Plain listing>(800) 574-3477 | (360) 757-2102
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Becton Dickinson
+<ParaStyle:Plain listing>New Providence, NJ
+<ParaStyle:Plain name>HollyFrontier
+<ParaStyle:www>alarm.example.com/brass
+<ParaStyle:Plain listing>567 Eagle Avenue
+<ParaStyle:Plain listing>Ste. 140
+<ParaStyle:Plain listing>Antelope Valley-Crestview, WY 29588
+<ParaStyle:Plain listing>(843) 215-7000
+<ParaStyle:Plain name>Alphabet
+<ParaStyle:www>example.com/box/action?base=bee&act=bikes
+<ParaStyle:Plain listing>48 Wayne Dr.
+<ParaStyle:Plain listing>Mission, OR 70806
+<ParaStyle:Plain listing>(800) 824-7578 | (225) 925-5789
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Omnicom Group
+<ParaStyle:Plain listing>Cambridge, OH
+<ParaStyle:Plain name>Raytheon
+<ParaStyle:www>attraction.example.com/
+<ParaStyle:Plain listing>954 Bear Hill Rd.
+<ParaStyle:Plain listing>D'Iberville, MS 30010
+<ParaStyle:Plain listing>(877) 657-7500 | (770) 409-9503
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Fifth Third Bancorp
+<ParaStyle:Plain listing>Carrollton, MN
+<ParaStyle:Plain name branch>United Rentals
+<ParaStyle:Plain listing>Carrollton, OH
+<ParaStyle:Plain name>Eversource Energy
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>98 Summit St.
+<ParaStyle:Plain listing>Ste. 100
+<ParaStyle:Plain listing>Ensley, FL 36606
+<ParaStyle:Plain listing>(251) 473-6502
+<ParaStyle:Plain name>Mondelez International
+<ParaStyle:www>example.com/apparatus
+<ParaStyle:Plain listing>7635 S. Golden Star Street
+<ParaStyle:Plain listing>Mount Sterling, IL 35811
+<ParaStyle:Plain listing>(256) 429-9900 | (256) 851-0827
+<ParaStyle:Plain name>Huntsman
+<ParaStyle:www>example.org/
+<ParaStyle:Plain listing>8405 W. White Ave.
+<ParaStyle:Plain listing>Ste. 500
+<ParaStyle:Plain listing>Meridian, CO 55316
+<ParaStyle:Plain listing>(888) 828-0653 | (763) 231-3040
+<ParaStyle:Plain name>HCA Healthcare
+<ParaStyle:www>example.com/bear#branch
+<ParaStyle:Plain listing>66 Plymouth Street
+<ParaStyle:Plain listing>Ste. A
+<ParaStyle:Plain listing>Shortsville, NY 27101-2529
+<ParaStyle:Plain listing>(800) 597-9530 | (336) 722-2500
+<ParaStyle:Plain name>Hanesbrands
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>84 Hall Street
+<ParaStyle:Plain listing>Clinton, UT 37341
+<ParaStyle:Plain listing>(423) 344-4080
+<ParaStyle:Plain name>Navistar International
+<ParaStyle:www>example.com/bat
+<ParaStyle:Plain listing>59 Euclid Rd.
+<ParaStyle:Plain listing>Harbor Beach, MI 21632
+<ParaStyle:Plain listing>(800) 922-9253
+<ParaStyle:Plain name>MetLife
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>758 Baker St.
+<ParaStyle:Plain listing>Roanoke, VA 266109
+<ParaStyle:Plain listing>(865) 328-796
+<ParaStyle:Plain name>Molina Healthcare
+<ParaStyle:www>example.com/boat
+<ParaStyle:Plain listing>8162 West Manor Station Drive
+<ParaStyle:Plain listing>Upper Falls, WV 85254
+<ParaStyle:Plain listing>(602) 363-4674
+<ParaStyle:Plain name>Cisco Systems
+<ParaStyle:www>bear.example.com/act.html?book=bells
+<ParaStyle:Plain listing>76 N. Birchwood Street
+<ParaStyle:Plain listing>Ste. 8190
+<ParaStyle:Plain listing>Milford Mill, MD 19703
+<ParaStyle:Plain listing>(206) 552-9026
+<ParaStyle:Plain name>Laboratory Corp. of America
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>9045 West Fulton Rd.
+<ParaStyle:Plain listing>Ojung-GU
+<ParaStyle:Plain listing>Strawberry Point Korea, Republic of 421-814
+<ParaStyle:Plain listing>+82 32 684 6088
+<ParaStyle:Plain name>Harley-Davidson
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>9358 Cemetery Court
+<ParaStyle:Plain listing>Ste. 431
+<ParaStyle:Plain listing>Lacombe, LA 19720
+<ParaStyle:Plain listing>(213) 788-6748
+<ParaStyle:Plain name>CDW
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>84 College Ave.
+<ParaStyle:Plain listing>Baxley, GA 95219
+<ParaStyle:Plain listing>(209) 931-6093
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>Synchrony Financial
+<ParaStyle:Plain listing>Keyport, IL
+<ParaStyle:Plain name branch>Allstate
+<ParaStyle:Plain listing>Alum Creek, MA
+<ParaStyle:Plain name branch>Motorola Solutions
+<ParaStyle:Plain listing>Haubstadt, CA
+<ParaStyle:Plain name>Aramark
+<ParaStyle:www>example.com/
+<ParaStyle:Plain listing>178 Lantern Dr.
+<ParaStyle:Plain listing>Xingyao Building, #2008
+<ParaStyle:Plain listing>Levittown, NY 310051
+<ParaStyle:Plain listing>+18657185812777
+<ParaStyle:Plain name>Western Union
+<ParaStyle:www>example.com/?afternoon=blow&ants=brick
+<ParaStyle:Plain listing>8270 East Thomas Street
+<ParaStyle:Plain listing>Muniz, TX 63132
+<ParaStyle:Plain listing>18777246400 | (636) 724-6400
+<ParaStyle:Plain name>Darden Restaurants
+<ParaStyle:www>example.com/#apparel
+<ParaStyle:Plain listing>80 Peg Shop St.
+<ParaStyle:Plain listing>Dayton, KY 90040
+<ParaStyle:Plain listing>(323) 516-6771
+<ParaStyle:branch office>BRANCHES
+<ParaStyle:Plain name branch>TravelCenters of America
+<ParaStyle:Plain listing>Leitchfield, NJ

@@ -1,0 +1,154 @@
+<ASCII-MAC>
+<Version:11.4><FeatureSet:InDesign-Roman><ColorTable:=<Apparel Blanks:COLOR:CMYK:Process:0.34,0,0.93,0><Black:COLOR:CMYK:Process:0,0,0,1><Blank Nonwear:COLOR:CMYK:Process:0.82,0.38,0,0><Computer Equip:COLOR:CMYK:Process:0.25,1,0.45,0.07><Cutting Equip:COLOR:CMYK:Process:0.91,1,0.18,0.15><Digital:COLOR:CMYK:Process:0.53,0,0.32,0><Embroidery Equip:COLOR:CMYK:Process:0,1,1,0><Heat-App Graphics:COLOR:CMYK:Process:0.68,0,0.04,0><Miscellaneous:COLOR:CMYK:Process:0.8,0,1,0><Screen Printing:COLOR:CMYK:Process:0,0,0,0.75>>
+<DefineParaStyle:Category=<Nextstyle:Category><cTypeface:Bold><cSize:9.000000><cHorizontalScale:0.950000><cCase:All Caps><pHyphenationLadderLimit:0><cLeading:11.000000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceBefore:9.000000><cFont:Circular Std><pKeepWithNext:1>>
+<DefineParaStyle:Product=<Nextstyle:Product><cSize:7.000000><cCase:All Caps><pHyphenationLadderLimit:0><pLeftIndent:9.000000><pFirstLineIndent:-9.000000><cLeading:11.000000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceBefore:3.600000><pTabRuler:160,Right,.,0,.;><cFont:Adobe Caslon Pro>>
+<DefineParaStyle:SubProduct=<cSize:7.000000><pHyphenationLadderLimit:0><pLeftIndent:18.000000><pFirstLineIndent:-9.000000><cLeading:10.000000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceBefore:1.500000><pTabRuler:160,Right,.,0,.;><cFont:Adobe Caslon Pro>>
+<ParaStyle:Category>Apparel Blanks
+<ParaStyle:Product>American-Made Apparel
+<ParaStyle:Product>Animal, Pet, K-9 Apparel
+<ParaStyle:Product>Aprons, Smocks
+<ParaStyle:Product>Athletic Wear
+<ParaStyle:SubProduct>Baseball Uniforms
+<ParaStyle:SubProduct>Basketball Uniforms
+<ParaStyle:SubProduct>Bowling Shirts
+<ParaStyle:SubProduct>Cheerleader Uniforms
+<ParaStyle:SubProduct>Football Uniforms
+<ParaStyle:SubProduct>Hockey Uniforms
+<ParaStyle:Product>Caps, Headwear
+<ParaStyle:SubProduct>Precurved-Visor Caps
+<ParaStyle:SubProduct>Visors
+<ParaStyle:Product>Children's Apparel
+<ParaStyle:Product>Closeouts
+<ParaStyle:Product>Denim Apparel
+<ParaStyle:SubProduct>Denim Dresses
+<ParaStyle:SubProduct>Denim Shirts
+<ParaStyle:Product>Fleecewear, Sweats
+<ParaStyle:SubProduct>1/4-,1/2-Zip Fleece
+<ParaStyle:SubProduct>Canton Fleece
+<ParaStyle:SubProduct>Cardigans (Fleece)
+<ParaStyle:SubProduct>Children's, Infants', Youth Fleecewear
+<ParaStyle:SubProduct>Crew-Neck Sweats
+<ParaStyle:SubProduct>Crop Tops (Fleece)
+<ParaStyle:SubProduct>Dresses (Fleece)
+<ParaStyle:SubProduct>Fashion Fleece
+<ParaStyle:SubProduct>French Terry Fleece
+<ParaStyle:SubProduct>Full-Zip Fleece
+<ParaStyle:SubProduct>High-Cotton Content Fleece
+<ParaStyle:SubProduct>Textured Fleece
+<ParaStyle:Product>Footwear
+<ParaStyle:Product>Garment-Dyed Apparel
+<ParaStyle:Product>Golf, Placket Shirts
+<ParaStyle:SubProduct>Youth Golf, Placket Shirts
+<ParaStyle:Product>Jackets, Outerwear
+<ParaStyle:SubProduct>Polyester, Blends
+<ParaStyle:SubProduct>Poplin Jackets
+<ParaStyle:SubProduct>Satin Jackets
+<ParaStyle:SubProduct>Supplex Jackets
+<ParaStyle:SubProduct>Tyvek Jackets
+<ParaStyle:SubProduct>Vests
+<ParaStyle:Product>Miscellaneous Apparel
+<ParaStyle:SubProduct>Color-Block Shirts
+<ParaStyle:SubProduct>Dickeys
+<ParaStyle:SubProduct>Flannel Apparel
+<ParaStyle:SubProduct>Gloves
+<ParaStyle:SubProduct>Henley-Collar Shirts
+<ParaStyle:SubProduct>Johnny-Collar Shirts
+<ParaStyle:SubProduct>Juniors Apparel
+<ParaStyle:SubProduct>Ladies' Fashion Apparel
+<ParaStyle:SubProduct>Misses Apparel
+<ParaStyle:SubProduct>Sets (Top and Bottom coordinates)
+<ParaStyle:SubProduct>Tube Tops/Bandeaus
+<ParaStyle:SubProduct>Western Wear
+<ParaStyle:Product>Oversize Apparel
+<ParaStyle:Product>Pants
+<ParaStyle:SubProduct>Joggers
+<ParaStyle:SubProduct>Sweat Pants
+<ParaStyle:Product>Performance Apparel
+<ParaStyle:SubProduct>Other
+<ParaStyle:SubProduct>Soil-Resistant
+<ParaStyle:SubProduct>U.V. Protective Apparel
+<ParaStyle:SubProduct>Wrinkle-Resistant
+<ParaStyle:Product>T-Shirts
+<ParaStyle:SubProduct>Raglan T-Shirts
+<ParaStyle:SubProduct>T-Shirts, Other Fabrics/Blends
+<ParaStyle:SubProduct>Tall-Size T-Shirts
+<ParaStyle:SubProduct>Tank Tops
+<ParaStyle:SubProduct>Textured T-Shirts
+<ParaStyle:SubProduct>Tri-Blends
+<ParaStyle:SubProduct>V-Neck T-Shirts
+<ParaStyle:Product>Thermal Apparel
+<ParaStyle:Product>Woven Apparel
+<ParaStyle:SubProduct>Twill Shirts
+<ParaStyle:SubProduct>Western Shirts
+<ParaStyle:Category>Blank Nonwearables & Accessories
+<ParaStyle:Product>Backpacks, Knapsacks
+<ParaStyle:Product>Bags
+<ParaStyle:SubProduct>Duffle Bags
+<ParaStyle:SubProduct>Novelty Bags
+<ParaStyle:SubProduct>Panels, Panel Programs for Bags
+<ParaStyle:SubProduct>Roller Backpacks
+<ParaStyle:SubProduct>Tote Bags
+<ParaStyle:Product>Towels
+<ParaStyle:Product>Umbrellas
+<ParaStyle:Category>Computer Equipment & Software
+<ParaStyle:Product>Computer Hardware
+<ParaStyle:SubProduct>Business Systems, Turnkey
+<ParaStyle:SubProduct>Digital Cameras
+<ParaStyle:SubProduct>Film-Imaging Systems
+<ParaStyle:Product>Computer Software
+<ParaStyle:SubProduct>Graphics Software
+<ParaStyle:SubProduct>Monogramming Software
+<ParaStyle:SubProduct>Networking Software
+<ParaStyle:SubProduct>Separations Software
+<ParaStyle:Category>Cutting Equipment & Services
+<ParaStyle:Product>Cutting Software
+<ParaStyle:Product>Vinyl Cutters
+<ParaStyle:Category>Digital Decorating Equipment & Supplies
+<ParaStyle:Product>Color Laser Copier
+<ParaStyle:SubProduct>Color Laser Copier Toners
+<ParaStyle:Product>Inkjet
+<ParaStyle:SubProduct>Inkjet Transfer Paper
+<ParaStyle:Category>Embroidery Equipment & Supplies
+<ParaStyle:Product>Embroidery Equipment
+<ParaStyle:SubProduct>Compact Embroidery Machines
+<ParaStyle:Product>Topping Materials
+<ParaStyle:Category>Heat-Applied Graphics Equipment, Lettering & Transfers
+<ParaStyle:Product>Heat-Press, Lettering Supplies
+<ParaStyle:SubProduct>Film Adhesives
+<ParaStyle:Product>Transfer Screen Printing Inks & Supplies
+<ParaStyle:SubProduct>Softhand Transfer Inks
+<ParaStyle:Product>Transfers
+<ParaStyle:SubProduct>Cap-Size Transfers
+<ParaStyle:Category>Miscellaneous Equipment, Supplies & Industry Services
+<ParaStyle:Product>Cut-and-Sew Contract Services
+<ParaStyle:Product>Direct Flocking Equipment & Supplies
+<ParaStyle:SubProduct>Flock Adhesives
+<ParaStyle:SubProduct>Flock Transfer Paper
+<ParaStyle:SubProduct>Flocking Equipment
+<ParaStyle:SubProduct>Loose Flock
+<ParaStyle:Product>Display Supplies, Fixtures & Accessories
+<ParaStyle:Product>Educational Seminars
+<ParaStyle:SubProduct>Digital Decorating Educational Seminars
+<ParaStyle:SubProduct>Embroidery Educational Seminars
+<ParaStyle:SubProduct>Screen Printing Educational Seminars
+<ParaStyle:Product>Emblems, Patches & Chenille Service
+<ParaStyle:Product>Hand Cleaners
+<ParaStyle:Category>Screen Printing Equipment & Supplies
+<ParaStyle:Product>Inks for Textile Screen Printing
+<ParaStyle:SubProduct>Concentrated Pigments
+<ParaStyle:SubProduct>Discharge Ink Systems
+<ParaStyle:SubProduct>Fluorescent, Neon Inks
+<ParaStyle:Product>Printing Equipment, Supplies & Services
+<ParaStyle:SubProduct>Drying Racks
+<ParaStyle:SubProduct>Eco-Friendly Printing Supplies
+<ParaStyle:SubProduct>Flatbed Transfer-Printing Presses
+<ParaStyle:SubProduct>Transfer-Release Paper
+<ParaStyle:SubProduct>Used Screen Printing Equipment
+<ParaStyle:Product>Screen-Making Equipment & Supplies
+<ParaStyle:SubProduct>Frames: Retensionable
+<ParaStyle:SubProduct>Frames: Wood
+<ParaStyle:Product>Screen-Reclaiming Equipment & Supplies
+<ParaStyle:SubProduct>Washout Tanks, Booths
+<ParaStyle:Product>Separations Software
+<ParaStyle:Category>Services
+<ParaStyle:Product>Misc. Equipment, Supplies & Industry Services
