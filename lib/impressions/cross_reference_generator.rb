@@ -84,11 +84,11 @@ module Impressions
     end
 
     def get_company(cat)
-      company = @companies.select { |co| co['Id'] == cat['Id'] }
+      company = @companies.select { |co| co['CompanyID'] == cat['CompanyID'] }
 
       return '' unless company[0]
       state = company[0]['State'] || ''
-      co_name = company[0]['Company_Name'] || ''
+      co_name = company[0]['CompanyName'] || ''
       phone_num = phone(company[0])
 
       @styles[:company] + co_name + "\t" + state + "\t" + phone_num + @line_break

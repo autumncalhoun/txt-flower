@@ -33,7 +33,7 @@ module Impressions
       @output = ''
       @line_break = "\n"
 
-      @data = CSV.read(company_csv, headers: true)
+      @data = CSV.read(companies_csv, headers: true)
       @branches = CSV.read(branches_csv, headers: true)
       @header = set_header_from_yml(template)
     end
@@ -120,7 +120,7 @@ module Impressions
     def supplier_loop
       @data.each do |c|
         #name
-        output << tags[:company_name] + c['Company_Name'] + line_break
+        output << tags[:company_name] + c['CompanyName'].to_s + line_break
 
         #website
         website = c['URL'] ? c['URL'] : ''

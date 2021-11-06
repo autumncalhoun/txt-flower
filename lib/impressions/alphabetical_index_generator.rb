@@ -46,8 +46,9 @@ module Impressions
 
       letters.each do |letter|
         filtered_prod = prod_index.select { |item| item['Product'].start_with?(letter.to_s) }
-        filtered_subprod = prod_index.select { |item| item['SubProduct'] && item[5].start_with?(letter.to_s) }
-        filtered_subprod = filtered_subprod.sort_by { |d| [d[5].downcase] }
+        filtered_subprod =
+          prod_index.select { |item| item['Subproduct'] && item['Subproduct'].start_with?(letter.to_s) }
+        filtered_subprod = filtered_subprod.sort_by { |d| [d['Subproduct'].downcase] }
 
         prod_list = ''
         subprod_list = ''
