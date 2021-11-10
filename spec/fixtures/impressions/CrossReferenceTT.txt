@@ -1,0 +1,1102 @@
+<ASCII-MAC>
+<Version:11.4><FeatureSet:InDesign-Roman><ColorTable:=<Black:COLOR:CMYK:Process:0,0,0,1><Nielsen Gray:COLOR:CMYK:Process:0.48,0.35,0.3,0.16>>
+<DefineParaStyle:Product=<cTypeface:Bold><cSize:10.000000><cHorizontalScale:0.950000><cTracking:30><cBaselineShift:7.000000><cCase:All Caps><pHyphenationLadderLimit:0><cLeading:11.000000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceBefore:22.500000><cFont:Circular Std><pKeepParaTogether:1><pKeepWithNext:1><pKeepLines:1><pRuleAboveColor:Black><pRuleAboveStroke:20.000000><pRuleAboveTint:100.000000><pRuleAboveOffset:1.620000><pRuleBelowColor:Black><pRuleBelowStroke:3.000000><pRuleBelowOffset:-4.500000><pRuleBelowOn:1><pRuleAboveStrokeType:ThinThin><pRuleAboveGapColor:Apparel Blanks><pRuleAboveGapTint:100.000000><pTextAlignment:Center><pRuleAboveKeepInFrame:1>>
+<DefineParaStyle:Company=<cSize:7.000000><pHyphenationLadderLimit:0><pLeftIndent:7.199999><pFirstLineIndent:-7.200000><cLeading:9.000000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pTabRuler:89,Left,.,0,;108,Left,.,0,;163.0500030517578,Right,.,0,;><cFont:Adobe Caslon Pro>>
+<DefineParaStyle:SubProduct=<cTypeface:Bold><cSize:8.000000><cHorizontalScale:0.930000><cCase:All Caps><pHyphenationLadderLimit:0><cLeading:8.199999><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceBefore:8.640000><pSpaceAfter:0.504000><pTabRuler:89,Left,.,0,;108,Left,.,0,;163.0500030517578,Right,.,0,;><cFont:Circular Std>>
+CATEGORY Apparel Blanks
+<ParaStyle:Product>American-Made Apparel
+<ParaStyle:Company>Baxter International	VA	
+<ParaStyle:Company>Jones Lang LaSalle	UT	(424) 675-3300
+<ParaStyle:Company>Motorola Solutions	OH	(630) 925-7957
+<ParaStyle:Company>NGL Energy Partners	OH	(800) 530-5909
+<ParaStyle:Company>Northern Trust	NY	(847) 870-7400
+<ParaStyle:Company>Sempra Energy	MI	(615) 565-5000
+<ParaStyle:Company>Union Pacific	WV	(770) 667-7717
+<ParaStyle:Company>Vistra Energy	NY	(701) 293-0077
+<ParaStyle:Product>Animal, Pet, K-9 Apparel
+<ParaStyle:Company>Assurant	MD	18886371737
+<ParaStyle:Company>Best Buy	LA	(972) 461-0700
+<ParaStyle:Company>Biogen	IA	(626) 575-2488
+<ParaStyle:Company>Hanesbrands	UT	(423) 344-4080
+<ParaStyle:Company>HCA Healthcare	NY	(800) 597-9530
+<ParaStyle:Company>Huntsman	CO	(888) 828-0653
+<ParaStyle:Product>Aprons, Smocks
+<ParaStyle:Company>Apple	TX	(877) 674-8669
+<ParaStyle:Company>Cisco Systems	MD	(206) 552-9026
+<ParaStyle:Company>Laboratory Corp. of America		+82 32 684 6088
+<ParaStyle:Company>MetLife	VA	(865) 328-796
+<ParaStyle:Company>Molina Healthcare	WV	(602) 363-4674
+<ParaStyle:Company>Navistar International	MI	(800) 922-9253
+<ParaStyle:Company>Olin	AZ	(800) 542-2307
+<ParaStyle:Company>Steel Dynamics	ND	(800) 272-4381
+<ParaStyle:Product>Athletic Wear
+<ParaStyle:SubProduct>Baseball Uniforms
+<ParaStyle:Company>A-Mark Precious Metals	IL	(239) 785-8999
+<ParaStyle:Company>HollyFrontier	WY	(843) 215-7000
+<ParaStyle:Company>Interpublic Group	KY	(732) 282-1448
+<ParaStyle:Company>Jabil	MO	(800) 574-3477
+<ParaStyle:Company>KeyCorp	TX	(800) 234-4890
+<ParaStyle:SubProduct>Basketball Uniforms
+<ParaStyle:Company>Activision Blizzard	PA	(800) 878-1235
+<ParaStyle:Company>Aflac	WA	(732) 534-6222
+<ParaStyle:Company>Chesapeake Energy	TX	(800) 443-9553
+<ParaStyle:Company>LKQ	MO	(800) 225-9634
+<ParaStyle:Company>Toll Brothers	GA	18004414393
+<ParaStyle:Company>Valero Energy	TN	(845) 425-2245
+<ParaStyle:Company>WEC Energy Group	NH	(323) 391-1105
+<ParaStyle:SubProduct>Bowling Shirts
+<ParaStyle:Company>Anadarko Petroleum	NC	(877) 757-7978
+<ParaStyle:Company>Bed Bath & Beyond	OR	(214) 631-3000
+<ParaStyle:Company>Microsoft	OH	(877) 446-7163
+<ParaStyle:Company>Textron	MI	(360) 752-3310
+<ParaStyle:Company>USAA	NY	(800) 314-1622
+<ParaStyle:SubProduct>Cheerleader Uniforms
+<ParaStyle:Company>Avis Budget Group	MN	(800) 645-5195
+<ParaStyle:Company>Icahn Enterprises	NM	(941) 755-1696
+<ParaStyle:Company>Yum China Holdings	CA	(866) 769-2517
+<ParaStyle:SubProduct>Football Uniforms
+<ParaStyle:Company>Assurant	MD	18886371737
+<ParaStyle:Company>Baxter International	VA	
+<ParaStyle:Company>Best Buy	LA	(972) 461-0700
+<ParaStyle:Company>Biogen	IA	(626) 575-2488
+<ParaStyle:Company>Union Pacific	WV	(770) 667-7717
+<ParaStyle:SubProduct>Hockey Uniforms
+<ParaStyle:Company>XPO Logistics	GA	(800) 544-9096
+<ParaStyle:Product>Caps, Headwear
+<ParaStyle:SubProduct>Precurved-Visor Caps
+<ParaStyle:Company>Assurant	MD	18886371737
+<ParaStyle:Company>Baxter International	VA	
+<ParaStyle:Company>Best Buy	LA	(972) 461-0700
+<ParaStyle:Company>Biogen	IA	(626) 575-2488
+<ParaStyle:Company>Danaher	CO	(800) 221-4079
+<ParaStyle:Company>Jones Lang LaSalle	UT	(424) 675-3300
+<ParaStyle:Company>Northern Trust	NY	(847) 870-7400
+<ParaStyle:Company>Sempra Energy	MI	(615) 565-5000
+<ParaStyle:Company>Union Pacific	WV	(770) 667-7717
+<ParaStyle:SubProduct>Visors
+<ParaStyle:Company>AES	KY	(704) 842-1946
+<ParaStyle:Company>Citigroup	CA	(888) 777-1916
+<ParaStyle:Company>EOG Resources	KY	(800) 869-9601
+<ParaStyle:Company>Fiserv	NY	(800) 225-3001
+<ParaStyle:Company>Kohl's	TX	(208) 963-5900
+<ParaStyle:Company>Nike	OH	(281) 259-6818
+<ParaStyle:Company>Western & Southern Financial Group	SD	(770) 461-7656
+<ParaStyle:Product>Children's Apparel
+<ParaStyle:Company>Aramark	NY	+18657185812777
+<ParaStyle:Company>CDW	GA	(209) 931-6093
+<ParaStyle:Company>Chesapeake Energy	TX	(800) 443-9553
+<ParaStyle:Company>Cisco Systems	MD	(206) 552-9026
+<ParaStyle:Company>Darden Restaurants	KY	(323) 516-6771
+<ParaStyle:Company>Hanesbrands	UT	(423) 344-4080
+<ParaStyle:Company>Harley-Davidson	LA	(213) 788-6748
+<ParaStyle:Company>Laboratory Corp. of America		+82 32 684 6088
+<ParaStyle:Company>MetLife	VA	(865) 328-796
+<ParaStyle:Company>Molina Healthcare	WV	(602) 363-4674
+<ParaStyle:Company>Motorola Solutions	OH	(630) 925-7957
+<ParaStyle:Company>Navistar International	MI	(800) 922-9253
+<ParaStyle:Company>Valero Energy	TN	(845) 425-2245
+<ParaStyle:Company>Vistra Energy	NY	(701) 293-0077
+<ParaStyle:Company>Western Union	TX	18777246400
+<ParaStyle:Product>Closeouts
+<ParaStyle:Company>AES	KY	(704) 842-1946
+<ParaStyle:Company>Arconic	KS	(800) 251-7286
+<ParaStyle:Company>Citigroup	CA	(888) 777-1916
+<ParaStyle:Company>Freeport-McMoRan	IN	(713) 699-9896
+<ParaStyle:Company>Kohl's	TX	(208) 963-5900
+<ParaStyle:Company>NGL Energy Partners	OH	(800) 530-5909
+<ParaStyle:Company>Nike	OH	(281) 259-6818
+<ParaStyle:Company>Olin	AZ	(800) 542-2307
+<ParaStyle:Company>Western & Southern Financial Group	SD	(770) 461-7656
+<ParaStyle:Product>Denim Apparel
+<ParaStyle:SubProduct>Denim Dresses
+<ParaStyle:Company>A-Mark Precious Metals	IL	(239) 785-8999
+<ParaStyle:Company>Apple	TX	(877) 674-8669
+<ParaStyle:Company>Avis Budget Group	MN	(800) 645-5195
+<ParaStyle:Company>DISH Network	MD	(847) 714-0404
+<ParaStyle:Company>Steel Dynamics	ND	(800) 272-4381
+<ParaStyle:SubProduct>Denim Shirts
+<ParaStyle:Company>NGL Energy Partners	OH	(800) 530-5909
+<ParaStyle:Company>Nike	OH	(281) 259-6818
+<ParaStyle:Product>Fleecewear, Sweats
+<ParaStyle:SubProduct>1/4-,1/2-Zip Fleece
+<ParaStyle:Company>Assurant	MD	18886371737
+<ParaStyle:Company>Baxter International	VA	
+<ParaStyle:Company>Jones Lang LaSalle	UT	(424) 675-3300
+<ParaStyle:Company>Motorola Solutions	OH	(630) 925-7957
+<ParaStyle:Company>Sempra Energy	MI	(615) 565-5000
+<ParaStyle:Company>Union Pacific	WV	(770) 667-7717
+<ParaStyle:Company>Vistra Energy	NY	(701) 293-0077
+<ParaStyle:SubProduct>Canton Fleece
+<ParaStyle:Company>AES	KY	(704) 842-1946
+<ParaStyle:Company>Citigroup	CA	(888) 777-1916
+<ParaStyle:Company>EOG Resources	KY	(800) 869-9601
+<ParaStyle:Company>Fiserv	NY	(800) 225-3001
+<ParaStyle:Company>Kohl's	TX	(208) 963-5900
+<ParaStyle:Company>NGL Energy Partners	OH	(800) 530-5909
+<ParaStyle:Company>Nike	OH	(281) 259-6818
+<ParaStyle:Company>Western & Southern Financial Group	SD	(770) 461-7656
+<ParaStyle:SubProduct>Cardigans (Fleece)
+<ParaStyle:Company>Activision Blizzard	PA	(800) 878-1235
+<ParaStyle:Company>Aflac	WA	(732) 534-6222
+<ParaStyle:Company>Ally Financial	TX	(310) 327-0011
+<ParaStyle:Company>Broadcom	TX	(866) 673-7645
+<ParaStyle:Company>Chesapeake Energy	TX	(800) 443-9553
+<ParaStyle:Company>Dean Foods	NY	(800) 763-7763
+<ParaStyle:Company>Fortive	WV	(408) 744-6710
+<ParaStyle:Company>LKQ	MO	(800) 225-9634
+<ParaStyle:Company>Mastercard	IN	(800) 777-4510
+<ParaStyle:Company>Microsoft	OH	(877) 446-7163
+<ParaStyle:Company>News Corp.		+51 1 613 4242
+<ParaStyle:Company>Phillips 66	OH	(800) 334-1101
+<ParaStyle:Company>Principal Financial	WV	(949) 340-6665
+<ParaStyle:Company>Tenneco	PA	(888) 385-3588
+<ParaStyle:Company>Textron	MI	(360) 752-3310
+<ParaStyle:Company>Toll Brothers	GA	18004414393
+<ParaStyle:Company>Valero Energy	TN	(845) 425-2245
+<ParaStyle:Company>WEC Energy Group	NH	(323) 391-1105
+<ParaStyle:SubProduct>Children's, Infants', Youth Fleecewear
+<ParaStyle:Company>Anadarko Petroleum	NC	(877) 757-7978
+<ParaStyle:Company>Bed Bath & Beyond	OR	(214) 631-3000
+<ParaStyle:Company>Hanesbrands	UT	(423) 344-4080
+<ParaStyle:Company>HCA Healthcare	NY	(800) 597-9530
+<ParaStyle:Company>Huntsman	CO	(888) 828-0653
+<ParaStyle:Company>MetLife	VA	(865) 328-796
+<ParaStyle:Company>Navistar International	MI	(800) 922-9253
+<ParaStyle:Company>USAA	NY	(800) 314-1622
+<ParaStyle:SubProduct>Crew-Neck Sweats
+<ParaStyle:Company>Arthur J. Gallagher	NY	(866) 290-3812
+<ParaStyle:Company>Caterpillar	OR	(512) 807-8222
+<ParaStyle:Company>Cisco Systems	MD	(206) 552-9026
+<ParaStyle:Company>Danaher	CO	(800) 221-4079
+<ParaStyle:Company>Harley-Davidson	LA	(213) 788-6748
+<ParaStyle:Company>Jones Lang LaSalle	UT	(424) 675-3300
+<ParaStyle:Company>Laboratory Corp. of America		+82 32 684 6088
+<ParaStyle:Company>Molina Healthcare	WV	(602) 363-4674
+<ParaStyle:Company>Northern Trust	NY	(847) 870-7400
+<ParaStyle:Company>Peabody Energy	MD	(866) 783-6489
+<ParaStyle:Company>Publix Super Markets	IL	(206) 632-2866
+<ParaStyle:Company>Qurate Retail	FL	18774000111
+<ParaStyle:Company>United States Steel	MS	(800) 372-7737
+<ParaStyle:Company>Zimmer Biomet Holdings	IL	(888) 385-3588
+<ParaStyle:SubProduct>Crop Tops (Fleece)
+<ParaStyle:Company>Alphabet	OR	(800) 824-7578
+<ParaStyle:Company>Asbury Automotive Group	NY	(844) 426-4657
+<ParaStyle:Company>Assurant	MD	18886371737
+<ParaStyle:Company>Baxter International	VA	
+<ParaStyle:Company>Best Buy	LA	(972) 461-0700
+<ParaStyle:Company>Biogen	IA	(626) 575-2488
+<ParaStyle:Company>Eversource Energy	FL	(251) 473-6502
+<ParaStyle:Company>HCA Healthcare	NY	(800) 597-9530
+<ParaStyle:Company>HollyFrontier	WY	(843) 215-7000
+<ParaStyle:Company>Huntsman	CO	(888) 828-0653
+<ParaStyle:Company>Interpublic Group	KY	(732) 282-1448
+<ParaStyle:Company>Jabil	MO	(800) 574-3477
+<ParaStyle:Company>KeyCorp	TX	(800) 234-4890
+<ParaStyle:Company>Mondelez International	IL	(256) 429-9900
+<ParaStyle:Company>Raytheon	MS	(877) 657-7500
+<ParaStyle:Company>Sempra Energy	MI	(615) 565-5000
+<ParaStyle:Company>Union Pacific	WV	(770) 667-7717
+<ParaStyle:Company>Whirlpool	TX	18887185051
+<ParaStyle:Company>XPO Logistics	GA	(800) 544-9096
+<ParaStyle:SubProduct>Dresses (Fleece)
+<ParaStyle:Company>CDW	GA	(209) 931-6093
+<ParaStyle:Company>Cisco Systems	MD	(206) 552-9026
+<ParaStyle:Company>Hanesbrands	UT	(423) 344-4080
+<ParaStyle:Company>Harley-Davidson	LA	(213) 788-6748
+<ParaStyle:Company>Laboratory Corp. of America		+82 32 684 6088
+<ParaStyle:Company>MetLife	VA	(865) 328-796
+<ParaStyle:Company>Molina Healthcare	WV	(602) 363-4674
+<ParaStyle:Company>Navistar International	MI	(800) 922-9253
+<ParaStyle:SubProduct>Fashion Fleece
+<ParaStyle:Company>Air Products & Chemicals	PA	(877) 299-2914
+<ParaStyle:Company>Aramark	NY	+18657185812777
+<ParaStyle:Company>Darden Restaurants	KY	(323) 516-6771
+<ParaStyle:Company>DaVita	NM	(204) 942-0091
+<ParaStyle:Company>Western Union	TX	18777246400
+<ParaStyle:Company>Williams	CO	(806) 256-2033
+<ParaStyle:SubProduct>French Terry Fleece
+<ParaStyle:Company>eBay	CA	(800) 800-9983
+<ParaStyle:Company>Genworth Financial	KY	(800) 523-8888
+<ParaStyle:Company>Mohawk Industries	FL	(949) 495-7917
+<ParaStyle:Company>Motorola Solutions	OH	(630) 925-7957
+<ParaStyle:Company>NGL Energy Partners	OH	(800) 530-5909
+<ParaStyle:Company>Nike	OH	(281) 259-6818
+<ParaStyle:Company>Unum Group	MN	+1351252980500
+<ParaStyle:Company>Vistra Energy	NY	(701) 293-0077
+<ParaStyle:SubProduct>Full-Zip Fleece
+<ParaStyle:Company>Chesapeake Energy	TX	(800) 443-9553
+<ParaStyle:Company>EOG Resources	KY	(800) 869-9601
+<ParaStyle:Company>Kohl's	TX	(208) 963-5900
+<ParaStyle:SubProduct>High-Cotton Content Fleece
+<ParaStyle:Company>Activision Blizzard	PA	(800) 878-1235
+<ParaStyle:Company>Aflac	WA	(732) 534-6222
+<ParaStyle:Company>Dean Foods	NY	(800) 763-7763
+<ParaStyle:Company>LKQ	MO	(800) 225-9634
+<ParaStyle:Company>Microsoft	OH	(877) 446-7163
+<ParaStyle:Company>Textron	MI	(360) 752-3310
+<ParaStyle:Company>Toll Brothers	GA	18004414393
+<ParaStyle:Company>Valero Energy	TN	(845) 425-2245
+<ParaStyle:Company>WEC Energy Group	NH	(323) 391-1105
+<ParaStyle:SubProduct>Textured Fleece
+<ParaStyle:Company>Ally Financial	TX	(310) 327-0011
+<ParaStyle:Company>Anadarko Petroleum	NC	(877) 757-7978
+<ParaStyle:Company>Bed Bath & Beyond	OR	(214) 631-3000
+<ParaStyle:Company>Broadcom	TX	(866) 673-7645
+<ParaStyle:Company>Mastercard	IN	(800) 777-4510
+<ParaStyle:Company>Phillips 66	OH	(800) 334-1101
+<ParaStyle:Product>Footwear
+<ParaStyle:Company>ADP	MI	(800) 545-8686
+<ParaStyle:Company>Allstate	PA	(305) 418-4421
+<ParaStyle:Company>Apple	TX	(877) 674-8669
+<ParaStyle:Company>Arconic	KS	(800) 251-7286
+<ParaStyle:Company>Freeport-McMoRan	IN	(713) 699-9896
+<ParaStyle:Company>HD Supply Holdings	MN	(952) 912-2500
+<ParaStyle:Company>Icahn Enterprises	NM	(941) 755-1696
+<ParaStyle:Company>INTL FCStone	AR	18776460999
+<ParaStyle:Company>J.B. Hunt Transport Services	FL	(888) 717-4466
+<ParaStyle:Company>Olin	AZ	(800) 542-2307
+<ParaStyle:Company>Southern		+81-3-5537-1585
+<ParaStyle:Company>Steel Dynamics	ND	(800) 272-4381
+<ParaStyle:Company>USAA	NY	(800) 314-1622
+<ParaStyle:Company>Walt Disney	OK	(213) 905-3205
+<ParaStyle:Company>Xcel Energy	NJ	(770) 817-9410
+<ParaStyle:Product>Garment-Dyed Apparel
+<ParaStyle:Company>A-Mark Precious Metals	IL	(239) 785-8999
+<ParaStyle:Company>Air Products & Chemicals	PA	(877) 299-2914
+<ParaStyle:Company>American Airlines Group	OH	(973) 767-0880
+<ParaStyle:Company>Avis Budget Group	MN	(800) 645-5195
+<ParaStyle:Company>DISH Network	MD	(847) 714-0404
+<ParaStyle:Company>Yum China Holdings	CA	(866) 769-2517
+<ParaStyle:Product>Golf, Placket Shirts
+<ParaStyle:SubProduct>Youth Golf, Placket Shirts
+<ParaStyle:Company>A-Mark Precious Metals	IL	(239) 785-8999
+<ParaStyle:Company>DISH Network	MD	(847) 714-0404
+<ParaStyle:Product>Jackets, Outerwear
+<ParaStyle:SubProduct>Polyester, Blends
+<ParaStyle:Company>Asbury Automotive Group	NY	(844) 426-4657
+<ParaStyle:Company>XPO Logistics	GA	(800) 544-9096
+<ParaStyle:SubProduct>Poplin Jackets
+<ParaStyle:Company>Alphabet	OR	(800) 824-7578
+<ParaStyle:Company>Cisco Systems	MD	(206) 552-9026
+<ParaStyle:Company>Eversource Energy	FL	(251) 473-6502
+<ParaStyle:Company>Hanesbrands	UT	(423) 344-4080
+<ParaStyle:Company>HCA Healthcare	NY	(800) 597-9530
+<ParaStyle:Company>HollyFrontier	WY	(843) 215-7000
+<ParaStyle:Company>Huntsman	CO	(888) 828-0653
+<ParaStyle:Company>Interpublic Group	KY	(732) 282-1448
+<ParaStyle:Company>Jabil	MO	(800) 574-3477
+<ParaStyle:Company>KeyCorp	TX	(800) 234-4890
+<ParaStyle:Company>MetLife	VA	(865) 328-796
+<ParaStyle:Company>Molina Healthcare	WV	(602) 363-4674
+<ParaStyle:Company>Mondelez International	IL	(256) 429-9900
+<ParaStyle:Company>Navistar International	MI	(800) 922-9253
+<ParaStyle:Company>Raytheon	MS	(877) 657-7500
+<ParaStyle:Company>Whirlpool	TX	18887185051
+<ParaStyle:SubProduct>Satin Jackets
+<ParaStyle:Company>AES	KY	(704) 842-1946
+<ParaStyle:Company>Aramark	NY	+18657185812777
+<ParaStyle:Company>CDW	GA	(209) 931-6093
+<ParaStyle:Company>Citigroup	CA	(888) 777-1916
+<ParaStyle:Company>Darden Restaurants	KY	(323) 516-6771
+<ParaStyle:Company>Fiserv	NY	(800) 225-3001
+<ParaStyle:Company>Harley-Davidson	LA	(213) 788-6748
+<ParaStyle:Company>Kohl's	TX	(208) 963-5900
+<ParaStyle:Company>Laboratory Corp. of America		+82 32 684 6088
+<ParaStyle:Company>Motorola Solutions	OH	(630) 925-7957
+<ParaStyle:Company>NGL Energy Partners	OH	(800) 530-5909
+<ParaStyle:Company>Nike	OH	(281) 259-6818
+<ParaStyle:Company>Vistra Energy	NY	(701) 293-0077
+<ParaStyle:Company>Western & Southern Financial Group	SD	(770) 461-7656
+<ParaStyle:Company>Western Union	TX	18777246400
+<ParaStyle:SubProduct>Supplex Jackets
+<ParaStyle:Company>Aflac	WA	(732) 534-6222
+<ParaStyle:Company>Chesapeake Energy	TX	(800) 443-9553
+<ParaStyle:Company>EOG Resources	KY	(800) 869-9601
+<ParaStyle:Company>LKQ	MO	(800) 225-9634
+<ParaStyle:Company>Toll Brothers	GA	18004414393
+<ParaStyle:Company>Valero Energy	TN	(845) 425-2245
+<ParaStyle:SubProduct>Tyvek Jackets
+<ParaStyle:Company>Activision Blizzard	PA	(800) 878-1235
+<ParaStyle:Company>Textron	MI	(360) 752-3310
+<ParaStyle:Company>WEC Energy Group	NH	(323) 391-1105
+<ParaStyle:SubProduct>Vests
+<ParaStyle:Company>Ally Financial	TX	(310) 327-0011
+<ParaStyle:Company>Dean Foods	NY	(800) 763-7763
+<ParaStyle:Company>Fortive	WV	(408) 744-6710
+<ParaStyle:Company>Mastercard	IN	(800) 777-4510
+<ParaStyle:Company>Microsoft	OH	(877) 446-7163
+<ParaStyle:Company>News Corp.		+51 1 613 4242
+<ParaStyle:Company>Phillips 66	OH	(800) 334-1101
+<ParaStyle:Company>Principal Financial	WV	(949) 340-6665
+<ParaStyle:Company>Tenneco	PA	(888) 385-3588
+<ParaStyle:Product>Miscellaneous Apparel
+<ParaStyle:SubProduct>Color-Block Shirts
+<ParaStyle:Company>Arthur J. Gallagher	NY	(866) 290-3812
+<ParaStyle:Company>Assurant	MD	18886371737
+<ParaStyle:Company>Baxter International	VA	
+<ParaStyle:Company>Caterpillar	OR	(512) 807-8222
+<ParaStyle:Company>CSX	MN	(800) 426-6399
+<ParaStyle:Company>Danaher	CO	(800) 221-4079
+<ParaStyle:Company>Estee Lauder	FL	(800) 523-2155
+<ParaStyle:Company>Fifth Third Bancorp	GA	(877) 727-7410
+<ParaStyle:Company>Jones Lang LaSalle	UT	(424) 675-3300
+<ParaStyle:Company>Northern Trust	NY	(847) 870-7400
+<ParaStyle:Company>Peabody Energy	MD	(866) 783-6489
+<ParaStyle:Company>Publix Super Markets	IL	(206) 632-2866
+<ParaStyle:Company>Qurate Retail	FL	18774000111
+<ParaStyle:Company>Sempra Energy	MI	(615) 565-5000
+<ParaStyle:Company>Union Pacific	WV	(770) 667-7717
+<ParaStyle:Company>United States Steel	MS	(800) 372-7737
+<ParaStyle:Company>Zimmer Biomet Holdings	IL	(888) 385-3588
+<ParaStyle:SubProduct>Dickeys
+<ParaStyle:Company>Best Buy	LA	(972) 461-0700
+<ParaStyle:Company>Biogen	IA	(626) 575-2488
+<ParaStyle:Company>XPO Logistics	GA	(800) 544-9096
+<ParaStyle:SubProduct>Flannel Apparel
+<ParaStyle:Company>Alphabet	OR	(800) 824-7578
+<ParaStyle:Company>Asbury Automotive Group	NY	(844) 426-4657
+<ParaStyle:Company>Eversource Energy	FL	(251) 473-6502
+<ParaStyle:Company>Hanesbrands	UT	(423) 344-4080
+<ParaStyle:Company>HCA Healthcare	NY	(800) 597-9530
+<ParaStyle:Company>HollyFrontier	WY	(843) 215-7000
+<ParaStyle:Company>Huntsman	CO	(888) 828-0653
+<ParaStyle:Company>Interpublic Group	KY	(732) 282-1448
+<ParaStyle:Company>Jabil	MO	(800) 574-3477
+<ParaStyle:Company>KeyCorp	TX	(800) 234-4890
+<ParaStyle:Company>Mondelez International	IL	(256) 429-9900
+<ParaStyle:Company>Raytheon	MS	(877) 657-7500
+<ParaStyle:Company>Whirlpool	TX	18887185051
+<ParaStyle:SubProduct>Gloves
+<ParaStyle:Company>Aramark	NY	+18657185812777
+<ParaStyle:Company>CDW	GA	(209) 931-6093
+<ParaStyle:Company>Cisco Systems	MD	(206) 552-9026
+<ParaStyle:Company>Harley-Davidson	LA	(213) 788-6748
+<ParaStyle:Company>Laboratory Corp. of America		+82 32 684 6088
+<ParaStyle:Company>MetLife	VA	(865) 328-796
+<ParaStyle:Company>Molina Healthcare	WV	(602) 363-4674
+<ParaStyle:Company>Navistar International	MI	(800) 922-9253
+<ParaStyle:Company>Western Union	TX	18777246400
+<ParaStyle:SubProduct>Henley-Collar Shirts
+<ParaStyle:Company>Activision Blizzard	PA	(800) 878-1235
+<ParaStyle:Company>AES	KY	(704) 842-1946
+<ParaStyle:Company>Aflac	WA	(732) 534-6222
+<ParaStyle:Company>Chesapeake Energy	TX	(800) 443-9553
+<ParaStyle:Company>Citigroup	CA	(888) 777-1916
+<ParaStyle:Company>Darden Restaurants	KY	(323) 516-6771
+<ParaStyle:Company>Dean Foods	NY	(800) 763-7763
+<ParaStyle:Company>EOG Resources	KY	(800) 869-9601
+<ParaStyle:Company>Fiserv	NY	(800) 225-3001
+<ParaStyle:Company>Kohl's	TX	(208) 963-5900
+<ParaStyle:Company>LKQ	MO	(800) 225-9634
+<ParaStyle:Company>Microsoft	OH	(877) 446-7163
+<ParaStyle:Company>Motorola Solutions	OH	(630) 925-7957
+<ParaStyle:Company>News Corp.		+51 1 613 4242
+<ParaStyle:Company>NGL Energy Partners	OH	(800) 530-5909
+<ParaStyle:Company>Nike	OH	(281) 259-6818
+<ParaStyle:Company>Principal Financial	WV	(949) 340-6665
+<ParaStyle:Company>Tenneco	PA	(888) 385-3588
+<ParaStyle:Company>Textron	MI	(360) 752-3310
+<ParaStyle:Company>Toll Brothers	GA	18004414393
+<ParaStyle:Company>Valero Energy	TN	(845) 425-2245
+<ParaStyle:Company>Vistra Energy	NY	(701) 293-0077
+<ParaStyle:Company>WEC Energy Group	NH	(323) 391-1105
+<ParaStyle:Company>Western & Southern Financial Group	SD	(770) 461-7656
+<ParaStyle:SubProduct>Johnny-Collar Shirts
+<ParaStyle:Company>ADP	MI	(800) 545-8686
+<ParaStyle:Company>Allstate	PA	(305) 418-4421
+<ParaStyle:Company>Ally Financial	TX	(310) 327-0011
+<ParaStyle:Company>Anadarko Petroleum	NC	(877) 757-7978
+<ParaStyle:Company>Arconic	KS	(800) 251-7286
+<ParaStyle:Company>Bed Bath & Beyond	OR	(214) 631-3000
+<ParaStyle:Company>Broadcom	TX	(866) 673-7645
+<ParaStyle:Company>Fortive	WV	(408) 744-6710
+<ParaStyle:Company>HD Supply Holdings	MN	(952) 912-2500
+<ParaStyle:Company>Icahn Enterprises	NM	(941) 755-1696
+<ParaStyle:Company>INTL FCStone	AR	18776460999
+<ParaStyle:Company>J.B. Hunt Transport Services	FL	(888) 717-4466
+<ParaStyle:Company>Mastercard	IN	(800) 777-4510
+<ParaStyle:Company>Phillips 66	OH	(800) 334-1101
+<ParaStyle:Company>Southern		+81-3-5537-1585
+<ParaStyle:Company>USAA	NY	(800) 314-1622
+<ParaStyle:Company>Walt Disney	OK	(213) 905-3205
+<ParaStyle:Company>Xcel Energy	NJ	(770) 817-9410
+<ParaStyle:SubProduct>Juniors Apparel
+<ParaStyle:Company>A-Mark Precious Metals	IL	(239) 785-8999
+<ParaStyle:Company>Air Products & Chemicals	PA	(877) 299-2914
+<ParaStyle:Company>American Airlines Group	OH	(973) 767-0880
+<ParaStyle:Company>Apple	TX	(877) 674-8669
+<ParaStyle:Company>Arthur J. Gallagher	NY	(866) 290-3812
+<ParaStyle:Company>Assurant	MD	18886371737
+<ParaStyle:Company>Avis Budget Group	MN	(800) 645-5195
+<ParaStyle:Company>Baxter International	VA	
+<ParaStyle:Company>Best Buy	LA	(972) 461-0700
+<ParaStyle:Company>Biogen	IA	(626) 575-2488
+<ParaStyle:Company>Caterpillar	OR	(512) 807-8222
+<ParaStyle:Company>CSX	MN	(800) 426-6399
+<ParaStyle:Company>Danaher	CO	(800) 221-4079
+<ParaStyle:Company>DaVita	NM	(204) 942-0091
+<ParaStyle:Company>DISH Network	MD	(847) 714-0404
+<ParaStyle:Company>eBay	CA	(800) 800-9983
+<ParaStyle:Company>Estee Lauder	FL	(800) 523-2155
+<ParaStyle:Company>Fifth Third Bancorp	GA	(877) 727-7410
+<ParaStyle:Company>Freeport-McMoRan	IN	(713) 699-9896
+<ParaStyle:Company>Genworth Financial	KY	(800) 523-8888
+<ParaStyle:Company>Jones Lang LaSalle	UT	(424) 675-3300
+<ParaStyle:Company>Mohawk Industries	FL	(949) 495-7917
+<ParaStyle:Company>Northern Trust	NY	(847) 870-7400
+<ParaStyle:Company>Olin	AZ	(800) 542-2307
+<ParaStyle:Company>Peabody Energy	MD	(866) 783-6489
+<ParaStyle:Company>Publix Super Markets	IL	(206) 632-2866
+<ParaStyle:Company>Qurate Retail	FL	18774000111
+<ParaStyle:Company>Sempra Energy	MI	(615) 565-5000
+<ParaStyle:Company>Steel Dynamics	ND	(800) 272-4381
+<ParaStyle:Company>Union Pacific	WV	(770) 667-7717
+<ParaStyle:Company>United States Steel	MS	(800) 372-7737
+<ParaStyle:Company>Unum Group	MN	+1351252980500
+<ParaStyle:Company>Williams	CO	(806) 256-2033
+<ParaStyle:Company>XPO Logistics	GA	(800) 544-9096
+<ParaStyle:Company>Yum China Holdings	CA	(866) 769-2517
+<ParaStyle:Company>Zimmer Biomet Holdings	IL	(888) 385-3588
+<ParaStyle:SubProduct>Ladies' Fashion Apparel
+<ParaStyle:Company>A-Mark Precious Metals	IL	(239) 785-8999
+<ParaStyle:Company>Activision Blizzard	PA	(800) 878-1235
+<ParaStyle:Company>ADP	MI	(800) 545-8686
+<ParaStyle:Company>AES	KY	(704) 842-1946
+<ParaStyle:Company>Aflac	WA	(732) 534-6222
+<ParaStyle:Company>Allstate	PA	(305) 418-4421
+<ParaStyle:Company>Ally Financial	TX	(310) 327-0011
+<ParaStyle:Company>Alphabet	OR	(800) 824-7578
+<ParaStyle:Company>Anadarko Petroleum	NC	(877) 757-7978
+<ParaStyle:Company>Apple	TX	(877) 674-8669
+<ParaStyle:Company>Aramark	NY	+18657185812777
+<ParaStyle:Company>Arconic	KS	(800) 251-7286
+<ParaStyle:Company>Asbury Automotive Group	NY	(844) 426-4657
+<ParaStyle:Company>Bed Bath & Beyond	OR	(214) 631-3000
+<ParaStyle:Company>Broadcom	TX	(866) 673-7645
+<ParaStyle:Company>CDW	GA	(209) 931-6093
+<ParaStyle:Company>Chesapeake Energy	TX	(800) 443-9553
+<ParaStyle:Company>Cisco Systems	MD	(206) 552-9026
+<ParaStyle:Company>Citigroup	CA	(888) 777-1916
+<ParaStyle:Company>Darden Restaurants	KY	(323) 516-6771
+<ParaStyle:Company>Dean Foods	NY	(800) 763-7763
+<ParaStyle:Company>EOG Resources	KY	(800) 869-9601
+<ParaStyle:Company>Eversource Energy	FL	(251) 473-6502
+<ParaStyle:Company>Fiserv	NY	(800) 225-3001
+<ParaStyle:Company>Fortive	WV	(408) 744-6710
+<ParaStyle:Company>Freeport-McMoRan	IN	(713) 699-9896
+<ParaStyle:Company>Hanesbrands	UT	(423) 344-4080
+<ParaStyle:Company>Harley-Davidson	LA	(213) 788-6748
+<ParaStyle:Company>HCA Healthcare	NY	(800) 597-9530
+<ParaStyle:Company>HD Supply Holdings	MN	(952) 912-2500
+<ParaStyle:Company>HollyFrontier	WY	(843) 215-7000
+<ParaStyle:Company>Huntsman	CO	(888) 828-0653
+<ParaStyle:Company>Icahn Enterprises	NM	(941) 755-1696
+<ParaStyle:Company>Interpublic Group	KY	(732) 282-1448
+<ParaStyle:Company>INTL FCStone	AR	18776460999
+<ParaStyle:Company>J.B. Hunt Transport Services	FL	(888) 717-4466
+<ParaStyle:Company>Jabil	MO	(800) 574-3477
+<ParaStyle:Company>KeyCorp	TX	(800) 234-4890
+<ParaStyle:Company>Kohl's	TX	(208) 963-5900
+<ParaStyle:Company>Laboratory Corp. of America		+82 32 684 6088
+<ParaStyle:Company>LKQ	MO	(800) 225-9634
+<ParaStyle:Company>Mastercard	IN	(800) 777-4510
+<ParaStyle:Company>MetLife	VA	(865) 328-796
+<ParaStyle:Company>Microsoft	OH	(877) 446-7163
+<ParaStyle:Company>Molina Healthcare	WV	(602) 363-4674
+<ParaStyle:Company>Mondelez International	IL	(256) 429-9900
+<ParaStyle:Company>Motorola Solutions	OH	(630) 925-7957
+<ParaStyle:Company>Navistar International	MI	(800) 922-9253
+<ParaStyle:Company>News Corp.		+51 1 613 4242
+<ParaStyle:Company>NGL Energy Partners	OH	(800) 530-5909
+<ParaStyle:Company>Nike	OH	(281) 259-6818
+<ParaStyle:Company>Olin	AZ	(800) 542-2307
+<ParaStyle:Company>Phillips 66	OH	(800) 334-1101
+<ParaStyle:Company>Principal Financial	WV	(949) 340-6665
+<ParaStyle:Company>Raytheon	MS	(877) 657-7500
+<ParaStyle:Company>Southern		+81-3-5537-1585
+<ParaStyle:Company>Steel Dynamics	ND	(800) 272-4381
+<ParaStyle:Company>Tenneco	PA	(888) 385-3588
+<ParaStyle:Company>Textron	MI	(360) 752-3310
+<ParaStyle:Company>Toll Brothers	GA	18004414393
+<ParaStyle:Company>USAA	NY	(800) 314-1622
+<ParaStyle:Company>Valero Energy	TN	(845) 425-2245
+<ParaStyle:Company>Vistra Energy	NY	(701) 293-0077
+<ParaStyle:Company>Walt Disney	OK	(213) 905-3205
+<ParaStyle:Company>WEC Energy Group	NH	(323) 391-1105
+<ParaStyle:Company>Western & Southern Financial Group	SD	(770) 461-7656
+<ParaStyle:Company>Western Union	TX	18777246400
+<ParaStyle:Company>Whirlpool	TX	18887185051
+<ParaStyle:Company>Xcel Energy	NJ	(770) 817-9410
+<ParaStyle:SubProduct>Misses Apparel
+<ParaStyle:Company>Air Products & Chemicals	PA	(877) 299-2914
+<ParaStyle:Company>American Airlines Group	OH	(973) 767-0880
+<ParaStyle:Company>Arthur J. Gallagher	NY	(866) 290-3812
+<ParaStyle:Company>Asbury Automotive Group	NY	(844) 426-4657
+<ParaStyle:Company>Assurant	MD	18886371737
+<ParaStyle:Company>Avis Budget Group	MN	(800) 645-5195
+<ParaStyle:Company>Baxter International	VA	
+<ParaStyle:Company>Best Buy	LA	(972) 461-0700
+<ParaStyle:Company>Biogen	IA	(626) 575-2488
+<ParaStyle:Company>Caterpillar	OR	(512) 807-8222
+<ParaStyle:Company>CSX	MN	(800) 426-6399
+<ParaStyle:Company>Danaher	CO	(800) 221-4079
+<ParaStyle:Company>DaVita	NM	(204) 942-0091
+<ParaStyle:Company>DISH Network	MD	(847) 714-0404
+<ParaStyle:Company>eBay	CA	(800) 800-9983
+<ParaStyle:Company>Estee Lauder	FL	(800) 523-2155
+<ParaStyle:Company>Fifth Third Bancorp	GA	(877) 727-7410
+<ParaStyle:Company>Genworth Financial	KY	(800) 523-8888
+<ParaStyle:Company>Jones Lang LaSalle	UT	(424) 675-3300
+<ParaStyle:Company>Mohawk Industries	FL	(949) 495-7917
+<ParaStyle:Company>Northern Trust	NY	(847) 870-7400
+<ParaStyle:Company>Peabody Energy	MD	(866) 783-6489
+<ParaStyle:Company>Publix Super Markets	IL	(206) 632-2866
+<ParaStyle:Company>Qurate Retail	FL	18774000111
+<ParaStyle:Company>Sempra Energy	MI	(615) 565-5000
+<ParaStyle:Company>Union Pacific	WV	(770) 667-7717
+<ParaStyle:Company>United States Steel	MS	(800) 372-7737
+<ParaStyle:Company>Unum Group	MN	+1351252980500
+<ParaStyle:Company>Williams	CO	(806) 256-2033
+<ParaStyle:Company>XPO Logistics	GA	(800) 544-9096
+<ParaStyle:Company>Yum China Holdings	CA	(866) 769-2517
+<ParaStyle:Company>Zimmer Biomet Holdings	IL	(888) 385-3588
+<ParaStyle:SubProduct>Sets (Top and Bottom coordinates)
+<ParaStyle:Company>Alphabet	OR	(800) 824-7578
+<ParaStyle:Company>Cisco Systems	MD	(206) 552-9026
+<ParaStyle:Company>Eversource Energy	FL	(251) 473-6502
+<ParaStyle:Company>Hanesbrands	UT	(423) 344-4080
+<ParaStyle:Company>Harley-Davidson	LA	(213) 788-6748
+<ParaStyle:Company>HCA Healthcare	NY	(800) 597-9530
+<ParaStyle:Company>HollyFrontier	WY	(843) 215-7000
+<ParaStyle:Company>Huntsman	CO	(888) 828-0653
+<ParaStyle:Company>Interpublic Group	KY	(732) 282-1448
+<ParaStyle:Company>Jabil	MO	(800) 574-3477
+<ParaStyle:Company>KeyCorp	TX	(800) 234-4890
+<ParaStyle:Company>Laboratory Corp. of America		+82 32 684 6088
+<ParaStyle:Company>MetLife	VA	(865) 328-796
+<ParaStyle:Company>Molina Healthcare	WV	(602) 363-4674
+<ParaStyle:Company>Mondelez International	IL	(256) 429-9900
+<ParaStyle:Company>Navistar International	MI	(800) 922-9253
+<ParaStyle:Company>Raytheon	MS	(877) 657-7500
+<ParaStyle:Company>Whirlpool	TX	18887185051
+<ParaStyle:SubProduct>Tube Tops/Bandeaus
+<ParaStyle:Company>Aramark	NY	+18657185812777
+<ParaStyle:Company>CDW	GA	(209) 931-6093
+<ParaStyle:Company>Darden Restaurants	KY	(323) 516-6771
+<ParaStyle:Company>Motorola Solutions	OH	(630) 925-7957
+<ParaStyle:Company>Western Union	TX	18777246400
+<ParaStyle:SubProduct>Western Wear
+<ParaStyle:Company>Kohl's	TX	(208) 963-5900
+<ParaStyle:Company>NGL Energy Partners	OH	(800) 530-5909
+<ParaStyle:Company>Nike	OH	(281) 259-6818
+<ParaStyle:Company>Vistra Energy	NY	(701) 293-0077
+<ParaStyle:Product>Oversize Apparel
+<ParaStyle:Company>AES	KY	(704) 842-1946
+<ParaStyle:Company>Aflac	WA	(732) 534-6222
+<ParaStyle:Company>Chesapeake Energy	TX	(800) 443-9553
+<ParaStyle:Company>Citigroup	CA	(888) 777-1916
+<ParaStyle:Company>EOG Resources	KY	(800) 869-9601
+<ParaStyle:Company>Fiserv	NY	(800) 225-3001
+<ParaStyle:Company>LKQ	MO	(800) 225-9634
+<ParaStyle:Company>Toll Brothers	GA	18004414393
+<ParaStyle:Company>Valero Energy	TN	(845) 425-2245
+<ParaStyle:Company>Western & Southern Financial Group	SD	(770) 461-7656
+<ParaStyle:Product>Pants
+<ParaStyle:SubProduct>Joggers
+<ParaStyle:Company>Aflac	WA	(732) 534-6222
+<ParaStyle:Company>Chesapeake Energy	TX	(800) 443-9553
+<ParaStyle:Company>Valero Energy	TN	(845) 425-2245
+<ParaStyle:SubProduct>Sweat Pants
+<ParaStyle:Company>Activision Blizzard	PA	(800) 878-1235
+<ParaStyle:Company>LKQ	MO	(800) 225-9634
+<ParaStyle:Company>Microsoft	OH	(877) 446-7163
+<ParaStyle:Company>Textron	MI	(360) 752-3310
+<ParaStyle:Company>Toll Brothers	GA	18004414393
+<ParaStyle:Company>WEC Energy Group	NH	(323) 391-1105
+<ParaStyle:Product>Performance Apparel
+<ParaStyle:SubProduct>Other
+<ParaStyle:Company>Anadarko Petroleum	NC	(877) 757-7978
+<ParaStyle:Company>Icahn Enterprises	NM	(941) 755-1696
+<ParaStyle:Company>USAA	NY	(800) 314-1622
+<ParaStyle:SubProduct>Soil-Resistant
+<ParaStyle:Company>ADP	MI	(800) 545-8686
+<ParaStyle:Company>J.B. Hunt Transport Services	FL	(888) 717-4466
+<ParaStyle:Company>Walt Disney	OK	(213) 905-3205
+<ParaStyle:Company>Xcel Energy	NJ	(770) 817-9410
+<ParaStyle:SubProduct>U.V. Protective Apparel
+<ParaStyle:Company>Allstate	PA	(305) 418-4421
+<ParaStyle:Company>INTL FCStone	AR	18776460999
+<ParaStyle:Company>Southern		+81-3-5537-1585
+<ParaStyle:SubProduct>Wrinkle-Resistant
+<ParaStyle:Company>Arconic	KS	(800) 251-7286
+<ParaStyle:Company>HD Supply Holdings	MN	(952) 912-2500
+<ParaStyle:Product>T-Shirts
+<ParaStyle:SubProduct>Raglan T-Shirts
+<ParaStyle:Company>A-Mark Precious Metals	IL	(239) 785-8999
+<ParaStyle:Company>Apple	TX	(877) 674-8669
+<ParaStyle:Company>Arconic	KS	(800) 251-7286
+<ParaStyle:Company>DISH Network	MD	(847) 714-0404
+<ParaStyle:Company>Freeport-McMoRan	IN	(713) 699-9896
+<ParaStyle:Company>HD Supply Holdings	MN	(952) 912-2500
+<ParaStyle:Company>Olin	AZ	(800) 542-2307
+<ParaStyle:Company>Steel Dynamics	ND	(800) 272-4381
+<ParaStyle:SubProduct>T-Shirts, Other Fabrics/Blends
+<ParaStyle:Company>Alphabet	OR	(800) 824-7578
+<ParaStyle:Company>Eversource Energy	FL	(251) 473-6502
+<ParaStyle:Company>Hanesbrands	UT	(423) 344-4080
+<ParaStyle:Company>HCA Healthcare	NY	(800) 597-9530
+<ParaStyle:Company>HollyFrontier	WY	(843) 215-7000
+<ParaStyle:Company>Huntsman	CO	(888) 828-0653
+<ParaStyle:Company>Jabil	MO	(800) 574-3477
+<ParaStyle:Company>Mondelez International	IL	(256) 429-9900
+<ParaStyle:Company>Raytheon	MS	(877) 657-7500
+<ParaStyle:SubProduct>Tall-Size T-Shirts
+<ParaStyle:Company>Fortive	WV	(408) 744-6710
+<ParaStyle:Company>MetLife	VA	(865) 328-796
+<ParaStyle:Company>Molina Healthcare	WV	(602) 363-4674
+<ParaStyle:Company>Navistar International	MI	(800) 922-9253
+<ParaStyle:Company>News Corp.		+51 1 613 4242
+<ParaStyle:SubProduct>Tank Tops
+<ParaStyle:Company>Ally Financial	TX	(310) 327-0011
+<ParaStyle:Company>Bed Bath & Beyond	OR	(214) 631-3000
+<ParaStyle:Company>Broadcom	TX	(866) 673-7645
+<ParaStyle:Company>Cisco Systems	MD	(206) 552-9026
+<ParaStyle:Company>Hanesbrands	UT	(423) 344-4080
+<ParaStyle:Company>HCA Healthcare	NY	(800) 597-9530
+<ParaStyle:Company>Laboratory Corp. of America		+82 32 684 6088
+<ParaStyle:Company>Mastercard	IN	(800) 777-4510
+<ParaStyle:Company>MetLife	VA	(865) 328-796
+<ParaStyle:Company>Molina Healthcare	WV	(602) 363-4674
+<ParaStyle:Company>Navistar International	MI	(800) 922-9253
+<ParaStyle:Company>Phillips 66	OH	(800) 334-1101
+<ParaStyle:SubProduct>Textured T-Shirts
+<ParaStyle:Company>Ally Financial	TX	(310) 327-0011
+<ParaStyle:Company>Broadcom	TX	(866) 673-7645
+<ParaStyle:Company>Fortive	WV	(408) 744-6710
+<ParaStyle:Company>Mastercard	IN	(800) 777-4510
+<ParaStyle:Company>News Corp.		+51 1 613 4242
+<ParaStyle:Company>Phillips 66	OH	(800) 334-1101
+<ParaStyle:Company>Principal Financial	WV	(949) 340-6665
+<ParaStyle:SubProduct>Tri-Blends
+<ParaStyle:Company>Anadarko Petroleum	NC	(877) 757-7978
+<ParaStyle:Company>Bed Bath & Beyond	OR	(214) 631-3000
+<ParaStyle:Company>Icahn Enterprises	NM	(941) 755-1696
+<ParaStyle:Company>J.B. Hunt Transport Services	FL	(888) 717-4466
+<ParaStyle:Company>USAA	NY	(800) 314-1622
+<ParaStyle:SubProduct>V-Neck T-Shirts
+<ParaStyle:Company>AES	KY	(704) 842-1946
+<ParaStyle:Company>Citigroup	CA	(888) 777-1916
+<ParaStyle:Company>Kohl's	TX	(208) 963-5900
+<ParaStyle:Company>NGL Energy Partners	OH	(800) 530-5909
+<ParaStyle:Company>Nike	OH	(281) 259-6818
+<ParaStyle:Company>Western & Southern Financial Group	SD	(770) 461-7656
+<ParaStyle:Product>Thermal Apparel
+<ParaStyle:Company>Fiserv	NY	(800) 225-3001
+<ParaStyle:Product>Woven Apparel
+<ParaStyle:SubProduct>Twill Shirts
+<ParaStyle:Company>Air Products & Chemicals	PA	(877) 299-2914
+<ParaStyle:Company>American Airlines Group	OH	(973) 767-0880
+<ParaStyle:Company>Avis Budget Group	MN	(800) 645-5195
+<ParaStyle:Company>DaVita	NM	(204) 942-0091
+<ParaStyle:Company>DISH Network	MD	(847) 714-0404
+<ParaStyle:Company>eBay	CA	(800) 800-9983
+<ParaStyle:Company>Genworth Financial	KY	(800) 523-8888
+<ParaStyle:Company>Mohawk Industries	FL	(949) 495-7917
+<ParaStyle:Company>Williams	CO	(806) 256-2033
+<ParaStyle:Company>Yum China Holdings	CA	(866) 769-2517
+<ParaStyle:SubProduct>Western Shirts
+<ParaStyle:Company>Estee Lauder	FL	(800) 523-2155
+<ParaStyle:Company>Unum Group	MN	+1351252980500
+CATEGORY Blank Nonwearables & Accessories
+<ParaStyle:Product>Backpacks, Knapsacks
+<ParaStyle:Company>Arthur J. Gallagher	NY	(866) 290-3812
+<ParaStyle:Company>Caterpillar	OR	(512) 807-8222
+<ParaStyle:Company>CSX	MN	(800) 426-6399
+<ParaStyle:Company>Danaher	CO	(800) 221-4079
+<ParaStyle:Company>Fifth Third Bancorp	GA	(877) 727-7410
+<ParaStyle:Company>Northern Trust	NY	(847) 870-7400
+<ParaStyle:Company>Peabody Energy	MD	(866) 783-6489
+<ParaStyle:Company>Publix Super Markets	IL	(206) 632-2866
+<ParaStyle:Company>Qurate Retail	FL	18774000111
+<ParaStyle:Company>United States Steel	MS	(800) 372-7737
+<ParaStyle:Company>Zimmer Biomet Holdings	IL	(888) 385-3588
+<ParaStyle:Product>Bags
+<ParaStyle:SubProduct>Duffle Bags
+<ParaStyle:Company>Activision Blizzard	PA	(800) 878-1235
+<ParaStyle:Company>AES	KY	(704) 842-1946
+<ParaStyle:Company>Aflac	WA	(732) 534-6222
+<ParaStyle:Company>Chesapeake Energy	TX	(800) 443-9553
+<ParaStyle:Company>Citigroup	CA	(888) 777-1916
+<ParaStyle:Company>EOG Resources	KY	(800) 869-9601
+<ParaStyle:Company>Fiserv	NY	(800) 225-3001
+<ParaStyle:Company>Kohl's	TX	(208) 963-5900
+<ParaStyle:Company>LKQ	MO	(800) 225-9634
+<ParaStyle:Company>Microsoft	OH	(877) 446-7163
+<ParaStyle:Company>Textron	MI	(360) 752-3310
+<ParaStyle:Company>Toll Brothers	GA	18004414393
+<ParaStyle:Company>Valero Energy	TN	(845) 425-2245
+<ParaStyle:Company>WEC Energy Group	NH	(323) 391-1105
+<ParaStyle:Company>Western & Southern Financial Group	SD	(770) 461-7656
+<ParaStyle:SubProduct>Novelty Bags
+<ParaStyle:Company>Arthur J. Gallagher	NY	(866) 290-3812
+<ParaStyle:Company>Caterpillar	OR	(512) 807-8222
+<ParaStyle:Company>CSX	MN	(800) 426-6399
+<ParaStyle:Company>Danaher	CO	(800) 221-4079
+<ParaStyle:Company>Fifth Third Bancorp	GA	(877) 727-7410
+<ParaStyle:Company>Northern Trust	NY	(847) 870-7400
+<ParaStyle:Company>Peabody Energy	MD	(866) 783-6489
+<ParaStyle:Company>Publix Super Markets	IL	(206) 632-2866
+<ParaStyle:Company>Qurate Retail	FL	18774000111
+<ParaStyle:Company>United States Steel	MS	(800) 372-7737
+<ParaStyle:Company>Zimmer Biomet Holdings	IL	(888) 385-3588
+<ParaStyle:SubProduct>Panels, Panel Programs for Bags
+<ParaStyle:Company>Assurant	MD	18886371737
+<ParaStyle:Company>Baxter International	VA	
+<ParaStyle:Company>Jones Lang LaSalle	UT	(424) 675-3300
+<ParaStyle:Company>Sempra Energy	MI	(615) 565-5000
+<ParaStyle:Company>Union Pacific	WV	(770) 667-7717
+<ParaStyle:SubProduct>Roller Backpacks
+<ParaStyle:Company>Alphabet	OR	(800) 824-7578
+<ParaStyle:Company>Asbury Automotive Group	NY	(844) 426-4657
+<ParaStyle:Company>Best Buy	LA	(972) 461-0700
+<ParaStyle:Company>Biogen	IA	(626) 575-2488
+<ParaStyle:Company>Eversource Energy	FL	(251) 473-6502
+<ParaStyle:Company>HollyFrontier	WY	(843) 215-7000
+<ParaStyle:Company>Interpublic Group	KY	(732) 282-1448
+<ParaStyle:Company>Jabil	MO	(800) 574-3477
+<ParaStyle:Company>KeyCorp	TX	(800) 234-4890
+<ParaStyle:Company>Raytheon	MS	(877) 657-7500
+<ParaStyle:Company>Whirlpool	TX	18887185051
+<ParaStyle:Company>XPO Logistics	GA	(800) 544-9096
+<ParaStyle:SubProduct>Tote Bags
+<ParaStyle:Company>Hanesbrands	UT	(423) 344-4080
+<ParaStyle:Company>HCA Healthcare	NY	(800) 597-9530
+<ParaStyle:Company>Huntsman	CO	(888) 828-0653
+<ParaStyle:Company>Mondelez International	IL	(256) 429-9900
+<ParaStyle:Company>Navistar International	MI	(800) 922-9253
+<ParaStyle:Product>Towels
+<ParaStyle:Company>A-Mark Precious Metals	IL	(239) 785-8999
+<ParaStyle:Company>Air Products & Chemicals	PA	(877) 299-2914
+<ParaStyle:Company>American Airlines Group	OH	(973) 767-0880
+<ParaStyle:Company>Apple	TX	(877) 674-8669
+<ParaStyle:Company>Arconic	KS	(800) 251-7286
+<ParaStyle:Company>Avis Budget Group	MN	(800) 645-5195
+<ParaStyle:Company>DaVita	NM	(204) 942-0091
+<ParaStyle:Company>DISH Network	MD	(847) 714-0404
+<ParaStyle:Company>Freeport-McMoRan	IN	(713) 699-9896
+<ParaStyle:Company>Olin	AZ	(800) 542-2307
+<ParaStyle:Company>Steel Dynamics	ND	(800) 272-4381
+<ParaStyle:Company>Yum China Holdings	CA	(866) 769-2517
+<ParaStyle:Product>Umbrellas
+<ParaStyle:Company>eBay	CA	(800) 800-9983
+<ParaStyle:Company>Genworth Financial	KY	(800) 523-8888
+<ParaStyle:Company>Mohawk Industries	FL	(949) 495-7917
+<ParaStyle:Company>Williams	CO	(806) 256-2033
+CATEGORY Computer Equipment & Software
+<ParaStyle:Product>Computer Hardware
+<ParaStyle:SubProduct>Business Systems, Turnkey
+<ParaStyle:Company>Arthur J. Gallagher	NY	(866) 290-3812
+<ParaStyle:Company>Caterpillar	OR	(512) 807-8222
+<ParaStyle:Company>CSX	MN	(800) 426-6399
+<ParaStyle:Company>Estee Lauder	FL	(800) 523-2155
+<ParaStyle:Company>Fifth Third Bancorp	GA	(877) 727-7410
+<ParaStyle:Company>Peabody Energy	MD	(866) 783-6489
+<ParaStyle:Company>Publix Super Markets	IL	(206) 632-2866
+<ParaStyle:Company>Qurate Retail	FL	18774000111
+<ParaStyle:Company>United States Steel	MS	(800) 372-7737
+<ParaStyle:Company>Unum Group	MN	+1351252980500
+<ParaStyle:Company>Zimmer Biomet Holdings	IL	(888) 385-3588
+<ParaStyle:SubProduct>Digital Cameras
+<ParaStyle:Company>Danaher	CO	(800) 221-4079
+<ParaStyle:Company>Jones Lang LaSalle	UT	(424) 675-3300
+<ParaStyle:Company>Northern Trust	NY	(847) 870-7400
+<ParaStyle:SubProduct>Film-Imaging Systems
+<ParaStyle:Company>Assurant	MD	18886371737
+<ParaStyle:Company>Baxter International	VA	
+<ParaStyle:Company>Best Buy	LA	(972) 461-0700
+<ParaStyle:Company>Biogen	IA	(626) 575-2488
+<ParaStyle:Company>Sempra Energy	MI	(615) 565-5000
+<ParaStyle:Company>Union Pacific	WV	(770) 667-7717
+<ParaStyle:Company>XPO Logistics	GA	(800) 544-9096
+<ParaStyle:Product>Computer Software
+<ParaStyle:SubProduct>Graphics Software
+<ParaStyle:Company>AES	KY	(704) 842-1946
+<ParaStyle:Company>Citigroup	CA	(888) 777-1916
+<ParaStyle:Company>Kohl's	TX	(208) 963-5900
+<ParaStyle:Company>NGL Energy Partners	OH	(800) 530-5909
+<ParaStyle:Company>Nike	OH	(281) 259-6818
+<ParaStyle:Company>Western & Southern Financial Group	SD	(770) 461-7656
+<ParaStyle:SubProduct>Monogramming Software
+<ParaStyle:Company>EOG Resources	KY	(800) 869-9601
+<ParaStyle:Company>Fiserv	NY	(800) 225-3001
+<ParaStyle:SubProduct>Networking Software
+<ParaStyle:Company>Allstate	PA	(305) 418-4421
+<ParaStyle:Company>Arconic	KS	(800) 251-7286
+<ParaStyle:Company>Freeport-McMoRan	IN	(713) 699-9896
+<ParaStyle:Company>HD Supply Holdings	MN	(952) 912-2500
+<ParaStyle:Company>Southern		+81-3-5537-1585
+<ParaStyle:SubProduct>Separations Software
+<ParaStyle:Company>A-Mark Precious Metals	IL	(239) 785-8999
+<ParaStyle:Company>Apple	TX	(877) 674-8669
+<ParaStyle:Company>Olin	AZ	(800) 542-2307
+<ParaStyle:Company>Qurate Retail	FL	18774000111
+<ParaStyle:Company>Steel Dynamics	ND	(800) 272-4381
+<ParaStyle:Company>United States Steel	MS	(800) 372-7737
+CATEGORY Cutting Equipment & Services
+<ParaStyle:Product>Cutting Software
+<ParaStyle:Company>Assurant	MD	18886371737
+<ParaStyle:Company>Baxter International	VA	
+<ParaStyle:Company>Danaher	CO	(800) 221-4079
+<ParaStyle:Company>Jones Lang LaSalle	UT	(424) 675-3300
+<ParaStyle:Company>Northern Trust	NY	(847) 870-7400
+<ParaStyle:Company>Sempra Energy	MI	(615) 565-5000
+<ParaStyle:Company>Union Pacific	WV	(770) 667-7717
+<ParaStyle:Company>Zimmer Biomet Holdings	IL	(888) 385-3588
+<ParaStyle:Product>Vinyl Cutters
+<ParaStyle:Company>Activision Blizzard	PA	(800) 878-1235
+<ParaStyle:Company>Microsoft	OH	(877) 446-7163
+<ParaStyle:Company>Textron	MI	(360) 752-3310
+<ParaStyle:Company>WEC Energy Group	NH	(323) 391-1105
+CATEGORY Digital Decorating Equipment & Supplies
+<ParaStyle:Product>Color Laser Copier
+<ParaStyle:SubProduct>Color Laser Copier Toners
+<ParaStyle:Company>Dean Foods	NY	(800) 763-7763
+<ParaStyle:Company>Principal Financial	WV	(949) 340-6665
+<ParaStyle:Company>Tenneco	PA	(888) 385-3588
+<ParaStyle:Product>Inkjet
+<ParaStyle:SubProduct>Inkjet Transfer Paper
+<ParaStyle:Company>Asbury Automotive Group	NY	(844) 426-4657
+<ParaStyle:Company>Assurant	MD	18886371737
+<ParaStyle:Company>Best Buy	LA	(972) 461-0700
+<ParaStyle:Company>Biogen	IA	(626) 575-2488
+<ParaStyle:Company>Whirlpool	TX	18887185051
+<ParaStyle:Company>XPO Logistics	GA	(800) 544-9096
+CATEGORY Embroidery Equipment & Supplies
+<ParaStyle:Product>Embroidery Equipment
+<ParaStyle:SubProduct>Compact Embroidery Machines
+<ParaStyle:Company>Assurant	MD	18886371737
+<ParaStyle:Company>Baxter International	VA	
+<ParaStyle:Company>Biogen	IA	(626) 575-2488
+<ParaStyle:Company>Jones Lang LaSalle	UT	(424) 675-3300
+<ParaStyle:Company>Sempra Energy	MI	(615) 565-5000
+<ParaStyle:Company>Union Pacific	WV	(770) 667-7717
+<ParaStyle:Product>Topping Materials
+<ParaStyle:Company>Aramark	NY	+18657185812777
+<ParaStyle:Company>CDW	GA	(209) 931-6093
+<ParaStyle:Company>Harley-Davidson	LA	(213) 788-6748
+<ParaStyle:Company>Western Union	TX	18777246400
+CATEGORY Heat-Applied Graphics Equipment, Lettering & Transfers
+<ParaStyle:Product>Heat-Press, Lettering Supplies
+<ParaStyle:SubProduct>Film Adhesives
+<ParaStyle:Company>AES	KY	(704) 842-1946
+<ParaStyle:Company>Darden Restaurants	KY	(323) 516-6771
+<ParaStyle:Company>Kohl's	TX	(208) 963-5900
+<ParaStyle:Company>Motorola Solutions	OH	(630) 925-7957
+<ParaStyle:Company>NGL Energy Partners	OH	(800) 530-5909
+<ParaStyle:Company>Nike	OH	(281) 259-6818
+<ParaStyle:Company>Vistra Energy	NY	(701) 293-0077
+<ParaStyle:Product>Transfer Screen Printing Inks & Supplies
+<ParaStyle:SubProduct>Softhand Transfer Inks
+<ParaStyle:Company>Activision Blizzard	PA	(800) 878-1235
+<ParaStyle:Company>Aflac	WA	(732) 534-6222
+<ParaStyle:Company>Chesapeake Energy	TX	(800) 443-9553
+<ParaStyle:Company>EOG Resources	KY	(800) 869-9601
+<ParaStyle:Company>Fiserv	NY	(800) 225-3001
+<ParaStyle:Company>LKQ	MO	(800) 225-9634
+<ParaStyle:Company>Textron	MI	(360) 752-3310
+<ParaStyle:Company>Toll Brothers	GA	18004414393
+<ParaStyle:Company>Valero Energy	TN	(845) 425-2245
+<ParaStyle:Company>WEC Energy Group	NH	(323) 391-1105
+<ParaStyle:Product>Transfers
+<ParaStyle:SubProduct>Cap-Size Transfers
+<ParaStyle:Company>Ally Financial	TX	(310) 327-0011
+<ParaStyle:Company>Dean Foods	NY	(800) 763-7763
+<ParaStyle:Company>Fortive	WV	(408) 744-6710
+<ParaStyle:Company>Microsoft	OH	(877) 446-7163
+<ParaStyle:Company>News Corp.		+51 1 613 4242
+<ParaStyle:Company>Principal Financial	WV	(949) 340-6665
+<ParaStyle:Company>Tenneco	PA	(888) 385-3588
+CATEGORY Miscellaneous Equipment, Supplies & Industry Services
+<ParaStyle:Product>Cut-and-Sew Contract Services
+<ParaStyle:Company>Arthur J. Gallagher	NY	(866) 290-3812
+<ParaStyle:Company>Peabody Energy	MD	(866) 783-6489
+<ParaStyle:Company>Publix Super Markets	IL	(206) 632-2866
+<ParaStyle:Product>Direct Flocking Equipment & Supplies
+<ParaStyle:SubProduct>Flock Adhesives
+<ParaStyle:Company>Assurant	MD	18886371737
+<ParaStyle:Company>Baxter International	VA	
+<ParaStyle:Company>Caterpillar	OR	(512) 807-8222
+<ParaStyle:Company>Danaher	CO	(800) 221-4079
+<ParaStyle:Company>Jones Lang LaSalle	UT	(424) 675-3300
+<ParaStyle:Company>Northern Trust	NY	(847) 870-7400
+<ParaStyle:Company>Qurate Retail	FL	18774000111
+<ParaStyle:Company>Sempra Energy	MI	(615) 565-5000
+<ParaStyle:Company>Union Pacific	WV	(770) 667-7717
+<ParaStyle:Company>United States Steel	MS	(800) 372-7737
+<ParaStyle:Company>Zimmer Biomet Holdings	IL	(888) 385-3588
+<ParaStyle:SubProduct>Flock Transfer Paper
+<ParaStyle:Company>Asbury Automotive Group	NY	(844) 426-4657
+<ParaStyle:Company>Best Buy	LA	(972) 461-0700
+<ParaStyle:Company>Biogen	IA	(626) 575-2488
+<ParaStyle:Company>Whirlpool	TX	18887185051
+<ParaStyle:Company>XPO Logistics	GA	(800) 544-9096
+<ParaStyle:SubProduct>Flocking Equipment
+<ParaStyle:Company>Alphabet	OR	(800) 824-7578
+<ParaStyle:Company>Eversource Energy	FL	(251) 473-6502
+<ParaStyle:Company>HollyFrontier	WY	(843) 215-7000
+<ParaStyle:Company>Interpublic Group	KY	(732) 282-1448
+<ParaStyle:Company>Jabil	MO	(800) 574-3477
+<ParaStyle:Company>KeyCorp	TX	(800) 234-4890
+<ParaStyle:Company>Raytheon	MS	(877) 657-7500
+<ParaStyle:SubProduct>Loose Flock
+<ParaStyle:Company>Hanesbrands	UT	(423) 344-4080
+<ParaStyle:Company>HCA Healthcare	NY	(800) 597-9530
+<ParaStyle:Company>Huntsman	CO	(888) 828-0653
+<ParaStyle:Company>Mondelez International	IL	(256) 429-9900
+<ParaStyle:Product>Display Supplies, Fixtures & Accessories
+<ParaStyle:Company>Aramark	NY	+18657185812777
+<ParaStyle:Company>CDW	GA	(209) 931-6093
+<ParaStyle:Company>Cisco Systems	MD	(206) 552-9026
+<ParaStyle:Company>Harley-Davidson	LA	(213) 788-6748
+<ParaStyle:Company>Laboratory Corp. of America		+82 32 684 6088
+<ParaStyle:Company>MetLife	VA	(865) 328-796
+<ParaStyle:Company>Molina Healthcare	WV	(602) 363-4674
+<ParaStyle:Company>Navistar International	MI	(800) 922-9253
+<ParaStyle:Company>Western Union	TX	18777246400
+<ParaStyle:Product>Educational Seminars
+<ParaStyle:SubProduct>Digital Decorating Educational Seminars
+<ParaStyle:Company>Darden Restaurants	KY	(323) 516-6771
+<ParaStyle:SubProduct>Embroidery Educational Seminars
+<ParaStyle:Company>AES	KY	(704) 842-1946
+<ParaStyle:Company>Citigroup	CA	(888) 777-1916
+<ParaStyle:Company>EOG Resources	KY	(800) 869-9601
+<ParaStyle:Company>Fiserv	NY	(800) 225-3001
+<ParaStyle:Company>Kohl's	TX	(208) 963-5900
+<ParaStyle:Company>Motorola Solutions	OH	(630) 925-7957
+<ParaStyle:Company>NGL Energy Partners	OH	(800) 530-5909
+<ParaStyle:Company>Nike	OH	(281) 259-6818
+<ParaStyle:Company>Vistra Energy	NY	(701) 293-0077
+<ParaStyle:Company>Western & Southern Financial Group	SD	(770) 461-7656
+<ParaStyle:SubProduct>Screen Printing Educational Seminars
+<ParaStyle:Company>CSX	MN	(800) 426-6399
+<ParaStyle:Company>Estee Lauder	FL	(800) 523-2155
+<ParaStyle:Company>Fifth Third Bancorp	GA	(877) 727-7410
+<ParaStyle:Company>Peabody Energy	MD	(866) 783-6489
+<ParaStyle:Company>Publix Super Markets	IL	(206) 632-2866
+<ParaStyle:Product>Emblems, Patches & Chenille Service
+<ParaStyle:Company>Arthur J. Gallagher	NY	(866) 290-3812
+<ParaStyle:Company>Caterpillar	OR	(512) 807-8222
+<ParaStyle:Company>Danaher	CO	(800) 221-4079
+<ParaStyle:Company>Qurate Retail	FL	18774000111
+<ParaStyle:Company>United States Steel	MS	(800) 372-7737
+<ParaStyle:Company>Zimmer Biomet Holdings	IL	(888) 385-3588
+<ParaStyle:Product>Hand Cleaners
+<ParaStyle:Company>Cisco Systems	MD	(206) 552-9026
+<ParaStyle:Company>Hanesbrands	UT	(423) 344-4080
+<ParaStyle:Company>Harley-Davidson	LA	(213) 788-6748
+<ParaStyle:Company>HCA Healthcare	NY	(800) 597-9530
+<ParaStyle:Company>Huntsman	CO	(888) 828-0653
+<ParaStyle:Company>Laboratory Corp. of America		+82 32 684 6088
+<ParaStyle:Company>MetLife	VA	(865) 328-796
+<ParaStyle:Company>Molina Healthcare	WV	(602) 363-4674
+<ParaStyle:Company>Navistar International	MI	(800) 922-9253
+CATEGORY Screen Printing Equipment & Supplies
+<ParaStyle:Product>Inks for Textile Screen Printing
+<ParaStyle:SubProduct>Concentrated Pigments
+<ParaStyle:Company>Anadarko Petroleum	NC	(877) 757-7978
+<ParaStyle:Company>Bed Bath & Beyond	OR	(214) 631-3000
+<ParaStyle:Company>Broadcom	TX	(866) 673-7645
+<ParaStyle:Company>Icahn Enterprises	NM	(941) 755-1696
+<ParaStyle:Company>Phillips 66	OH	(800) 334-1101
+<ParaStyle:Company>USAA	NY	(800) 314-1622
+<ParaStyle:SubProduct>Discharge Ink Systems
+<ParaStyle:Company>Aflac	WA	(732) 534-6222
+<ParaStyle:Company>Chesapeake Energy	TX	(800) 443-9553
+<ParaStyle:Company>EOG Resources	KY	(800) 869-9601
+<ParaStyle:Company>Valero Energy	TN	(845) 425-2245
+<ParaStyle:SubProduct>Fluorescent, Neon Inks
+<ParaStyle:Company>Activision Blizzard	PA	(800) 878-1235
+<ParaStyle:Company>Dean Foods	NY	(800) 763-7763
+<ParaStyle:Company>LKQ	MO	(800) 225-9634
+<ParaStyle:Company>Microsoft	OH	(877) 446-7163
+<ParaStyle:Company>Textron	MI	(360) 752-3310
+<ParaStyle:Company>Toll Brothers	GA	18004414393
+<ParaStyle:Company>WEC Energy Group	NH	(323) 391-1105
+<ParaStyle:Product>Printing Equipment, Supplies & Services
+<ParaStyle:SubProduct>Drying Racks
+<ParaStyle:Company>Activision Blizzard	PA	(800) 878-1235
+<ParaStyle:Company>Aflac	WA	(732) 534-6222
+<ParaStyle:Company>Chesapeake Energy	TX	(800) 443-9553
+<ParaStyle:Company>EOG Resources	KY	(800) 869-9601
+<ParaStyle:Company>LKQ	MO	(800) 225-9634
+<ParaStyle:Company>Textron	MI	(360) 752-3310
+<ParaStyle:Company>Toll Brothers	GA	18004414393
+<ParaStyle:Company>Valero Energy	TN	(845) 425-2245
+<ParaStyle:Company>WEC Energy Group	NH	(323) 391-1105
+<ParaStyle:SubProduct>Eco-Friendly Printing Supplies
+<ParaStyle:Company>Air Products & Chemicals	PA	(877) 299-2914
+<ParaStyle:Company>American Airlines Group	OH	(973) 767-0880
+<ParaStyle:Company>DaVita	NM	(204) 942-0091
+<ParaStyle:Company>Genworth Financial	KY	(800) 523-8888
+<ParaStyle:Company>Williams	CO	(806) 256-2033
+<ParaStyle:Company>Yum China Holdings	CA	(866) 769-2517
+<ParaStyle:SubProduct>Flatbed Transfer-Printing Presses
+<ParaStyle:Company>Interpublic Group	KY	(732) 282-1448
+<ParaStyle:Company>KeyCorp	TX	(800) 234-4890
+<ParaStyle:SubProduct>Transfer-Release Paper
+<ParaStyle:Company>Activision Blizzard	PA	(800) 878-1235
+<ParaStyle:Company>Ally Financial	TX	(310) 327-0011
+<ParaStyle:Company>Anadarko Petroleum	NC	(877) 757-7978
+<ParaStyle:Company>Bed Bath & Beyond	OR	(214) 631-3000
+<ParaStyle:Company>Broadcom	TX	(866) 673-7645
+<ParaStyle:Company>Dean Foods	NY	(800) 763-7763
+<ParaStyle:Company>Fortive	WV	(408) 744-6710
+<ParaStyle:Company>Mastercard	IN	(800) 777-4510
+<ParaStyle:Company>Microsoft	OH	(877) 446-7163
+<ParaStyle:Company>News Corp.		+51 1 613 4242
+<ParaStyle:Company>Phillips 66	OH	(800) 334-1101
+<ParaStyle:Company>Principal Financial	WV	(949) 340-6665
+<ParaStyle:Company>Tenneco	PA	(888) 385-3588
+<ParaStyle:Company>Textron	MI	(360) 752-3310
+<ParaStyle:SubProduct>Used Screen Printing Equipment
+<ParaStyle:Company>ADP	MI	(800) 545-8686
+<ParaStyle:Company>Allstate	PA	(305) 418-4421
+<ParaStyle:Company>Arconic	KS	(800) 251-7286
+<ParaStyle:Company>Freeport-McMoRan	IN	(713) 699-9896
+<ParaStyle:Company>HD Supply Holdings	MN	(952) 912-2500
+<ParaStyle:Company>Icahn Enterprises	NM	(941) 755-1696
+<ParaStyle:Company>INTL FCStone	AR	18776460999
+<ParaStyle:Company>J.B. Hunt Transport Services	FL	(888) 717-4466
+<ParaStyle:Company>Southern		+81-3-5537-1585
+<ParaStyle:Company>USAA	NY	(800) 314-1622
+<ParaStyle:Company>Walt Disney	OK	(213) 905-3205
+<ParaStyle:Company>Xcel Energy	NJ	(770) 817-9410
+<ParaStyle:Product>Screen-Making Equipment & Supplies
+<ParaStyle:SubProduct>Frames: Retensionable
+<ParaStyle:Company>Baxter International	VA	
+<ParaStyle:Company>Eversource Energy	FL	(251) 473-6502
+<ParaStyle:Company>Huntsman	CO	(888) 828-0653
+<ParaStyle:Company>Mondelez International	IL	(256) 429-9900
+<ParaStyle:SubProduct>Frames: Wood
+<ParaStyle:Company>Hanesbrands	UT	(423) 344-4080
+<ParaStyle:Company>HCA Healthcare	NY	(800) 597-9530
+<ParaStyle:Company>MetLife	VA	(865) 328-796
+<ParaStyle:Company>Navistar International	MI	(800) 922-9253
+<ParaStyle:Product>Screen-Reclaiming Equipment & Supplies
+<ParaStyle:SubProduct>Washout Tanks, Booths
+<ParaStyle:Company>Allstate	PA	(305) 418-4421
+<ParaStyle:Company>Arconic	KS	(800) 251-7286
+<ParaStyle:Company>HD Supply Holdings	MN	(952) 912-2500
+<ParaStyle:Company>INTL FCStone	AR	18776460999
+<ParaStyle:Company>Southern		+81-3-5537-1585
+<ParaStyle:Company>Xcel Energy	NJ	(770) 817-9410
+<ParaStyle:Product>Separations Software
+<ParaStyle:Company>Aflac	WA	(732) 534-6222
+<ParaStyle:Company>News Corp.		+51 1 613 4242
+<ParaStyle:Company>Valero Energy	TN	(845) 425-2245
+CATEGORY Services
+<ParaStyle:Product>Misc. Equipment, Supplies & Industry Services
+<ParaStyle:Company>Ally Financial	TX	(310) 327-0011
+<ParaStyle:Company>Fortive	WV	(408) 744-6710
+<ParaStyle:Company>Mastercard	IN	(800) 777-4510
+<ParaStyle:Company>Phillips 66	OH	(800) 334-1101

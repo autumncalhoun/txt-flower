@@ -1,0 +1,165 @@
+<ASCII-MAC>
+<Version:11.4><FeatureSet:InDesign-Roman><ColorTable:=<Black:COLOR:CMYK:Process:0,0,0,1><Paper:COLOR:CMYK:Process:0,0,0,0><C=0 M=48 Y=70 K=0:COLOR:CMYK:Process:0,0.48,0.7,0>>
+<DefineParaStyle:Product alpha=<Nextstyle:Product alpha><cSize:7.500000><pHyphenationLadderLimit:0><pLeftIndent:9.000000><pFirstLineIndent:-9.000000><cLeading:8.500000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceBefore:3.024000><pTabRuler:160,Right,.,0,.;><cFont:Adobe Caslon Pro>>
+<DefineParaStyle:ABCs=<Nextstyle:ABCs><cColor:Paper><cTypeface:Black><cHorizontalScale:0.930000><cLigatures:0><cCase:All Caps><pHyphenationLadderLimit:0><pLeftIndent:5.399999><cLeading:20.000000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceAfter:2.880000><pTabRuler:72,Left,.,0,;><cFont:Circular Std><pRuleAboveColor:C=0 M=48 Y=70 K=0><pRuleAboveStroke:15.000000><pRuleAboveTint:100.000000><pRuleAboveOffset:-3.060000><pRuleAboveOn:1><pRuleAboveStrokeType:ThickThick><pRuleAboveGapColor:C=0 M=48 Y=70 K=0><pRuleAboveGapTint:100.000000><pTextAlignment:Center>>
+<ParaStyle:Product alpha>1/4-,1/2-Zip Fleece
+<ParaStyle:ABCs>A
+<ParaStyle:Product alpha>AMERICAN-MADE APPAREL
+<ParaStyle:Product alpha>ANIMAL, PET, K-9 APPAREL
+<ParaStyle:Product alpha>APRONS, SMOCKS
+<ParaStyle:Product alpha>ATHLETIC WEAR
+<ParaStyle:ABCs>B
+<ParaStyle:Product alpha>BACKPACKS, KNAPSACKS
+<ParaStyle:Product alpha>BAGS
+<ParaStyle:Product alpha>Baseball Uniforms
+<ParaStyle:Product alpha>Basketball Uniforms
+<ParaStyle:Product alpha>Bowling Shirts
+<ParaStyle:Product alpha>Business Systems, Turnkey
+<ParaStyle:ABCs>C
+<ParaStyle:Product alpha>CAPS, HEADWEAR
+<ParaStyle:Product alpha>CHILDREN'S APPAREL
+<ParaStyle:Product alpha>CLOSEOUTS
+<ParaStyle:Product alpha>COLOR LASER COPIER
+<ParaStyle:Product alpha>COMPUTER HARDWARE
+<ParaStyle:Product alpha>COMPUTER SOFTWARE
+<ParaStyle:Product alpha>CUT-AND-SEW CONTRACT SERVICES
+<ParaStyle:Product alpha>CUTTING SOFTWARE
+<ParaStyle:Product alpha>Canton Fleece
+<ParaStyle:Product alpha>Cap-Size Transfers
+<ParaStyle:Product alpha>Cardigans (Fleece)
+<ParaStyle:Product alpha>Cheerleader Uniforms
+<ParaStyle:Product alpha>Children's, Infants', Youth Fleecewear
+<ParaStyle:Product alpha>Color Laser Copier Toners
+<ParaStyle:Product alpha>Color-Block Shirts
+<ParaStyle:Product alpha>Compact Embroidery Machines
+<ParaStyle:Product alpha>Concentrated Pigments
+<ParaStyle:Product alpha>Crew-Neck Sweats
+<ParaStyle:Product alpha>Crop Tops (Fleece)
+<ParaStyle:ABCs>D
+<ParaStyle:Product alpha>DENIM APPAREL
+<ParaStyle:Product alpha>DIRECT FLOCKING EQUIPMENT & SUPPLIES
+<ParaStyle:Product alpha>DISPLAY SUPPLIES, FIXTURES & ACCESSORIES
+<ParaStyle:Product alpha>Denim Dresses
+<ParaStyle:Product alpha>Denim Shirts
+<ParaStyle:Product alpha>Dickeys
+<ParaStyle:Product alpha>Digital Cameras
+<ParaStyle:Product alpha>Digital Decorating Educational Seminars
+<ParaStyle:Product alpha>Discharge Ink Systems
+<ParaStyle:Product alpha>Dresses (Fleece)
+<ParaStyle:Product alpha>Drying Racks
+<ParaStyle:Product alpha>Duffle Bags
+<ParaStyle:ABCs>E
+<ParaStyle:Product alpha>EDUCATIONAL SEMINARS
+<ParaStyle:Product alpha>EMBLEMS, PATCHES & CHENILLE SERVICE
+<ParaStyle:Product alpha>EMBROIDERY EQUIPMENT
+<ParaStyle:Product alpha>Eco-Friendly Printing Supplies
+<ParaStyle:Product alpha>Embroidery Educational Seminars
+<ParaStyle:ABCs>F
+<ParaStyle:Product alpha>FLEECEWEAR, SWEATS
+<ParaStyle:Product alpha>FOOTWEAR
+<ParaStyle:Product alpha>Fashion Fleece
+<ParaStyle:Product alpha>Film Adhesives
+<ParaStyle:Product alpha>Film-Imaging Systems
+<ParaStyle:Product alpha>Flannel Apparel
+<ParaStyle:Product alpha>Flatbed Transfer-Printing Presses
+<ParaStyle:Product alpha>Flock Adhesives
+<ParaStyle:Product alpha>Flock Transfer Paper
+<ParaStyle:Product alpha>Flocking Equipment
+<ParaStyle:Product alpha>Fluorescent, Neon Inks
+<ParaStyle:Product alpha>Football Uniforms
+<ParaStyle:Product alpha>Frames: Retensionable
+<ParaStyle:Product alpha>Frames: Wood
+<ParaStyle:Product alpha>French Terry Fleece
+<ParaStyle:Product alpha>Full-Zip Fleece
+<ParaStyle:ABCs>G
+<ParaStyle:Product alpha>GARMENT-DYED APPAREL
+<ParaStyle:Product alpha>GOLF, PLACKET SHIRTS
+<ParaStyle:Product alpha>Gloves
+<ParaStyle:Product alpha>Graphics Software
+<ParaStyle:ABCs>H
+<ParaStyle:Product alpha>HAND CLEANERS
+<ParaStyle:Product alpha>HEAT-PRESS, LETTERING SUPPLIES
+<ParaStyle:Product alpha>Henley-Collar Shirts
+<ParaStyle:Product alpha>High-Cotton Content Fleece
+<ParaStyle:Product alpha>Hockey Uniforms
+<ParaStyle:ABCs>I
+<ParaStyle:Product alpha>INKJET
+<ParaStyle:Product alpha>INKS FOR TEXTILE SCREEN PRINTING
+<ParaStyle:Product alpha>Inkjet Transfer Paper
+<ParaStyle:ABCs>J
+<ParaStyle:Product alpha>JACKETS, OUTERWEAR
+<ParaStyle:Product alpha>Joggers
+<ParaStyle:Product alpha>Johnny-Collar Shirts
+<ParaStyle:Product alpha>Juniors Apparel
+<ParaStyle:ABCs>L
+<ParaStyle:Product alpha>Ladies' Fashion Apparel
+<ParaStyle:Product alpha>Loose Flock
+<ParaStyle:ABCs>M
+<ParaStyle:Product alpha>MISC. EQUIPMENT, SUPPLIES & INDUSTRY SERVICES
+<ParaStyle:Product alpha>MISCELLANEOUS APPAREL
+<ParaStyle:Product alpha>Misses Apparel
+<ParaStyle:Product alpha>Monogramming Software
+<ParaStyle:ABCs>N
+<ParaStyle:Product alpha>Networking Software
+<ParaStyle:Product alpha>Novelty Bags
+<ParaStyle:ABCs>O
+<ParaStyle:Product alpha>OVERSIZE APPAREL
+<ParaStyle:Product alpha>Other
+<ParaStyle:ABCs>P
+<ParaStyle:Product alpha>PANTS
+<ParaStyle:Product alpha>PERFORMANCE APPAREL
+<ParaStyle:Product alpha>PRINTING EQUIPMENT, SUPPLIES & SERVICES
+<ParaStyle:Product alpha>Panels, Panel Programs for Bags
+<ParaStyle:Product alpha>Polyester, Blends
+<ParaStyle:Product alpha>Poplin Jackets
+<ParaStyle:Product alpha>Precurved-Visor Caps
+<ParaStyle:ABCs>R
+<ParaStyle:Product alpha>Raglan T-Shirts
+<ParaStyle:Product alpha>Roller Backpacks
+<ParaStyle:ABCs>S
+<ParaStyle:Product alpha>SCREEN-MAKING EQUIPMENT & SUPPLIES
+<ParaStyle:Product alpha>SCREEN-RECLAIMING EQUIPMENT & SUPPLIES
+<ParaStyle:Product alpha>SEPARATIONS SOFTWARE
+<ParaStyle:Product alpha>Satin Jackets
+<ParaStyle:Product alpha>Screen Printing Educational Seminars
+<ParaStyle:Product alpha>Separations Software
+<ParaStyle:Product alpha>Sets (Top and Bottom coordinates)
+<ParaStyle:Product alpha>Softhand Transfer Inks
+<ParaStyle:Product alpha>Soil-Resistant
+<ParaStyle:Product alpha>Supplex Jackets
+<ParaStyle:Product alpha>Sweat Pants
+<ParaStyle:ABCs>T
+<ParaStyle:Product alpha>T-SHIRTS
+<ParaStyle:Product alpha>THERMAL APPAREL
+<ParaStyle:Product alpha>TOPPING MATERIALS
+<ParaStyle:Product alpha>TOWELS
+<ParaStyle:Product alpha>TRANSFER SCREEN PRINTING INKS & SUPPLIES
+<ParaStyle:Product alpha>TRANSFERS
+<ParaStyle:Product alpha>T-Shirts, Other Fabrics/Blends
+<ParaStyle:Product alpha>Tall-Size T-Shirts
+<ParaStyle:Product alpha>Tank Tops
+<ParaStyle:Product alpha>Textured Fleece
+<ParaStyle:Product alpha>Textured T-Shirts
+<ParaStyle:Product alpha>Tote Bags
+<ParaStyle:Product alpha>Transfer-Release Paper
+<ParaStyle:Product alpha>Tri-Blends
+<ParaStyle:Product alpha>Tube Tops/Bandeaus
+<ParaStyle:Product alpha>Twill Shirts
+<ParaStyle:Product alpha>Tyvek Jackets
+<ParaStyle:ABCs>U
+<ParaStyle:Product alpha>UMBRELLAS
+<ParaStyle:Product alpha>U.V. Protective Apparel
+<ParaStyle:Product alpha>Used Screen Printing Equipment
+<ParaStyle:ABCs>V
+<ParaStyle:Product alpha>VINYL CUTTERS
+<ParaStyle:Product alpha>V-Neck T-Shirts
+<ParaStyle:Product alpha>Vests
+<ParaStyle:Product alpha>Visors
+<ParaStyle:ABCs>W
+<ParaStyle:Product alpha>WOVEN APPAREL
+<ParaStyle:Product alpha>Washout Tanks, Booths
+<ParaStyle:Product alpha>Western Shirts
+<ParaStyle:Product alpha>Western Wear
+<ParaStyle:Product alpha>Wrinkle-Resistant
+<ParaStyle:ABCs>Y
+<ParaStyle:Product alpha>Youth Golf, Placket Shirts

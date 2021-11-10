@@ -1,7 +1,12 @@
 require './lib/efa/companies_generator'
 require './lib/efa/product_category_list_generator'
 require './lib/efa/product_category_index_generator'
+require './lib/impressions/suppliers_generator'
+require './lib/impressions/alphabetical_index_generator'
+require './lib/impressions/category_index_generator'
+require './lib/impressions/cross_reference_generator'
 include EFA
+include Impressions
 
 namespace :test do
   desc 'Update fixtures for EFA tests.'
@@ -42,6 +47,38 @@ namespace :test do
       csv_file_name: 'Company_Category_Services',
       output_location: output_location,
       tagged_text_file_name: 'ProdCatIndexTT_Services',
+    ).generate_text
+  end
+
+  desc 'Update fixtures for Impressions tests.'
+  task :update_fixtures_impressions do
+    output_location = 'spec/fixtures/impressions'
+    csv_location = 'spec/fixtures/impressions'
+
+    # when 'AlphabeticalIndexTT'
+    Impressions::AlphabeticalIndexGenerator.new(
+      csv: "#{csv_location}/Company_Category.csv",
+      output_location: output_location,
+    ).generate_text
+
+    # when 'CategoryIndexTT'
+    Impressions::CategoryIndexGenerator.new(
+      csv: "#{csv_location}/Company_Category.csv",
+      output_location: output_location,
+    ).generate_text
+
+    # when 'CrossReferenceTT'
+    Impressions::CrossReferenceGenerator.new(
+      companies_csv: "#{csv_location}/Companies.csv",
+      company_category_csv: "#{csv_location}/Company_Category.csv",
+      output_location: output_location,
+    ).generate_text
+
+    # when 'SuppliersTT'
+    Impressions::SuppliersGenerator.new(
+      companies_csv: "#{csv_location}/Companies.csv",
+      branches_csv: "#{csv_location}/Branches.csv",
+      output_location: output_location,
     ).generate_text
   end
 end
