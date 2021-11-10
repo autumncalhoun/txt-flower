@@ -8,7 +8,14 @@ require 'Phone'
 require 'YAML'
 require 'fileutils'
 
-# TODO: NOT CORRECT
+class String
+  def initial
+    self[0, 1]
+  end
+  def initial2
+    self[0, 2]
+  end
+end
 
 module Impressions
   class CrossReferenceGenerator

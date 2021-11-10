@@ -1,7 +1,7 @@
 require 'fileutils'
-require './lib/impressions/suppliers_generator'
+require './lib/impressions/alphabetical_index_generator'
 
-describe Impressions::SuppliersGenerator do
+describe Impressions::AlphabeticalIndexGenerator do
   describe '#generate_output' do
     let(:company) { 'impressions' }
     let(:output_location) { "spec/tmp/#{company}" }
@@ -9,14 +9,10 @@ describe Impressions::SuppliersGenerator do
 
     let(:tagged_text_output) { "spec/tmp/#{company}/#{file_name}.txt" }
     let(:fixture) { "spec/fixtures/#{company}/#{file_name}.txt" }
-    let(:file_name) { 'SuppliersTT' }
+    let(:file_name) { 'ProdAlphaIndexTT' }
 
     let(:generator) do
-      described_class.new(
-        companies_csv: "#{csv_location}/Companies.csv",
-        branches_csv: "#{csv_location}/Branches.csv",
-        output_location: output_location,
-      )
+      described_class.new(csv: "#{csv_location}/Company_Category.csv", output_location: output_location)
     end
 
     it 'writes the output to a file' do

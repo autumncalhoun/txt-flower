@@ -1,7 +1,7 @@
 require 'fileutils'
-require './lib/impressions/suppliers_generator'
+require './lib/impressions/cross_reference_generator'
 
-describe Impressions::SuppliersGenerator do
+describe Impressions::CrossReferenceGenerator do
   describe '#generate_output' do
     let(:company) { 'impressions' }
     let(:output_location) { "spec/tmp/#{company}" }
@@ -9,12 +9,12 @@ describe Impressions::SuppliersGenerator do
 
     let(:tagged_text_output) { "spec/tmp/#{company}/#{file_name}.txt" }
     let(:fixture) { "spec/fixtures/#{company}/#{file_name}.txt" }
-    let(:file_name) { 'SuppliersTT' }
+    let(:file_name) { 'CrossReferenceTT' }
 
     let(:generator) do
       described_class.new(
         companies_csv: "#{csv_location}/Companies.csv",
-        branches_csv: "#{csv_location}/Branches.csv",
+        company_category_csv: "#{csv_location}/Company_Category.csv",
         output_location: output_location,
       )
     end
