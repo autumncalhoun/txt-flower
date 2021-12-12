@@ -6,6 +6,8 @@ require './lib/impressions/alphabetical_index_generator'
 require './lib/impressions/category_index_generator'
 require './lib/impressions/cross_reference_generator'
 require './lib/hcd/companies_generator'
+require './lib/hcd/product_category_list_generator'
+require './lib/hcd/product_category_index_generator'
 include EFA
 include Impressions
 include HCD
@@ -95,6 +97,20 @@ namespace :test do
       csv_file_name: 'Companies',
       output_location: output_location,
       tagged_text_file_name: 'CompaniesTT',
+    ).generate_text
+
+    HCD::ProductCategoryIndexGenerator.new(
+      csv_location: csv_location,
+      csv_file_name: 'Categories',
+      output_location: output_location,
+      tagged_text_file_name: 'ProdCatIndexTT',
+    ).generate_text
+
+    HCD::ProductCategoryListGenerator.new(
+      csv_location: csv_location,
+      csv_file_name: 'Categories',
+      output_location: output_location,
+      tagged_text_file_name: 'ProdCatListTT',
     ).generate_text
   end
 end

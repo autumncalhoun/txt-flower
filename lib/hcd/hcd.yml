@@ -42,7 +42,7 @@ tagged_text_files:
         <DefineParaStyle:PL_Body_Index=<Nextstyle:PL_Body_Index><cTypeface:Condensed No. 18><cSize:11.000000><cAutoPairKern:Optical><cTracking:20><cLeading:13.000000><pHyphenation:0><pTabRuler:178,Right,.,0,.;><cFont:Trade Gothic LT Std><pDesiredWordSpace:0.950000><pMaxWordSpace:1.000000><pMinWordSpace:0.500000><pDesiredLetterspace:-0.100000><pMinLetterspace:-0.150000>>
         <DefineParaStyle:NormalParagraphStyle=<Nextstyle:NormalParagraphStyle><pDesiredWordSpace:0.850000><pMaxWordSpace:1.000000><pDesiredLetterspace:-0.050000><pMinLetterspace:-0.050000>>
       category: <ParaStyle:PL-Head1>
-      product: <ParaStyle:PL\_Body\_Index>
+      product: <ParaStyle:PL_Body_Index>
   ProdCatListTT:
     tags:
       header: |+

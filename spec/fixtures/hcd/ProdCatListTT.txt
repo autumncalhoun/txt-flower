@@ -1,0 +1,810 @@
+<ASCII-MAC>
+<Version:11.4><FeatureSet:InDesign-Roman><ColorTable:=<Paper:COLOR:CMYK:Process:0,0,0,0><C=90 M=35 Y=0 K=0:COLOR:CMYK:Process:0.9,0.35,0,0><Black:COLOR:CMYK:Process:0,0,0,1>>
+<DefineKinsokuStyle:kHardKinsokuName=<BeforeTable:!,),,,.,:,;,?,],},<0x00A2>,<0x2014>,<0x2019>,<0x201D>,<0x2030>,<0x2103>,<0x2109>,<0x3001>,<0x3002>,<0x3005>,<0x3009>,<0x300B>,<0x300D>,<0x300F>,<0x3011>,<0x3015>,<0x301F>,<0x3041>,<0x3043>,<0x3045>,<0x3047>,<0x3049>,<0x3063>,<0x3083>,<0x3085>,<0x3087>,<0x308E>,<0x309B>,<0x309C>,<0x309D>,<0x309E>,<0x30A1>,<0x30A3>,<0x30A5>,<0x30A7>,<0x30A9>,<0x30C3>,<0x30E3>,<0x30E5>,<0x30E7>,<0x30EE>,<0x30F5>,<0x30F6>,<0x30FB>,<0x30FC>,<0x30FD>,<0x30FE>,<0xFF01>,<0xFF05>,<0xFF09>,<0xFF0C>,<0xFF0E>,<0xFF1A>,<0xFF1B>,<0xFF1F>,<0xFF3D>,<0xFF5D>><AfterTable:(,[,{,<0x00A3>,<0x00A7>,<0x2018>,<0x201C>,<0x3008>,<0x300A>,<0x300C>,<0x300E>,<0x3010>,<0x3012>,<0x3014>,<0x301D>,<0xFF03>,<0xFF04>,<0xFF08>,<0xFF20>,<0xFF3B>,<0xFF5B>,<0xFFE5>><HangingTable:<0x3001>,<0x3002>,<0xFF0C>,<0xFF0E>><NotSeparateTable:<0x2014>,<0x2025>,<0x2026>>>
+<DefineKinsokuStyle:Word_Kinsoku=>
+<DefineParaStyle:PL-Head1=<Nextstyle:PL-Head1><cColor:Paper><cTypeface:Bold><cSize:11.000000><cTracking:100><cCase:All Caps><pLeftIndent:2.000000><cLeading:13.000000><pSpaceBefore:13.500000><pSpaceAfter:4.500000><cFont:Trade Gothic LT Std><pDesiredWordSpace:0.850000><pMaxWordSpace:1.000000><pDesiredLetterspace:-0.050000><pMinLetterspace:-0.050000><pRuleAboveColor:C=90 M=35 Y=0 K=0><pRuleAboveStroke:15.000000><pRuleAboveTint:100.000000><pRuleAboveOffset:-2.880000><pRuleAboveOn:1>>
+<DefineParaStyle:PL-Body Text=<Nextstyle:PL-Body Text><cTypeface:Condensed No. 18><cSize:11.000000><cAutoPairKern:Optical><cTracking:20><cLeading:13.000000><pHyphenation:0><cFont:Trade Gothic LT Std><pDesiredWordSpace:0.950000><pMaxWordSpace:1.000000><pMinWordSpace:0.500000><pDesiredLetterspace:-0.100000><pMinLetterspace:-0.150000>>
+<DefineParaStyle:PL-Head2=<BasedOn:PL-Body Text><Nextstyle:PL-Head2><cTypeface:Bold><pLeftIndent:2.000000><pSpaceBefore:6.480000><pSpaceAfter:2.160000><pRuleAboveColor:C=90 M=35 Y=0 K=0><pRuleAboveStroke:15.000000><pRuleAboveTint:15.000000><pRuleAboveOffset:-3.600000><pRuleAboveOn:1>>
+<ParaStyle:PL-Head1>Architects/Designers
+<ParaStyle:PL-Head2>Architects
+<ParaStyle:PL-Body Text>Cisco Systems
+<ParaStyle:PL-Body Text>Kraft Heinz
+<ParaStyle:PL-Body Text>Booz Allen Hamilton
+<ParaStyle:PL-Body Text>BJ's Wholesale Club
+<ParaStyle:PL-Body Text>Farmers Insurance Exchange
+<ParaStyle:PL-Body Text>Illinois Tool Works
+<ParaStyle:PL-Body Text>Sanmina
+<ParaStyle:PL-Body Text>Jacobs Engineering Group
+<ParaStyle:PL-Body Text>Tractor Supply
+<ParaStyle:PL-Body Text>Delek US Holdings
+<ParaStyle:PL-Body Text>Southwest Airlines
+<ParaStyle:PL-Body Text>Progressive
+<ParaStyle:PL-Body Text>Paccar
+<ParaStyle:PL-Body Text>TJX
+<ParaStyle:PL-Body Text>Regeneron Pharmaceuticals
+<ParaStyle:PL-Body Text>PepsiCo
+<ParaStyle:PL-Body Text>Wells Fargo
+<ParaStyle:PL-Body Text>Eli Lilly
+<ParaStyle:PL-Body Text>Arthur J. Gallagher
+<ParaStyle:PL-Body Text>PayPal Holdings
+<ParaStyle:PL-Body Text>General Motors
+<ParaStyle:PL-Body Text>Broadcom
+<ParaStyle:PL-Body Text>Magellan Health
+<ParaStyle:PL-Body Text>TravelCenters of America
+<ParaStyle:PL-Body Text>Supervalu
+<ParaStyle:PL-Body Text>CDW
+<ParaStyle:PL-Body Text>Corning
+<ParaStyle:PL-Body Text>Conagra Brands
+<ParaStyle:PL-Body Text>Mohawk Industries
+<ParaStyle:PL-Body Text>Targa Resources
+<ParaStyle:PL-Body Text>Molson Coors Brewing
+<ParaStyle:PL-Body Text>Qualcomm
+<ParaStyle:PL-Body Text>SpartanNash
+<ParaStyle:PL-Body Text>Hartford Financial Services
+<ParaStyle:PL-Body Text>Ingredion
+<ParaStyle:PL-Body Text>Laboratory Corp. of America
+<ParaStyle:PL-Body Text>Phillips 66
+<ParaStyle:PL-Body Text>Capital One Financial
+<ParaStyle:PL-Body Text>First American Financial
+<ParaStyle:PL-Body Text>Genworth Financial
+<ParaStyle:PL-Body Text>Casey's General Stores
+<ParaStyle:PL-Body Text>Devon Energy
+<ParaStyle:PL-Body Text>Seaboard
+<ParaStyle:PL-Body Text>Sempra Energy
+<ParaStyle:PL-Body Text>HP
+<ParaStyle:PL-Body Text>Boston Scientific
+<ParaStyle:PL-Body Text>Lennar
+<ParaStyle:PL-Body Text>Verizon Communications
+<ParaStyle:PL-Body Text>Rite Aid
+<ParaStyle:PL-Body Text>Expeditors Intl. of Washington
+<ParaStyle:PL-Body Text>Xerox
+<ParaStyle:PL-Body Text>Duke Energy
+<ParaStyle:PL-Body Text>A-Mark Precious Metals
+<ParaStyle:PL-Body Text>Old Republic International
+<ParaStyle:PL-Body Text>Clorox
+<ParaStyle:PL-Body Text>CarMax
+<ParaStyle:PL-Body Text>Avnet
+<ParaStyle:PL-Body Text>Aramark
+<ParaStyle:PL-Body Text>Anthem
+<ParaStyle:PL-Body Text>Massachusetts Mutual Life Insurance
+<ParaStyle:PL-Body Text>Occidental Petroleum
+<ParaStyle:PL-Body Text>NRG Energy
+<ParaStyle:PL-Body Text>Avis Budget Group
+<ParaStyle:PL-Body Text>Marriott International
+<ParaStyle:PL-Body Text>Calpine
+<ParaStyle:PL-Body Text>AutoZone
+<ParaStyle:PL-Body Text>Tech Data
+<ParaStyle:PL-Body Text>Home Depot
+<ParaStyle:PL-Body Text>Exelon
+<ParaStyle:PL-Body Text>Interpublic Group
+<ParaStyle:PL-Body Text>Bristol-Myers Squibb
+<ParaStyle:PL-Body Text>Cheniere Energy
+<ParaStyle:PL-Body Text>Mosaic
+<ParaStyle:PL-Body Text>PulteGroup
+<ParaStyle:PL-Body Text>Fluor
+<ParaStyle:PL-Body Text>Nordstrom
+<ParaStyle:PL-Body Text>Pfizer
+<ParaStyle:PL-Body Text>Applied Materials
+<ParaStyle:PL-Body Text>First Data
+<ParaStyle:PL-Body Text>Motorola Solutions
+<ParaStyle:PL-Body Text>Crown Holdings
+<ParaStyle:PL-Body Text>Ryder System
+<ParaStyle:PL-Body Text>American Tower
+<ParaStyle:PL-Body Text>Waste Management
+<ParaStyle:PL-Body Text>News Corp.
+<ParaStyle:PL-Body Text>Alphabet
+<ParaStyle:PL-Body Text>Baxter International
+<ParaStyle:PL-Body Text>Builders FirstSource
+<ParaStyle:PL-Body Text>D.R. Horton
+<ParaStyle:PL-Body Text>Tenneco
+<ParaStyle:PL-Body Text>Ross Stores
+<ParaStyle:PL-Body Text>American Family Insurance Group
+<ParaStyle:PL-Body Text>Hertz Global Holdings
+<ParaStyle:PL-Body Text>Yum Brands
+<ParaStyle:PL-Body Text>Parker-Hannifin
+<ParaStyle:PL-Body Text>Kimberly-Clark
+<ParaStyle:PL-Body Text>Tapestry
+<ParaStyle:PL-Body Text>Edison International
+<ParaStyle:PL-Body Text>Hormel Foods
+<ParaStyle:PL-Body Text>MetLife
+<ParaStyle:PL-Body Text>DISH Network
+<ParaStyle:PL-Body Text>Raytheon
+<ParaStyle:PL-Body Text>GameStop
+<ParaStyle:PL-Body Text>Lithia Motors
+<ParaStyle:PL-Body Text>Darden Restaurants
+<ParaStyle:PL-Body Text>Franklin Resources
+<ParaStyle:PL-Body Text>American Airlines Group
+<ParaStyle:PL-Body Text>Graybar Electric
+<ParaStyle:PL-Body Text>McKesson
+<ParaStyle:PL-Body Text>Williams
+<ParaStyle:PL-Body Text>Owens Corning
+<ParaStyle:PL-Body Text>Philip Morris International
+<ParaStyle:PL-Body Text>Live Nation Entertainment
+<ParaStyle:PL-Body Text>Dominion Energy
+<ParaStyle:PL-Body Text>PREVIO
+<ParaStyle:PL-Body Text>EMCOR Group
+<ParaStyle:PL-Body Text>Walgreens Boots Alliance
+<ParaStyle:PL-Body Text>Chesapeake Energy
+<ParaStyle:PL-Body Text>Universal Health Services
+<ParaStyle:PL-Body Text>Berkshire Hathaway
+<ParaStyle:PL-Body Text>UGI
+<ParaStyle:PL-Body Text>Dell Technologies
+<ParaStyle:PL-Body Text>Windstream Holdings
+<ParaStyle:PL-Body Text>Southern
+<ParaStyle:PL-Body Text>Land O'Lakes
+<ParaStyle:PL-Body Text>Oshkosh
+<ParaStyle:PL-Body Text>Altice USA
+<ParaStyle:PL-Body Text>Adobe
+<ParaStyle:PL-Body Text>Whirlpool
+<ParaStyle:PL-Body Text>Pioneer Natural Resources
+<ParaStyle:PL-Body Text>Newell Brands
+<ParaStyle:PL-Body Text>Blackstone Group
+<ParaStyle:PL-Body Text>Dana
+<ParaStyle:PL-Body Text>Cummins
+<ParaStyle:PL-Body Text>NextEra Energy
+<ParaStyle:PL-Body Text>Ameriprise Financial
+<ParaStyle:PL-Body Text>IBM
+<ParaStyle:PL-Body Text>Hanesbrands
+<ParaStyle:PL-Body Text>Omnicom Group
+<ParaStyle:PL-Body Text>Ameren
+<ParaStyle:PL-Body Text>LKQ
+<ParaStyle:PL-Body Text>Northwestern Mutual
+<ParaStyle:PL-Body Text>DXC Technology
+<ParaStyle:PL-Body Text>Rockwell Collins
+<ParaStyle:PL-Body Text>Gap
+<ParaStyle:PL-Body Text>PVH
+<ParaStyle:PL-Body Text>American Express
+<ParaStyle:PL-Body Text>Danaher
+<ParaStyle:PL-Body Text>Principal Financial
+<ParaStyle:PL-Body Text>Harley-Davidson
+<ParaStyle:PL-Body Text>Cisco Systems
+<ParaStyle:PL-Body Text>Kraft Heinz
+<ParaStyle:PL-Head2>Architectural Lighting Design
+<ParaStyle:PL-Body Text>Booz Allen Hamilton
+<ParaStyle:PL-Body Text>BJ's Wholesale Club
+<ParaStyle:PL-Body Text>Farmers Insurance Exchange
+<ParaStyle:PL-Body Text>Illinois Tool Works
+<ParaStyle:PL-Body Text>Sanmina
+<ParaStyle:PL-Body Text>Jacobs Engineering Group
+<ParaStyle:PL-Body Text>Tractor Supply
+<ParaStyle:PL-Body Text>Delek US Holdings
+<ParaStyle:PL-Body Text>Southwest Airlines
+<ParaStyle:PL-Body Text>Progressive
+<ParaStyle:PL-Body Text>Paccar
+<ParaStyle:PL-Body Text>TJX
+<ParaStyle:PL-Body Text>Regeneron Pharmaceuticals
+<ParaStyle:PL-Body Text>PepsiCo
+<ParaStyle:PL-Body Text>Wells Fargo
+<ParaStyle:PL-Body Text>Eli Lilly
+<ParaStyle:PL-Body Text>Arthur J. Gallagher
+<ParaStyle:PL-Body Text>PayPal Holdings
+<ParaStyle:PL-Body Text>General Motors
+<ParaStyle:PL-Body Text>Broadcom
+<ParaStyle:PL-Body Text>Magellan Health
+<ParaStyle:PL-Body Text>TravelCenters of America
+<ParaStyle:PL-Body Text>Supervalu
+<ParaStyle:PL-Head2>Environmental Graphic Design
+<ParaStyle:PL-Body Text>CDW
+<ParaStyle:PL-Body Text>Corning
+<ParaStyle:PL-Body Text>Conagra Brands
+<ParaStyle:PL-Body Text>Mohawk Industries
+<ParaStyle:PL-Body Text>Targa Resources
+<ParaStyle:PL-Body Text>Molson Coors Brewing
+<ParaStyle:PL-Body Text>Qualcomm
+<ParaStyle:PL-Body Text>SpartanNash
+<ParaStyle:PL-Body Text>Hartford Financial Services
+<ParaStyle:PL-Body Text>Ingredion
+<ParaStyle:PL-Body Text>Laboratory Corp. of America
+<ParaStyle:PL-Body Text>Phillips 66
+<ParaStyle:PL-Body Text>Capital One Financial
+<ParaStyle:PL-Body Text>First American Financial
+<ParaStyle:PL-Body Text>Genworth Financial
+<ParaStyle:PL-Body Text>Casey's General Stores
+<ParaStyle:PL-Body Text>Devon Energy
+<ParaStyle:PL-Body Text>Seaboard
+<ParaStyle:PL-Body Text>Sempra Energy
+<ParaStyle:PL-Body Text>HP
+<ParaStyle:PL-Body Text>Boston Scientific
+<ParaStyle:PL-Body Text>Lennar
+<ParaStyle:PL-Body Text>Verizon Communications
+<ParaStyle:PL-Body Text>Rite Aid
+<ParaStyle:PL-Body Text>Expeditors Intl. of Washington
+<ParaStyle:PL-Body Text>Xerox
+<ParaStyle:PL-Body Text>Duke Energy
+<ParaStyle:PL-Body Text>A-Mark Precious Metals
+<ParaStyle:PL-Body Text>Old Republic International
+<ParaStyle:PL-Head2>Foodservice Planning/Design
+<ParaStyle:PL-Body Text>Clorox
+<ParaStyle:PL-Body Text>CarMax
+<ParaStyle:PL-Body Text>Avnet
+<ParaStyle:PL-Body Text>Aramark
+<ParaStyle:PL-Body Text>Anthem
+<ParaStyle:PL-Body Text>Massachusetts Mutual Life Insurance
+<ParaStyle:PL-Body Text>Occidental Petroleum
+<ParaStyle:PL-Body Text>NRG Energy
+<ParaStyle:PL-Body Text>Avis Budget Group
+<ParaStyle:PL-Body Text>Marriott International
+<ParaStyle:PL-Body Text>Calpine
+<ParaStyle:PL-Body Text>AutoZone
+<ParaStyle:PL-Body Text>Tech Data
+<ParaStyle:PL-Head2>Integrated Project Delivery
+<ParaStyle:PL-Body Text>Home Depot
+<ParaStyle:PL-Body Text>Exelon
+<ParaStyle:PL-Body Text>Interpublic Group
+<ParaStyle:PL-Body Text>Bristol-Myers Squibb
+<ParaStyle:PL-Body Text>Cheniere Energy
+<ParaStyle:PL-Body Text>Mosaic
+<ParaStyle:PL-Body Text>PulteGroup
+<ParaStyle:PL-Body Text>Fluor
+<ParaStyle:PL-Body Text>Nordstrom
+<ParaStyle:PL-Body Text>Pfizer
+<ParaStyle:PL-Body Text>Applied Materials
+<ParaStyle:PL-Body Text>First Data
+<ParaStyle:PL-Body Text>Motorola Solutions
+<ParaStyle:PL-Body Text>Crown Holdings
+<ParaStyle:PL-Body Text>Ryder System
+<ParaStyle:PL-Body Text>American Tower
+<ParaStyle:PL-Body Text>Waste Management
+<ParaStyle:PL-Body Text>News Corp.
+<ParaStyle:PL-Body Text>Alphabet
+<ParaStyle:PL-Body Text>Baxter International
+<ParaStyle:PL-Body Text>Builders FirstSource
+<ParaStyle:PL-Body Text>D.R. Horton
+<ParaStyle:PL-Body Text>Tenneco
+<ParaStyle:PL-Body Text>Ross Stores
+<ParaStyle:PL-Body Text>American Family Insurance Group
+<ParaStyle:PL-Body Text>Hertz Global Holdings
+<ParaStyle:PL-Body Text>Yum Brands
+<ParaStyle:PL-Body Text>Parker-Hannifin
+<ParaStyle:PL-Body Text>Kimberly-Clark
+<ParaStyle:PL-Body Text>Tapestry
+<ParaStyle:PL-Body Text>Edison International
+<ParaStyle:PL-Body Text>Hormel Foods
+<ParaStyle:PL-Body Text>MetLife
+<ParaStyle:PL-Body Text>DISH Network
+<ParaStyle:PL-Body Text>Raytheon
+<ParaStyle:PL-Body Text>GameStop
+<ParaStyle:PL-Body Text>Lithia Motors
+<ParaStyle:PL-Body Text>Darden Restaurants
+<ParaStyle:PL-Head2>Interior Architecture 
+<ParaStyle:PL-Body Text>Franklin Resources
+<ParaStyle:PL-Body Text>American Airlines Group
+<ParaStyle:PL-Body Text>Graybar Electric
+<ParaStyle:PL-Body Text>McKesson
+<ParaStyle:PL-Body Text>Williams
+<ParaStyle:PL-Body Text>Owens Corning
+<ParaStyle:PL-Body Text>Philip Morris International
+<ParaStyle:PL-Body Text>Live Nation Entertainment
+<ParaStyle:PL-Body Text>Dominion Energy
+<ParaStyle:PL-Body Text>PREVIO
+<ParaStyle:PL-Body Text>EMCOR Group
+<ParaStyle:PL-Body Text>Walgreens Boots Alliance
+<ParaStyle:PL-Body Text>Chesapeake Energy
+<ParaStyle:PL-Body Text>Universal Health Services
+<ParaStyle:PL-Body Text>Berkshire Hathaway
+<ParaStyle:PL-Body Text>UGI
+<ParaStyle:PL-Body Text>Dell Technologies
+<ParaStyle:PL-Body Text>Windstream Holdings
+<ParaStyle:PL-Body Text>Southern
+<ParaStyle:PL-Body Text>Land O'Lakes
+<ParaStyle:PL-Body Text>Oshkosh
+<ParaStyle:PL-Body Text>Altice USA
+<ParaStyle:PL-Body Text>Adobe
+<ParaStyle:PL-Body Text>Whirlpool
+<ParaStyle:PL-Body Text>Pioneer Natural Resources
+<ParaStyle:PL-Body Text>Newell Brands
+<ParaStyle:PL-Body Text>Blackstone Group
+<ParaStyle:PL-Body Text>Dana
+<ParaStyle:PL-Body Text>Cummins
+<ParaStyle:PL-Body Text>NextEra Energy
+<ParaStyle:PL-Body Text>Ameriprise Financial
+<ParaStyle:PL-Body Text>IBM
+<ParaStyle:PL-Body Text>Hanesbrands
+<ParaStyle:PL-Body Text>Omnicom Group
+<ParaStyle:PL-Body Text>Ameren
+<ParaStyle:PL-Body Text>LKQ
+<ParaStyle:PL-Body Text>Northwestern Mutual
+<ParaStyle:PL-Body Text>DXC Technology
+<ParaStyle:PL-Body Text>Rockwell Collins
+<ParaStyle:PL-Body Text>Gap
+<ParaStyle:PL-Body Text>PVH
+<ParaStyle:PL-Body Text>American Express
+<ParaStyle:PL-Body Text>Danaher
+<ParaStyle:PL-Body Text>Principal Financial
+<ParaStyle:PL-Body Text>Harley-Davidson
+<ParaStyle:PL-Body Text>Cisco Systems
+<ParaStyle:PL-Body Text>Kraft Heinz
+<ParaStyle:PL-Body Text>Booz Allen Hamilton
+<ParaStyle:PL-Body Text>BJ's Wholesale Club
+<ParaStyle:PL-Body Text>Farmers Insurance Exchange
+<ParaStyle:PL-Body Text>Illinois Tool Works
+<ParaStyle:PL-Body Text>Sanmina
+<ParaStyle:PL-Body Text>Jacobs Engineering Group
+<ParaStyle:PL-Body Text>Tractor Supply
+<ParaStyle:PL-Body Text>Delek US Holdings
+<ParaStyle:PL-Body Text>Southwest Airlines
+<ParaStyle:PL-Body Text>Progressive
+<ParaStyle:PL-Body Text>Paccar
+<ParaStyle:PL-Body Text>TJX
+<ParaStyle:PL-Body Text>Regeneron Pharmaceuticals
+<ParaStyle:PL-Body Text>PepsiCo
+<ParaStyle:PL-Body Text>Wells Fargo
+<ParaStyle:PL-Body Text>Eli Lilly
+<ParaStyle:PL-Body Text>Arthur J. Gallagher
+<ParaStyle:PL-Body Text>PayPal Holdings
+<ParaStyle:PL-Body Text>General Motors
+<ParaStyle:PL-Body Text>Broadcom
+<ParaStyle:PL-Body Text>Magellan Health
+<ParaStyle:PL-Body Text>TravelCenters of America
+<ParaStyle:PL-Body Text>Supervalu
+<ParaStyle:PL-Body Text>CDW
+<ParaStyle:PL-Body Text>Corning
+<ParaStyle:PL-Body Text>Conagra Brands
+<ParaStyle:PL-Body Text>Mohawk Industries
+<ParaStyle:PL-Body Text>Targa Resources
+<ParaStyle:PL-Body Text>Molson Coors Brewing
+<ParaStyle:PL-Body Text>Qualcomm
+<ParaStyle:PL-Body Text>SpartanNash
+<ParaStyle:PL-Body Text>Hartford Financial Services
+<ParaStyle:PL-Body Text>Ingredion
+<ParaStyle:PL-Body Text>Laboratory Corp. of America
+<ParaStyle:PL-Head2>Interior Designers
+<ParaStyle:PL-Body Text>Phillips 66
+<ParaStyle:PL-Body Text>Capital One Financial
+<ParaStyle:PL-Body Text>First American Financial
+<ParaStyle:PL-Body Text>Genworth Financial
+<ParaStyle:PL-Body Text>Casey's General Stores
+<ParaStyle:PL-Body Text>Devon Energy
+<ParaStyle:PL-Body Text>Seaboard
+<ParaStyle:PL-Body Text>Sempra Energy
+<ParaStyle:PL-Body Text>HP
+<ParaStyle:PL-Body Text>Boston Scientific
+<ParaStyle:PL-Body Text>Lennar
+<ParaStyle:PL-Body Text>Verizon Communications
+<ParaStyle:PL-Body Text>Rite Aid
+<ParaStyle:PL-Body Text>Expeditors Intl. of Washington
+<ParaStyle:PL-Body Text>Xerox
+<ParaStyle:PL-Body Text>Duke Energy
+<ParaStyle:PL-Body Text>A-Mark Precious Metals
+<ParaStyle:PL-Body Text>Old Republic International
+<ParaStyle:PL-Body Text>Clorox
+<ParaStyle:PL-Body Text>CarMax
+<ParaStyle:PL-Body Text>Avnet
+<ParaStyle:PL-Body Text>Aramark
+<ParaStyle:PL-Body Text>Anthem
+<ParaStyle:PL-Body Text>Massachusetts Mutual Life Insurance
+<ParaStyle:PL-Body Text>Occidental Petroleum
+<ParaStyle:PL-Body Text>NRG Energy
+<ParaStyle:PL-Body Text>Avis Budget Group
+<ParaStyle:PL-Body Text>Marriott International
+<ParaStyle:PL-Body Text>Calpine
+<ParaStyle:PL-Body Text>AutoZone
+<ParaStyle:PL-Body Text>Tech Data
+<ParaStyle:PL-Body Text>Home Depot
+<ParaStyle:PL-Body Text>Exelon
+<ParaStyle:PL-Body Text>Interpublic Group
+<ParaStyle:PL-Body Text>Bristol-Myers Squibb
+<ParaStyle:PL-Body Text>Cheniere Energy
+<ParaStyle:PL-Body Text>Mosaic
+<ParaStyle:PL-Body Text>PulteGroup
+<ParaStyle:PL-Body Text>Fluor
+<ParaStyle:PL-Body Text>Nordstrom
+<ParaStyle:PL-Body Text>Pfizer
+<ParaStyle:PL-Body Text>Applied Materials
+<ParaStyle:PL-Body Text>First Data
+<ParaStyle:PL-Body Text>Motorola Solutions
+<ParaStyle:PL-Body Text>Crown Holdings
+<ParaStyle:PL-Body Text>Ryder System
+<ParaStyle:PL-Body Text>American Tower
+<ParaStyle:PL-Body Text>Waste Management
+<ParaStyle:PL-Body Text>News Corp.
+<ParaStyle:PL-Body Text>Alphabet
+<ParaStyle:PL-Body Text>Baxter International
+<ParaStyle:PL-Body Text>Builders FirstSource
+<ParaStyle:PL-Body Text>D.R. Horton
+<ParaStyle:PL-Body Text>Tenneco
+<ParaStyle:PL-Body Text>Ross Stores
+<ParaStyle:PL-Body Text>American Family Insurance Group
+<ParaStyle:PL-Body Text>Hertz Global Holdings
+<ParaStyle:PL-Body Text>Yum Brands
+<ParaStyle:PL-Body Text>Parker-Hannifin
+<ParaStyle:PL-Body Text>Kimberly-Clark
+<ParaStyle:PL-Body Text>Tapestry
+<ParaStyle:PL-Body Text>Edison International
+<ParaStyle:PL-Body Text>Hormel Foods
+<ParaStyle:PL-Body Text>MetLife
+<ParaStyle:PL-Body Text>DISH Network
+<ParaStyle:PL-Body Text>Raytheon
+<ParaStyle:PL-Body Text>GameStop
+<ParaStyle:PL-Body Text>Lithia Motors
+<ParaStyle:PL-Body Text>Darden Restaurants
+<ParaStyle:PL-Body Text>Franklin Resources
+<ParaStyle:PL-Body Text>American Airlines Group
+<ParaStyle:PL-Body Text>Graybar Electric
+<ParaStyle:PL-Body Text>McKesson
+<ParaStyle:PL-Body Text>Williams
+<ParaStyle:PL-Body Text>Owens Corning
+<ParaStyle:PL-Body Text>Philip Morris International
+<ParaStyle:PL-Body Text>Live Nation Entertainment
+<ParaStyle:PL-Body Text>Dominion Energy
+<ParaStyle:PL-Body Text>PREVIO
+<ParaStyle:PL-Body Text>EMCOR Group
+<ParaStyle:PL-Body Text>Walgreens Boots Alliance
+<ParaStyle:PL-Body Text>Chesapeake Energy
+<ParaStyle:PL-Body Text>Universal Health Services
+<ParaStyle:PL-Body Text>Berkshire Hathaway
+<ParaStyle:PL-Body Text>UGI
+<ParaStyle:PL-Body Text>Dell Technologies
+<ParaStyle:PL-Body Text>Windstream Holdings
+<ParaStyle:PL-Body Text>Southern
+<ParaStyle:PL-Body Text>Land O'Lakes
+<ParaStyle:PL-Body Text>Oshkosh
+<ParaStyle:PL-Body Text>Altice USA
+<ParaStyle:PL-Body Text>Adobe
+<ParaStyle:PL-Body Text>Whirlpool
+<ParaStyle:PL-Body Text>Pioneer Natural Resources
+<ParaStyle:PL-Body Text>Newell Brands
+<ParaStyle:PL-Body Text>Blackstone Group
+<ParaStyle:PL-Body Text>Dana
+<ParaStyle:PL-Body Text>Cummins
+<ParaStyle:PL-Body Text>NextEra Energy
+<ParaStyle:PL-Body Text>Ameriprise Financial
+<ParaStyle:PL-Body Text>IBM
+<ParaStyle:PL-Body Text>Hanesbrands
+<ParaStyle:PL-Body Text>Omnicom Group
+<ParaStyle:PL-Body Text>Ameren
+<ParaStyle:PL-Body Text>LKQ
+<ParaStyle:PL-Body Text>Northwestern Mutual
+<ParaStyle:PL-Body Text>DXC Technology
+<ParaStyle:PL-Body Text>Rockwell Collins
+<ParaStyle:PL-Body Text>Gap
+<ParaStyle:PL-Body Text>PVH
+<ParaStyle:PL-Body Text>American Express
+<ParaStyle:PL-Body Text>Danaher
+<ParaStyle:PL-Body Text>Principal Financial
+<ParaStyle:PL-Body Text>Harley-Davidson
+<ParaStyle:PL-Body Text>Cisco Systems
+<ParaStyle:PL-Body Text>Kraft Heinz
+<ParaStyle:PL-Body Text>Booz Allen Hamilton
+<ParaStyle:PL-Body Text>BJ's Wholesale Club
+<ParaStyle:PL-Body Text>Farmers Insurance Exchange
+<ParaStyle:PL-Body Text>Illinois Tool Works
+<ParaStyle:PL-Body Text>Sanmina
+<ParaStyle:PL-Body Text>Jacobs Engineering Group
+<ParaStyle:PL-Body Text>Tractor Supply
+<ParaStyle:PL-Body Text>Delek US Holdings
+<ParaStyle:PL-Body Text>Southwest Airlines
+<ParaStyle:PL-Body Text>Progressive
+<ParaStyle:PL-Body Text>Paccar
+<ParaStyle:PL-Body Text>TJX
+<ParaStyle:PL-Head2>Landscape Architects
+<ParaStyle:PL-Body Text>Regeneron Pharmaceuticals
+<ParaStyle:PL-Body Text>PepsiCo
+<ParaStyle:PL-Body Text>Wells Fargo
+<ParaStyle:PL-Body Text>Eli Lilly
+<ParaStyle:PL-Body Text>Arthur J. Gallagher
+<ParaStyle:PL-Body Text>PayPal Holdings
+<ParaStyle:PL-Body Text>General Motors
+<ParaStyle:PL-Body Text>Broadcom
+<ParaStyle:PL-Body Text>Magellan Health
+<ParaStyle:PL-Body Text>TravelCenters of America
+<ParaStyle:PL-Body Text>Supervalu
+<ParaStyle:PL-Body Text>CDW
+<ParaStyle:PL-Body Text>Corning
+<ParaStyle:PL-Body Text>Conagra Brands
+<ParaStyle:PL-Body Text>Mohawk Industries
+<ParaStyle:PL-Body Text>Targa Resources
+<ParaStyle:PL-Body Text>Molson Coors Brewing
+<ParaStyle:PL-Body Text>Qualcomm
+<ParaStyle:PL-Body Text>SpartanNash
+<ParaStyle:PL-Body Text>Hartford Financial Services
+<ParaStyle:PL-Body Text>Ingredion
+<ParaStyle:PL-Body Text>Laboratory Corp. of America
+<ParaStyle:PL-Body Text>Phillips 66
+<ParaStyle:PL-Body Text>Capital One Financial
+<ParaStyle:PL-Head2>Project Management
+<ParaStyle:PL-Body Text>First American Financial
+<ParaStyle:PL-Body Text>Genworth Financial
+<ParaStyle:PL-Body Text>Casey's General Stores
+<ParaStyle:PL-Body Text>Devon Energy
+<ParaStyle:PL-Body Text>Seaboard
+<ParaStyle:PL-Body Text>Sempra Energy
+<ParaStyle:PL-Body Text>HP
+<ParaStyle:PL-Body Text>Boston Scientific
+<ParaStyle:PL-Body Text>Lennar
+<ParaStyle:PL-Body Text>Verizon Communications
+<ParaStyle:PL-Body Text>Rite Aid
+<ParaStyle:PL-Body Text>Expeditors Intl. of Washington
+<ParaStyle:PL-Body Text>Xerox
+<ParaStyle:PL-Body Text>Duke Energy
+<ParaStyle:PL-Body Text>A-Mark Precious Metals
+<ParaStyle:PL-Body Text>Old Republic International
+<ParaStyle:PL-Body Text>Clorox
+<ParaStyle:PL-Body Text>CarMax
+<ParaStyle:PL-Body Text>Avnet
+<ParaStyle:PL-Body Text>Aramark
+<ParaStyle:PL-Body Text>Anthem
+<ParaStyle:PL-Body Text>Massachusetts Mutual Life Insurance
+<ParaStyle:PL-Body Text>Occidental Petroleum
+<ParaStyle:PL-Body Text>NRG Energy
+<ParaStyle:PL-Body Text>Avis Budget Group
+<ParaStyle:PL-Body Text>Marriott International
+<ParaStyle:PL-Body Text>Calpine
+<ParaStyle:PL-Body Text>AutoZone
+<ParaStyle:PL-Body Text>Tech Data
+<ParaStyle:PL-Body Text>Home Depot
+<ParaStyle:PL-Body Text>Exelon
+<ParaStyle:PL-Body Text>Interpublic Group
+<ParaStyle:PL-Body Text>Bristol-Myers Squibb
+<ParaStyle:PL-Body Text>Cheniere Energy
+<ParaStyle:PL-Body Text>Mosaic
+<ParaStyle:PL-Body Text>PulteGroup
+<ParaStyle:PL-Body Text>Fluor
+<ParaStyle:PL-Body Text>Nordstrom
+<ParaStyle:PL-Body Text>Pfizer
+<ParaStyle:PL-Body Text>Applied Materials
+<ParaStyle:PL-Body Text>First Data
+<ParaStyle:PL-Body Text>Motorola Solutions
+<ParaStyle:PL-Body Text>Crown Holdings
+<ParaStyle:PL-Body Text>Ryder System
+<ParaStyle:PL-Body Text>American Tower
+<ParaStyle:PL-Body Text>Waste Management
+<ParaStyle:PL-Body Text>News Corp.
+<ParaStyle:PL-Body Text>Alphabet
+<ParaStyle:PL-Body Text>Baxter International
+<ParaStyle:PL-Body Text>Builders FirstSource
+<ParaStyle:PL-Head1>Construction/Engineering
+<ParaStyle:PL-Head2>Construction Managers
+<ParaStyle:PL-Body Text>D.R. Horton
+<ParaStyle:PL-Body Text>Tenneco
+<ParaStyle:PL-Body Text>Ross Stores
+<ParaStyle:PL-Body Text>American Family Insurance Group
+<ParaStyle:PL-Body Text>Hertz Global Holdings
+<ParaStyle:PL-Body Text>Yum Brands
+<ParaStyle:PL-Body Text>Parker-Hannifin
+<ParaStyle:PL-Body Text>Kimberly-Clark
+<ParaStyle:PL-Body Text>Tapestry
+<ParaStyle:PL-Body Text>Edison International
+<ParaStyle:PL-Body Text>Hormel Foods
+<ParaStyle:PL-Body Text>MetLife
+<ParaStyle:PL-Body Text>DISH Network
+<ParaStyle:PL-Head2>Design-Build
+<ParaStyle:PL-Body Text>Raytheon
+<ParaStyle:PL-Body Text>GameStop
+<ParaStyle:PL-Body Text>Lithia Motors
+<ParaStyle:PL-Body Text>Darden Restaurants
+<ParaStyle:PL-Body Text>Franklin Resources
+<ParaStyle:PL-Body Text>American Airlines Group
+<ParaStyle:PL-Body Text>Graybar Electric
+<ParaStyle:PL-Body Text>McKesson
+<ParaStyle:PL-Body Text>Williams
+<ParaStyle:PL-Body Text>Owens Corning
+<ParaStyle:PL-Body Text>Philip Morris International
+<ParaStyle:PL-Body Text>Live Nation Entertainment
+<ParaStyle:PL-Body Text>Dominion Energy
+<ParaStyle:PL-Body Text>PREVIO
+<ParaStyle:PL-Body Text>EMCOR Group
+<ParaStyle:PL-Body Text>Walgreens Boots Alliance
+<ParaStyle:PL-Body Text>Chesapeake Energy
+<ParaStyle:PL-Body Text>Universal Health Services
+<ParaStyle:PL-Body Text>Berkshire Hathaway
+<ParaStyle:PL-Body Text>UGI
+<ParaStyle:PL-Body Text>Dell Technologies
+<ParaStyle:PL-Body Text>Windstream Holdings
+<ParaStyle:PL-Body Text>Southern
+<ParaStyle:PL-Body Text>Land O'Lakes
+<ParaStyle:PL-Head2>Engineering Firms/Services
+<ParaStyle:PL-Body Text>Oshkosh
+<ParaStyle:PL-Body Text>Altice USA
+<ParaStyle:PL-Body Text>Adobe
+<ParaStyle:PL-Body Text>Whirlpool
+<ParaStyle:PL-Body Text>Pioneer Natural Resources
+<ParaStyle:PL-Body Text>Newell Brands
+<ParaStyle:PL-Body Text>Blackstone Group
+<ParaStyle:PL-Body Text>Dana
+<ParaStyle:PL-Body Text>Cummins
+<ParaStyle:PL-Body Text>NextEra Energy
+<ParaStyle:PL-Body Text>Ameriprise Financial
+<ParaStyle:PL-Body Text>IBM
+<ParaStyle:PL-Body Text>Hanesbrands
+<ParaStyle:PL-Body Text>Omnicom Group
+<ParaStyle:PL-Body Text>Ameren
+<ParaStyle:PL-Body Text>LKQ
+<ParaStyle:PL-Body Text>Northwestern Mutual
+<ParaStyle:PL-Body Text>DXC Technology
+<ParaStyle:PL-Body Text>Rockwell Collins
+<ParaStyle:PL-Head2>General Contractors
+<ParaStyle:PL-Body Text>Gap
+<ParaStyle:PL-Body Text>PVH
+<ParaStyle:PL-Body Text>American Express
+<ParaStyle:PL-Body Text>Danaher
+<ParaStyle:PL-Body Text>Principal Financial
+<ParaStyle:PL-Head2>Mechanical/Electrical Engineers
+<ParaStyle:PL-Body Text>Harley-Davidson
+<ParaStyle:PL-Body Text>Cisco Systems
+<ParaStyle:PL-Body Text>Kraft Heinz
+<ParaStyle:PL-Body Text>Booz Allen Hamilton
+<ParaStyle:PL-Body Text>BJ's Wholesale Club
+<ParaStyle:PL-Body Text>Farmers Insurance Exchange
+<ParaStyle:PL-Body Text>Illinois Tool Works
+<ParaStyle:PL-Body Text>Sanmina
+<ParaStyle:PL-Body Text>Jacobs Engineering Group
+<ParaStyle:PL-Body Text>Tractor Supply
+<ParaStyle:PL-Body Text>Delek US Holdings
+<ParaStyle:PL-Body Text>Southwest Airlines
+<ParaStyle:PL-Body Text>Progressive
+<ParaStyle:PL-Body Text>Paccar
+<ParaStyle:PL-Body Text>TJX
+<ParaStyle:PL-Head2>Structural/Civil Engineers
+<ParaStyle:PL-Body Text>Regeneron Pharmaceuticals
+<ParaStyle:PL-Body Text>PepsiCo
+<ParaStyle:PL-Body Text>Wells Fargo
+<ParaStyle:PL-Body Text>Eli Lilly
+<ParaStyle:PL-Body Text>Arthur J. Gallagher
+<ParaStyle:PL-Body Text>PayPal Holdings
+<ParaStyle:PL-Body Text>General Motors
+<ParaStyle:PL-Body Text>Broadcom
+<ParaStyle:PL-Body Text>Magellan Health
+<ParaStyle:PL-Body Text>TravelCenters of America
+<ParaStyle:PL-Body Text>Supervalu
+<ParaStyle:PL-Body Text>CDW
+<ParaStyle:PL-Body Text>Corning
+<ParaStyle:PL-Body Text>Conagra Brands
+<ParaStyle:PL-Head1>Consultants
+<ParaStyle:PL-Head2>Art Consultants
+<ParaStyle:PL-Body Text>Mohawk Industries
+<ParaStyle:PL-Body Text>Targa Resources
+<ParaStyle:PL-Body Text>Molson Coors Brewing
+<ParaStyle:PL-Body Text>Qualcomm
+<ParaStyle:PL-Body Text>SpartanNash
+<ParaStyle:PL-Body Text>Hartford Financial Services
+<ParaStyle:PL-Body Text>Ingredion
+<ParaStyle:PL-Body Text>Laboratory Corp. of America
+<ParaStyle:PL-Body Text>Phillips 66
+<ParaStyle:PL-Body Text>Capital One Financial
+<ParaStyle:PL-Body Text>First American Financial
+<ParaStyle:PL-Body Text>Genworth Financial
+<ParaStyle:PL-Body Text>Casey's General Stores
+<ParaStyle:PL-Body Text>Devon Energy
+<ParaStyle:PL-Body Text>Seaboard
+<ParaStyle:PL-Body Text>Sempra Energy
+<ParaStyle:PL-Body Text>HP
+<ParaStyle:PL-Body Text>Boston Scientific
+<ParaStyle:PL-Body Text>Lennar
+<ParaStyle:PL-Body Text>Verizon Communications
+<ParaStyle:PL-Body Text>Rite Aid
+<ParaStyle:PL-Body Text>Expeditors Intl. of Washington
+<ParaStyle:PL-Head2>Consultants
+<ParaStyle:PL-Body Text>Xerox
+<ParaStyle:PL-Body Text>Duke Energy
+<ParaStyle:PL-Body Text>A-Mark Precious Metals
+<ParaStyle:PL-Body Text>Old Republic International
+<ParaStyle:PL-Body Text>Clorox
+<ParaStyle:PL-Body Text>CarMax
+<ParaStyle:PL-Body Text>Avnet
+<ParaStyle:PL-Body Text>Aramark
+<ParaStyle:PL-Body Text>Anthem
+<ParaStyle:PL-Body Text>Massachusetts Mutual Life Insurance
+<ParaStyle:PL-Body Text>Occidental Petroleum
+<ParaStyle:PL-Body Text>NRG Energy
+<ParaStyle:PL-Body Text>Avis Budget Group
+<ParaStyle:PL-Body Text>Marriott International
+<ParaStyle:PL-Body Text>Calpine
+<ParaStyle:PL-Body Text>AutoZone
+<ParaStyle:PL-Body Text>Tech Data
+<ParaStyle:PL-Body Text>Home Depot
+<ParaStyle:PL-Body Text>Exelon
+<ParaStyle:PL-Head2>Equipment Planning/Integration
+<ParaStyle:PL-Body Text>Interpublic Group
+<ParaStyle:PL-Body Text>Bristol-Myers Squibb
+<ParaStyle:PL-Body Text>Cheniere Energy
+<ParaStyle:PL-Body Text>Mosaic
+<ParaStyle:PL-Body Text>PulteGroup
+<ParaStyle:PL-Body Text>Fluor
+<ParaStyle:PL-Body Text>Nordstrom
+<ParaStyle:PL-Body Text>Pfizer
+<ParaStyle:PL-Body Text>Applied Materials
+<ParaStyle:PL-Body Text>First Data
+<ParaStyle:PL-Body Text>Motorola Solutions
+<ParaStyle:PL-Body Text>Crown Holdings
+<ParaStyle:PL-Body Text>Ryder System
+<ParaStyle:PL-Body Text>American Tower
+<ParaStyle:PL-Body Text>Waste Management
+<ParaStyle:PL-Body Text>News Corp.
+<ParaStyle:PL-Body Text>Alphabet
+<ParaStyle:PL-Body Text>Baxter International
+<ParaStyle:PL-Body Text>Builders FirstSource
+<ParaStyle:PL-Head2>Facility Consulting
+<ParaStyle:PL-Body Text>D.R. Horton
+<ParaStyle:PL-Body Text>Tenneco
+<ParaStyle:PL-Body Text>Ross Stores
+<ParaStyle:PL-Body Text>American Family Insurance Group
+<ParaStyle:PL-Body Text>Hertz Global Holdings
+<ParaStyle:PL-Body Text>Yum Brands
+<ParaStyle:PL-Body Text>Parker-Hannifin
+<ParaStyle:PL-Body Text>Kimberly-Clark
+<ParaStyle:PL-Body Text>Tapestry
+<ParaStyle:PL-Body Text>Edison International
+<ParaStyle:PL-Body Text>Hormel Foods
+<ParaStyle:PL-Body Text>MetLife
+<ParaStyle:PL-Body Text>DISH Network
+<ParaStyle:PL-Body Text>Raytheon
+<ParaStyle:PL-Body Text>GameStop
+<ParaStyle:PL-Body Text>Lithia Motors
+<ParaStyle:PL-Head2>Furniture, Fixture, and Equipment (FFE) Procurement 
+<ParaStyle:PL-Body Text>Darden Restaurants
+<ParaStyle:PL-Body Text>Franklin Resources
+<ParaStyle:PL-Body Text>American Airlines Group
+<ParaStyle:PL-Body Text>Graybar Electric
+<ParaStyle:PL-Body Text>McKesson
+<ParaStyle:PL-Body Text>Williams
+<ParaStyle:PL-Body Text>Owens Corning
+<ParaStyle:PL-Body Text>Philip Morris International
+<ParaStyle:PL-Body Text>Live Nation Entertainment
+<ParaStyle:PL-Body Text>Dominion Energy
+<ParaStyle:PL-Body Text>PREVIO
+<ParaStyle:PL-Body Text>EMCOR Group
+<ParaStyle:PL-Body Text>Walgreens Boots Alliance
+<ParaStyle:PL-Body Text>Chesapeake Energy
+<ParaStyle:PL-Body Text>Universal Health Services
+<ParaStyle:PL-Body Text>Berkshire Hathaway
+<ParaStyle:PL-Head2>Initial Outfitting and Transition Planning 
+<ParaStyle:PL-Body Text>UGI
+<ParaStyle:PL-Body Text>Dell Technologies
+<ParaStyle:PL-Body Text>Windstream Holdings
+<ParaStyle:PL-Body Text>Southern
+<ParaStyle:PL-Body Text>Land O'Lakes
+<ParaStyle:PL-Head2>Installation, Interior Furnishings & Equipment
+<ParaStyle:PL-Body Text>Oshkosh
+<ParaStyle:PL-Body Text>Altice USA
+<ParaStyle:PL-Body Text>Adobe
+<ParaStyle:PL-Body Text>Whirlpool
+<ParaStyle:PL-Body Text>Pioneer Natural Resources
+<ParaStyle:PL-Body Text>Newell Brands
+<ParaStyle:PL-Body Text>Blackstone Group
+<ParaStyle:PL-Body Text>Dana
+<ParaStyle:PL-Head2>Materials Handling/Management Consultants
+<ParaStyle:PL-Body Text>Cummins
+<ParaStyle:PL-Body Text>NextEra Energy
+<ParaStyle:PL-Body Text>Ameriprise Financial
+<ParaStyle:PL-Body Text>IBM
+<ParaStyle:PL-Head2>Relocation Services
+<ParaStyle:PL-Body Text>Hanesbrands
+<ParaStyle:PL-Head2>Security Consultants
+<ParaStyle:PL-Body Text>Omnicom Group
+<ParaStyle:PL-Body Text>Ameren
+<ParaStyle:PL-Body Text>LKQ
+<ParaStyle:PL-Head2>Technology Consulting/Planning/Design
+<ParaStyle:PL-Body Text>Northwestern Mutual
+<ParaStyle:PL-Body Text>DXC Technology
+<ParaStyle:PL-Body Text>Rockwell Collins
+<ParaStyle:PL-Body Text>Gap
+<ParaStyle:PL-Body Text>PVH
+<ParaStyle:PL-Body Text>American Express
+<ParaStyle:PL-Body Text>Danaher
+<ParaStyle:PL-Body Text>Principal Financial
+<ParaStyle:PL-Body Text>Harley-Davidson
+<ParaStyle:PL-Body Text>Cisco Systems
+<ParaStyle:PL-Body Text>Kraft Heinz
+<ParaStyle:PL-Body Text>Booz Allen Hamilton
+<ParaStyle:PL-Body Text>BJ's Wholesale Club
+<ParaStyle:PL-Head2>Wayfinding and Signage Consultants
+<ParaStyle:PL-Body Text>Farmers Insurance Exchange
+<ParaStyle:PL-Body Text>Illinois Tool Works
+<ParaStyle:PL-Body Text>Sanmina
+<ParaStyle:PL-Body Text>Jacobs Engineering Group
+<ParaStyle:PL-Body Text>Tractor Supply
+<ParaStyle:PL-Body Text>Delek US Holdings
+<ParaStyle:PL-Body Text>Southwest Airlines
+<ParaStyle:PL-Body Text>Progressive
+<ParaStyle:PL-Body Text>Paccar
+<ParaStyle:PL-Body Text>TJX
+<ParaStyle:PL-Body Text>Regeneron Pharmaceuticals
+<ParaStyle:PL-Body Text>PepsiCo
+<ParaStyle:PL-Body Text>Wells Fargo
+<ParaStyle:PL-Body Text>Eli Lilly
+<ParaStyle:PL-Body Text>Arthur J. Gallagher
+<ParaStyle:PL-Body Text>PayPal Holdings
+<ParaStyle:PL-Body Text>General Motors
+<ParaStyle:PL-Body Text>Broadcom
+<ParaStyle:PL-Body Text>Magellan Health
