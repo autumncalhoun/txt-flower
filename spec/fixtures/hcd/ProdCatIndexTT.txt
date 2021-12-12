@@ -1,0 +1,37 @@
+<ASCII-MAC>
+<Version:11.4><FeatureSet:InDesign-Roman><ColorTable:=<Paper:COLOR:CMYK:Process:0,0,0,0><C=90 M=35 Y=0 K=0:COLOR:CMYK:Process:0.9,0.35,0,0><Black:COLOR:CMYK:Process:0,0,0,1>>
+<DefineKinsokuStyle:kHardKinsokuName=<BeforeTable:!,),,,.,:,;,?,],},<0x00A2>,<0x2014>,<0x2019>,<0x201D>,<0x2030>,<0x2103>,<0x2109>,<0x3001>,<0x3002>,<0x3005>,<0x3009>,<0x300B>,<0x300D>,<0x300F>,<0x3011>,<0x3015>,<0x301F>,<0x3041>,<0x3043>,<0x3045>,<0x3047>,<0x3049>,<0x3063>,<0x3083>,<0x3085>,<0x3087>,<0x308E>,<0x309B>,<0x309C>,<0x309D>,<0x309E>,<0x30A1>,<0x30A3>,<0x30A5>,<0x30A7>,<0x30A9>,<0x30C3>,<0x30E3>,<0x30E5>,<0x30E7>,<0x30EE>,<0x30F5>,<0x30F6>,<0x30FB>,<0x30FC>,<0x30FD>,<0x30FE>,<0xFF01>,<0xFF05>,<0xFF09>,<0xFF0C>,<0xFF0E>,<0xFF1A>,<0xFF1B>,<0xFF1F>,<0xFF3D>,<0xFF5D>><AfterTable:(,[,{,<0x00A3>,<0x00A7>,<0x2018>,<0x201C>,<0x3008>,<0x300A>,<0x300C>,<0x300E>,<0x3010>,<0x3012>,<0x3014>,<0x301D>,<0xFF03>,<0xFF04>,<0xFF08>,<0xFF20>,<0xFF3B>,<0xFF5B>,<0xFFE5>><HangingTable:<0x3001>,<0x3002>,<0xFF0C>,<0xFF0E>><NotSeparateTable:<0x2014>,<0x2025>,<0x2026>>>
+<DefineKinsokuStyle:Word_Kinsoku=>
+<DefineParaStyle:PL-Head1=<Nextstyle:PL-Head1><cColor:Paper><cTypeface:Bold><cSize:11.000000><cTracking:100><cCase:All Caps><pLeftIndent:2.000000><cLeading:13.000000><pSpaceBefore:13.500000><pSpaceAfter:4.500000><cFont:Trade Gothic LT Std><pDesiredWordSpace:0.850000><pMaxWordSpace:1.000000><pDesiredLetterspace:-0.050000><pMinLetterspace:-0.050000><pRuleAboveColor:C=90 M=35 Y=0 K=0><pRuleAboveStroke:15.000000><pRuleAboveTint:100.000000><pRuleAboveOffset:-2.880000><pRuleAboveOn:1>>
+<DefineParaStyle:PL_Body_Index=<Nextstyle:PL_Body_Index><cTypeface:Condensed No. 18><cSize:11.000000><cAutoPairKern:Optical><cTracking:20><cLeading:13.000000><pHyphenation:0><pTabRuler:178,Right,.,0,.;><cFont:Trade Gothic LT Std><pDesiredWordSpace:0.950000><pMaxWordSpace:1.000000><pMinWordSpace:0.500000><pDesiredLetterspace:-0.100000><pMinLetterspace:-0.150000>>
+<DefineParaStyle:NormalParagraphStyle=<Nextstyle:NormalParagraphStyle><pDesiredWordSpace:0.850000><pMaxWordSpace:1.000000><pDesiredLetterspace:-0.050000><pMinLetterspace:-0.050000>>
+<ParaStyle:PL-Head1>Architects/Designers
+<ParaStyle:PL_Body_Index>Architects	
+<ParaStyle:PL_Body_Index>Architectural Lighting Design	
+<ParaStyle:PL_Body_Index>Environmental Graphic Design	
+<ParaStyle:PL_Body_Index>Foodservice Planning/Design	
+<ParaStyle:PL_Body_Index>Integrated Project Delivery	
+<ParaStyle:PL_Body_Index>Interior Architecture 	
+<ParaStyle:PL_Body_Index>Interior Designers	
+<ParaStyle:PL_Body_Index>Landscape Architects	
+<ParaStyle:PL_Body_Index>Project Management	
+<ParaStyle:PL-Head1>Construction/Engineering
+<ParaStyle:PL_Body_Index>Construction Managers	
+<ParaStyle:PL_Body_Index>Design-Build	
+<ParaStyle:PL_Body_Index>Engineering Firms/Services	
+<ParaStyle:PL_Body_Index>General Contractors	
+<ParaStyle:PL_Body_Index>Mechanical/Electrical Engineers	
+<ParaStyle:PL_Body_Index>Structural/Civil Engineers	
+<ParaStyle:PL-Head1>Consultants
+<ParaStyle:PL_Body_Index>Art Consultants	
+<ParaStyle:PL_Body_Index>Consultants	
+<ParaStyle:PL_Body_Index>Equipment Planning/Integration	
+<ParaStyle:PL_Body_Index>Facility Consulting	
+<ParaStyle:PL_Body_Index>Furniture, Fixture, and Equipment (FFE) Procurement 	
+<ParaStyle:PL_Body_Index>Initial Outfitting and Transition Planning 	
+<ParaStyle:PL_Body_Index>Installation, Interior Furnishings & Equipment	
+<ParaStyle:PL_Body_Index>Materials Handling/Management Consultants	
+<ParaStyle:PL_Body_Index>Relocation Services	
+<ParaStyle:PL_Body_Index>Security Consultants	
+<ParaStyle:PL_Body_Index>Technology Consulting/Planning/Design	
+<ParaStyle:PL_Body_Index>Wayfinding and Signage Consultants	

@@ -5,8 +5,12 @@ require './lib/impressions/suppliers_generator'
 require './lib/impressions/alphabetical_index_generator'
 require './lib/impressions/category_index_generator'
 require './lib/impressions/cross_reference_generator'
+require './lib/hcd/companies_generator'
+require './lib/hcd/product_category_list_generator'
+require './lib/hcd/product_category_index_generator'
 include EFA
 include Impressions
+include HCD
 
 namespace :test do
   desc 'Update fixtures for EFA tests.'
@@ -79,6 +83,34 @@ namespace :test do
       companies_csv: "#{csv_location}/Companies.csv",
       branches_csv: "#{csv_location}/Branches.csv",
       output_location: output_location,
+    ).generate_text
+  end
+
+  desc 'Update fixtures for HCD tests.'
+  task :update_fixtures_hcd do
+    output_location = 'spec/fixtures/hcd'
+    csv_location = 'spec/fixtures/hcd'
+
+    # when 'CompaniesTT'
+    HCD::CompaniesGenerator.new(
+      csv_location: csv_location,
+      csv_file_name: 'Companies',
+      output_location: output_location,
+      tagged_text_file_name: 'CompaniesTT',
+    ).generate_text
+
+    HCD::ProductCategoryIndexGenerator.new(
+      csv_location: csv_location,
+      csv_file_name: 'Categories',
+      output_location: output_location,
+      tagged_text_file_name: 'ProdCatIndexTT',
+    ).generate_text
+
+    HCD::ProductCategoryListGenerator.new(
+      csv_location: csv_location,
+      csv_file_name: 'Categories',
+      output_location: output_location,
+      tagged_text_file_name: 'ProdCatListTT',
     ).generate_text
   end
 end
