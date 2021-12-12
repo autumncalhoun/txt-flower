@@ -4,6 +4,7 @@ require 'YAML'
 require 'csv'
 require_relative './impressions/cli'
 require_relative './efa/cli'
+require_relative './hcd/cli'
 
 def prompt_start
   prompt = TTY::Prompt.new
@@ -14,7 +15,7 @@ end
 
 def set_module
   prompt = TTY::Prompt.new
-  choices = %w[EFA Impressions]
+  choices = %w[EFA Impressions HCD]
   prompt.select('Which module are you tagging?', choices)
 end
 

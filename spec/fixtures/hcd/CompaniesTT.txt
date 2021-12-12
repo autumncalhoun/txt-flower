@@ -1,0 +1,726 @@
+<ASCII-MAC>
+<Version:11.4><FeatureSet:InDesign-Roman><ColorTable:=<Black:COLOR:CMYK:Process:0,0,0,1><Pro Black:COLOR:CMYK:Process:0.6,0.4,0.4,1>>
+<DefineKinsokuStyle:kHardKinsokuName=<BeforeTable:\!,\),\,,.,\:,\;,\?,\],\},<0x00A2>,<0x2014>,<0x2019>,<0x201D>,<0x2030>,<0x2103>,<0x2109>,<0x3001>,<0x3002>,<0x3005>,<0x3009>,<0x300B>,<0x300D>,<0x300F>,<0x3011>,<0x3015>,<0x301F>,<0x3041>,<0x3043>,<0x3045>,<0x3047>,<0x3049>,<0x3063>,<0x3083>,<0x3085>,<0x3087>,<0x308E>,<0x309B>,<0x309C>,<0x309D>,<0x309E>,<0x30A1>,<0x30A3>,<0x30A5>,<0x30A7>,<0x30A9>,<0x30C3>,<0x30E3>,<0x30E5>,<0x30E7>,<0x30EE>,<0x30F5>,<0x30F6>,<0x30FB>,<0x30FC>,<0x30FD>,<0x30FE>,<0xFF01>,<0xFF05>,<0xFF09>,<0xFF0C>,<0xFF0E>,<0xFF1A>,<0xFF1B>,<0xFF1F>,<0xFF3D>,<0xFF5D>><AfterTable:\(,\[,\{,<0x00A3>,<0x00A7>,<0x2018>,<0x201C>,<0x3008>,<0x300A>,<0x300C>,<0x300E>,<0x3010>,<0x3012>,<0x3014>,<0x301D>,<0xFF03>,<0xFF04>,<0xFF08>,<0xFF20>,<0xFF3B>,<0xFF5B>,<0xFFE5>><HangingTable:<0x3001>,<0x3002>,<0xFF0C>,<0xFF0E>><NotSeparateTable:<0x2014>,<0x2025>,<0x2026>>>
+<DefineKinsokuStyle:Word\_Kinsoku=>
+<DefineCharStyle:Book ital=<Nextstyle:Book ital><KeyboardShortcut:Cmd\+Num 2><cTypeface:Book Italic>>
+<DefineParaStyle:New\_BG-CoName=<Nextstyle:New\_BG-CoName><KeyboardShortcut:Shift\+Num 1><cTypeface:Bold><cSize:13.000000><cTracking:10><cLeading:13.000000><pSpaceBefore:10.799999><cFont:Trade Gothic LT Std><pDesiredWordSpace:0.850000><pMaxWordSpace:1.000000><pDesiredLetterspace:-0.050000><pMinLetterspace:-0.050000><cColorTint:100.000000><pRuleAboveColor:Black><pRuleAboveStroke:0.500000><pRuleAboveTint:75.000000><pRuleAboveOffset:15.840000><pRuleAboveOn:1>>
+<DefineParaStyle:New\_BG-CoNameNoLine=<BasedOn:New\_BG-CoName><Nextstyle:New\_BG-CoNameNoLine><KeyboardShortcut:Shift\+Num 2><pRuleAboveOn:0>>
+<DefineParaStyle:New\_BG-Body Text=<Nextstyle:New\_BG-Body Text><cTypeface:Bold Condensed No. 20><cSize:11.000000><cAutoPairKern:Optical><cTracking:-5><cLeading:13.000000><pHyphenation:0><cFont:Trade Gothic LT Std><pDesiredWordSpace:0.950000><pMaxWordSpace:1.000000><pMinWordSpace:0.500000><pDesiredLetterspace:-0.100000><pMinLetterspace:-0.150000>>
+<DefineParaStyle:NormalParagraphStyle=<Nextstyle:NormalParagraphStyle><pDesiredWordSpace:0.850000><pMaxWordSpace:1.000000><pDesiredLetterspace:-0.050000><pMinLetterspace:-0.050000>>
+<DefineParaStyle:New\_SeeOurAd=<BasedOn:NormalParagraphStyle><Nextstyle:New\_SeeOurAd><cSize:6.000000><cLeading:9.000000><pTabRuler:3\,Right\,.\,0\,\;><cFont:Trade Gothic LT Std>>
+<DefineParaStyle:New\_BG-Co Description=<BasedOn:New\_BG-Body Text><Nextstyle:New\_BG-Co Description><cTypeface:Italic><pFirstLineIndent:6.000000><pSpaceBefore:4.500000><cFont:Chronicle Deck Cond><cOTFContAlt:0>>
+<ParaStyle:New\_BG-CoName>Armstrong - Gerlach
+<ParaStyle:New\_BG-Body Text>Greenville, SC
+<ParaStyle:New\_BG-Body Text>433.901.3231
+<ParaStyle:New\_BG-Body Text>simplemachines.org
+<ParaStyle:New\_BG-CoName>Aufderhar - Lemke
+<ParaStyle:New\_BG-Body Text>New Haven, CT
+<ParaStyle:New\_BG-Body Text>905.355.0194
+<ParaStyle:New\_BG-Body Text>mit.edu
+<ParaStyle:New\_BG-CoName>Aufderhar, Bosco and Maggio
+<ParaStyle:New\_BG-Body Text>Atlanta, GA
+<ParaStyle:New\_BG-Body Text>489.341.3193
+<ParaStyle:New\_BG-Body Text>jusdisgi@msn.com
+<ParaStyle:New\_BG-Body Text>businesswire.com
+<ParaStyle:New\_BG-CoName>Balistreri Inc
+<ParaStyle:New\_BG-Body Text>Philadelphia, PA
+<ParaStyle:New\_BG-Body Text>380.827.9413
+<ParaStyle:New\_BG-Body Text>trieuvan@att.net
+<ParaStyle:New\_BG-Body Text>storify.com
+<ParaStyle:New\_BG-CoName>Barrows - Kulas
+<ParaStyle:New\_BG-Body Text>Charleston, SC
+<ParaStyle:New\_BG-Body Text>570.748.3482
+<ParaStyle:New\_BG-Body Text>denton@optonline.net
+<ParaStyle:New\_BG-Body Text>nytimes.com
+<ParaStyle:New\_BG-CoName>Barrows Group
+<ParaStyle:New\_BG-Body Text>Orlando, FL
+<ParaStyle:New\_BG-Body Text>638.428.9196
+<ParaStyle:New\_BG-Body Text>balchen@yahoo.com
+<ParaStyle:New\_BG-Body Text>newsvine.com
+<ParaStyle:New\_BG-CoName>Bartell LLC
+<ParaStyle:New\_BG-Body Text>New York, NY
+<ParaStyle:New\_BG-Body Text>806.561.1914
+<ParaStyle:New\_BG-Body Text>darin@yahoo.com
+<ParaStyle:New\_BG-Body Text>youku.com
+<ParaStyle:New\_BG-CoName>Baumbach Group
+<ParaStyle:New\_BG-Body Text>Philadelphia, PA
+<ParaStyle:New\_BG-Body Text>357.680.5797, 558.678.1102
+<ParaStyle:New\_BG-Body Text>nanop@aol.com
+<ParaStyle:New\_BG-Body Text>prnewswire.com
+<ParaStyle:New\_BG-CoName>Bayer - Hodkiewicz
+<ParaStyle:New\_BG-Body Text>West Chester/Philadelphia, PA and Wilmington, DE
+<ParaStyle:New\_BG-Body Text>652.273.3923
+<ParaStyle:New\_BG-Body Text>jalbum.net
+<ParaStyle:New\_BG-CoName>Bednar LLC
+<ParaStyle:New\_BG-Body Text>Wilmington, DE
+<ParaStyle:New\_BG-Body Text>837.560.2601
+<ParaStyle:New\_BG-Body Text>pthomsen@hotmail.com
+<ParaStyle:New\_BG-Body Text>msn.com
+<ParaStyle:New\_BG-CoName>Beier LLC
+<ParaStyle:New\_BG-Body Text>Branford, CT
+<ParaStyle:New\_BG-Body Text>695.733.6346
+<ParaStyle:New\_BG-Body Text>taobao.com
+<ParaStyle:New\_BG-CoName>Berge, Bernhard and Donnelly
+<ParaStyle:New\_BG-Body Text>Cleveland, OH and Fort Lauderdale, FL
+<ParaStyle:New\_BG-Body Text>621.840.2166, 580.230.2856
+<ParaStyle:New\_BG-Body Text>comdig@aol.com
+<ParaStyle:New\_BG-Body Text>scientificamerican.com
+<ParaStyle:New\_BG-CoName>Berge, Schiller and Toy
+<ParaStyle:New\_BG-Body Text>Fort Lauderdale, FL
+<ParaStyle:New\_BG-Body Text>794.305.7137
+<ParaStyle:New\_BG-Body Text>cremonini@msn.com
+<ParaStyle:New\_BG-Body Text>amazon.co.uk
+<ParaStyle:New\_BG-CoName>Bergnaum Group
+<ParaStyle:New\_BG-Body Text>Dallas, TX
+<ParaStyle:New\_BG-Body Text>517.556.8598
+<ParaStyle:New\_BG-Body Text>gravyface@comcast.net
+<ParaStyle:New\_BG-Body Text>mtv.com
+<ParaStyle:New\_BG-CoName>Bergnaum Inc
+<ParaStyle:New\_BG-Body Text>Baltimore, MD
+<ParaStyle:New\_BG-Body Text>523.393.7137
+<ParaStyle:New\_BG-Body Text>ehood@verizon.net
+<ParaStyle:New\_BG-Body Text>friendfeed.com
+<ParaStyle:New\_BG-CoName>Bergstrom - Farrell
+<ParaStyle:New\_BG-Body Text>Omaha, NE
+<ParaStyle:New\_BG-Body Text>750.522.8824
+<ParaStyle:New\_BG-Body Text>stecoop@msn.com
+<ParaStyle:New\_BG-Body Text>ihg.com
+<ParaStyle:New\_BG-CoName>Block LLC
+<ParaStyle:New\_BG-Body Text>St. Louis, MO
+<ParaStyle:New\_BG-Body Text>682.729.8914
+<ParaStyle:New\_BG-Body Text>murdocj@yahoo.com
+<ParaStyle:New\_BG-Body Text>cpanel.net
+<ParaStyle:New\_BG-CoName>Bode LLC
+<ParaStyle:New\_BG-Body Text>Orlando, FL
+<ParaStyle:New\_BG-Body Text>653.971.0341
+<ParaStyle:New\_BG-Body Text>fallorn@optonline.net
+<ParaStyle:New\_BG-Body Text>aboutads.info
+<ParaStyle:New\_BG-CoName>Bogan and Sons
+<ParaStyle:New\_BG-Body Text>Portland, OR
+<ParaStyle:New\_BG-Body Text>567.781.6577
+<ParaStyle:New\_BG-Body Text>djupedal@yahoo.ca
+<ParaStyle:New\_BG-Body Text>illinois.edu
+<ParaStyle:New\_BG-CoName>Borer - Rutherford
+<ParaStyle:New\_BG-Body Text>Leawood, KS
+<ParaStyle:New\_BG-Body Text>907.582.4426
+<ParaStyle:New\_BG-Body Text>unreal@optonline.net
+<ParaStyle:New\_BG-Body Text>whitehouse.gov
+<ParaStyle:New\_BG-CoName>Borer, Jaskolski and Hudson
+<ParaStyle:New\_BG-Body Text>Overland Park, KS
+<ParaStyle:New\_BG-Body Text>279.910.2811
+<ParaStyle:New\_BG-Body Text>wbarker@hotmail.com
+<ParaStyle:New\_BG-Body Text>tripod.com
+<ParaStyle:New\_BG-CoName>Botsford - Balistreri
+<ParaStyle:New\_BG-Body Text>456.844.6892
+<ParaStyle:New\_BG-Body Text>mchugh@icloud.com
+<ParaStyle:New\_BG-Body Text>goodreads.com
+<ParaStyle:New\_BG-CoName>Boyer - Gusikowski
+<ParaStyle:New\_BG-Body Text>Dallas, TX
+<ParaStyle:New\_BG-Body Text>299.604.0643
+<ParaStyle:New\_BG-Body Text>xrea.com
+<ParaStyle:New\_BG-CoName>Bradtke - Schaden
+<ParaStyle:New\_BG-Body Text>Baltimore, MD
+<ParaStyle:New\_BG-Body Text>796.724.8962
+<ParaStyle:New\_BG-Body Text>johnbob@comcast.net
+<ParaStyle:New\_BG-Body Text>theguardian.com
+<ParaStyle:New\_BG-CoName>Carter, Welch and Monahan
+<ParaStyle:New\_BG-Body Text>Anchorage, AK
+<ParaStyle:New\_BG-Body Text>815.834.0635
+<ParaStyle:New\_BG-Body Text>wojciech@sbcglobal.net
+<ParaStyle:New\_BG-Body Text>jiathis.com
+<ParaStyle:New\_BG-CoName>Casper - Schmidt
+<ParaStyle:New\_BG-Body Text>Brentwood, TN
+<ParaStyle:New\_BG-Body Text>591.834.6725
+<ParaStyle:New\_BG-Body Text>oster@yahoo.com
+<ParaStyle:New\_BG-Body Text>salon.com
+<ParaStyle:New\_BG-CoName>Christiansen, Jaskolski and Carter
+<ParaStyle:New\_BG-Body Text>Charlotte, NC
+<ParaStyle:New\_BG-Body Text>616.219.6515
+<ParaStyle:New\_BG-Body Text>ehood@comcast.net
+<ParaStyle:New\_BG-Body Text>chron.com
+<ParaStyle:New\_BG-CoName>Collins, Graham and Hills
+<ParaStyle:New\_BG-Body Text>Roanoke, VA
+<ParaStyle:New\_BG-Body Text>900.500.5456
+<ParaStyle:New\_BG-Body Text>sakusha@verizon.net
+<ParaStyle:New\_BG-Body Text>indiatimes.com
+<ParaStyle:New\_BG-CoName>Cormier, Huels and Schaefer
+<ParaStyle:New\_BG-Body Text>Wayzata, MN
+<ParaStyle:New\_BG-Body Text>488.518.9945
+<ParaStyle:New\_BG-Body Text>netscape.com
+<ParaStyle:New\_BG-CoName>Corwin - Hagenes
+<ParaStyle:New\_BG-Body Text>Houston, TX
+<ParaStyle:New\_BG-Body Text>807.401.3018
+<ParaStyle:New\_BG-Body Text>jfriedl@optonline.net
+<ParaStyle:New\_BG-Body Text>indiegogo.com
+<ParaStyle:New\_BG-CoName>Corwin - Schroeder
+<ParaStyle:New\_BG-Body Text>Saint Paul, MN
+<ParaStyle:New\_BG-Body Text>539.985.0505
+<ParaStyle:New\_BG-Body Text>dexter@live.com
+<ParaStyle:New\_BG-Body Text>japanpost.jp
+<ParaStyle:New\_BG-CoName>Dach - Weber
+<ParaStyle:New\_BG-Body Text>Colorado Springs, CO
+<ParaStyle:New\_BG-Body Text>672.240.4070
+<ParaStyle:New\_BG-Body Text>chlim@msn.com
+<ParaStyle:New\_BG-Body Text>freewebs.com
+<ParaStyle:New\_BG-CoName>Deckow - Kuphal
+<ParaStyle:New\_BG-Body Text>Portsmouth, NH
+<ParaStyle:New\_BG-Body Text>544.912.4712
+<ParaStyle:New\_BG-Body Text>purevolume.com
+<ParaStyle:New\_BG-CoName>Dickens - Langworth
+<ParaStyle:New\_BG-Body Text>Omaha, NE
+<ParaStyle:New\_BG-Body Text>207.400.9678, 381.256.8254
+<ParaStyle:New\_BG-Body Text>isotopian@live.com
+<ParaStyle:New\_BG-Body Text>biblegateway.com
+<ParaStyle:New\_BG-CoName>Dickens LLC
+<ParaStyle:New\_BG-Body Text>Elkhorn, NE
+<ParaStyle:New\_BG-Body Text>415.650.9287
+<ParaStyle:New\_BG-Body Text>adamk@icloud.com
+<ParaStyle:New\_BG-Body Text>pcworld.com
+<ParaStyle:New\_BG-CoName>Douglas, Cremin and Dach
+<ParaStyle:New\_BG-Body Text>Emeryville, CA
+<ParaStyle:New\_BG-Body Text>881.699.4459
+<ParaStyle:New\_BG-Body Text>flavors.me
+<ParaStyle:New\_BG-CoName>Ebert and Sons
+<ParaStyle:New\_BG-Body Text>Milwaukee, WI
+<ParaStyle:New\_BG-Body Text>663.579.1573, 706.955.7980
+<ParaStyle:New\_BG-Body Text>pplinux@msn.com
+<ParaStyle:New\_BG-Body Text>g.co
+<ParaStyle:New\_BG-CoName>Ebert Group
+<ParaStyle:New\_BG-Body Text>Boston, MA
+<ParaStyle:New\_BG-Body Text>330.348.7834
+<ParaStyle:New\_BG-Body Text>benits@me.com
+<ParaStyle:New\_BG-Body Text>fc2.com
+<ParaStyle:New\_BG-CoName>Feest - Hansen
+<ParaStyle:New\_BG-Body Text>Blackwood, NJ
+<ParaStyle:New\_BG-Body Text>475.378.2157, 310.616.9503
+<ParaStyle:New\_BG-Body Text>webteam@mac.com
+<ParaStyle:New\_BG-Body Text>ezinearticles.com
+<ParaStyle:New\_BG-CoName>Ferry, Wilkinson and Mitchell
+<ParaStyle:New\_BG-Body Text>Columbus, OH
+<ParaStyle:New\_BG-Body Text>982.229.4857
+<ParaStyle:New\_BG-Body Text>eegsa@me.com
+<ParaStyle:New\_BG-Body Text>google.nl
+<ParaStyle:New\_BG-CoName>Grimes - Sawayn
+<ParaStyle:New\_BG-Body Text>Wichita, KS
+<ParaStyle:New\_BG-Body Text>560.572.0819
+<ParaStyle:New\_BG-Body Text>bjoern@live.com
+<ParaStyle:New\_BG-Body Text>imageshack.us
+<ParaStyle:New\_BG-CoName>Gutkowski, White and Buckridge
+<ParaStyle:New\_BG-Body Text>Columbus, OH
+<ParaStyle:New\_BG-Body Text>757.999.5689
+<ParaStyle:New\_BG-Body Text>heckerman@aol.com
+<ParaStyle:New\_BG-Body Text>1und1.de
+<ParaStyle:New\_BG-CoName>Harber - VonRueden
+<ParaStyle:New\_BG-Body Text>Nazareth, Israel
+<ParaStyle:New\_BG-Body Text>410.475.2339
+<ParaStyle:New\_BG-Body Text>phpbb.com
+<ParaStyle:New\_BG-CoName>Harris - Streich
+<ParaStyle:New\_BG-Body Text>New York, NY
+<ParaStyle:New\_BG-Body Text>757.710.0202
+<ParaStyle:New\_BG-Body Text>campware@yahoo.com
+<ParaStyle:New\_BG-Body Text>arizona.edu
+<ParaStyle:New\_BG-CoName>Hartmann - McCullough
+<ParaStyle:New\_BG-Body Text>West Orange, NJ
+<ParaStyle:New\_BG-Body Text>378.632.0928
+<ParaStyle:New\_BG-Body Text>jaffe@live.com
+<ParaStyle:New\_BG-Body Text>163.com
+<ParaStyle:New\_BG-CoName>Hegmann - Herzog
+<ParaStyle:New\_BG-Body Text>Newburgh, NY
+<ParaStyle:New\_BG-Body Text>830.679.7210
+<ParaStyle:New\_BG-Body Text>codex@sbcglobal.net
+<ParaStyle:New\_BG-Body Text>unc.edu
+<ParaStyle:New\_BG-CoName>Heller and Sons
+<ParaStyle:New\_BG-Body Text>San Francisco, CA
+<ParaStyle:New\_BG-Body Text>333.864.6642
+<ParaStyle:New\_BG-Body Text>liedra@outlook.com
+<ParaStyle:New\_BG-Body Text>skype.com
+<ParaStyle:New\_BG-CoName>Herman - Macejkovic
+<ParaStyle:New\_BG-Body Text>Knoxville, TN
+<ParaStyle:New\_BG-Body Text>226.246.6644
+<ParaStyle:New\_BG-Body Text>luebke@gmail.com
+<ParaStyle:New\_BG-Body Text>wunderground.com
+<ParaStyle:New\_BG-CoName>Hilll Inc
+<ParaStyle:New\_BG-Body Text>Denver, CO
+<ParaStyle:New\_BG-Body Text>525.875.1904
+<ParaStyle:New\_BG-Body Text>evans@icloud.com
+<ParaStyle:New\_BG-Body Text>xinhuanet.com
+<ParaStyle:New\_BG-CoName>Hintz Group
+<ParaStyle:New\_BG-Body Text>Norfolk, VA
+<ParaStyle:New\_BG-Body Text>356.508.2207
+<ParaStyle:New\_BG-Body Text>arandal@sbcglobal.net
+<ParaStyle:New\_BG-Body Text>arstechnica.com
+<ParaStyle:New\_BG-CoName>Homenick - Donnelly
+<ParaStyle:New\_BG-Body Text>Morristown, NJ
+<ParaStyle:New\_BG-Body Text>503.348.8675
+<ParaStyle:New\_BG-Body Text>etsy.com
+<ParaStyle:New\_BG-CoName>Howe - Shields
+<ParaStyle:New\_BG-Body Text>Cleveland, OH
+<ParaStyle:New\_BG-Body Text>532.763.8602
+<ParaStyle:New\_BG-Body Text>tkrotchko@verizon.net
+<ParaStyle:New\_BG-Body Text>yale.edu
+<ParaStyle:New\_BG-CoName>Howe - Tromp
+<ParaStyle:New\_BG-Body Text>Culver City, CA
+<ParaStyle:New\_BG-Body Text>544.996.7903
+<ParaStyle:New\_BG-Body Text>grdschl@msn.com
+<ParaStyle:New\_BG-Body Text>hud.gov
+<ParaStyle:New\_BG-CoName>Hyatt, Gleason and Rau
+<ParaStyle:New\_BG-Body Text>Cincinnati, OH
+<ParaStyle:New\_BG-Body Text>764.379.4461, 894.713.8966
+<ParaStyle:New\_BG-Body Text>nullchar@yahoo.com
+<ParaStyle:New\_BG-Body Text>businessweek.com
+<ParaStyle:New\_BG-CoName>Jast, Goodwin and Emard
+<ParaStyle:New\_BG-Body Text>Los Angeles, CA
+<ParaStyle:New\_BG-Body Text>390.587.7639
+<ParaStyle:New\_BG-Body Text>google.co.jp
+<ParaStyle:New\_BG-CoName>Johnston - O'Keefe
+<ParaStyle:New\_BG-Body Text>New Orleans, LA
+<ParaStyle:New\_BG-Body Text>752.862.6974
+<ParaStyle:New\_BG-Body Text>djupedal@gmail.com
+<ParaStyle:New\_BG-Body Text>wired.com
+<ParaStyle:New\_BG-CoName>Kassulke Group
+<ParaStyle:New\_BG-Body Text>Nashville, TN
+<ParaStyle:New\_BG-Body Text>944.495.7402
+<ParaStyle:New\_BG-Body Text>mail.ru
+<ParaStyle:New\_BG-CoName>Keeling, Kunde and Lubowitz
+<ParaStyle:New\_BG-Body Text>Seattle, WA and Kansas City, MO
+<ParaStyle:New\_BG-Body Text>555.798.0145
+<ParaStyle:New\_BG-Body Text>falcao@yahoo.ca
+<ParaStyle:New\_BG-Body Text>usda.gov
+<ParaStyle:New\_BG-CoName>Kemmer - Baumbach
+<ParaStyle:New\_BG-Body Text>New York, NY
+<ParaStyle:New\_BG-Body Text>795.753.2302
+<ParaStyle:New\_BG-Body Text>parasite@hotmail.com
+<ParaStyle:New\_BG-Body Text>merriam-webster.com
+<ParaStyle:New\_BG-CoName>Kerluke, Harber and Powlowski
+<ParaStyle:New\_BG-Body Text>Sacramento, CA
+<ParaStyle:New\_BG-Body Text>254.993.9811
+<ParaStyle:New\_BG-Body Text>louise@aol.com
+<ParaStyle:New\_BG-Body Text>time.com
+<ParaStyle:New\_BG-CoName>Kihn - Fadel
+<ParaStyle:New\_BG-Body Text>Brooklyn, NY
+<ParaStyle:New\_BG-Body Text>760.362.9061
+<ParaStyle:New\_BG-Body Text>mddallara@optonline.net
+<ParaStyle:New\_BG-Body Text>loc.gov
+<ParaStyle:New\_BG-CoName>Kirlin, Windler and Bayer
+<ParaStyle:New\_BG-Body Text>Indianapolis, IN
+<ParaStyle:New\_BG-Body Text>894.982.7622
+<ParaStyle:New\_BG-Body Text>kingjoshi@gmail.com
+<ParaStyle:New\_BG-Body Text>ucsd.edu
+<ParaStyle:New\_BG-CoName>Klein Inc
+<ParaStyle:New\_BG-Body Text>Kansas City, MO
+<ParaStyle:New\_BG-Body Text>751.468.6156
+<ParaStyle:New\_BG-Body Text>rtanter@outlook.com
+<ParaStyle:New\_BG-Body Text>flickr.com
+<ParaStyle:New\_BG-CoName>Koss, Satterfield and West
+<ParaStyle:New\_BG-Body Text>Seattle, WA
+<ParaStyle:New\_BG-Body Text>555.321.7985
+<ParaStyle:New\_BG-Body Text>padme@yahoo.com
+<ParaStyle:New\_BG-Body Text>bluehost.com
+<ParaStyle:New\_BG-CoName>Kozey and Sons
+<ParaStyle:New\_BG-Body Text>Atlanta, GA
+<ParaStyle:New\_BG-Body Text>274.465.8723, 970.925.5825
+<ParaStyle:New\_BG-Body Text>erynf@sbcglobal.net
+<ParaStyle:New\_BG-Body Text>instagram.com
+<ParaStyle:New\_BG-CoName>Kub - Champlin
+<ParaStyle:New\_BG-Body Text>Conshohocken, PA
+<ParaStyle:New\_BG-Body Text>755.231.0018
+<ParaStyle:New\_BG-Body Text>geoffr@gmail.com
+<ParaStyle:New\_BG-Body Text>kickstarter.com
+<ParaStyle:New\_BG-CoName>Kuhlman, Lind and Sauer
+<ParaStyle:New\_BG-Body Text>Reading, PA
+<ParaStyle:New\_BG-Body Text>912.232.7111
+<ParaStyle:New\_BG-Body Text>msu.edu
+<ParaStyle:New\_BG-CoName>Kunze, Schoen and Wilkinson
+<ParaStyle:New\_BG-Body Text>Edmonton, AB
+<ParaStyle:New\_BG-Body Text>664.526.1437
+<ParaStyle:New\_BG-Body Text>tlinden@yahoo.ca
+<ParaStyle:New\_BG-Body Text>globo.com
+<ParaStyle:New\_BG-CoName>Kuphal - Mertz
+<ParaStyle:New\_BG-Body Text>Bristol, RI
+<ParaStyle:New\_BG-Body Text>743.478.5111
+<ParaStyle:New\_BG-Body Text>roamer@aol.com
+<ParaStyle:New\_BG-Body Text>disqus.com
+<ParaStyle:New\_BG-CoName>Kuvalis - Aufderhar
+<ParaStyle:New\_BG-Body Text>Houston, TX
+<ParaStyle:New\_BG-Body Text>572.469.7418
+<ParaStyle:New\_BG-Body Text>frederic@gmail.com
+<ParaStyle:New\_BG-Body Text>senate.gov
+<ParaStyle:New\_BG-CoName>Labadie, Corwin and Runolfsson
+<ParaStyle:New\_BG-Body Text>Boulder, CO
+<ParaStyle:New\_BG-Body Text>835.964.9517, 732.225.1755
+<ParaStyle:New\_BG-Body Text>seebs@icloud.com
+<ParaStyle:New\_BG-Body Text>networkadvertising.org
+<ParaStyle:New\_BG-CoName>Labadie, Gaylord and Dietrich
+<ParaStyle:New\_BG-Body Text>Cincinnati, OH
+<ParaStyle:New\_BG-Body Text>785.426.4725
+<ParaStyle:New\_BG-Body Text>hstiles@yahoo.ca
+<ParaStyle:New\_BG-Body Text>rediff.com
+<ParaStyle:New\_BG-CoName>Lang Inc
+<ParaStyle:New\_BG-Body Text>Brownstown, PA and Elkridge, MD
+<ParaStyle:New\_BG-Body Text>649.845.5379
+<ParaStyle:New\_BG-Body Text>torgox@live.com
+<ParaStyle:New\_BG-Body Text>51.la
+<ParaStyle:New\_BG-CoName>Langworth - Lind
+<ParaStyle:New\_BG-Body Text>Nashville, TN
+<ParaStyle:New\_BG-Body Text>702.637.0688
+<ParaStyle:New\_BG-Body Text>miami@verizon.net
+<ParaStyle:New\_BG-Body Text>privacy.gov.au
+<ParaStyle:New\_BG-CoName>Lemke - Luettgen
+<ParaStyle:New\_BG-Body Text>Culver City, CA
+<ParaStyle:New\_BG-Body Text>265.407.2293
+<ParaStyle:New\_BG-Body Text>bachmann@me.com
+<ParaStyle:New\_BG-Body Text>omniture.com
+<ParaStyle:New\_BG-CoName>Lesch Group
+<ParaStyle:New\_BG-Body Text>Rochester, NY
+<ParaStyle:New\_BG-Body Text>784.486.5620
+<ParaStyle:New\_BG-Body Text>ow.ly
+<ParaStyle:New\_BG-CoName>Little LLC
+<ParaStyle:New\_BG-Body Text>New York , NY
+<ParaStyle:New\_BG-Body Text>307.238.4238
+<ParaStyle:New\_BG-Body Text>cam.ac.uk
+<ParaStyle:New\_BG-CoName>Lubowitz, Auer and Thompson
+<ParaStyle:New\_BG-Body Text>Baltimore, MD
+<ParaStyle:New\_BG-Body Text>463.995.7183
+<ParaStyle:New\_BG-Body Text>mjewell@yahoo.com
+<ParaStyle:New\_BG-Body Text>state.tx.us
+<ParaStyle:New\_BG-CoName>MacGyver, Schumm and Padberg
+<ParaStyle:New\_BG-Body Text>Roswell, GA
+<ParaStyle:New\_BG-Body Text>544.810.8971
+<ParaStyle:New\_BG-Body Text>ateniese@hotmail.com
+<ParaStyle:New\_BG-Body Text>liveinternet.ru
+<ParaStyle:New\_BG-CoName>Mann - Hickle
+<ParaStyle:New\_BG-Body Text>Toronto, ON, Canada
+<ParaStyle:New\_BG-Body Text>+45 84 13 65 69
+<ParaStyle:New\_BG-Body Text>syncnine@yahoo.com
+<ParaStyle:New\_BG-Body Text>cargocollective.com
+<ParaStyle:New\_BG-CoName>McCullough, Williamson and Zulauf
+<ParaStyle:New\_BG-Body Text>Birmingham, AL
+<ParaStyle:New\_BG-Body Text>478.438.7398
+<ParaStyle:New\_BG-Body Text>flavell@att.net
+<ParaStyle:New\_BG-Body Text>prlog.org
+<ParaStyle:New\_BG-CoName>McDermott Group
+<ParaStyle:New\_BG-Body Text>Neptune, NJ
+<ParaStyle:New\_BG-Body Text>298.463.1299
+<ParaStyle:New\_BG-Body Text>mkearl@icloud.com
+<ParaStyle:New\_BG-Body Text>examiner.com
+<ParaStyle:New\_BG-CoName>McGlynn, Jacobs and Cruickshank
+<ParaStyle:New\_BG-Body Text>Nashville, TN
+<ParaStyle:New\_BG-Body Text>319.263.0674
+<ParaStyle:New\_BG-Body Text>rafasgj@mac.com
+<ParaStyle:New\_BG-Body Text>github.io
+<ParaStyle:New\_BG-CoName>Mertz - Schuppe
+<ParaStyle:New\_BG-Body Text>Nashville, TN
+<ParaStyle:New\_BG-Body Text>895.624.4628
+<ParaStyle:New\_BG-Body Text>livejournal.com
+<ParaStyle:New\_BG-CoName>Miller - Hermiston
+<ParaStyle:New\_BG-Body Text>Chicago, IL
+<ParaStyle:New\_BG-Body Text>497.581.5569
+<ParaStyle:New\_BG-Body Text>earmstro@comcast.net
+<ParaStyle:New\_BG-Body Text>spotify.com
+<ParaStyle:New\_BG-CoName>Miller and Sons
+<ParaStyle:New\_BG-Body Text>Sioux Falls, SD
+<ParaStyle:New\_BG-Body Text>762.336.9035
+<ParaStyle:New\_BG-Body Text>ozawa@live.com
+<ParaStyle:New\_BG-Body Text>dailymotion.com
+<ParaStyle:New\_BG-CoName>Mitchell - Fahey
+<ParaStyle:New\_BG-Body Text>New York, NY
+<ParaStyle:New\_BG-Body Text>764.655.7004
+<ParaStyle:New\_BG-Body Text>murty@gmail.com
+<ParaStyle:New\_BG-Body Text>about.me
+<ParaStyle:New\_BG-CoName>Mitchell and Sons
+<ParaStyle:New\_BG-Body Text>Phoenix, Nashville, and Dallas, 
+<ParaStyle:New\_BG-Body Text>634.235.1140
+<ParaStyle:New\_BG-Body Text>dmouse@yahoo.com
+<ParaStyle:New\_BG-Body Text>devhub.com
+<ParaStyle:New\_BG-CoName>Morissette Inc
+<ParaStyle:New\_BG-Body Text>Boise, ID
+<ParaStyle:New\_BG-Body Text>384.751.9122
+<ParaStyle:New\_BG-Body Text>ducasse@outlook.com
+<ParaStyle:New\_BG-Body Text>wp.com
+<ParaStyle:New\_BG-CoName>Murazik, Halvorson and Shanahan
+<ParaStyle:New\_BG-Body Text>Dallas, TX
+<ParaStyle:New\_BG-Body Text>507.342.8065
+<ParaStyle:New\_BG-Body Text>iapetus@msn.com
+<ParaStyle:New\_BG-Body Text>toplist.cz
+<ParaStyle:New\_BG-CoName>Murazik, Parisian and Dietrich
+<ParaStyle:New\_BG-Body Text>Troy, NY
+<ParaStyle:New\_BG-Body Text>808.893.9357
+<ParaStyle:New\_BG-Body Text>johndo@sbcglobal.net
+<ParaStyle:New\_BG-Body Text>parallels.com
+<ParaStyle:New\_BG-CoName>Nader Inc
+<ParaStyle:New\_BG-Body Text>Madison, WI
+<ParaStyle:New\_BG-Body Text>821.644.7178
+<ParaStyle:New\_BG-Body Text>goo.ne.jp
+<ParaStyle:New\_BG-CoName>Nicolas - Bogisich
+<ParaStyle:New\_BG-Body Text>Cincinnati, OH
+<ParaStyle:New\_BG-Body Text>858.281.4036
+<ParaStyle:New\_BG-Body Text>yamla@aol.com
+<ParaStyle:New\_BG-Body Text>nasa.gov
+<ParaStyle:New\_BG-CoName>O'Conner, Corkery and Huel
+<ParaStyle:New\_BG-Body Text>Denver, CO
+<ParaStyle:New\_BG-Body Text>643.406.5878
+<ParaStyle:New\_BG-Body Text>quantaman@yahoo.com
+<ParaStyle:New\_BG-Body Text>pinterest.com
+<ParaStyle:New\_BG-CoName>O'Hara, Flatley and Cruickshank
+<ParaStyle:New\_BG-Body Text>Franklin, TN
+<ParaStyle:New\_BG-Body Text>690.517.9710
+<ParaStyle:New\_BG-Body Text>home.pl
+<ParaStyle:New\_BG-CoName>O'Hara, Kautzer and Wuckert
+<ParaStyle:New\_BG-Body Text>Los Angeles, CA
+<ParaStyle:New\_BG-Body Text>513.928.6159
+<ParaStyle:New\_BG-Body Text>iapetus@optonline.net
+<ParaStyle:New\_BG-Body Text>typepad.com
+<ParaStyle:New\_BG-CoName>O'Keefe, Bechtelar and Pfannerstill
+<ParaStyle:New\_BG-Body Text>Knoxville, TN
+<ParaStyle:New\_BG-Body Text>434.941.8341
+<ParaStyle:New\_BG-Body Text>tangsh@verizon.net
+<ParaStyle:New\_BG-Body Text>youtube.com
+<ParaStyle:New\_BG-CoName>Okuneva Group
+<ParaStyle:New\_BG-Body Text>Omaha, NE
+<ParaStyle:New\_BG-Body Text>707.861.4427
+<ParaStyle:New\_BG-Body Text>hahsler@att.net
+<ParaStyle:New\_BG-Body Text>nih.gov
+<ParaStyle:New\_BG-CoName>Olson and Sons
+<ParaStyle:New\_BG-Body Text>Machester, NH
+<ParaStyle:New\_BG-Body Text>459.755.6135
+<ParaStyle:New\_BG-Body Text>army.mil
+<ParaStyle:New\_BG-CoName>Orn Inc
+<ParaStyle:New\_BG-Body Text>Madison, WI
+<ParaStyle:New\_BG-Body Text>420.416.5394
+<ParaStyle:New\_BG-Body Text>nasarius@yahoo.ca
+<ParaStyle:New\_BG-Body Text>fda.gov
+<ParaStyle:New\_BG-CoName>Ortiz, Kuvalis and Schowalter
+<ParaStyle:New\_BG-Body Text>Minneapolis, MN
+<ParaStyle:New\_BG-Body Text>585.418.2639
+<ParaStyle:New\_BG-Body Text>padme@mac.com
+<ParaStyle:New\_BG-Body Text>booking.com
+<ParaStyle:New\_BG-CoName>Padberg, Barton and McGlynn
+<ParaStyle:New\_BG-Body Text>Syracuse, NY
+<ParaStyle:New\_BG-Body Text>829.675.7240
+<ParaStyle:New\_BG-Body Text>mpiotr@me.com
+<ParaStyle:New\_BG-Body Text>blogger.com
+<ParaStyle:New\_BG-CoName>Pollich, Ebert and Grimes
+<ParaStyle:New\_BG-Body Text>Culver City, CA
+<ParaStyle:New\_BG-Body Text>371.976.7625
+<ParaStyle:New\_BG-Body Text>rupak@yahoo.com
+<ParaStyle:New\_BG-Body Text>china.com.cn
+<ParaStyle:New\_BG-CoName>Price, Deckow and Pouros
+<ParaStyle:New\_BG-Body Text>Chicago, IL
+<ParaStyle:New\_BG-Body Text>989.612.7430
+<ParaStyle:New\_BG-Body Text>ocn.ne.jp
+<ParaStyle:New\_BG-CoName>Quitzon, Mraz and Wunsch
+<ParaStyle:New\_BG-Body Text>Rosemont, IL
+<ParaStyle:New\_BG-Body Text>998.604.0739
+<ParaStyle:New\_BG-Body Text>ngedmond@me.com
+<ParaStyle:New\_BG-Body Text>hostgator.com
+<ParaStyle:New\_BG-CoName>Raynor and Sons
+<ParaStyle:New\_BG-Body Text>Toronto, ON
+<ParaStyle:New\_BG-Body Text>921.365.7111
+<ParaStyle:New\_BG-Body Text>osaru@msn.com
+<ParaStyle:New\_BG-Body Text>upenn.edu
+<ParaStyle:New\_BG-CoName>Renner and Sons
+<ParaStyle:New\_BG-Body Text>Concord, MA
+<ParaStyle:New\_BG-Body Text>770.403.0754
+<ParaStyle:New\_BG-Body Text>paulv@me.com
+<ParaStyle:New\_BG-Body Text>seattletimes.com
+<ParaStyle:New\_BG-CoName>Roberts, Lockman and Lebsack
+<ParaStyle:New\_BG-Body Text>Austin, TX
+<ParaStyle:New\_BG-Body Text>642.716.4281
+<ParaStyle:New\_BG-Body Text>garland@yahoo.com
+<ParaStyle:New\_BG-Body Text>hexun.com
+<ParaStyle:New\_BG-CoName>Rogahn LLC
+<ParaStyle:New\_BG-Body Text>Philadelphia, PA
+<ParaStyle:New\_BG-Body Text>402.414.4043
+<ParaStyle:New\_BG-Body Text>exblog.jp
+<ParaStyle:New\_BG-CoName>Rosenbaum - Homenick
+<ParaStyle:New\_BG-Body Text>San Diego, CA
+<ParaStyle:New\_BG-Body Text>414.233.6064
+<ParaStyle:New\_BG-Body Text>live.com
+<ParaStyle:New\_BG-CoName>Runolfsdottir - Kunze
+<ParaStyle:New\_BG-Body Text>Salt Lake City, UT
+<ParaStyle:New\_BG-Body Text>777.609.7430
+<ParaStyle:New\_BG-Body Text>alexa.com
+<ParaStyle:New\_BG-CoName>Sauer, Wilderman and Boehm
+<ParaStyle:New\_BG-Body Text>Chambersburg, PA
+<ParaStyle:New\_BG-Body Text>442.517.5885
+<ParaStyle:New\_BG-Body Text>woothemes.com
+<ParaStyle:New\_BG-CoName>Sawayn Group
+<ParaStyle:New\_BG-Body Text>St. Louis, MO
+<ParaStyle:New\_BG-Body Text>802.671.7449
+<ParaStyle:New\_BG-Body Text>citizenl@aol.com
+<ParaStyle:New\_BG-Body Text>mashable.com
+<ParaStyle:New\_BG-CoName>Sawayn, Lind and Simonis
+<ParaStyle:New\_BG-Body Text>Raleigh, NC
+<ParaStyle:New\_BG-Body Text>668.912.2393
+<ParaStyle:New\_BG-Body Text>shareasale.com
+<ParaStyle:New\_BG-CoName>Schaden - O'Keefe
+<ParaStyle:New\_BG-Body Text>Bessemer, AL
+<ParaStyle:New\_BG-Body Text>823.460.9457
+<ParaStyle:New\_BG-Body Text>evans@yahoo.com
+<ParaStyle:New\_BG-Body Text>google.com.hk
+<ParaStyle:New\_BG-CoName>Schaefer, Bernhard and Parker
+<ParaStyle:New\_BG-Body Text>Chicago, IL
+<ParaStyle:New\_BG-Body Text>545.300.2185
+<ParaStyle:New\_BG-Body Text>mrdvt@live.com
+<ParaStyle:New\_BG-Body Text>nature.com
+<ParaStyle:New\_BG-CoName>Schinner LLC
+<ParaStyle:New\_BG-Body Text>Dallas, TX
+<ParaStyle:New\_BG-Body Text>749.428.7371
+<ParaStyle:New\_BG-Body Text>alias@yahoo.ca
+<ParaStyle:New\_BG-Body Text>surveymonkey.com
+<ParaStyle:New\_BG-CoName>Schmeler Group
+<ParaStyle:New\_BG-Body Text>Houston, TX
+<ParaStyle:New\_BG-Body Text>452.337.4838
+<ParaStyle:New\_BG-Body Text>google.de
+<ParaStyle:New\_BG-CoName>Schoen Group
+<ParaStyle:New\_BG-Body Text>Scottsdale, AZ
+<ParaStyle:New\_BG-Body Text>249.470.6317
+<ParaStyle:New\_BG-Body Text>tsuruta@sbcglobal.net
+<ParaStyle:New\_BG-Body Text>narod.ru
+<ParaStyle:New\_BG-CoName>Schultz - Bednar
+<ParaStyle:New\_BG-Body Text>New York, NY
+<ParaStyle:New\_BG-Body Text>929.357.2562
+<ParaStyle:New\_BG-Body Text>oster@yahoo.com
+<ParaStyle:New\_BG-Body Text>bigcartel.com
+<ParaStyle:New\_BG-CoName>Schuster - Sanford
+<ParaStyle:New\_BG-Body Text>Rochester, NY
+<ParaStyle:New\_BG-Body Text>644.628.3381
+<ParaStyle:New\_BG-Body Text>munjal@yahoo.com
+<ParaStyle:New\_BG-Body Text>hc360.com
+<ParaStyle:New\_BG-CoName>Simonis Inc
+<ParaStyle:New\_BG-Body Text>Boston, MA
+<ParaStyle:New\_BG-Body Text>549.948.4115
+<ParaStyle:New\_BG-Body Text>oechslin@sbcglobal.net
+<ParaStyle:New\_BG-Body Text>yellowpages.com
+<ParaStyle:New\_BG-CoName>Sipes LLC
+<ParaStyle:New\_BG-Body Text>Los Angeles, CA
+<ParaStyle:New\_BG-Body Text>250.455.4051
+<ParaStyle:New\_BG-Body Text>icio.us
+<ParaStyle:New\_BG-CoName>Smitham - Johns
+<ParaStyle:New\_BG-Body Text>Charlotte, NC
+<ParaStyle:New\_BG-Body Text>574.524.1417
+<ParaStyle:New\_BG-Body Text>hakim@live.com
+<ParaStyle:New\_BG-Body Text>slashdot.org
+<ParaStyle:New\_BG-CoName>Stark - Brakus
+<ParaStyle:New\_BG-Body Text>Burlington, VT
+<ParaStyle:New\_BG-Body Text>934.448.9500
+<ParaStyle:New\_BG-Body Text>webs.com
+<ParaStyle:New\_BG-CoName>Stiedemann, Ryan and Swift
+<ParaStyle:New\_BG-Body Text>Appleton, WI
+<ParaStyle:New\_BG-Body Text>924.873.9101
+<ParaStyle:New\_BG-Body Text>bancboy@live.com
+<ParaStyle:New\_BG-Body Text>samsung.com
+<ParaStyle:New\_BG-CoName>Stracke - O'Connell
+<ParaStyle:New\_BG-Body Text>Tulsa, OK
+<ParaStyle:New\_BG-Body Text>962.689.9432
+<ParaStyle:New\_BG-Body Text>gumpish@yahoo.com
+<ParaStyle:New\_BG-Body Text>irs.gov
+<ParaStyle:New\_BG-CoName>Streich, Robel and Heathcote
+<ParaStyle:New\_BG-Body Text>New York, NY
+<ParaStyle:New\_BG-Body Text>492.258.0555
+<ParaStyle:New\_BG-Body Text>jorgb@me.com
+<ParaStyle:New\_BG-Body Text>creativecommons.org
+<ParaStyle:New\_BG-CoName>Swift Group
+<ParaStyle:New\_BG-Body Text>Reston, VA
+<ParaStyle:New\_BG-Body Text>753.413.7255
+<ParaStyle:New\_BG-Body Text>dmath@sbcglobal.net
+<ParaStyle:New\_BG-Body Text>intel.com
+<ParaStyle:New\_BG-CoName>Thiel - Hirthe
+<ParaStyle:New\_BG-Body Text>Atlanta, GA
+<ParaStyle:New\_BG-Body Text>976.204.6820
+<ParaStyle:New\_BG-Body Text>isotopian@msn.com
+<ParaStyle:New\_BG-Body Text>constantcontact.com
+<ParaStyle:New\_BG-CoName>Thiel LLC
+<ParaStyle:New\_BG-Body Text>Philadelphia, PA
+<ParaStyle:New\_BG-Body Text>226.576.6115
+<ParaStyle:New\_BG-Body Text>denism@live.com
+<ParaStyle:New\_BG-Body Text>de.vu
+<ParaStyle:New\_BG-CoName>Thompson - Goodwin
+<ParaStyle:New\_BG-Body Text>Houston, TX
+<ParaStyle:New\_BG-Body Text>431.749.4487
+<ParaStyle:New\_BG-Body Text>berkeley.edu
+<ParaStyle:New\_BG-CoName>Torphy Group
+<ParaStyle:New\_BG-Body Text>Fairfax, VA
+<ParaStyle:New\_BG-Body Text>675.847.6351
+<ParaStyle:New\_BG-Body Text>jmorris@att.net
+<ParaStyle:New\_BG-Body Text>histats.com
+<ParaStyle:New\_BG-CoName>Towne - White
+<ParaStyle:New\_BG-Body Text>Riverwoods, IL
+<ParaStyle:New\_BG-Body Text>375.900.9742
+<ParaStyle:New\_BG-Body Text>jeteve@gmail.com
+<ParaStyle:New\_BG-Body Text>360.cn
+<ParaStyle:New\_BG-CoName>Toy Inc
+<ParaStyle:New\_BG-Body Text>Atlanta, GA
+<ParaStyle:New\_BG-Body Text>231.258.6185
+<ParaStyle:New\_BG-Body Text>cnbc.com
+<ParaStyle:New\_BG-CoName>Trantow, Emmerich and Cormier
+<ParaStyle:New\_BG-Body Text>Philadelphia, PA
+<ParaStyle:New\_BG-Body Text>726.546.2474
+<ParaStyle:New\_BG-Body Text>state.gov
+<ParaStyle:New\_BG-CoName>Tremblay and Sons
+<ParaStyle:New\_BG-Body Text>Ellwood City, PA
+<ParaStyle:New\_BG-Body Text>235.226.9120
+<ParaStyle:New\_BG-Body Text>dbrobins@yahoo.ca
+<ParaStyle:New\_BG-Body Text>imdb.com
+<ParaStyle:New\_BG-CoName>Upton, Breitenberg and Feeney
+<ParaStyle:New\_BG-Body Text>Charlotte, NC
+<ParaStyle:New\_BG-Body Text>551.411.5603
+<ParaStyle:New\_BG-Body Text>wainwrig@optonline.net
+<ParaStyle:New\_BG-Body Text>archive.org
+<ParaStyle:New\_BG-CoName>Veum - Bergnaum
+<ParaStyle:New\_BG-Body Text>Anchorage, AK
+<ParaStyle:New\_BG-Body Text>498.307.9975
+<ParaStyle:New\_BG-Body Text>guardian.co.uk
+<ParaStyle:New\_BG-CoName>Von, Vandervort and Denesik
+<ParaStyle:New\_BG-Body Text>Denver, CO
+<ParaStyle:New\_BG-Body Text>610.850.3295
+<ParaStyle:New\_BG-Body Text>syrinx@verizon.net
+<ParaStyle:New\_BG-Body Text>ftc.gov
+<ParaStyle:New\_BG-CoName>Waters and Sons
+<ParaStyle:New\_BG-Body Text>Milwaukee, WI
+<ParaStyle:New\_BG-Body Text>996.465.5559
+<ParaStyle:New\_BG-Body Text>miltchev@verizon.net
+<ParaStyle:New\_BG-Body Text>paypal.com
+<ParaStyle:New\_BG-CoName>Wehner, Sipes and Kessler
+<ParaStyle:New\_BG-Body Text>Long Beach, CA
+<ParaStyle:New\_BG-Body Text>741.719.7887
+<ParaStyle:New\_BG-Body Text>biglou@hotmail.com
+<ParaStyle:New\_BG-Body Text>howstuffworks.com
+<ParaStyle:New\_BG-CoName>Weimann LLC
+<ParaStyle:New\_BG-Body Text>Los Angeles, CA
+<ParaStyle:New\_BG-Body Text>387.478.8732
+<ParaStyle:New\_BG-Body Text>amazon.de
+<ParaStyle:New\_BG-CoName>White Inc
+<ParaStyle:New\_BG-Body Text>Omaha, NE
+<ParaStyle:New\_BG-Body Text>269.607.1472
+<ParaStyle:New\_BG-Body Text>geekoid@yahoo.com
+<ParaStyle:New\_BG-Body Text>mozilla.org
+<ParaStyle:New\_BG-CoName>Will, Stoltenberg and Green
+<ParaStyle:New\_BG-Body Text>Philadelphia, PA
+<ParaStyle:New\_BG-Body Text>979.483.1379
+<ParaStyle:New\_BG-Body Text>gommix@icloud.com
+<ParaStyle:New\_BG-Body Text>zimbio.com
+<ParaStyle:New\_BG-CoName>Wisoky - O'Reilly
+<ParaStyle:New\_BG-Body Text>New York, NY
+<ParaStyle:New\_BG-Body Text>230.381.7231
+<ParaStyle:New\_BG-Body Text>hedwig@icloud.com
+<ParaStyle:New\_BG-Body Text>wikispaces.com
+<ParaStyle:New\_BG-CoName>Wisozk - Jerde
+<ParaStyle:New\_BG-Body Text>Dallas, TX
+<ParaStyle:New\_BG-Body Text>691.954.5207
+<ParaStyle:New\_BG-Body Text>pedwards@att.net
+<ParaStyle:New\_BG-Body Text>ted.com
+<ParaStyle:New\_BG-CoName>Wisozk, Treutel and Mayer
+<ParaStyle:New\_BG-Body Text>Milwaukie, OR
+<ParaStyle:New\_BG-Body Text>943.658.3105
+<ParaStyle:New\_BG-Body Text>slate.com
+<ParaStyle:New\_BG-CoName>Wyman, Becker and McDermott
+<ParaStyle:New\_BG-Body Text>Akron, OH
+<ParaStyle:New\_BG-Body Text>305.456.8342, 752.311.8314
+<ParaStyle:New\_BG-Body Text>kodeman@live.com
+<ParaStyle:New\_BG-Body Text>list-manage.com
+<ParaStyle:New\_BG-CoName>Zboncak - Davis
+<ParaStyle:New\_BG-Body Text>Boston, MA
+<ParaStyle:New\_BG-Body Text>236.649.6517, 826.495.3069
+<ParaStyle:New\_BG-Body Text>pajas@hotmail.com
+<ParaStyle:New\_BG-Body Text>uol.com.br
