@@ -2,8 +2,7 @@ require 'tty-prompt'
 require 'YAML'
 require 'csv'
 require_relative './companies_generator.rb'
-# require_relative './product_category_list_generator.rb'
-# require_relative './product_category_index_generator.rb'
+require_relative './product_category_list_generator.rb'
 
 module HD
   class CLI
@@ -41,22 +40,14 @@ module HD
           output_location: output_dir,
           tagged_text_file_name: file,
         ).generate_text
-        # when 'ProdCatListTT'
-        #   csv = 'Categories'
-        #   HCD::ProductCategoryListGenerator.new(
-        #     csv_location: csv_dir,
-        #     csv_file_name: csv,
-        #     output_location: output_dir,
-        #     tagged_text_file_name: file,
-        #   ).generate_text
-        # when 'ProdCatIndexTT'
-        #   csv = 'Categories'
-        #   HCD::ProductCategoryIndexGenerator.new(
-        #     csv_location: csv_dir,
-        #     csv_file_name: csv,
-        #     output_location: output_dir,
-        #     tagged_text_file_name: file,
-        #   ).generate_text
+      when 'ProdCatListTT'
+        csv = 'Categories'
+        HD::ProductCategoryListGenerator.new(
+          csv_location: csv_dir,
+          csv_file_name: csv,
+          output_location: output_dir,
+          tagged_text_file_name: file,
+        ).generate_text
       end
     end
   end
