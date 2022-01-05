@@ -92,8 +92,15 @@ module HD
 
     # {primary: '', tollfree: '', co: ''}
     def phone(item, headers)
-      primary = item[headers[:primary]] ? format_phone(item[headers[:primary]], item[headers[:co]]) : ''
-      tollfree_num = item[headers[:tollfree]] ? format_phone(item[headers[:tollfree]], item[headers[:co]]) : ''
+      # the country is in the state field
+      country =
+        if item[headers[:state]]&.length && item[headers[:state]]&.length > 2
+          item[headers[:state]].split(', ').last
+        else
+          'United States'
+        end
+      primary = item[headers[:primary]] ? format_phone(item[headers[:primary]], country) : ''
+      tollfree_num = item[headers[:tollfree]] ? format_phone(item[headers[:tollfree]], country) : ''
       spacer = (!primary.blank? && !tollfree_num.blank?) ? ', ' : ''
       return tags[:body] + tollfree_num + spacer + primary + line_break
     end
@@ -128,7 +135,7 @@ module HD
 
         # Phone 1 800 | alt number
         if c['Phone'] || c['TollFree_Phone']
-          output << phone(c, { primary: 'Phone', tollfree: 'TollFree_Phone', co: 'State' })
+          output << phone(c, { primary: 'Phone', tollfree: 'TollFree_Phone', co: 'Country', state: 'State' })
         end
 
         # email

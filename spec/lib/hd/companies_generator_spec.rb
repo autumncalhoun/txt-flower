@@ -22,7 +22,7 @@ describe HD::CompaniesGenerator do
     it 'writes the output to a file' do
       generator.generate_text
 
-      show_diff(fixture, tagged_text_output)
+      # show_diff(fixture, tagged_text_output)
       expect(FileUtils.compare_file(fixture, tagged_text_output)).to be_truthy
     end
   end
