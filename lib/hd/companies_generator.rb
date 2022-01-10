@@ -57,10 +57,17 @@ module HD
       file.close
     end
 
+    def vanity_number(number)
+      number.count('a-zA-Z') > 0
+    end
+
     def format_phone(number, country)
       pn_string = number ? number.to_s : ''
+      return pn_string if pn_string.blank?
+      return pn_string if vanity_number(pn_string)
+
       unless pn_string.blank?
-        if (country == 'United States' || country == 'Canada' || country.to_s.length < 1)
+        if (country == 'United States' || country == 'Canada' || country.nil? || pn_string.length === 10)
           pn_string = pn_string.prepend('+1') if (pn_string.initial != '1')
 
           if (Phoner::Phone.valid? pn_string)
@@ -86,15 +93,15 @@ module HD
     #OPTIONS FOR HEADERS {street: '', street2: '', city: '', state: '', zip: '', co: ''}
     def address(item, headers)
       city = item[headers[:city]] || ''
-      state = item[headers[:state]] || item[headers[:co]] || ''
-      return tags[:body] + city + ', ' + state + line_break
+      state = item[headers[:state]] || ''
+      return tags[:body] + city.strip + ', ' + state + line_break
     end
 
     # {primary: '', tollfree: '', co: ''}
     def phone(item, headers)
       # the country is in the state field
       country =
-        if item[headers[:state]]&.length && item[headers[:state]]&.length > 2
+        if item[headers[:state]]&.length && item[headers[:state]].strip.length > 2
           item[headers[:state]].split(', ').last
         else
           'United States'

@@ -68,6 +68,7 @@ module HD
       # }
 
       category_info = {}
+      unusual_categories = []
       cat_index.each do |row|
         cat = row['CategoryPath']
         subcat = row['CategoryName'] || ''
@@ -90,7 +91,7 @@ module HD
         company = c['CompanyName']
 
         if current_cat != cat
-          output << tags[:head] + cat + @line_break
+          output << tags[:head] + cat + line_break
           current_cat = cat
           current_subcat = '' # reset the subcat when the cat changes
         end
@@ -98,20 +99,18 @@ module HD
         # If there is only one subcategory for this category and it matches the current cat name, don't write the title
         # Otherwise write it, even if it's the same as the current category
 
-        if subcat == cat && category_info[cat][:subcats].length == 1
-          pp "Unusual Category/Subcategory: #{cat} - #{subcat}"
-        end
+        unusual_categories.push cat if subcat == cat && category_info[cat][:subcats].length == 1
 
         if current_subcat != subcat && (subcat != cat || category_info[cat][:subcats].length > 1)
-          output << tags[:head2] + subcat + @line_break
+          output << tags[:head2] + subcat + line_break
           current_subcat = subcat
         end
 
-        output << tags[:company] + company + @line_break
+        output << tags[:company] + company + line_break
       end
 
-      pp category_info
-      pp "DON'T FORGET TO CHECK THESE CATEGORIES"
+      pp unusual_categories.uniq
+      pp "DON'T FORGET TO CHECK THESE CATEGORIES - they only have one subcategory and it is the same as the main category"
       return output
     end
 
