@@ -8,9 +8,12 @@ require './lib/impressions/cross_reference_generator'
 require './lib/hcd/companies_generator'
 require './lib/hcd/product_category_list_generator'
 require './lib/hcd/product_category_index_generator'
+require './lib/hd/product_category_list_generator'
+require './lib/hd/companies_generator'
 include EFA
 include Impressions
 include HCD
+include HD
 
 namespace :test do
   desc 'Update fixtures for EFA tests.'
@@ -107,6 +110,27 @@ namespace :test do
     ).generate_text
 
     HCD::ProductCategoryListGenerator.new(
+      csv_location: csv_location,
+      csv_file_name: 'Categories',
+      output_location: output_location,
+      tagged_text_file_name: 'ProdCatListTT',
+    ).generate_text
+  end
+
+  desc 'Update fixtures for HD tests.'
+  task :update_fixtures_hd do
+    output_location = 'spec/fixtures/hd'
+    csv_location = 'spec/fixtures/hd'
+
+    # when 'CompaniesTT'
+    HD::CompaniesGenerator.new(
+      csv_location: csv_location,
+      csv_file_name: 'Companies',
+      output_location: output_location,
+      tagged_text_file_name: 'CompaniesTT',
+    ).generate_text
+
+    HD::ProductCategoryListGenerator.new(
       csv_location: csv_location,
       csv_file_name: 'Categories',
       output_location: output_location,

@@ -5,6 +5,9 @@ require 'csv'
 require_relative './impressions/cli'
 require_relative './efa/cli'
 require_relative './hcd/cli'
+require_relative './hd/cli'
+
+MODULE_CHOICES = %w[EFA Impressions HCD HD]
 
 def prompt_start
   prompt = TTY::Prompt.new
@@ -15,8 +18,7 @@ end
 
 def set_module
   prompt = TTY::Prompt.new
-  choices = %w[EFA Impressions HCD]
-  prompt.select('Which module are you tagging?', choices)
+  prompt.select('Which module are you tagging?', MODULE_CHOICES)
 end
 
 def print_csv_requirements(flower_module, csv_files, text_files)
@@ -80,37 +82,9 @@ def generate(klass, csv_dir, output_dir, text_files)
   prompt = TTY::Prompt.new
   text_files.each do |file|
     klass.use_generator(file: file, csv_dir: csv_dir, output_dir: output_dir)
-
-    # case file
-    # when 'AlphabeticalIndexTT'
-    #   Impressions::AlphabeticalIndexGenerator.new(csv: "#{csv_dir}/Company_Category.csv", output_location: output_dir)
-    #     .generate_text
-    # when 'CategoryIndexTT'
-    #   Impressions::CategoryIndexGenerator.new(csv: "#{csv_dir}/Company_Category.csv", output_location: output_dir)
-    #     .generate_text
-    # when 'CrossReferenceTT'
-    #   Impressions::CrossReferenceGenerator.new(
-    #     companies_csv: "#{csv_dir}/Companies.csv",
-    #     company_category_csv: "#{csv_dir}/Company_Category.csv",
-    #     output_location: output_dir,
-    #   ).generate_text
-    # when 'SuppliersTT'
-    #   Impressions::SuppliersGenerator.new(
-    #     companies_csv: "#{csv_dir}/Companies.csv",
-    #     branches_csv: "#{csv_dir}/Branches.csv",
-    #     output_location: output_dir,
-    #   ).generate_text
-    # end
-
     prompt.ok("Generated #{file} in #{output_dir}")
   end
 end
-# load_template
-# company_name
-# text_files
-# csv_files
-# csv_headers
-# use_generator
 
 prompt_start
 flower_module = set_module
