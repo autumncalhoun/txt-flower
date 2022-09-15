@@ -1,39 +1,49 @@
 csv_files:
-  - Companies
-  - Branches
-  - Company_Category
+  Companies:
+    csv_headers:
+      id: CompanyID
+      name: CompanyName
+      type: CompanyType
+      address: Address
+      address2: Address2
+      city: City
+      state: State
+      postal_code: Postal_Code
+      country: Country
+      phone: Phone
+      tollfree: TollFree_Phone
+      url: URL
+  Branches:
+    csv_headers:
+      company_id: ParentCompanyID
+      name: BranchCompanyName
+      city: BranchCity
+      state: BranchState
+      country: BranchCountry
+      phone: BranchPhone
+  Company_Category:
+    csv_headers:
+      id: CompanyID
+      listing: Listing
+      company_name: CompanyName
+      category: CategoryName
+      product: Product
+      subproduct: Subproduct
 tagged_text_files:
-  - AlphabeticalIndexTT
-  - CategoryIndexTT
-  - CrossReferenceTT
-  - SuppliersTT
-csv_headers:
-  companies:
-    id: CompanyID
-    name: CompanyName
-    type: CompanyType
-    address: Address
-    address2: Address2
-    city: City
-    state: State
-    postal_code: Postal_Code
-    country: Country
-    phone: Phone
-    tollfree: TollFree_Phone
-    url: URL
-  branches:
-    company_id: ParentCompanyID
-    name: BranchCompanyName
-    city: BranchCity
-    state: BranchState
-    country: BranchCountry
-    phone: BranchPhone
-  company_category:
-    id: CompanyID
-    company_name: CompanyName
-    category: CategoryName
-    product: Product
-    subproduct: Subproduct
+  AlphabeticalIndexTT:
+  CategoryIndexTT:
+  CrossReferenceTT:
+    tags:
+      header: |+
+        <ASCII-MAC>
+        <Version:11.4><FeatureSet:InDesign-Roman><ColorTable:=<Black:COLOR:CMYK:Process:0,0,0,1><Nielsen Gray:COLOR:CMYK:Process:0.48,0.35,0.3,0.16>>
+        <DefineParaStyle:Product=<cTypeface:Bold><cSize:10.000000><cHorizontalScale:0.950000><cTracking:30><cBaselineShift:7.000000><cCase:All Caps><pHyphenationLadderLimit:0><cLeading:11.000000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceBefore:22.500000><cFont:Circular Std><pKeepParaTogether:1><pKeepWithNext:1><pKeepLines:1><pRuleAboveColor:Black><pRuleAboveStroke:20.000000><pRuleAboveTint:100.000000><pRuleAboveOffset:1.620000><pRuleBelowColor:Black><pRuleBelowStroke:3.000000><pRuleBelowOffset:-4.500000><pRuleBelowOn:1><pRuleAboveStrokeType:ThinThin><pRuleAboveGapColor:Apparel Blanks><pRuleAboveGapTint:100.000000><pTextAlignment:Center><pRuleAboveKeepInFrame:1>>
+        <DefineParaStyle:Company=<cSize:7.000000><pHyphenationLadderLimit:0><pLeftIndent:7.199999><pFirstLineIndent:-7.200000><cLeading:9.000000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pTabRuler:89,Left,.,0,;108,Left,.,0,;163.0500030517578,Right,.,0,;><cFont:Adobe Caslon Pro>>
+        <DefineParaStyle:SubProduct=<cTypeface:Bold><cSize:8.000000><cHorizontalScale:0.930000><cCase:All Caps><pHyphenationLadderLimit:0><cLeading:8.199999><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceBefore:8.640000><pSpaceAfter:0.504000><pTabRuler:89,Left,.,0,;108,Left,.,0,;163.0500030517578,Right,.,0,;><cFont:Circular Std>>
+      company: <ParaStyle:Company>
+      product: <ParaStyle:Product>
+      subproduct: <ParaStyle:SubProduct>
+  SuppliersTT:
 suppliers:
   header: |+
     <ASCII-MAC>
@@ -53,16 +63,7 @@ suppliers:
     branches: <ParaStyle:branch office>
     branch_name: <ParaStyle:Plain name branch>
 cross_reference:
-  header: |+
-    <ASCII-MAC>
-    <Version:11.4><FeatureSet:InDesign-Roman><ColorTable:=<Black:COLOR:CMYK:Process:0,0,0,1><Nielsen Gray:COLOR:CMYK:Process:0.48,0.35,0.3,0.16>>
-    <DefineParaStyle:Product=<cTypeface:Bold><cSize:10.000000><cHorizontalScale:0.950000><cTracking:30><cBaselineShift:7.000000><cCase:All Caps><pHyphenationLadderLimit:0><cLeading:11.000000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceBefore:22.500000><cFont:Circular Std><pKeepParaTogether:1><pKeepWithNext:1><pKeepLines:1><pRuleAboveColor:Black><pRuleAboveStroke:20.000000><pRuleAboveTint:100.000000><pRuleAboveOffset:1.620000><pRuleBelowColor:Black><pRuleBelowStroke:3.000000><pRuleBelowOffset:-4.500000><pRuleBelowOn:1><pRuleAboveStrokeType:ThinThin><pRuleAboveGapColor:Apparel Blanks><pRuleAboveGapTint:100.000000><pTextAlignment:Center><pRuleAboveKeepInFrame:1>>
-    <DefineParaStyle:Company=<cSize:7.000000><pHyphenationLadderLimit:0><pLeftIndent:7.199999><pFirstLineIndent:-7.200000><cLeading:9.000000><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pTabRuler:89,Left,.,0,;108,Left,.,0,;163.0500030517578,Right,.,0,;><cFont:Adobe Caslon Pro>>
-    <DefineParaStyle:SubProduct=<cTypeface:Bold><cSize:8.000000><cHorizontalScale:0.930000><cCase:All Caps><pHyphenationLadderLimit:0><cLeading:8.199999><pHyphenation:0><pHyphenateCapitals:0><pHyphenationZone:0.000000><pSpaceBefore:8.640000><pSpaceAfter:0.504000><pTabRuler:89,Left,.,0,;108,Left,.,0,;163.0500030517578,Right,.,0,;><cFont:Circular Std>>
-  styles:
-    company: <ParaStyle:Company>
-    product: <ParaStyle:Product>
-    subproduct: <ParaStyle:SubProduct>
+
 alphabetical_index:
   header: |+
     <ASCII-MAC>

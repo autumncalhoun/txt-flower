@@ -79,6 +79,7 @@ namespace :test do
       companies_csv: "#{csv_location}/Companies.csv",
       company_category_csv: "#{csv_location}/Company_Category.csv",
       output_location: output_location,
+      tagged_text_file_name: 'CrossReferenceTT',
     ).generate_text
 
     # when 'SuppliersTT'

@@ -80,7 +80,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>sourceforge.net
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>AK Steel Holding
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Macau, Macau
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>4008301688
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>400.830.1688
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>matty@sbcglobal.net
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>yale.edu
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Alaska Air Group
@@ -130,7 +130,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>wufoo.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Altria Group
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Veneto, Italy
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+95 46 042 584
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>954.604.2584
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>agolomsh@outlook.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>dmoz.org
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Altria Group
@@ -150,7 +150,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>gmpg.org
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>American Airlines Group
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Ramsey, NJ
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+1877, 201.995.1310
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>877PORSAUS, 201.995.1310
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>bbirth@gmail.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>amazon.de
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>American Axle & Manufacturing
@@ -262,7 +262,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>4shared.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Apache
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Rynkeby, Denmark
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+45 66 15 45 60
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>456.615.4560
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>jshirley@me.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>tuttocitta.it
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Apple
@@ -483,7 +483,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>google.ca
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Boeing
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Ojebyn, Sweden
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+46 911 667 25
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>469.116.6725
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>bogjobber@att.net
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>cam.ac.uk
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Booking Holdings
@@ -503,7 +503,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>ameblo.jp
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>BorgWarner
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Guangzhou, Guangdong, China
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+86 135 1277 9990, 7609078412
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+86 135 1277 9990, 760.907.8412
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>frikazoyd@icloud.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>instagram.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Boston Scientific
@@ -717,7 +717,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>bing.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Coca-Cola
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>New York, NY
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+184440
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>84440STARK
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>emcleod@optonline.net
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>biglobe.ne.jp
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Cognizant Technology Solutions
@@ -810,7 +810,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>etsy.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Cummins
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Christchurch, Canterbury, New Zealand
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+64 3 669 3755
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>643.669.3755
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>iapetus@yahoo.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>ovh.net
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>CVS Health
@@ -873,7 +873,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>purevolume.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Delek US Holdings
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>A Coruna, Spain
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+32 3 599 63 63
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>323.599.6363
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>pedwards@live.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>blogtalkradio.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Delek US Holdings
@@ -1527,7 +1527,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>intel.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Hartford Financial Services
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Guangzhou, China
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+20 3 9283299
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>203.928.3299
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>jguyer@comcast.net
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>vk.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Hartford Financial Services
@@ -1537,7 +1537,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>theatlantic.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>HCA Healthcare
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Shanghai, China
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+36 08 831 201
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>360.883.1201
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>gerlo@verizon.net
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>gravatar.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>HD Supply Holdings
@@ -1664,7 +1664,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>bizjournals.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Intel
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Batavia, IL
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>847.357.9815, +1877933
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>847.357.9815, 877933WEDI
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>thomasj@att.net
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>un.org
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Intercontinental Exchange
@@ -1914,7 +1914,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>vk.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Macy's
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Le Sueur, MN
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+1866, 866.226.2742
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>866CAMBRIA, 866.226.2742
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>parents@aol.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>uol.com.br
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Magellan Health
@@ -1994,7 +1994,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>miitbeian.gov.cn
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>MetLife
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Alexandria, New South Wales
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>4153195021
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>415.319.5021
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>gboss@comcast.net
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>mapy.cz
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>MGM Resorts International
@@ -2225,7 +2225,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>bbc.co.uk
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Office Depot
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Vaughan, ON
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+1833, 416.400.4979
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>833ATELIER, 416.400.4979
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>jgmyers@yahoo.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>jalbum.net
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Old Republic International
@@ -2273,7 +2273,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>hexun.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Owens-Illinois
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Knokke, Belgium
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+32 9 395 00 12
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>329.395.0012
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>kosact@att.net
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>networkadvertising.org
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Owens-Illinois
@@ -2287,7 +2287,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>unesco.org
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Pacific Life
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Fullerton, CA
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+1800449
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>800449SPEC
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>rasca@mac.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>amazonaws.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Packaging Corp. of America
@@ -2346,7 +2346,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>issuu.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>PG&E
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Tijuana, Mexico
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>8773090181, +52 664 684 8281
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>877.309.0181, +52 664 684 8281
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>salesgeek@me.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>reference.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Philip Morris International
@@ -2431,7 +2431,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>oaic.gov.au
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Publix Super Markets
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>San Luis Potosi, Mexico
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+95 67 652 760, +52 444 811 3334
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>956.765.2760, +52 444 811 3334
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>schwaang@verizon.net
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>miibeian.gov.cn
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Publix Super Markets
@@ -2579,7 +2579,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>last.fm
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Sempra Energy
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Guangzhou, China
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>3570163786
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>357.016.3786
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>doormat@sbcglobal.net
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>blog.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Sherwin-Williams
@@ -2628,7 +2628,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>paypal.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Stanley Black & Decker
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Auckland, New Zealand
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>8778101701
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>877.810.1701
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>doormat@optonline.net
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>state.gov
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Starbucks
@@ -2658,7 +2658,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>drupal.org
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Stryker
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Farmingville, NY
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>631.736.0770, +1800
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>631.736.0770, 800FORTILE
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>aukjan@sbcglobal.net
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>businessweek.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>SunTrust Banks
@@ -2722,7 +2722,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>pinterest.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Tesla
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Cerdanyola Del Valles, Spain
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>8886071694
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>888.607.1694
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>madanm@me.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>istockphoto.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Texas Instruments
@@ -3080,7 +3080,7 @@
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>instagram.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>XPO Logistics
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>Winnetka, CA
-<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>+1844, 844.462.4346
+<CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>844IMAGEIN, 844.462.4346
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>evilopie@comcast.net
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Info>jigsy.com
 <CharStyle:><ParaStyle:Normal><CharStyle:BG Company Name>Yum Brands

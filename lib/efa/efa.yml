@@ -4,8 +4,8 @@ csv_files:
       name: Company_Name
       city: City
       state: State
-      phone: Phone
-      tollfree: Toll_Free_Phone
+      phone: Phone1
+      tollfree: Phone2
       email: Email
       url: URL
   Company_Category_Products:

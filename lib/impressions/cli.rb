@@ -21,11 +21,11 @@ module Impressions
     end
 
     def csv_files
-      @csv_files ||= template['csv_files']
+      @csv_files ||= template['csv_files'].keys
     end
 
     def csv_headers(filename)
-      template['csv_headers'][filename.downcase].map { |header| header[1] }
+      template['csv_files'][filename]['csv_headers'].map { |header| header[1] }
     end
 
     def use_generator(file:, csv_dir:, output_dir:)
@@ -38,9 +38,11 @@ module Impressions
           .generate_text
       when 'CrossReferenceTT'
         Impressions::CrossReferenceGenerator.new(
-          companies_csv: "#{csv_dir}/Companies.csv",
-          company_category_csv: "#{csv_dir}/Company_Category.csv",
+          csv_location: csv_dir,
+          companies_csv: 'Companies',
+          company_category_csv: 'Company_Category',
           output_location: output_dir,
+          tagged_text_file_name: file,
         ).generate_text
       when 'SuppliersTT'
         Impressions::SuppliersGenerator.new(

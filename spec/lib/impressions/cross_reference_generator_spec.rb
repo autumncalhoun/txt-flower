@@ -13,14 +13,18 @@ describe Impressions::CrossReferenceGenerator do
 
     let(:generator) do
       described_class.new(
-        companies_csv: "#{csv_location}/Companies.csv",
-        company_category_csv: "#{csv_location}/Company_Category.csv",
+        csv_location: csv_location,
+        companies_csv: 'Companies',
+        company_category_csv: 'Company_Category',
         output_location: output_location,
+        tagged_text_file_name: 'CrossReferenceTT',
       )
     end
 
     it 'writes the output to a file' do
       generator.generate_text
+
+      show_diff(fixture, tagged_text_output)
       expect(FileUtils.compare_file(fixture, tagged_text_output)).to be_truthy
     end
   end

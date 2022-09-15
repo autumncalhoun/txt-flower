@@ -64,7 +64,7 @@ module EFA
       return pn_string if vanity_number(pn_string)
 
       if (country == 'United States' || country == 'Canada' || country.to_s.length < 1)
-        pn_string = pn_string.prepend('+1') if (pn_string.initial != '1')
+        pn_string = pn_string.prepend('+1') if (pn_string.initial != '1' && pn_string.initial2 != '+1')
 
         if (Phoner::Phone.valid? pn_string)
           pn = Phoner::Phone.parse(pn_string, country_code: '1')
