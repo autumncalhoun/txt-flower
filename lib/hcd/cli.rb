@@ -33,24 +33,48 @@ module HCD
 
     def use_generator(file:, csv_dir:, output_dir:)
       case file
-      when 'CompaniesTT'
-        csv = 'Companies'
+      when 'CompaniesTT_Products'
+        csv = 'Companies_Products'
         HCD::CompaniesGenerator.new(
           csv_location: csv_dir,
           csv_file_name: csv,
           output_location: output_dir,
           tagged_text_file_name: file,
         ).generate_text
-      when 'ProdCatListTT'
-        csv = 'Categories'
+      when 'CompaniesTT_Services'
+        csv = 'Companies_Services'
+        HCD::CompaniesGenerator.new(
+          csv_location: csv_dir,
+          csv_file_name: csv,
+          output_location: output_dir,
+          tagged_text_file_name: file,
+        ).generate_text
+      when 'ProdCatListTT_Products'
+        csv = 'Categories_Products'
         HCD::ProductCategoryListGenerator.new(
           csv_location: csv_dir,
           csv_file_name: csv,
           output_location: output_dir,
           tagged_text_file_name: file,
         ).generate_text
-      when 'ProdCatIndexTT'
-        csv = 'Categories'
+      when 'ProdCatListTT_Services'
+        csv = 'Categories_Services'
+        HCD::ProductCategoryListGenerator.new(
+          csv_location: csv_dir,
+          csv_file_name: csv,
+          output_location: output_dir,
+          tagged_text_file_name: file,
+        ).generate_text
+      when 'ProdCatIndexTT_Products'
+        csv = 'Categories_Products'
+        HCD::ProductCategoryIndexGenerator.new(
+          csv_location: csv_dir,
+          csv_file_name: csv,
+          output_location: output_dir,
+          tagged_text_file_name: file,
+        ).generate_text
+      when 'ProdCatIndexTT_Services'
+        csv = 'Categories_Services'
         HCD::ProductCategoryIndexGenerator.new(
           csv_location: csv_dir,
           csv_file_name: csv,

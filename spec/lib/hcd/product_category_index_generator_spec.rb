@@ -18,8 +18,8 @@ describe HCD::ProductCategoryIndexGenerator do
     end
 
     describe 'ProductCatIndexTT' do
-      let(:file_name) { 'ProdCatIndexTT' }
-      let(:csv_name) { 'Categories' }
+      let(:file_name) { 'ProdCatIndexTT_Products' }
+      let(:csv_name) { 'Categories_Products' }
       it 'writes the output to a file' do
         generator.generate_text
         expect(FileUtils.compare_file(fixture, tagged_text_output)).to be_truthy

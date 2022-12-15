@@ -44,7 +44,7 @@
 <ParaStyle:New\_BG-Body Text>youku.com
 <ParaStyle:New\_BG-CoName>Baumbach Group
 <ParaStyle:New\_BG-Body Text>Philadelphia, PA
-<ParaStyle:New\_BG-Body Text>357.680.5797, 558.678.1102
+<ParaStyle:New\_BG-Body Text>558.678.1102, 357.680.5797
 <ParaStyle:New\_BG-Body Text>nanop@aol.com
 <ParaStyle:New\_BG-Body Text>prnewswire.com
 <ParaStyle:New\_BG-CoName>Bayer - Hodkiewicz
@@ -62,7 +62,7 @@
 <ParaStyle:New\_BG-Body Text>taobao.com
 <ParaStyle:New\_BG-CoName>Berge, Bernhard and Donnelly
 <ParaStyle:New\_BG-Body Text>Cleveland, OH and Fort Lauderdale, FL
-<ParaStyle:New\_BG-Body Text>621.840.2166, 580.230.2856
+<ParaStyle:New\_BG-Body Text>580.230.2856, 621.840.2166
 <ParaStyle:New\_BG-Body Text>comdig@aol.com
 <ParaStyle:New\_BG-Body Text>scientificamerican.com
 <ParaStyle:New\_BG-CoName>Berge, Schiller and Toy
@@ -168,7 +168,7 @@
 <ParaStyle:New\_BG-Body Text>purevolume.com
 <ParaStyle:New\_BG-CoName>Dickens - Langworth
 <ParaStyle:New\_BG-Body Text>Omaha, NE
-<ParaStyle:New\_BG-Body Text>207.400.9678, 381.256.8254
+<ParaStyle:New\_BG-Body Text>381.256.8254, 207.400.9678
 <ParaStyle:New\_BG-Body Text>isotopian@live.com
 <ParaStyle:New\_BG-Body Text>biblegateway.com
 <ParaStyle:New\_BG-CoName>Dickens LLC
@@ -182,7 +182,7 @@
 <ParaStyle:New\_BG-Body Text>flavors.me
 <ParaStyle:New\_BG-CoName>Ebert and Sons
 <ParaStyle:New\_BG-Body Text>Milwaukee, WI
-<ParaStyle:New\_BG-Body Text>663.579.1573, 706.955.7980
+<ParaStyle:New\_BG-Body Text>706.955.7980, 663.579.1573
 <ParaStyle:New\_BG-Body Text>pplinux@msn.com
 <ParaStyle:New\_BG-Body Text>g.co
 <ParaStyle:New\_BG-CoName>Ebert Group
@@ -192,7 +192,7 @@
 <ParaStyle:New\_BG-Body Text>fc2.com
 <ParaStyle:New\_BG-CoName>Feest - Hansen
 <ParaStyle:New\_BG-Body Text>Blackwood, NJ
-<ParaStyle:New\_BG-Body Text>475.378.2157, 310.616.9503
+<ParaStyle:New\_BG-Body Text>310.616.9503, 475.378.2157
 <ParaStyle:New\_BG-Body Text>webteam@mac.com
 <ParaStyle:New\_BG-Body Text>ezinearticles.com
 <ParaStyle:New\_BG-CoName>Ferry, Wilkinson and Mitchell
@@ -265,7 +265,7 @@
 <ParaStyle:New\_BG-Body Text>hud.gov
 <ParaStyle:New\_BG-CoName>Hyatt, Gleason and Rau
 <ParaStyle:New\_BG-Body Text>Cincinnati, OH
-<ParaStyle:New\_BG-Body Text>764.379.4461, 894.713.8966
+<ParaStyle:New\_BG-Body Text>894.713.8966, 764.379.4461
 <ParaStyle:New\_BG-Body Text>nullchar@yahoo.com
 <ParaStyle:New\_BG-Body Text>businessweek.com
 <ParaStyle:New\_BG-CoName>Jast, Goodwin and Emard
@@ -296,7 +296,7 @@
 <ParaStyle:New\_BG-Body Text>254.993.9811
 <ParaStyle:New\_BG-Body Text>louise@aol.com
 <ParaStyle:New\_BG-Body Text>time.com
-<ParaStyle:New\_BG-CoName>Kihn - Fadel
+<ParaStyle:New\_BG-CoName>Kihn - Fadel®
 <ParaStyle:New\_BG-Body Text>Brooklyn, NY
 <ParaStyle:New\_BG-Body Text>760.362.9061
 <ParaStyle:New\_BG-Body Text>mddallara@optonline.net
@@ -318,7 +318,7 @@
 <ParaStyle:New\_BG-Body Text>bluehost.com
 <ParaStyle:New\_BG-CoName>Kozey and Sons
 <ParaStyle:New\_BG-Body Text>Atlanta, GA
-<ParaStyle:New\_BG-Body Text>274.465.8723, 970.925.5825
+<ParaStyle:New\_BG-Body Text>970.925.5825, 274.465.8723
 <ParaStyle:New\_BG-Body Text>erynf@sbcglobal.net
 <ParaStyle:New\_BG-Body Text>instagram.com
 <ParaStyle:New\_BG-CoName>Kub - Champlin
@@ -347,7 +347,7 @@
 <ParaStyle:New\_BG-Body Text>senate.gov
 <ParaStyle:New\_BG-CoName>Labadie, Corwin and Runolfsson
 <ParaStyle:New\_BG-Body Text>Boulder, CO
-<ParaStyle:New\_BG-Body Text>835.964.9517, 732.225.1755
+<ParaStyle:New\_BG-Body Text>732.225.1755, 835.964.9517
 <ParaStyle:New\_BG-Body Text>seebs@icloud.com
 <ParaStyle:New\_BG-Body Text>networkadvertising.org
 <ParaStyle:New\_BG-CoName>Labadie, Gaylord and Dietrich
@@ -390,7 +390,7 @@
 <ParaStyle:New\_BG-Body Text>liveinternet.ru
 <ParaStyle:New\_BG-CoName>Mann - Hickle
 <ParaStyle:New\_BG-Body Text>Toronto, ON, Canada
-<ParaStyle:New\_BG-Body Text>+45 84 13 65 69
+<ParaStyle:New\_BG-Body Text>458.413.6569
 <ParaStyle:New\_BG-Body Text>syncnine@yahoo.com
 <ParaStyle:New\_BG-Body Text>cargocollective.com
 <ParaStyle:New\_BG-CoName>McCullough, Williamson and Zulauf
@@ -428,7 +428,7 @@
 <ParaStyle:New\_BG-Body Text>murty@gmail.com
 <ParaStyle:New\_BG-Body Text>about.me
 <ParaStyle:New\_BG-CoName>Mitchell and Sons
-<ParaStyle:New\_BG-Body Text>Phoenix, Nashville, and Dallas, 
+<ParaStyle:New\_BG-Body Text>Phoenix, Nashville, and Dallas
 <ParaStyle:New\_BG-Body Text>634.235.1140
 <ParaStyle:New\_BG-Body Text>dmouse@yahoo.com
 <ParaStyle:New\_BG-Body Text>devhub.com
@@ -514,7 +514,7 @@
 <ParaStyle:New\_BG-Body Text>ngedmond@me.com
 <ParaStyle:New\_BG-Body Text>hostgator.com
 <ParaStyle:New\_BG-CoName>Raynor and Sons
-<ParaStyle:New\_BG-Body Text>Toronto, ON
+<ParaStyle:New\_BG-Body Text>Toronto, ON, Canada
 <ParaStyle:New\_BG-Body Text>921.365.7111
 <ParaStyle:New\_BG-Body Text>osaru@msn.com
 <ParaStyle:New\_BG-Body Text>upenn.edu
@@ -716,11 +716,11 @@
 <ParaStyle:New\_BG-Body Text>slate.com
 <ParaStyle:New\_BG-CoName>Wyman, Becker and McDermott
 <ParaStyle:New\_BG-Body Text>Akron, OH
-<ParaStyle:New\_BG-Body Text>305.456.8342, 752.311.8314
+<ParaStyle:New\_BG-Body Text>752.311.8314, 305.456.8342
 <ParaStyle:New\_BG-Body Text>kodeman@live.com
 <ParaStyle:New\_BG-Body Text>list-manage.com
 <ParaStyle:New\_BG-CoName>Zboncak - Davis
 <ParaStyle:New\_BG-Body Text>Boston, MA
-<ParaStyle:New\_BG-Body Text>236.649.6517, 826.495.3069
+<ParaStyle:New\_BG-Body Text>826.495.3069, 236.649.6517
 <ParaStyle:New\_BG-Body Text>pajas@hotmail.com
 <ParaStyle:New\_BG-Body Text>uol.com.br
