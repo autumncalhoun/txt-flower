@@ -8,6 +8,8 @@ require 'Phone'
 require 'YAML'
 require 'fileutils'
 
+require_relative '../format_phone'
+
 class String
   def initial
     self[0, 1]
@@ -85,23 +87,16 @@ module HCD
       return pn_string
     end
 
-    #OPTIONS FOR HEADERS {city: '', state: '', co: ''}
-    def address(item, headers)
-      city = item[headers[:city]] || ''
-      state = item[headers[:state]] || ''
-      co = item[headers[:co]]
-
-      basic = city + ', ' + state
-      basic << ', ' + co.strip if co
+    def address(city, state)
+      basic = city
+      basic << ', ' + state if state
       return tags[:body] + basic + line_break
     end
 
-    # {primary: '', tollfree: '', co: ''}
-    def phone(item, headers)
-      primary = item[headers[:primary]] ? format_phone(item[headers[:primary]], item[headers[:co]]) : ''
-      tollfree_num = item[headers[:tollfree]] ? format_phone(item[headers[:tollfree]], item[headers[:co]]) : ''
-      spacer = (!primary.blank? && !tollfree_num.blank?) ? ', ' : ''
-      return tags[:body] + tollfree_num + spacer + primary + line_break
+    def phone(phone1, phone2)
+      phone = format_phone(phone1, nil)
+      phone << ', ' + format_phone(phone2, nil) if phone2
+      return tags[:body] + phone + line_break
     end
 
     # The country column may need to be split into two from the state column.
@@ -121,14 +116,11 @@ module HCD
         output << tags[:company_name] + c[name_field] + line_break
 
         #address
-        output << address(c, { city: city_field, state: state_field, co: country_field }) if c[city_field]
+        output << address(c[city_field], c[state_field]) if c[city_field]
 
-        # Phone 1 800 | alt number - PROB NEED TO CHANGE IN CSV
-        if c[phone_field] || c[tollfree_field]
-          output << phone(c, { primary: phone_field, tollfree: tollfree_field, co: country_field })
-        end
+        output << phone(c[phone1_field], c[phone2_field]) if c[phone1_field] || c[phone2_field]
 
-        # email - PROB NEED TO CHANGE IN CSV
+        # email
         email = c[email_field] ? tags[:body] + c[email_field] + line_break : ''
         output << email
 
@@ -151,20 +143,16 @@ module HCD
       csv_headers[:state]
     end
 
-    def country_field
-      csv_headers[:country]
-    end
-
     def name_field
       csv_headers[:name]
     end
 
-    def phone_field
-      csv_headers[:phone]
+    def phone2_field
+      csv_headers[:phone2]
     end
 
-    def tollfree_field
-      csv_headers[:tollfree]
+    def phone1_field
+      csv_headers[:phone1]
     end
 
     def email_field

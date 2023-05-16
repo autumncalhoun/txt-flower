@@ -1,11 +1,11 @@
 csv_files:
   Companies:
     csv_headers:
-      name: Company_Name
+      name: CompanyName
       city: City
       state: State
-      phone: Phone
-      tollfree: TollFree_Phone
+      phone: Phone1
+      tollfree: Phone2
       email: Email
       url: URL
   Categories:

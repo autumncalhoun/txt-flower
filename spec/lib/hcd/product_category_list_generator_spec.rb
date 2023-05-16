@@ -18,8 +18,8 @@ describe HCD::ProductCategoryListGenerator do
     end
 
     describe 'ProductCatListTT' do
-      let(:file_name) { 'ProdCatListTT' }
-      let(:csv_name) { 'Categories' }
+      let(:file_name) { 'ProdCatListTT_Products' }
+      let(:csv_name) { 'Categories_Products' }
       it 'writes the output to a file' do
         generator.generate_text
 

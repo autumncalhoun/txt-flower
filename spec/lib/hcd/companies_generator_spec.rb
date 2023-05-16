@@ -8,8 +8,8 @@ describe HCD::CompaniesGenerator do
     let(:csv_location) { "spec/fixtures/#{company}" }
     let(:tagged_text_output) { "spec/tmp/#{company}/#{file_name}.txt" }
     let(:fixture) { "spec/fixtures/#{company}/#{file_name}.txt" }
-    let(:csv_name) { 'Companies' }
-    let(:file_name) { 'CompaniesTT' }
+    let(:csv_name) { 'Companies_Products' }
+    let(:file_name) { 'CompaniesTT_Products' }
     let(:generator) do
       described_class.new(
         csv_location: csv_location,
@@ -21,6 +21,7 @@ describe HCD::CompaniesGenerator do
 
     it 'writes the output to a file' do
       generator.generate_text
+      show_diff(fixture, tagged_text_output)
       expect(FileUtils.compare_file(fixture, tagged_text_output)).to be_truthy
     end
   end

@@ -97,23 +97,23 @@ namespace :test do
     # when 'CompaniesTT'
     HCD::CompaniesGenerator.new(
       csv_location: csv_location,
-      csv_file_name: 'Companies',
+      csv_file_name: 'Companies_Products',
       output_location: output_location,
-      tagged_text_file_name: 'CompaniesTT',
+      tagged_text_file_name: 'CompaniesTT_Products',
     ).generate_text
 
     HCD::ProductCategoryIndexGenerator.new(
       csv_location: csv_location,
-      csv_file_name: 'Categories',
+      csv_file_name: 'Categories_Products',
       output_location: output_location,
-      tagged_text_file_name: 'ProdCatIndexTT',
+      tagged_text_file_name: 'ProdCatIndexTT_Products',
     ).generate_text
 
     HCD::ProductCategoryListGenerator.new(
       csv_location: csv_location,
-      csv_file_name: 'Categories',
+      csv_file_name: 'Categories_Products',
       output_location: output_location,
-      tagged_text_file_name: 'ProdCatListTT',
+      tagged_text_file_name: 'ProdCatListTT_Products',
     ).generate_text
   end
 

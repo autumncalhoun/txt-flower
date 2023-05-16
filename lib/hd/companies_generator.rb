@@ -107,22 +107,22 @@ module HD
           'United States'
         end
       primary = item[headers[:primary]] ? format_phone(item[headers[:primary]], country) : ''
-      tollfree_num = item[headers[:tollfree]] ? format_phone(item[headers[:tollfree]], country) : ''
-      spacer = (!primary.blank? && !tollfree_num.blank?) ? ', ' : ''
-      return tags[:body] + tollfree_num + spacer + primary + line_break
+      secondary = item[headers[:secondary]] ? format_phone(item[headers[:secondary]], country) : ''
+      spacer = (!primary.blank? && !secondary.blank?) ? ', ' : ''
+      return tags[:body] + primary + spacer + secondary + line_break
     end
 
     def companies_loop
       companies =
         company_rows.sort_by do |c|
-          company_name = c['Company_Name'].downcase
+          company_name = c['CompanyName'].downcase
           company_name = company_name.start_with?('the ') ? company_name.split('the ').last : company_name
           company_name
         end
 
       companies.each do |c|
         #name
-        output << tags[:company_name] + c['Company_Name'] + line_break
+        output << tags[:company_name] + c['CompanyName'] + line_break
 
         #address
         if c['City']
@@ -141,8 +141,8 @@ module HD
         end
 
         # Phone 1 800 | alt number
-        if c['Phone'] || c['TollFree_Phone']
-          output << phone(c, { primary: 'Phone', tollfree: 'TollFree_Phone', co: 'Country', state: 'State' })
+        if c['Phone1'] || c['Phone2']
+          output << phone(c, { primary: 'Phone1', secondary: 'Phone2', co: 'Country', state: 'State' })
         end
 
         # email
