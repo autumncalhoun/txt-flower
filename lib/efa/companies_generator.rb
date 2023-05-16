@@ -96,11 +96,11 @@ module EFA
     end
 
     # {primary: '', tollfree: '', co: ''}
-    def phone(item, headers)
-      primary = item[headers[:primary]] ? format_phone(item[headers[:primary]], nil) : ''
-      tollfree_num = item[headers[:tollfree]] ? format_phone(item[headers[:tollfree]], nil) : ''
+    def phone(primary, secondary)
+      primary_num = primary ? format_phone(primary, nil) : ''
+      tollfree_num = secondary ? format_phone(secondary, nil) : ''
       spacer = (!primary.blank? && !tollfree_num.blank?) ? ', ' : ''
-      return tags[:body] + tollfree_num + spacer + primary + line_break
+      return tags[:body] + primary_num + spacer + tollfree_num + line_break
     end
 
     def companies_loop
@@ -112,7 +112,7 @@ module EFA
         output << address(c) if c[city_field]
 
         # Phone 1 800 | alt number
-        output << phone(c, { primary: phone_field, tollfree: tollfree_field }) if c[phone_field] || c[tollfree_field]
+        output << phone(c[phone_field], c[tollfree_field])
 
         # email
         output << tags[:body] + c[email_field] + line_break if c[email_field]
