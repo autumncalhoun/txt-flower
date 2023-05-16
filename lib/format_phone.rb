@@ -1,14 +1,11 @@
 require 'Phony'
 require 'Phone'
-
+# test comment
 class FormatPhone
   def initialize(number, country)
     pn_string = number ? number.to_s : ''
     unless pn_string.blank?
-      if (
-           country == 'United States' || country == 'Canada' ||
-             country.to_s.length < 1
-         )
+      if (country == 'United States' || country == 'Canada' || country.to_s.length < 1)
         pn_string = pn_string.prepend('+1') if (pn_string.initial != '1')
 
         if (Phoner::Phone.valid? pn_string)
